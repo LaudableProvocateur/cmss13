@@ -20473,16 +20473,12 @@
 /turf/open/floor/almayer/blue/north,
 /area/almayer/squads/delta)
 "bUy" = (
-/obj/structure/closet/crate/ammo,
 /obj/structure/machinery/light/small,
-/obj/item/ammo_box/magazine/empty,
-/obj/item/ammo_box/magazine/empty,
 /obj/structure/machinery/door_control{
 	id = "crate_room3";
 	name = "storage shutters";
 	pixel_x = -26
 	},
-/obj/effect/decal/cleanable/cobweb2/dynamic,
 /turf/open/floor/almayer/test_floor5,
 /area/almayer/squads/req)
 "bUH" = (
@@ -22682,9 +22678,6 @@
 /turf/open/floor/almayer/silver/east,
 /area/almayer/command/cic)
 "cwo" = (
-/obj/structure/largecrate/random/mini/chest{
-	pixel_x = 4
-	},
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
 	pixel_x = 1
@@ -35030,10 +35023,6 @@
 	name = "storage shutters";
 	pixel_y = 26
 	},
-/obj/structure/machinery/recharge_station{
-	desc = "Where the cargo department's Working Joe used to charge before it tragically fell into the ASRS elevator three years ago. The replacement still hasn't arrived.";
-	name = "Working Joe charging station"
-	},
 /obj/structure/sign/safety/synth_storage{
 	pixel_x = 8;
 	pixel_y = 36
@@ -35928,7 +35917,6 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/shipboard/brig/general_equipment)
 "ipa" = (
-/obj/effect/decal/cleanable/generic,
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
 	},
@@ -36328,14 +36316,6 @@
 /obj/structure/platform/metal/almayer/north,
 /turf/open/floor/almayer/red/north,
 /area/almayer/lifeboat_pumps/south1)
-"ixN" = (
-/obj/structure/largecrate,
-/obj/item/folded_tent/reqs{
-	pixel_x = -3;
-	pixel_y = 10
-	},
-/turf/open/floor/almayer/test_floor4,
-/area/almayer/squads/req)
 "ixQ" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SE-out";
@@ -37699,24 +37679,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/engineering/lower)
-"jaR" = (
-/obj/structure/largecrate/random/mini/small_case/b{
-	pixel_x = 8;
-	pixel_y = -1
-	},
-/obj/structure/largecrate/random/mini/small_case/c{
-	pixel_x = -7;
-	pixel_y = -1
-	},
-/obj/structure/largecrate/random/mini/small_case{
-	pixel_x = -1;
-	pixel_y = 9
-	},
-/obj/item/trash/crushed_cup{
-	pixel_y = 12
-	},
-/turf/open/floor/almayer/test_floor4,
-/area/almayer/squads/req)
 "jbq" = (
 /obj/structure/window/framed/almayer/hull,
 /turf/open/floor/plating,
@@ -41116,16 +41078,6 @@
 	},
 /turf/open/floor/almayer/dark_sterile,
 /area/almayer/engineering/laundry)
-"kxL" = (
-/obj/structure/closet/coffin/woodencrate,
-/obj/structure/largecrate/random/mini/wooden{
-	pixel_x = 4;
-	pixel_y = 6
-	},
-/obj/item/storage/box/mre,
-/obj/item/storage/box/mre,
-/turf/open/floor/almayer/test_floor4,
-/area/almayer/squads/req)
 "kxP" = (
 /turf/open/floor/almayer/red/east,
 /area/almayer/shipboard/brig/mp_bunks)
@@ -46113,14 +46065,6 @@
 	},
 /turf/open/floor/almayer/blue/north,
 /area/almayer/hallways/upper/midship_hallway)
-"mJa" = (
-/obj/structure/closet/crate/trashcart,
-/obj/item/trash/boonie,
-/obj/item/trash/chunk/hunk,
-/obj/item/trash/crushed_cup,
-/obj/item/trash/uscm_mre,
-/turf/open/floor/almayer/test_floor4,
-/area/almayer/squads/req)
 "mJe" = (
 /obj/structure/sign/safety/conference_room{
 	pixel_x = -17;
@@ -47701,14 +47645,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/command/corporateliaison)
-"noj" = (
-/obj/structure/largecrate,
-/obj/structure/prop/server_equipment/laptop{
-	pixel_x = 1;
-	pixel_y = 10
-	},
-/turf/open/floor/almayer/test_floor4,
-/area/almayer/squads/req)
 "noo" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /obj/structure/machinery/door/airlock/almayer/security/reinforced{
@@ -48176,7 +48112,6 @@
 /turf/open/floor/almayer/mono,
 /area/almayer/hallways/upper/port)
 "nzO" = (
-/obj/effect/decal/cleanable/blood/oil,
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
 	},
@@ -51645,23 +51580,11 @@
 /turf/open/floor/almayer,
 /area/almayer/hallways/lower/port_midship_hallway)
 "oTe" = (
-/obj/item/prop/almayer/box,
-/obj/item/prop{
-	desc = "This M57 smartgun was utilized in field testing by the greatest smartgunner the USS Almayer ever had, Larry A.W Lewis, until he was fatally and tragically decapitated from a single clean shot to the head by a CLF sniper. As he didn't wear a helmet, it took weeks to find the body.";
-	icon = 'icons/obj/items/weapons/guns/guns_by_faction/USCM/machineguns.dmi';
-	icon_state = "m56c";
-	item_state = "m56c";
-	name = "broken M57 'Larry's Will' smartgun";
-	pixel_x = -7;
-	pixel_y = 3
-	},
 /obj/structure/machinery/door_control{
 	id = "crate_room4";
 	name = "storage shutters";
 	pixel_y = 26
 	},
-/obj/effect/decal/cleanable/cobweb2/dynamic,
-/obj/item/packageWrap,
 /obj/structure/machinery/computer/working_joe{
 	dir = 8;
 	pixel_x = 17
@@ -59214,20 +59137,10 @@
 /turf/open/floor/almayer,
 /area/almayer/engineering/lower/workshop)
 "sgc" = (
-/obj/structure/closet/crate/freezer/cooler{
-	pixel_x = -7
-	},
-/obj/structure/largecrate/random/mini/ammo{
-	pixel_x = 10;
-	pixel_y = -4
-	},
-/obj/item/reagent_container/food/drinks/cans/aspen,
-/obj/item/reagent_container/food/drinks/cans/aspen,
-/obj/item/reagent_container/food/drinks/cans/aspen,
-/obj/item/reagent_container/food/drinks/cans/aspen,
 /obj/structure/sign/safety/storage{
 	pixel_x = -24
 	},
+/obj/structure/gun_rack/m41/unloaded,
 /turf/open/floor/almayer/test_floor4,
 /area/almayer/squads/req)
 "sgi" = (
@@ -63481,19 +63394,6 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/living/gym)
-"tXj" = (
-/obj/structure/closet/coffin/woodencrate,
-/obj/item/storage/box/m94,
-/obj/item/storage/box/m94,
-/obj/item/storage/box/m94,
-/obj/item/stack/sheet/mineral/plastic/small_stack,
-/obj/item/frame/rack,
-/obj/item/frame/rack,
-/obj/item/frame/rack,
-/obj/item/frame/rack,
-/obj/item/frame/rack,
-/turf/open/floor/almayer/test_floor4,
-/area/almayer/squads/req)
 "tXn" = (
 /obj/structure/machinery/power/apc/almayer/west,
 /turf/open/floor/almayer/plate,
@@ -71133,7 +71033,6 @@
 /turf/open/floor/almayer/blue,
 /area/almayer/living/auxiliary_officer_office)
 "wWP" = (
-/obj/structure/prop/cash_register/broken,
 /obj/structure/machinery/light/small,
 /turf/open/floor/almayer/test_floor5,
 /area/almayer/squads/req)
@@ -72590,12 +72489,6 @@
 "xBY" = (
 /turf/open/floor/almayer,
 /area/almayer/engineering/laundry)
-"xCa" = (
-/obj/structure/closet/coffin/woodencrate,
-/obj/item/frame/table/wood/poor,
-/obj/item/frame/table/wood/poor,
-/turf/open/floor/almayer/test_floor4,
-/area/almayer/squads/req)
 "xCb" = (
 /obj/structure/closet/secure_closet/fridge/dry,
 /turf/open/floor/almayer/plate,
@@ -117735,9 +117628,9 @@ gvU
 cyo
 bdl
 hTP
-tXj
+fnI
 sgc
-xCa
+fnI
 bUy
 bdl
 eTx
@@ -117941,7 +117834,7 @@ fnI
 ipa
 fYZ
 vYC
-noj
+fnI
 hpS
 amB
 ekM
@@ -118144,7 +118037,7 @@ fnI
 cwo
 scH
 nzO
-kxL
+fnI
 hpS
 amB
 nzt
@@ -118344,9 +118237,9 @@ ayj
 dWg
 bdl
 oTe
-ixN
-jaR
-mJa
+fnI
+fnI
+fnI
 wWP
 rsK
 cBC
