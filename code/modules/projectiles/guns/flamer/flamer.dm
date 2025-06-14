@@ -425,6 +425,8 @@
 
 /obj/item/weapon/gun/flamer/m240/underextinguisher
 	starting_attachment_types = list(/obj/item/attachable/attached_gun/extinguisher)
+/obj/item/weapon/gun/flamer/m240/unloaded
+	current_mag = null
 
 /obj/item/weapon/gun/flamer/m240/spec
 	name = "\improper M240-T incinerator unit"

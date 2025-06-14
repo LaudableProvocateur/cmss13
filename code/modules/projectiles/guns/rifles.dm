@@ -125,6 +125,9 @@
 /obj/item/weapon/gun/rifle/m41a/tactical
 	current_mag = /obj/item/ammo_magazine/rifle/ap
 	starting_attachment_types = list(/obj/item/attachable/magnetic_harness, /obj/item/attachable/suppressor, /obj/item/attachable/angledgrip, /obj/item/attachable/stock/rifle/collapsible)
+
+/obj/item/weapon/gun/rifle/m41a/unloaded
+	current_mag = null
 //-------------------------------------------------------
 //NSG 23 ASSAULT RIFLE - PMC PRIMARY RIFLE
 
@@ -1505,6 +1508,9 @@
 	scatter_unwielded = SCATTER_AMOUNT_TIER_4
 	damage_mult = BASE_BULLET_DAMAGE_MULT //10~ more damage than m41, as well as higher ap from bullet, slightly higher DPS, 133>137.5
 	recoil_unwielded = RECOIL_AMOUNT_TIER_3
+
+/obj/item/weapon/gun/rifle/type71/unloaded
+	current_mag = null
 
 /obj/item/weapon/gun/rifle/type71/rifleman
 	//add GL
