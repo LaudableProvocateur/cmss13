@@ -9,25 +9,6 @@
 	var/max_stored = 5
 	var/initial_stored = 5
 	var/current_storage_type = "empty"
-	var/list/valid_firearms = list(
-		// USCM Primaries
-		/obj/item/weapon/gun/rifle/m41a,
-		/obj/item/weapon/gun/shotgun/pump,
-		/obj/item/weapon/gun/rifle/m4ra,
-		/obj/item/weapon/gun/smg/m39,
-		// USCM Restricted Weapons
-		/obj/item/weapon/gun/shotgun/double/mou53,
-		/obj/item/weapon/gun/lever_action/xm88,
-		/obj/item/weapon/gun/rifle/lmg,
-		/obj/item/weapon/gun/rifle/m41aMK1,
-		/obj/item/weapon/gun/flamer/m240,
-		/obj/item/weapon/gun/launcher/grenade/m81/m79,
-		/obj/item/weapon/gun/rifle/xm51,
-		// USCM Restricted Mounted Weapons
-		/obj/structure/machinery/m56d_hmg,
-		/obj/item/device/m2c_gun
-	)
-
 
 /obj/structure/gun_rack/Initialize()
 	. = ..()
@@ -42,27 +23,24 @@
 			i++
 	update_icon()
 
-// this is important, since it also sets what type of rack were going to show the player if its empty
 /obj/structure/gun_rack/attackby(obj/item/O, mob/user)
-	if(O.type == current_storage_type && contents.len < max_stored)
-		user.drop_inv_item_to_loc(O, src)
-		contents += O
-		update_icon()
-		return
-	if(O.type == current_storage_type && contents.len >= max_stored)
-		to_chat(user, SPAN_WARNING("[src] is full."))
-		return
-	if(current_storage_type == "empty")
-		for(var/a in valid_firearms)
-			if (O.type == a)
-				user.drop_inv_item_to_loc(O, src)
-				current_storage_type = O.type
-				contents += O
-				update_icon()
-				src.name = src.name + " ([pullLastExtensionFromTypePath(current_storage_type)])"
+	if(findtext("[O.type]","obj/item/weapon/gun/") != 0)
+		if(current_storage_type == "empty" && checkIfCanBeStoredOnRack(O))
+			user.drop_inv_item_to_loc(O, src)
+			current_storage_type = O.type
+			contents += O
+			src.name = src.name + " ([getGunName(current_storage_type)])"
+			update_icon()
+			return
+		if(O.type == current_storage_type)
+			if(contents.len >= max_stored)
+				to_chat(user, SPAN_WARNING("[src] is full."))
 				return
-		to_chat(user, SPAN_WARNING("[O.name] doesn't seem compatible with the mounting apartus..."))
-		return
+			user.drop_inv_item_to_loc(O, src)
+			contents += O
+			update_icon()
+			return
+	to_chat(user, SPAN_WARNING("[O.name] doesn't seem compatible with the mounting apartus..."))
 
 /obj/structure/gun_rack/attack_hand(mob/living/user)
 	if(current_storage_type != "empty")
@@ -80,10 +58,12 @@
 
 /obj/structure/gun_rack/update_icon()
 	if(current_storage_type != "empty")
-		icon_state = pullLastExtensionFromTypePath(current_storage_type) + "_" + "[contents.len]"
-	else
-		icon_state = "empty"
+		icon_state = getGunName(current_storage_type) + "_" + "[contents.len]"
+	icon_state = "empty"
 
-/proc/pullLastExtensionFromTypePath(current_storage_type_arg)
-	var/stringedPath = "[current_storage_type_arg]"
-	return copytext(stringedPath,(findlasttext(stringedPath,"/") + 1),(length(stringedPath) + 1))
+/proc/getGunName(obj/item/weapon/gun/current_storage_type_arg)
+	var/gunName = current_storage_type_arg.name
+	return lowertext(copytext(gunName, 1, findtext(gunName," ")))
+
+/proc/checkIfCanBeStoredOnRack(obj/item/weapon/gun/argumentHere)
+	return argumentHere.can_be_stored_on_rack

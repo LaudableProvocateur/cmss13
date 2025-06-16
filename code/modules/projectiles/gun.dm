@@ -247,6 +247,9 @@
 	/// Whether the weapon has expended it's "second wind" and lost its acid protection.
 	var/has_second_wind = TRUE
 
+	/// Whether the weapon is capable of being stored on a rack "off by default, dont turn this on unless there are actually sprites for it"
+	var/can_be_stored_on_rack = FALSE
+
 /**
  * An assoc list where the keys are fire delay group string defines
  * and the keys are when the guns of the group can be fired again
