@@ -95,6 +95,7 @@
 	map_specific_decoration = TRUE
 	start_automatic = TRUE
 	can_be_stored_on_rack = TRUE
+	abbreviatedName = "m41a"
 
 /obj/item/weapon/gun/rifle/m41a/set_gun_attachment_offsets()
 	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 18,"rail_x" = 12, "rail_y" = 23, "under_x" = 24, "under_y" = 13, "stock_x" = 24, "stock_y" = 13)

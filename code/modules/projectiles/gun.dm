@@ -249,6 +249,8 @@
 
 	/// Whether the weapon is capable of being stored on a rack "off by default, dont turn this on unless there are actually sprites for it"
 	var/can_be_stored_on_rack = FALSE
+	/// The guns abbreviated name without any weirdness interms of the \improper tag messing with string interpretation.
+	var/abbreviatedName = "gun"
 
 /**
  * An assoc list where the keys are fire delay group string defines

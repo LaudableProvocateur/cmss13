@@ -63,8 +63,7 @@
 	icon_state = "empty"
 
 /proc/getGunName(obj/item/weapon/gun/current_storage_type_arg)
-	var/gunName = current_storage_type_arg.name
-	return lowertext(copytext(gunName, 1, findtext(gunName," ")))
+	return current_storage_type_arg.abbreviatedName
 
 /proc/checkIfCanBeStoredOnRack(obj/item/weapon/gun/argumentHere)
 	return argumentHere.can_be_stored_on_rack
