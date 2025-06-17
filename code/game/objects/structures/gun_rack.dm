@@ -25,11 +25,11 @@
 
 /obj/structure/gun_rack/attackby(obj/item/O, mob/user)
 	if(findtext("[O.type]","obj/item/weapon/gun/") != 0)
-		if(current_storage_type == "empty" && checkIfCanBeStoredOnRack(O))
+		if(current_storage_type == "empty" && pullIfGunCanBeStoredOnRack(O))
 			user.drop_inv_item_to_loc(O, src)
 			current_storage_type = O.type
 			contents += O
-			src.name = src.name + " ([getGunName(current_storage_type)])"
+			src.name = src.name + " ([pullGunAbbreviatedName(current_storage_type)])"
 			update_icon()
 			return
 		if(O.type == current_storage_type)
@@ -58,12 +58,12 @@
 
 /obj/structure/gun_rack/update_icon()
 	if(current_storage_type != "empty")
-		icon_state = getGunName(current_storage_type) + "_" + "[contents.len]"
+		icon_state = pullGunAbbreviatedName(current_storage_type) + "_" + "[contents.len]"
 		return
 	icon_state = "empty"
 
-/proc/getGunName(obj/item/weapon/gun/current_storage_type_arg)
+/proc/pullGunAbbreviatedName(obj/item/weapon/gun/current_storage_type_arg)
 	return current_storage_type_arg.abbreviatedName
 
-/proc/checkIfCanBeStoredOnRack(obj/item/weapon/gun/argumentHere)
+/proc/pullIfGunCanBeStoredOnRack(obj/item/weapon/gun/argumentHere)
 	return argumentHere.can_be_stored_on_rack
