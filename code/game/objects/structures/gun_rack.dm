@@ -59,6 +59,7 @@
 /obj/structure/gun_rack/update_icon()
 	if(current_storage_type != "empty")
 		icon_state = getGunName(current_storage_type) + "_" + "[contents.len]"
+		return
 	icon_state = "empty"
 
 /proc/getGunName(obj/item/weapon/gun/current_storage_type_arg)
