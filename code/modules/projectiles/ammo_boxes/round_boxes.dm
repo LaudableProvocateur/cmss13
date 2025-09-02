@@ -104,7 +104,7 @@
 	overlay_gun_type = "_rounds_type71"
 	overlay_content = "_type71_reg"
 	caliber = "5.45x39mm"
-	default_ammo = /datum/ammo/bullet/rifle/type71
+	default_ammo = /datum/ammo/bullet/rifle/caliber_5_45x39mm
 
 /obj/item/ammo_box/rounds/type71/empty
 	empty = TRUE
@@ -115,7 +115,7 @@
 	icon_state = "base_type71"
 	overlay_gun_type = "_rounds_type71"
 	overlay_content = "_type71_ap"
-	default_ammo = /datum/ammo/bullet/rifle/type71/ap
+	default_ammo = /datum/ammo/bullet/rifle/caliber_5_45x39mm/ap
 
 /obj/item/ammo_box/rounds/type71/ap/empty
 	empty = TRUE
@@ -126,7 +126,7 @@
 	icon_state = "base_type71"
 	overlay_gun_type = "_rounds_type71"
 	overlay_content = "_type71_heap"
-	default_ammo = /datum/ammo/bullet/rifle/type71/heap
+	default_ammo = /datum/ammo/bullet/rifle/caliber_5_45x39mm/heap
 
 /obj/item/ammo_box/rounds/type71/heap/empty
 	empty = TRUE
@@ -139,7 +139,7 @@
 	caliber = "9mm"
 	icon_state = "base_m4a3"
 	overlay_content = "_reg"
-	default_ammo = /datum/ammo/bullet/pistol
+	default_ammo = /datum/ammo/bullet/caliber_9x19mm
 
 /obj/item/ammo_box/rounds/pistol/empty
 	empty = TRUE
@@ -148,7 +148,7 @@
 	name = "\improper pistol ammunition box (9mm AP)"
 	desc = "A 9mm armor-piercing ammunition box. Used to refill mod88 and M4A3 magazines. It comes with a leather strap allowing to wear it on the back."
 	overlay_content = "_ap"
-	default_ammo = /datum/ammo/bullet/pistol/ap
+	default_ammo = /datum/ammo/bullet/caliber_9x19mm/ap
 
 /obj/item/ammo_box/rounds/pistol/ap/empty
 	empty = TRUE
@@ -157,7 +157,7 @@
 	name = "\improper pistol ammunition box (9mm HP)"
 	desc = "A 9mm hollow-point ammunition box. Used to refill M4A3 magazines. It comes with a leather strap allowing to wear it on the back."
 	overlay_content = "_hp"
-	default_ammo = /datum/ammo/bullet/pistol/hollow
+	default_ammo = /datum/ammo/bullet/caliber_9x19mm/hollow
 
 /obj/item/ammo_box/rounds/pistol/hp/empty
 	empty = TRUE
@@ -166,7 +166,7 @@
 	name = "\improper pistol ammunition box (9mm Incendiary)"
 	desc = "A 9mm incendiary ammunition box. Used to refill M4A3 magazines. It comes with a leather strap allowing to wear it on the back."
 	overlay_content = "_incen"
-	default_ammo = /datum/ammo/bullet/pistol/incendiary
+	default_ammo = /datum/ammo/bullet/caliber_9x19mm/incendiary
 
 /obj/item/ammo_box/rounds/pistol/incen/empty
 	empty = TRUE
@@ -179,7 +179,7 @@
 	icon_state = "base_l23"
 	overlay_content = "_l23_reg"
 	caliber = "8.88x51mm"
-	default_ammo = /datum/ammo/bullet/rifle/l23
+	default_ammo = /datum/ammo/bullet/smg/caliber_8_88mm
 
 /obj/item/ammo_box/rounds/l23/empty
 	empty = TRUE
@@ -188,7 +188,7 @@
 	name = "\improper rifle ammunition box (8.88x51mm AP)"
 	desc = "A 8.88x51mm ammunition box. Used to refill L23 AP magazines. It comes with a leather strap allowing to wear it on the back."
 	overlay_content = "_l23_ap"
-	default_ammo = /datum/ammo/bullet/rifle/l23/ap
+	default_ammo = /datum/ammo/bullet/smg/caliber_8_88mm/ap
 
 /obj/item/ammo_box/rounds/l23/ap/empty
 	empty = TRUE
@@ -197,7 +197,7 @@
 	name = "\improper rifle ammunition box (8.88x51mm HEAP)"
 	desc = "A 8.88x51mm ammunition box. Used to refill L23 HEAP magazines. It comes with a leather strap allowing to wear it on the back."
 	overlay_content = "_l23_heap"
-	default_ammo = /datum/ammo/bullet/rifle/l23/heap
+	default_ammo = /datum/ammo/bullet/smg/caliber_8_88mm/heap
 
 /obj/item/ammo_box/rounds/l23/heap/empty
 	empty = TRUE
@@ -206,7 +206,7 @@
 	name = "\improper rifle ammunition box (8.88x51mm Incendiary)"
 	desc = "A 8.88x51mm ammunition box. Used to refill L23 incendiary magazines. It comes with a leather strap allowing to wear it on the back."
 	overlay_content = "_l23_incen"
-	default_ammo = /datum/ammo/bullet/rifle/l23/incendiary
+	default_ammo = /datum/ammo/bullet/smg/caliber_8_88mm/incendiary
 	bullet_amount = 420 //Incen is OP
 	max_bullet_amount = 420
 

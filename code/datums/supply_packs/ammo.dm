@@ -431,10 +431,10 @@
 /datum/supply_packs/ammo_napalm_gel
 	name = "M240 Napalm B-Gel (x4)"
 	contains = list(
-		/obj/item/ammo_magazine/flamer_tank/gellied,
-		/obj/item/ammo_magazine/flamer_tank/gellied,
-		/obj/item/ammo_magazine/flamer_tank/gellied,
-		/obj/item/ammo_magazine/flamer_tank/gellied,
+		/obj/item/ammo_magazine/flamer_tank/B,
+		/obj/item/ammo_magazine/flamer_tank/B,
+		/obj/item/ammo_magazine/flamer_tank/B,
+		/obj/item/ammo_magazine/flamer_tank/B,
 	)
 	cost = 40
 	containertype = /obj/structure/closet/crate/ammo/alt/flame
@@ -446,8 +446,8 @@
 	contains = list(
 		/obj/item/ammo_magazine/flamer_tank,
 		/obj/item/ammo_magazine/flamer_tank,
-		/obj/item/ammo_magazine/flamer_tank/gellied,
-		/obj/item/ammo_magazine/flamer_tank/gellied,
+		/obj/item/ammo_magazine/flamer_tank/B,
+		/obj/item/ammo_magazine/flamer_tank/B,
 	)
 	cost = 40
 	containertype = /obj/structure/closet/crate/ammo/alt/flame

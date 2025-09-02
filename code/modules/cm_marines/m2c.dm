@@ -32,7 +32,7 @@
 	icon_state = "t37"
 	item_state = "t37"
 	max_rounds = 150
-	default_ammo = /datum/ammo/bullet/machinegun/medium
+	default_ammo = /datum/ammo/bullet/machinegun/caliber_7_62x54mmR
 
 //STORAGE BOX FOR THE MACHINEGUN
 /obj/item/storage/box/m56d/m2c
@@ -625,7 +625,7 @@
 	icon_full = "t37"
 	icon_empty = "t37_e"
 	rounds_max = 150
-	ammo = /datum/ammo/bullet/machinegun/medium
+	ammo = /datum/ammo/bullet/machinegun/caliber_7_62x54mmR
 	fire_delay = 0.35 SECONDS
 	grip_dir = null
 	stationary = TRUE

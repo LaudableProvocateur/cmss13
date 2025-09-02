@@ -444,7 +444,7 @@
 	new /obj/item/weapon/gun/flamer/m240/underextinguisher(src)
 	new /obj/item/ammo_magazine/flamer_tank(src)
 	new /obj/item/ammo_magazine/flamer_tank(src)
-	new /obj/item/ammo_magazine/flamer_tank/gellied(src)
+	new /obj/item/ammo_magazine/flamer_tank/B(src)
 	new /obj/item/tool/extinguisher/mini(src)
 
 

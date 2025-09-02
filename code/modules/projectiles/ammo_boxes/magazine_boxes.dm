@@ -636,7 +636,7 @@
 	name = "flamer fuel box (Napalm B-Gel x 8)"
 	overlay_ammo_type = "_flamer_bgel"
 	overlay_content = "_flamer_bgel"
-	magazine_type = /obj/item/ammo_magazine/flamer_tank/gellied
+	magazine_type = /obj/item/ammo_magazine/flamer_tank/B
 
 /obj/item/ammo_box/magazine/flamer/bgel/empty
 	empty = TRUE

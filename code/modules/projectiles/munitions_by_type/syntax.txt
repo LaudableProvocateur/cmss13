@@ -1,0 +1,8 @@
+Notes About Syntax.
+
+Internal magazines and base guns should be defined SEPERATELY from special use case generations.
+
+Weapons ammo is not based on caliber but file extension, this leads to weirdness.
+
+
+I think we need to fundamentally refactor the entire bullet system.  Serious issues with how calibers are assigned and path extensions.
