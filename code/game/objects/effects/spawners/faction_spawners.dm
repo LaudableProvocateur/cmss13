@@ -84,7 +84,7 @@
 	guns = list(
 		/obj/item/weapon/gun/pistol/t73 = /obj/item/ammo_magazine/pistol/t73,
 		/obj/item/weapon/gun/pistol/np92 = /obj/item/ammo_magazine/pistol/np92,
-		/obj/item/weapon/gun/revolver/upp = /obj/item/ammo_magazine/revolver/upp
+		/obj/item/weapon/gun/revolver/upp = /obj/item/ammo_magazine/revolver/zhnk_72
 	)
 
 /obj/effect/spawner/random/gun/upp_secondary/lowchance

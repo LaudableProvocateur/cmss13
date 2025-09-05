@@ -493,7 +493,7 @@
 	unload_sound = 'sound/weapons/handling/pkd_open_chamber.ogg'
 	chamber_close_sound = 'sound/weapons/handling/pkd_close_chamber.ogg'
 	hand_reload_sound = 'sound/weapons/gun_revolver_load3.ogg'
-	current_mag = /obj/item/ammo_magazine/internal/revolver/upp
+	current_mag = /obj/item/ammo_magazine/internal/revolver/zhnk_72
 	force = 8
 	attachable_allowed = list(
 		/obj/item/attachable/reddot, // Rail
@@ -521,7 +521,7 @@
 	recoil_unwielded = 0
 
 /obj/item/weapon/gun/revolver/upp/shrapnel
-	current_mag = /obj/item/ammo_magazine/internal/revolver/upp/shrapnel
+	current_mag = /obj/item/ammo_magazine/internal/revolver/zhnk_72/shrapnel
 	random_spawn_chance = 100
 	random_under_chance = 100
 	random_spawn_under = list(
@@ -539,7 +539,7 @@
 	icon_state = "sw357"
 	item_state = "sw357"
 	fire_sound = 'sound/weapons/gun_44mag2.ogg'
-	current_mag = /obj/item/ammo_magazine/internal/revolver/small
+	current_mag = /obj/item/ammo_magazine/internal/revolver/smith_and_wesson
 	force = 6
 	flags_gun_features = GUN_ANTIQUE|GUN_ONE_HAND_WIELDED|GUN_CAN_POINTBLANK
 
@@ -779,7 +779,7 @@
 	fire_sounds = list('sound/weapons/gun_cmb_1.ogg', 'sound/weapons/gun_cmb_2.ogg')
 	fire_rattle = 'sound/weapons/gun_cmb_rattle.ogg'
 	cylinder_click = list('sound/weapons/handling/gun_cmb_click1.ogg', 'sound/weapons/handling/gun_cmb_click2.ogg')
-	current_mag = /obj/item/ammo_magazine/internal/revolver/cmb/hollowpoint
+	current_mag = /obj/item/ammo_magazine/internal/revolver/cmb_spearhead_autorevolver/hollowpoint
 	force = 12
 	attachable_allowed = list(
 		/obj/item/attachable/suppressor, // Muzzle
@@ -823,14 +823,14 @@
 	starting_attachment_types = list(/obj/item/attachable/extended_barrel, /obj/item/attachable/lasersight, /obj/item/attachable/reflex)
 
 /obj/item/weapon/gun/revolver/cmb/normalpoint
-	current_mag = /obj/item/ammo_magazine/internal/revolver/cmb
+	current_mag = /obj/item/ammo_magazine/internal/revolver/cmb_spearhead_autorevolver
 
 /obj/item/weapon/gun/revolver/cmb/custom
 	name = "\improper Spearhead custom autorevolver"
 	desc = "An automatic revolver chambered in .357, custom made of darker metal and with a wooden handle, clearly made for a person with taste in mind."
 	icon_state = "black_spearhead"
 	item_state = "black_spearhead"
-	current_mag = /obj/item/ammo_magazine/internal/revolver/cmb
+	current_mag = /obj/item/ammo_magazine/internal/revolver/cmb_spearhead_autorevolver
 
 /obj/item/weapon/gun/revolver/cmb/custom/get_examine_text(mob/user)
 	. = ..()

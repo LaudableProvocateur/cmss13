@@ -25087,7 +25087,7 @@
 /obj/item/ammo_casing/bullet,
 /obj/item/ammo_casing/bullet,
 /obj/item/ammo_casing/bullet,
-/obj/item/ammo_magazine/revolver/cmb/normalpoint{
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver/normalpoint{
 	pixel_x = 3;
 	pixel_y = -2
 	},
@@ -66432,7 +66432,7 @@
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
 /obj/item/ammo_casing/bullet,
 /obj/item/ammo_casing/bullet,
-/obj/item/ammo_magazine/revolver/cmb/normalpoint,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver/normalpoint,
 /turf/open/floor/prison/redfull,
 /area/lv759/indoors/colonial_marshals/armory_firingrange)
 "jfJ" = (
@@ -148996,10 +148996,10 @@
 	dir = 8
 	},
 /obj/item/ammo_box/magazine/spearhead,
-/obj/item/ammo_magazine/revolver/cmb/normalpoint,
-/obj/item/ammo_magazine/revolver/cmb/normalpoint,
-/obj/item/ammo_magazine/revolver/cmb/normalpoint,
-/obj/item/ammo_magazine/revolver/cmb/normalpoint,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver/normalpoint,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver/normalpoint,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver/normalpoint,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver/normalpoint,
 /obj/item/ammo_magazine/shotgun/buckshot,
 /turf/open/floor/prison/red/north,
 /area/lv759/indoors/colonial_marshals/armory_foyer)
@@ -158039,8 +158039,8 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/spaceport/security)
 "wKZ" = (
-/obj/item/ammo_magazine/revolver,
-/obj/item/ammo_magazine/revolver,
+/obj/item/ammo_magazine/revolver/m44,
+/obj/item/ammo_magazine/revolver/m44,
 /obj/item/weapon/gun/revolver/m44/custom,
 /obj/item/clothing/head/fedora,
 /obj/item/clothing/suit/storage/CMB/trenchcoat,
@@ -158049,8 +158049,8 @@
 	pixel_y = 4
 	},
 /obj/item/clothing/accessory/storage/holster/armpit,
-/obj/item/ammo_magazine/revolver,
-/obj/item/ammo_magazine/revolver,
+/obj/item/ammo_magazine/revolver/m44,
+/obj/item/ammo_magazine/revolver/m44,
 /turf/open/floor/hybrisa/wood/darkerwood,
 /area/lv759/indoors/colonial_marshals/head_office)
 "wLc" = (

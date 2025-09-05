@@ -5673,16 +5673,16 @@
 /area/varadero/interior/dock_control)
 "UA" = (
 /obj/structure/closet/crate/ammo/alt,
-/obj/item/ammo_magazine/revolver/cmb,
-/obj/item/ammo_magazine/revolver/cmb{
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver{
 	pixel_x = -4;
 	pixel_y = -5
 	},
-/obj/item/ammo_magazine/revolver/cmb{
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver{
 	pixel_x = -4;
 	pixel_y = -5
 	},
-/obj/item/ammo_magazine/revolver/cmb,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
 /turf/open/floor/shiva/floor3,
 /area/varadero/interior/cargo)
 "UC" = (

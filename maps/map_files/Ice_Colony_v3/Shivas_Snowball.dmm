@@ -1773,13 +1773,13 @@
 	dir = 8;
 	pixel_y = -5
 	},
-/obj/item/ammo_magazine/revolver/cmb,
-/obj/item/ammo_magazine/revolver/cmb{
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver{
 	pixel_x = 6;
 	pixel_y = -4
 	},
-/obj/item/ammo_magazine/revolver/cmb,
-/obj/item/ammo_magazine/revolver/cmb{
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -2147,7 +2147,7 @@
 "anP" = (
 /obj/structure/surface/table/woodentable,
 /obj/item/weapon/gun/revolver/cmb,
-/obj/item/ammo_magazine/revolver/cmb,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
 /turf/open/floor/wood,
 /area/shiva/interior/colony/medseceng)
 "anR" = (
@@ -15444,13 +15444,13 @@
 /area/shiva/interior/colony/central)
 "nfg" = (
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/revolver/cmb,
-/obj/item/ammo_magazine/revolver/cmb{
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver{
 	pixel_x = 6;
 	pixel_y = -4
 	},
-/obj/item/ammo_magazine/revolver/cmb,
-/obj/item/ammo_magazine/revolver/cmb{
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -17517,7 +17517,7 @@
 /turf/open/floor/plating,
 /area/shiva/interior/caves/research_caves)
 "pME" = (
-/obj/item/ammo_magazine/revolver/cmb,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
 /turf/open/floor/shiva/floor3,
 /area/shiva/interior/lz2_habs)
 "pMK" = (
@@ -21325,7 +21325,7 @@
 /turf/open/auto_turf/snow/layer3,
 /area/shiva/exterior/junkyard/fortbiceps)
 "upp" = (
-/obj/item/ammo_magazine/revolver/cmb,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
 /turf/open/floor/shiva/purplefull/west,
 /area/shiva/interior/lz2_habs)
 "upK" = (

@@ -844,7 +844,7 @@ GLOBAL_LIST_INIT(rebel_rifles, list(
 
 		if(1)
 			new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/revolver/cmb(new_human), WEAR_IN_BACK)
-			new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/revolver/cmb(new_human), WEAR_IN_BACK)
+			new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver(new_human), WEAR_IN_BACK)
 
 		if(2)
 			new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/pistol/highpower(new_human), WEAR_IN_BACK)
@@ -856,7 +856,7 @@ GLOBAL_LIST_INIT(rebel_rifles, list(
 
 		if(4)
 			new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/revolver/small(new_human), WEAR_IN_BACK)
-			new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/revolver/small(new_human), WEAR_IN_BACK)
+			new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/revolver/smith_and_wesson(new_human), WEAR_IN_BACK)
 
 /datum/equipment_preset/proc/add_merc_survivor_weapon(mob/living/carbon/human/new_human) // Random Weapons an unaffiliated mercenary may have.
 	var/random_weapon = rand(0,5)

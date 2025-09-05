@@ -1,8 +1,7 @@
 // Used by
 /*
 
-Used by rifles.dm
-technically used by the type71
+used in type71.dm
 
 */
 /datum/ammo/bullet/rifle/caliber_5_45x39mm

@@ -418,12 +418,12 @@
 /obj/item/storage/box/guncase/m44/fill_preset_inventory()
 	new /obj/item/attachable/flashlight(src)
 	new /obj/item/weapon/gun/revolver/m44/mp(src)
-	new /obj/item/ammo_magazine/revolver/marksman(src)
-	new /obj/item/ammo_magazine/revolver/marksman(src)
-	new /obj/item/ammo_magazine/revolver/marksman(src)
-	new /obj/item/ammo_magazine/revolver/marksman(src)
-	new /obj/item/ammo_magazine/revolver/marksman(src)
-	new /obj/item/ammo_magazine/revolver/marksman(src)
+	new /obj/item/ammo_magazine/revolver/m44/marksman(src)
+	new /obj/item/ammo_magazine/revolver/m44/marksman(src)
+	new /obj/item/ammo_magazine/revolver/m44/marksman(src)
+	new /obj/item/ammo_magazine/revolver/m44/marksman(src)
+	new /obj/item/ammo_magazine/revolver/m44/marksman(src)
+	new /obj/item/ammo_magazine/revolver/m44/marksman(src)
 
 //M4A4 Service Pistol
 /obj/item/storage/box/guncase/m4a4

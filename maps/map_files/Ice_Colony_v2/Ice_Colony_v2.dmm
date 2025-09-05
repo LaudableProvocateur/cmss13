@@ -20521,7 +20521,7 @@
 "bCc" = (
 /obj/structure/surface/table/woodentable,
 /obj/item/weapon/gun/revolver/cmb,
-/obj/item/ammo_magazine/revolver/cmb,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
 /turf/open/floor/wood,
 /area/ice_colony/underground/security/marshal)
 "bCd" = (
@@ -24677,13 +24677,13 @@
 /obj/structure/machinery/light{
 	dir = 8
 	},
-/obj/item/ammo_magazine/revolver/cmb,
-/obj/item/ammo_magazine/revolver/cmb{
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver{
 	pixel_x = 6;
 	pixel_y = -4
 	},
-/obj/item/ammo_magazine/revolver/cmb,
-/obj/item/ammo_magazine/revolver/cmb{
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver{
 	pixel_x = 6;
 	pixel_y = -4
 	},

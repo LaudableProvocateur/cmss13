@@ -40861,10 +40861,10 @@
 /area/corsat/sigma/hangar/security)
 "rRh" = (
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/revolver/cmb,
-/obj/item/ammo_magazine/revolver/cmb,
-/obj/item/ammo_magazine/revolver/cmb,
-/obj/item/ammo_magazine/revolver/cmb,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
 /turf/open/floor/corsat/red/southeast,
 /area/corsat/omega/hangar/security)
 "rRm" = (

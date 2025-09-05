@@ -7684,9 +7684,9 @@
 	},
 /obj/structure/surface/table,
 /obj/item/weapon/gun/revolver/cmb,
-/obj/item/ammo_magazine/revolver/cmb,
-/obj/item/ammo_magazine/revolver/cmb,
-/obj/item/ammo_magazine/revolver/cmb,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
 /turf/open/floor/red/northeast,
 /area/lv624/lazarus/security)
 "aOD" = (
@@ -7695,10 +7695,10 @@
 	},
 /obj/structure/surface/table,
 /obj/item/clothing/ears/earmuffs,
-/obj/item/ammo_magazine/revolver/cmb,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
 /obj/item/weapon/gun/revolver/cmb,
-/obj/item/ammo_magazine/revolver/cmb,
-/obj/item/ammo_magazine/revolver/cmb,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
 /turf/open/floor/red/northwest,
 /area/lv624/lazarus/security)
 "aOF" = (

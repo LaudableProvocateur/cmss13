@@ -16967,7 +16967,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/surface/rack,
 /obj/item/weapon/gun/revolver/cmb,
-/obj/item/ammo_magazine/revolver/cmb,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security)
 "jmi" = (
@@ -44680,7 +44680,7 @@
 "xbj" = (
 /obj/structure/surface/rack,
 /obj/item/weapon/gun/revolver/cmb,
-/obj/item/ammo_magazine/revolver/cmb,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security)

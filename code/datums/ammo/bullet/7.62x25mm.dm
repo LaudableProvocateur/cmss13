@@ -1,3 +1,10 @@
+// Used by
+/*
+
+used in type19.dm
+used in ppsh-17b.dm
+
+*/
 /datum/ammo/bullet/smg/caliber_7_62x25mm
 	name = "simple submachinegun bullet"
 	damage = 35

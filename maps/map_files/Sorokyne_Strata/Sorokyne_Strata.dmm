@@ -2167,7 +2167,7 @@
 /area/strata/interior/mining_outpost/hive)
 "agD" = (
 /obj/effect/decal/cleanable/blood,
-/obj/item/ammo_magazine/revolver/cmb{
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -2475,7 +2475,7 @@
 /area/strata/interior/mining_outpost/flight_control)
 "aht" = (
 /obj/structure/bed/nest,
-/obj/item/ammo_magazine/revolver/cmb{
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -2879,7 +2879,7 @@
 /obj/effect/decal/cleanable/blood{
 	icon_state = "xgib2"
 	},
-/obj/item/ammo_magazine/revolver/cmb{
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -2887,7 +2887,7 @@
 /area/strata/interior/mining_outpost/hive)
 "aiC" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
-/obj/item/ammo_magazine/revolver/cmb{
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -37294,7 +37294,7 @@
 /turf/open/floor/strata/floor3,
 /area/strata/interior/landing_zones/near_lz1)
 "coY" = (
-/obj/item/ammo_magazine/revolver/cmb{
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -37302,7 +37302,7 @@
 /area/strata/interior/mining_outpost/hive)
 "coZ" = (
 /obj/effect/decal/cleanable/blood,
-/obj/item/ammo_magazine/revolver/cmb{
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -38381,8 +38381,8 @@
 /obj/structure/surface/rack{
 	color = "#98a3ab"
 	},
-/obj/item/ammo_magazine/revolver/cmb,
-/obj/item/ammo_magazine/revolver/cmb,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
 /obj/structure/machinery/light,
 /turf/open/floor/strata/floor3/east,
@@ -43724,8 +43724,8 @@
 /obj/structure/surface/rack{
 	color = "#98a3ab"
 	},
-/obj/item/ammo_magazine/revolver/cmb,
-/obj/item/ammo_magazine/revolver/cmb,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
 /turf/open/floor/strata/floor3/east,
 /area/strata/interior/parts_storage)
@@ -45241,7 +45241,7 @@
 /turf/open/floor/strata/cyan3/west,
 /area/strata/interior/outpost/med)
 "mam" = (
-/obj/item/ammo_magazine/revolver/cmb{
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -46246,7 +46246,7 @@
 /turf/open/floor/strata/floor2,
 /area/strata/exterior/deep_jungle/planet_core_research_station_exterior)
 "ntw" = (
-/obj/item/ammo_magazine/revolver/cmb{
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -48334,7 +48334,7 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/strata/interior/bball_cave)
 "qdI" = (
-/obj/item/ammo_magazine/revolver/cmb,
+/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
 /turf/open/gm/dirt/brown,
 /area/strata/exterior/parts_storage_cave)
 "qer" = (

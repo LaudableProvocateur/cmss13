@@ -178,7 +178,7 @@
 	icon_state = "mini_ammo"
 	stuff = list(
 		/obj/item/ammo_magazine/pistol,
-		/obj/item/ammo_magazine/revolver,
+		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/ammo_magazine/rifle,
 		/obj/item/ammo_magazine/rifle/extended,
 		/obj/item/ammo_magazine/shotgun,
@@ -391,7 +391,7 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 	var/list/stuff = list(
 					/obj/item/weapon/gun/pistol/m4a3 = /obj/item/ammo_magazine/pistol,
 					/obj/item/weapon/gun/pistol/m4a3 = /obj/item/ammo_magazine/pistol,
-					/obj/item/weapon/gun/revolver/m44 = /obj/item/ammo_magazine/revolver,
+					/obj/item/weapon/gun/revolver/m44 = /obj/item/ammo_magazine/revolver/m44,
 					/obj/item/weapon/gun/rifle/m41a = /obj/item/ammo_magazine/rifle,
 					/obj/item/weapon/gun/rifle/m41a = /obj/item/ammo_magazine/rifle,
 					/obj/item/weapon/gun/shotgun/pump = /obj/item/ammo_magazine/shotgun,
@@ -415,7 +415,7 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 	num_guns = 3
 	num_mags = 3
 	name = "\improper Hyperdyne firearm crate"
-	stuff = list( /obj/item/weapon/gun/revolver/upp = /obj/item/ammo_magazine/revolver/upp,
+	stuff = list( /obj/item/weapon/gun/revolver/upp = /obj/item/ammo_magazine/revolver/zhnk_72,
 					/obj/item/weapon/gun/pistol/np92 = /obj/item/ammo_magazine/pistol/np92,
 					/obj/item/weapon/gun/pistol/kt42 = /obj/item/ammo_magazine/pistol/kt42,
 					/obj/item/weapon/gun/rifle/mar40 = /obj/item/ammo_magazine/rifle/mar40,
@@ -433,8 +433,8 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 					/obj/item/weapon/gun/pistol/highpower = /obj/item/ammo_magazine/pistol/highpower,
 					/obj/item/weapon/gun/pistol/m1911 = /obj/item/ammo_magazine/pistol/m1911,
 					/obj/item/weapon/gun/pistol/heavy = /obj/item/ammo_magazine/pistol/heavy,
-					/obj/item/weapon/gun/revolver/small = /obj/item/ammo_magazine/revolver/small,
-					/obj/item/weapon/gun/revolver/cmb = /obj/item/ammo_magazine/revolver/cmb,
+					/obj/item/weapon/gun/revolver/small = /obj/item/ammo_magazine/revolver/smith_and_wesson,
+					/obj/item/weapon/gun/revolver/cmb = /obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
 					/obj/item/weapon/gun/shotgun/merc = /obj/item/ammo_magazine/handful/shotgun/buckshot,
 					/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb = /obj/item/ammo_magazine/handful/shotgun/buckshot,
 					/obj/item/weapon/gun/smg/mp27 = /obj/item/ammo_magazine/smg/mp27,
@@ -565,8 +565,8 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 	new /obj/item/weapon/gun/shotgun/double/with_stock(src)
 	new /obj/item/ammo_magazine/shotgun(src)
 	new /obj/item/weapon/gun/revolver/small(src)
-	new /obj/item/ammo_magazine/revolver/small(src)
-	new /obj/item/ammo_magazine/revolver/small(src)
+	new /obj/item/ammo_magazine/revolver/smith_and_wesson(src)
+	new /obj/item/ammo_magazine/revolver/smith_and_wesson(src)
 
 
 /obj/structure/largecrate/hunter_games_guns/decent/Initialize()
@@ -626,8 +626,8 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 	new /obj/item/ammo_magazine/pistol(src)
 	new /obj/item/ammo_magazine/pistol(src)
 	new /obj/item/ammo_magazine/shotgun(src)
-	new /obj/item/ammo_magazine/revolver/small(src)
-	new /obj/item/ammo_magazine/revolver/small(src)
+	new /obj/item/ammo_magazine/revolver/smith_and_wesson(src)
+	new /obj/item/ammo_magazine/revolver/smith_and_wesson(src)
 
 /obj/structure/largecrate/hunter_games_ammo/decent/Initialize()
 	. = ..()

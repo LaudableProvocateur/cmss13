@@ -435,11 +435,11 @@ Additionally, weapons that are way too good to put in the basically-flavor black
 	name = "CMB Spearhead revolver (x5 magazines included)"
 	contains = list(
 		/obj/item/weapon/gun/revolver/cmb,
-		/obj/item/ammo_magazine/revolver/cmb,
-		/obj/item/ammo_magazine/revolver/cmb,
-		/obj/item/ammo_magazine/revolver/cmb,
-		/obj/item/ammo_magazine/revolver/cmb,
-		/obj/item/ammo_magazine/revolver/cmb,
+		/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
+		/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
+		/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
+		/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
+		/obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
 	)
 	dollar_cost = 20
 	containertype = /obj/structure/largecrate/black_market
@@ -448,12 +448,12 @@ Additionally, weapons that are way too good to put in the basically-flavor black
 	name = "Smith and Wesson revolver (x6 magazines included)"
 	contains = list(
 		/obj/item/weapon/gun/revolver/small,
-		/obj/item/ammo_magazine/revolver/small,
-		/obj/item/ammo_magazine/revolver/small,
-		/obj/item/ammo_magazine/revolver/small,
-		/obj/item/ammo_magazine/revolver/small,
-		/obj/item/ammo_magazine/revolver/small,
-		/obj/item/ammo_magazine/revolver/small,
+		/obj/item/ammo_magazine/revolver/smith_and_wesson,
+		/obj/item/ammo_magazine/revolver/smith_and_wesson,
+		/obj/item/ammo_magazine/revolver/smith_and_wesson,
+		/obj/item/ammo_magazine/revolver/smith_and_wesson,
+		/obj/item/ammo_magazine/revolver/smith_and_wesson,
+		/obj/item/ammo_magazine/revolver/smith_and_wesson,
 	)
 	dollar_cost = 15
 	containertype = /obj/structure/largecrate/black_market
@@ -462,12 +462,12 @@ Additionally, weapons that are way too good to put in the basically-flavor black
 	name = "ZHNK-72 revolver (x6 magazines included)"
 	contains = list(
 		/obj/item/weapon/gun/revolver/upp,
-		/obj/item/ammo_magazine/revolver/upp,
-		/obj/item/ammo_magazine/revolver/upp,
-		/obj/item/ammo_magazine/revolver/upp,
-		/obj/item/ammo_magazine/revolver/upp,
-		/obj/item/ammo_magazine/revolver/upp,
-		/obj/item/ammo_magazine/revolver/upp,
+		/obj/item/ammo_magazine/revolver/zhnk_72,
+		/obj/item/ammo_magazine/revolver/zhnk_72,
+		/obj/item/ammo_magazine/revolver/zhnk_72,
+		/obj/item/ammo_magazine/revolver/zhnk_72,
+		/obj/item/ammo_magazine/revolver/zhnk_72,
+		/obj/item/ammo_magazine/revolver/zhnk_72,
 	)
 	dollar_cost = 15
 	containertype = /obj/structure/largecrate/black_market

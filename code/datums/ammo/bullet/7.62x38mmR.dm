@@ -1,3 +1,9 @@
+// Used by
+/*
+
+used in the zhnk-72.dm
+
+*/
 /datum/ammo/bullet/revolver/caliber_7_62x38mmR
 	name = "heavy revolver bullet"
 	headshot_state = HEADSHOT_OVERLAY_MEDIUM

@@ -361,7 +361,7 @@
 /obj/item/ammo_box/magazine/m44/marksman
 	name = "speed loaders box (Marksman M44 x 16)"
 	overlay_ammo_type = "_m44_mark"
-	magazine_type = /obj/item/ammo_magazine/revolver/marksman
+	magazine_type = /obj/item/ammo_magazine/revolver/m44/marksman
 
 /obj/item/ammo_box/magazine/m44/marksman/empty
 	empty = TRUE
@@ -369,7 +369,7 @@
 /obj/item/ammo_box/magazine/m44/heavy
 	name = "speed loaders box (Heavy M44 x 16)"
 	overlay_ammo_type = "_m44_heavy"
-	magazine_type = /obj/item/ammo_magazine/revolver/heavy
+	magazine_type = /obj/item/ammo_magazine/revolver/m44/heavy
 
 /obj/item/ammo_box/magazine/m44/heavy/empty
 	empty = TRUE
@@ -766,7 +766,7 @@
 	overlay_gun_type = "_357"
 	overlay_content = "_speed"
 	num_of_magazines = 12
-	magazine_type = /obj/item/ammo_magazine/revolver/cmb
+	magazine_type = /obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver
 
 /obj/item/ammo_box/magazine/spearhead/empty
 	empty = TRUE
@@ -774,7 +774,7 @@
 /obj/item/ammo_box/magazine/spearhead/normalpoint
 	name = "speed loaders box (Spearhead x 12)"
 	overlay_ammo_type = "_357_reg"
-	magazine_type = /obj/item/ammo_magazine/revolver/cmb/normalpoint
+	magazine_type = /obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver/normalpoint
 
 /obj/item/ammo_box/magazine/spearhead/normalpoint/empty
 	empty = TRUE
@@ -886,7 +886,7 @@
 	overlay_gun_type = "_38"
 	overlay_content = "_speed"
 	num_of_magazines = 12
-	magazine_type = /obj/item/ammo_magazine/revolver/small
+	magazine_type = /obj/item/ammo_magazine/revolver/smith_and_wesson
 
 /obj/item/ammo_box/magazine/snw/empty
 	empty = TRUE
@@ -917,7 +917,7 @@
 	overlay_gun_type = "_zhnk72"
 	overlay_content = "_zhnk72"
 	num_of_magazines = 12
-	magazine_type = /obj/item/ammo_magazine/revolver/upp
+	magazine_type = /obj/item/ammo_magazine/revolver/zhnk_72
 
 /obj/item/ammo_box/magazine/zhnk/update_icon()
 	if(overlays)

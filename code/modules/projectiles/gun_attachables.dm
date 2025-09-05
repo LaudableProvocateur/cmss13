@@ -2541,9 +2541,9 @@ Defined in conflicts.dm of the #defines folder.
 	hud_offset_mod = 7 //Extremely long.
 	var/folded = FALSE
 	var/list/allowed_hat_items = list(
-					/obj/item/ammo_magazine/revolver,
-					/obj/item/ammo_magazine/revolver/marksman,
-					/obj/item/ammo_magazine/revolver/heavy)
+					/obj/item/ammo_magazine/revolver/m44,
+					/obj/item/ammo_magazine/revolver/m44/marksman,
+					/obj/item/ammo_magazine/revolver/m44/heavy)
 
 /obj/item/attachable/stock/revolver/New()
 	..()

@@ -296,8 +296,8 @@ Everything below isn't used or out of place.
 			new_human.equip_to_slot_or_del(new /obj/item/storage/briefcase/stowaway(new_human.back), WEAR_L_HAND)
 			new_human.equip_to_slot_or_del(new /obj/item/spacecash/c1000/counterfeit(new_human.back), WEAR_IN_R_STORE)
 			new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/revolver/small/black(new_human.back), WEAR_IN_BACK)
-			new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/revolver/small(new_human.back), WEAR_IN_R_STORE)
-			new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/revolver/small(new_human.back), WEAR_IN_R_STORE)
+			new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/revolver/smith_and_wesson(new_human.back), WEAR_IN_R_STORE)
+			new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/revolver/smith_and_wesson(new_human.back), WEAR_IN_R_STORE)
 		if(9) // Private Detective
 			new_human.equip_to_slot_or_del(new /obj/item/clothing/head/fedora(new_human), WEAR_HEAD)
 			new_human.equip_to_slot_or_del(new /obj/item/clothing/under/suit_jacket/tan(new_human), WEAR_BODY)

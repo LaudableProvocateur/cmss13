@@ -1,3 +1,9 @@
+// Used by
+/*
+
+used in basira_armstrong.dm
+
+*/
 /datum/ammo/bullet/rifle/caliber_6_5mm
 	name = "crude sniper bullet"
 	damage = 42

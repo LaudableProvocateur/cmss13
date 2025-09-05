@@ -574,7 +574,7 @@
 		/obj/item/clothing/glasses,
 		/obj/item/ammo_magazine/pistol,
 		/obj/item/ammo_magazine/handful,
-		/obj/item/ammo_magazine/revolver,
+		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/reagent_container/food/snacks/donut/normal,
 		/obj/item/reagent_container/food/snacks/donut/jelly,
 		/obj/item/weapon/baton,
@@ -603,7 +603,7 @@
 		/obj/item/ammo_magazine/rifle,
 		/obj/item/ammo_magazine/smg,
 		/obj/item/ammo_magazine/pistol,
-		/obj/item/ammo_magazine/revolver,
+		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/ammo_magazine/sniper,
 		/obj/item/ammo_magazine/handful,
 		/obj/item/explosive/grenade,
@@ -660,7 +660,7 @@
 	new /obj/item/weapon/baton(src)
 	new /obj/item/restraint/handcuffs(src)
 	new /obj/item/reagent_container/spray/pepper(src)
-	new /obj/item/ammo_magazine/revolver/upp/shrapnel(src)
+	new /obj/item/ammo_magazine/revolver/zhnk_72/shrapnel(src)
 
 /obj/item/storage/belt/security/MP/CMB
 	name = "\improper CMB duty belt"
@@ -728,7 +728,7 @@
 		/obj/item/ammo_magazine/rifle,
 		/obj/item/ammo_magazine/smg,
 		/obj/item/ammo_magazine/pistol,
-		/obj/item/ammo_magazine/revolver,
+		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/ammo_magazine/sniper,
 		/obj/item/ammo_magazine/handful,
 		/obj/item/explosive/grenade,
@@ -858,7 +858,7 @@
 		/obj/item/ammo_magazine/rifle,
 		/obj/item/ammo_magazine/smg,
 		/obj/item/ammo_magazine/pistol,
-		/obj/item/ammo_magazine/revolver,
+		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/ammo_magazine/sniper,
 		/obj/item/ammo_magazine/handful,
 		/obj/item/explosive/grenade,
@@ -1941,7 +1941,7 @@
 	storage_slots = 7
 	can_hold = list(
 		/obj/item/weapon/gun/revolver,
-		/obj/item/ammo_magazine/revolver,
+		/obj/item/ammo_magazine/revolver/m44,
 	)
 	flags_atom = FPRINT // has gamemode skin
 	holster_slots = list(
@@ -1952,17 +1952,17 @@
 /obj/item/storage/belt/gun/m44/full/fill_preset_inventory()
 	handle_item_insertion(new /obj/item/weapon/gun/revolver/m44())
 	for(var/i = 1 to storage_slots - 1)
-		new /obj/item/ammo_magazine/revolver/marksman(src)
+		new /obj/item/ammo_magazine/revolver/m44/marksman(src)
 
 /obj/item/storage/belt/gun/m44/custom/fill_preset_inventory()
 	handle_item_insertion(new /obj/item/weapon/gun/revolver/m44/custom())
 	for(var/i = 1 to storage_slots - 1)
-		new /obj/item/ammo_magazine/revolver/marksman(src)
+		new /obj/item/ammo_magazine/revolver/m44/marksman(src)
 
 /obj/item/storage/belt/gun/m44/mp/fill_preset_inventory()
 	handle_item_insertion(new /obj/item/weapon/gun/revolver/m44/mp())
 	for(var/i = 1 to storage_slots - 1)
-		new /obj/item/ammo_magazine/revolver/marksman(src)
+		new /obj/item/ammo_magazine/revolver/m44/marksman(src)
 
 /obj/item/storage/belt/gun/m44/gunslinger
 	name = "custom-tooled gunslinger's belt"
@@ -1978,7 +1978,7 @@
 	storage_slots = 6
 	can_hold = list(
 		/obj/item/weapon/gun/revolver,
-		/obj/item/ammo_magazine/revolver,
+		/obj/item/ammo_magazine/revolver/m44,
 	)
 	flags_atom = FPRINT|NO_GAMEMODE_SKIN // same sprite for all gamemodes
 	holster_slots = list(
@@ -1996,7 +1996,7 @@
 	handle_item_insertion(new /obj/item/weapon/gun/revolver/m44())
 	handle_item_insertion(new /obj/item/weapon/gun/revolver/m44())
 	for(var/i = 1 to storage_slots - 2)
-		new /obj/item/ammo_magazine/revolver/marksman(src)
+		new /obj/item/ammo_magazine/revolver/m44/marksman(src)
 
 /obj/item/storage/belt/gun/m44/lever_action
 	name = "\improper M276 pattern 45-70 revolver rig"
@@ -2009,7 +2009,7 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/handful,
 		/obj/item/weapon/gun/revolver,
-		/obj/item/ammo_magazine/revolver,
+		/obj/item/ammo_magazine/revolver/m44,
 	)
 	flap = FALSE
 	holster_slots = list(
@@ -2251,8 +2251,8 @@
 		/obj/item/ammo_magazine/pistol/np92,
 		/obj/item/ammo_magazine/pistol/np92/tranq,
 		/obj/item/weapon/gun/revolver/upp,
-		/obj/item/ammo_magazine/revolver/upp,
-		/obj/item/ammo_magazine/revolver/upp/shrapnel,
+		/obj/item/ammo_magazine/revolver/zhnk_72,
+		/obj/item/ammo_magazine/revolver/zhnk_72/shrapnel,
 	)
 	holster_slots = list("1" = list("icon_x" = -1))
 
@@ -2279,12 +2279,12 @@
 /obj/item/storage/belt/gun/type47/revolver/fill_preset_inventory()
 	handle_item_insertion(new /obj/item/weapon/gun/revolver/upp())
 	for(var/total_storage_slots in 1 to storage_slots - 1)
-		new /obj/item/ammo_magazine/revolver/upp(src)
+		new /obj/item/ammo_magazine/revolver/zhnk_72(src)
 
 /obj/item/storage/belt/gun/type47/revolver/shrapnel/fill_preset_inventory()
 	handle_item_insertion(new /obj/item/weapon/gun/revolver/upp/shrapnel())
 	for(var/total_storage_slots in 1 to storage_slots - 1)
-		new /obj/item/ammo_magazine/revolver/upp/shrapnel(src)
+		new /obj/item/ammo_magazine/revolver/zhnk_72/shrapnel(src)
 
 //Crazy Ivan's belt reskin
 /obj/item/storage/belt/gun/type47/ivan
@@ -2425,7 +2425,7 @@
 	storage_slots = 7
 	can_hold = list(
 		/obj/item/weapon/gun/revolver/m44/custom/webley,
-		/obj/item/ammo_magazine/revolver,
+		/obj/item/ammo_magazine/revolver/m44,
 	)
 	flags_atom = FPRINT|NO_GAMEMODE_SKIN // same sprite for all gamemodes
 	holster_slots = list(
@@ -2452,7 +2452,7 @@
 	storage_slots = 8
 	can_hold = list(
 		/obj/item/weapon/gun/revolver,
-		/obj/item/ammo_magazine/revolver,
+		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/weapon/gun/pistol,
 		/obj/item/ammo_magazine/pistol,
 	)
@@ -2496,7 +2496,7 @@
 		/obj/item/weapon/gun/flare,
 		/obj/item/weapon/gun/pistol,
 		/obj/item/weapon/gun/revolver,
-		/obj/item/ammo_magazine/revolver,
+		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/ammo_magazine/pistol,
 		/obj/item/ammo_magazine/smartgun,
 	)
@@ -2524,7 +2524,7 @@
 		/obj/item/weapon/gun/flare,
 		/obj/item/weapon/gun/pistol,
 		/obj/item/weapon/gun/revolver,
-		/obj/item/ammo_magazine/revolver,
+		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/ammo_magazine/revolver/mateba,
 		/obj/item/ammo_magazine/pistol,
 		/obj/item/ammo_magazine/smartgun,
@@ -2553,7 +2553,7 @@
 		/obj/item/weapon/gun/flare,
 		/obj/item/weapon/gun/pistol,
 		/obj/item/weapon/gun/revolver,
-		/obj/item/ammo_magazine/revolver,
+		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/ammo_magazine/revolver/mateba,
 		/obj/item/ammo_magazine/pistol,
 		/obj/item/ammo_magazine/smartgun,
@@ -2581,7 +2581,7 @@
 		/obj/item/weapon/gun/flare,
 		/obj/item/weapon/gun/pistol,
 		/obj/item/weapon/gun/revolver,
-		/obj/item/ammo_magazine/revolver,
+		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/ammo_magazine/revolver/mateba,
 		/obj/item/ammo_magazine/pistol,
 		/obj/item/ammo_magazine/smartgun,
@@ -2653,7 +2653,7 @@
 		/obj/item/device/lightreplacer,
 		/obj/item/device/defibrillator/synthetic,
 		/obj/item/ammo_magazine/pistol,
-		/obj/item/ammo_magazine/revolver,
+		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/ammo_magazine/handful,
 	)
 	bypass_w_limit = list(
@@ -2859,7 +2859,7 @@
 /obj/item/storage/belt/gun/type47/SOF_belt/revolver/upp/fill_preset_inventory()
 	handle_item_insertion(new /obj/item/weapon/gun/revolver/upp())
 	for(var/i = 1 to storage_slots - 1)
-		new /obj/item/ammo_magazine/revolver/upp(src)
+		new /obj/item/ammo_magazine/revolver/zhnk_72(src)
 
 /obj/item/storage/belt/gun/l54
 	name = "\improper pistol belt"
