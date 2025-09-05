@@ -262,14 +262,14 @@
 		list("M39 HV Magazine (10x20mm)", floor(scale * 100), /obj/item/ammo_magazine/smg/m39, VENDOR_ITEM_REGULAR),
 		list("M10 HV magazine (10x20mm)", floor(scale * 100), /obj/item/ammo_magazine/pistol/m10, VENDOR_ITEM_REGULAR),
 		list("M44 Speed Loader (.44)", floor(scale * 80), /obj/item/ammo_magazine/revolver/m44, VENDOR_ITEM_REGULAR),
-		list("M4A3 Magazine (9mm)", floor(scale * 100), /obj/item/ammo_magazine/pistol, VENDOR_ITEM_REGULAR),
+		list("M4A3 Magazine (9mm)", floor(scale * 100), /obj/item/ammo_magazine/m4a3, VENDOR_ITEM_REGULAR),
 
 		list("ARMOR-PIERCING AMMUNITION", -1, null, null),
 		list("88 Mod 4 AP Magazine (9mm)", floor(scale * 50), /obj/item/ammo_magazine/pistol/mod88, VENDOR_ITEM_REGULAR),
 		list("M4RA AP Magazine (10x24mm)", floor(scale * 16), /obj/item/ammo_magazine/rifle/m4ra/ap, VENDOR_ITEM_REGULAR),
 		list("M39 AP Magazine (10x20mm)", floor(scale * 12), /obj/item/ammo_magazine/smg/m39/ap, VENDOR_ITEM_REGULAR),
 		list("M41A MK2 AP Magazine (10x24mm)", floor(scale * 10), /obj/item/ammo_magazine/rifle/ap, VENDOR_ITEM_REGULAR),
-		list("M4A3 AP Magazine (9mm)", floor(scale * 2), /obj/item/ammo_magazine/pistol/ap, VENDOR_ITEM_REGULAR),
+		list("M4A3 AP Magazine (9mm)", floor(scale * 2), /obj/item/ammo_magazine/m4a3/ap, VENDOR_ITEM_REGULAR),
 
 		list("EXTENDED AMMUNITION", -1, null, null),
 		list("M10 HV Extended Magazine (10x20mm)", floor(scale * 10), /obj/item/ammo_magazine/pistol/m10/extended , VENDOR_ITEM_REGULAR),
@@ -283,13 +283,13 @@
 		list("M56 Smartgun Drum", 4, /obj/item/ammo_magazine/smartgun, VENDOR_ITEM_REGULAR),
 		list("M44 Heavy Speed Loader (.44)", 10, /obj/item/ammo_magazine/revolver/m44/heavy, VENDOR_ITEM_REGULAR),
 		list("M44 Marksman Speed Loader (.44)", 6, /obj/item/ammo_magazine/revolver/m44/marksman, VENDOR_ITEM_REGULAR),
-		list("M4A3 HP Magazine (9mm)", floor(scale * 2), /obj/item/ammo_magazine/pistol/hp, VENDOR_ITEM_REGULAR),
+		list("M4A3 HP Magazine (9mm)", floor(scale * 2), /obj/item/ammo_magazine/m4a3/hp, VENDOR_ITEM_REGULAR),
 		list("M41AE2 Holo Target Rounds (10x24mm)", floor(scale * 2), /obj/item/ammo_magazine/rifle/lmg/holo_target, VENDOR_ITEM_REGULAR),
 		list("Box Of .458 SOCOM Rounds (.458 SOCOM)", floor(scale * 4), /obj/item/ammo_magazine/lever_action/xm88, VENDOR_ITEM_REGULAR),
 
 		list("RESTRICTED FIREARM AMMUNITION", -1, null, null),
 		list("VP78 Magazine", 11, /obj/item/ammo_magazine/pistol/vp78, VENDOR_ITEM_REGULAR),
-		list("SU-6 Smartpistol Magazine (.45)", 13, /obj/item/ammo_magazine/pistol/smart, VENDOR_ITEM_REGULAR),
+		list("SU-6 Smartpistol Magazine (.45)", 13, /obj/item/ammo_magazine/pistol/su_6, VENDOR_ITEM_REGULAR),
 		list("M240 Incinerator Tank", floor(scale * 3), /obj/item/ammo_magazine/flamer_tank, VENDOR_ITEM_REGULAR),
 		list("M41AE2 Box Magazine (10x24mm)", floor(scale * 3), /obj/item/ammo_magazine/rifle/lmg, VENDOR_ITEM_REGULAR),
 		list("M41A MK1 Magazine (10x24mm)", 4.5, /obj/item/ammo_magazine/rifle/m41aMK1, VENDOR_ITEM_REGULAR),
@@ -611,7 +611,7 @@
 
 		list("SIDEARM NONLETHAL AMMUNITION", -1, null, null),
 		list("88M4 Rubber Magazine (9mm)", floor(scale * 25), /obj/item/ammo_magazine/pistol/mod88/rubber, VENDOR_ITEM_REGULAR),
-		list("M4A3 Rubber Magazine (9mm)", floor(scale * 25), /obj/item/ammo_magazine/pistol/rubber, VENDOR_ITEM_REGULAR),
+		list("M4A3 Rubber Magazine (9mm)", floor(scale * 25), /obj/item/ammo_magazine/m4a3/rubber, VENDOR_ITEM_REGULAR),
 
 		list("ATTACHMENTS", -1, null, null),
 		list("Rail Flashlight", floor(scale * 25), /obj/item/attachable/flashlight, VENDOR_ITEM_RECOMMENDED),

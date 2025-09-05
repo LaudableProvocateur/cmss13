@@ -48,7 +48,7 @@
 /obj/item/weapon/gun/pistol/m4a3/training{
 	name = "dented M4A3 service pistol"
 	},
-/obj/item/ammo_magazine/pistol/rubber,
+/obj/item/ammo_magazine/m4a3/rubber,
 /turf/open/floor/carpet,
 /area/bigredv2/outside/admin_building)
 "aL" = (
@@ -228,7 +228,7 @@
 /turf/open/floor/carpet,
 /area/bigredv2/outside/admin_building)
 "la" = (
-/obj/item/ammo_magazine/pistol/rubber{
+/obj/item/ammo_magazine/m4a3/rubber{
 	current_rounds = 0
 	},
 /obj/effect/decal/cleanable/blood,
@@ -377,7 +377,7 @@
 /turf/open/floor/wood,
 /area/bigredv2/outside/admin_building)
 "EO" = (
-/obj/item/ammo_magazine/pistol/rubber{
+/obj/item/ammo_magazine/m4a3/rubber{
 	current_rounds = 0
 	},
 /obj/effect/decal/cleanable/blood,
@@ -402,7 +402,7 @@
 /obj/structure/barricade/metal/wired{
 	dir = 4
 	},
-/obj/item/ammo_magazine/pistol/rubber{
+/obj/item/ammo_magazine/m4a3/rubber{
 	current_rounds = 0
 	},
 /turf/open/floor/wood,

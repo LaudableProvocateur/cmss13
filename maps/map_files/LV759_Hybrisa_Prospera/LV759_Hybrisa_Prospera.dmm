@@ -101235,10 +101235,10 @@
 	pixel_x = 7;
 	pixel_y = 10
 	},
-/obj/item/ammo_magazine/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
+/obj/item/ammo_magazine/pistol/desert_eagle,
+/obj/item/ammo_magazine/pistol/desert_eagle,
+/obj/item/ammo_magazine/pistol/desert_eagle,
+/obj/item/ammo_magazine/pistol/desert_eagle,
 /obj/item/weapon/gun/pistol/heavy,
 /obj/structure/surface/table/reinforced/prison{
 	color = "#98a3ab"

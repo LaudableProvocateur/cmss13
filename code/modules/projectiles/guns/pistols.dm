@@ -97,7 +97,7 @@
 	attachable_offset = list("muzzle_x" = 28, "muzzle_y" = 21,"rail_x" = 10, "rail_y" = 23, "under_x" = 21, "under_y" = 16, "stock_x" = 21, "stock_y" = 17)
 
 /obj/item/weapon/gun/pistol/m4a3/training
-	current_mag = /obj/item/ammo_magazine/pistol/rubber
+	current_mag = /obj/item/ammo_magazine/m4a3/rubber
 
 /obj/item/weapon/gun/pistol/m4a3/tactical
 	starting_attachment_types = list(/obj/item/attachable/suppressor, /obj/item/attachable/reflex, /obj/item/attachable/lasersight)
@@ -238,7 +238,7 @@
 	item_state = "deagle"
 	fire_sound = 'sound/weapons/gun_DE50.ogg'
 	firesound_volume = 40
-	current_mag = /obj/item/ammo_magazine/pistol/heavy
+	current_mag = /obj/item/ammo_magazine/pistol/desert_eagle
 	force = 13
 
 	attachable_allowed = list(
@@ -273,7 +273,7 @@
 	name = "polished Desert Eagle"
 	icon_state = "c_deagle"
 	item_state = "c_deagle"
-	current_mag = /obj/item/ammo_magazine/pistol/heavy/super/highimpact
+	current_mag = /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact
 	black_market_value = 100
 	unacidable = TRUE
 	explo_proof = TRUE
@@ -460,7 +460,7 @@
 	icon_state = "whisper"
 	item_state = "whisper"
 	fire_sound = 'sound/weapons/gun_pistol_holdout.ogg'
-	current_mag = /obj/item/ammo_magazine/pistol/holdout
+	current_mag = /obj/item/ammo_magazine/pistol/w62
 	w_class = SIZE_SMALL
 	force = 2
 	attachable_allowed = list(
@@ -509,7 +509,7 @@
 	icon_state = "action"
 	item_state = "action"
 	fire_sound = 'sound/weapons/gun_pistol_380acp.ogg'
-	current_mag = /obj/item/ammo_magazine/pistol/action
+	current_mag = /obj/item/ammo_magazine/pistol/ac71
 	w_class = SIZE_TINY
 	force = 4
 	attachable_allowed = list(
@@ -545,7 +545,7 @@
 	item_state = "m43"
 	flags_gun_features = GUN_CAN_POINTBLANK|GUN_ONE_HAND_WIELDED
 	fire_sound = 'sound/weapons/gun_m43.ogg'
-	current_mag = /obj/item/ammo_magazine/pistol/clfpistol
+	current_mag = /obj/item/ammo_magazine/pistol/d18
 	w_class = SIZE_TINY
 	force = 5
 	attachable_allowed = list(
@@ -579,7 +579,7 @@
 	icon_state = "highpower"
 	item_state = "highpower"
 	fire_sound = 'sound/weapons/gun_kt42.ogg'
-	current_mag = /obj/item/ammo_magazine/pistol/highpower
+	current_mag = /obj/item/ammo_magazine/pistol/mk_45
 	force = 15
 	attachable_allowed = list(
 		/obj/item/attachable/suppressor, // Barrel
@@ -660,7 +660,7 @@
 //the parent has a blueish tint, making it look best for civilian usage (colonies, marshals). this one has a black tint on its metal, making it best for military groups like VAIPO, elite mercs, etc.
 // black tinted magazines also included
 /obj/item/weapon/gun/pistol/highpower/black
-	current_mag = /obj/item/ammo_magazine/pistol/highpower/black
+	current_mag = /obj/item/ammo_magazine/pistol/mk_45/black
 	icon_state = "highpower_b"
 	item_state = "highpower_b"
 
@@ -668,7 +668,7 @@
 /obj/item/weapon/gun/pistol/highpower/tactical
 	name = "\improper MK-44 SOCOM Automagnum"
 	desc = "Originally designed as a replacement for the USCM's M44 combat revolver, it was rejected at the last minute by a committee, citing its need to be cocked after every loaded magazine to be too cumbersone and antiquated. The design has recently been purchased by the Henjin-Garcia company and sold to the Colonial Marshals and other various unscrupulous armed groups. This one has a sleek, dark design."
-	current_mag = /obj/item/ammo_magazine/pistol/highpower/black
+	current_mag = /obj/item/ammo_magazine/pistol/mk_45/black
 	icon_state = "highpower_tac"
 	item_state = "highpower_tac"
 	starting_attachment_types = list(/obj/item/attachable/suppressor, /obj/item/attachable/lasersight, /obj/item/attachable/reflex)
@@ -902,7 +902,7 @@ It is a modified Beretta 93R, and can fire three-round burst or single fire. Whe
 	icon_state = "smartpistol"
 	item_state = "smartpistol"
 	force = 8
-	current_mag = /obj/item/ammo_magazine/pistol/smart
+	current_mag = /obj/item/ammo_magazine/pistol/su_6
 	fire_sound = 'sound/weapons/gun_su6.ogg'
 	reload_sound = 'sound/weapons/handling/gun_su6_reload.ogg'
 	unload_sound = 'sound/weapons/handling/gun_su6_unload.ogg'
@@ -945,7 +945,7 @@ It is a modified Beretta 93R, and can fire three-round burst or single fire. Whe
 		WEAR_R_HAND = 'icons/mob/humans/onmob/inhands/weapons/guns/smgs_righthand.dmi'
 	)
 	fire_sound = 'sound/weapons/gun_skorpion.ogg'
-	current_mag = /obj/item/ammo_magazine/pistol/skorpion
+	current_mag = /obj/item/ammo_magazine/pistol/cz_81
 	flags_gun_features = GUN_AUTO_EJECTOR|GUN_CAN_POINTBLANK|GUN_ONE_HAND_WIELDED
 	attachable_allowed = list(
 		/obj/item/attachable/reddot, //Rail

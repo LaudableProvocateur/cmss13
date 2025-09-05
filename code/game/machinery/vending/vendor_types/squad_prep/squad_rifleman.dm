@@ -80,10 +80,10 @@ GLOBAL_LIST_INIT(cm_vending_clothing_marine, list(
 		list("M10 HV drum magazine (10x20mm)", 15, /obj/item/ammo_magazine/pistol/m10/drum , null, VENDOR_ITEM_REGULAR),
 		list("M44 Heavy Speed Loader (.44)", 10, /obj/item/ammo_magazine/revolver/m44/heavy, null, VENDOR_ITEM_REGULAR),
 		list("M44 Marksman Speed Loader (.44)", 10, /obj/item/ammo_magazine/revolver/m44/marksman, null, VENDOR_ITEM_REGULAR),
-		list("M4A3 HP Magazine", 5, /obj/item/ammo_magazine/pistol/hp, null, VENDOR_ITEM_REGULAR),
-		list("M4A3 AP Magazine", 5, /obj/item/ammo_magazine/pistol/ap, null, VENDOR_ITEM_REGULAR),
+		list("M4A3 HP Magazine", 5, /obj/item/ammo_magazine/m4a3/hp, null, VENDOR_ITEM_REGULAR),
+		list("M4A3 AP Magazine", 5, /obj/item/ammo_magazine/m4a3/ap, null, VENDOR_ITEM_REGULAR),
 		list("VP78 Magazine", 5, /obj/item/ammo_magazine/pistol/vp78, null, VENDOR_ITEM_REGULAR),
-		list("SU-6 Smartpistol Magazine (.45)", 10, /obj/item/ammo_magazine/pistol/smart, null, VENDOR_ITEM_REGULAR),
+		list("SU-6 Smartpistol Magazine (.45)", 10, /obj/item/ammo_magazine/pistol/su_6, null, VENDOR_ITEM_REGULAR),
 
 		list("ARMORS", 0, null, null, null),
 		list("M3 B12 Pattern Marine Armor", 30, /obj/item/clothing/suit/storage/marine/medium/leader, null, VENDOR_ITEM_REGULAR),

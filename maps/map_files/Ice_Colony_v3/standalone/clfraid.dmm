@@ -1823,10 +1823,10 @@
 "VK" = (
 /obj/structure/surface/table,
 /obj/item/weapon/gun/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
+/obj/item/ammo_magazine/pistol/desert_eagle,
+/obj/item/ammo_magazine/pistol/desert_eagle,
+/obj/item/ammo_magazine/pistol/desert_eagle,
+/obj/item/ammo_magazine/pistol/desert_eagle,
 /turf/open/floor/shiva/bluefull,
 /area/shiva/interior/colony/s_admin)
 "VZ" = (

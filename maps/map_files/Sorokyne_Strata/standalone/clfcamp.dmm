@@ -2413,10 +2413,10 @@
 "Yz" = (
 /obj/structure/closet,
 /obj/item/weapon/gun/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
+/obj/item/ammo_magazine/pistol/desert_eagle,
+/obj/item/ammo_magazine/pistol/desert_eagle,
+/obj/item/ammo_magazine/pistol/desert_eagle,
+/obj/item/ammo_magazine/pistol/desert_eagle,
 /turf/open/floor/wood,
 /area/strata/interior/outpost/clf_office)
 "YD" = (

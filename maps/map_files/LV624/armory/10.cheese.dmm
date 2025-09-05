@@ -79,9 +79,9 @@
 	},
 /obj/structure/surface/rack,
 /obj/item/weapon/gun/pistol/highpower,
-/obj/item/ammo_magazine/pistol/highpower,
-/obj/item/ammo_magazine/pistol/highpower,
-/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/mk_45,
+/obj/item/ammo_magazine/pistol/mk_45,
+/obj/item/ammo_magazine/pistol/mk_45,
 /turf/open/floor/cult,
 /area/lv624/lazarus/armory)
 "p" = (

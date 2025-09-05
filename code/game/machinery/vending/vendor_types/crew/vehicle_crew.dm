@@ -239,9 +239,9 @@ GLOBAL_LIST_INIT(cm_vending_vehicle_crew_arc, list(
 		list("M10 HV magazine (10x20mm)", 10, /obj/item/ammo_magazine/pistol/m10, VENDOR_ITEM_REGULAR),
 		list("88M4 AP Magazine (9mm)", 10, /obj/item/ammo_magazine/pistol/mod88, VENDOR_ITEM_REGULAR),
 		list("M44 Speedloader (.44)", 10, /obj/item/ammo_magazine/revolver/m44, VENDOR_ITEM_REGULAR),
-		list("M4A3 Magazine (9mm)", 10, /obj/item/ammo_magazine/pistol, VENDOR_ITEM_REGULAR),
-		list("M4A3 AP Magazine (9mm)", 6, /obj/item/ammo_magazine/pistol/ap, VENDOR_ITEM_REGULAR),
-		list("M4A3 HP Magazine (9mm)", 6, /obj/item/ammo_magazine/pistol/hp, VENDOR_ITEM_REGULAR),
+		list("M4A3 Magazine (9mm)", 10, /obj/item/ammo_magazine/m4a3, VENDOR_ITEM_REGULAR),
+		list("M4A3 AP Magazine (9mm)", 6, /obj/item/ammo_magazine/m4a3/ap, VENDOR_ITEM_REGULAR),
+		list("M4A3 HP Magazine (9mm)", 6, /obj/item/ammo_magazine/m4a3/hp, VENDOR_ITEM_REGULAR),
 		list("VP78 Magazine (9mm)", 8, /obj/item/ammo_magazine/pistol/vp78, VENDOR_ITEM_REGULAR),
 
 		list("ATTACHMENTS", -1, null, null),

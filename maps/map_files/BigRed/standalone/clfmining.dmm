@@ -2145,7 +2145,7 @@
 "Ho" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/weapon/gun/pistol/m4a3,
-/obj/item/ammo_magazine/pistol/hp{
+/obj/item/ammo_magazine/m4a3/hp{
 	pixel_x = 8;
 	pixel_y = -7
 	},

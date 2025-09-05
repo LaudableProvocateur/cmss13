@@ -1,4 +1,4 @@
-/obj/item/ammo_magazine/pistol/skorpion
+/obj/item/ammo_magazine/pistol/cz_81
 	name = "\improper CZ-81 20-round magazine (.32ACP)"
 	desc = "A .32ACP magazine for the CZ-81."
 	caliber = ".32ACP"

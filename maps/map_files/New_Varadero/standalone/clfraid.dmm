@@ -565,10 +565,10 @@
 "nj" = (
 /obj/structure/surface/table/almayer,
 /obj/item/weapon/gun/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
+/obj/item/ammo_magazine/pistol/desert_eagle,
+/obj/item/ammo_magazine/pistol/desert_eagle,
+/obj/item/ammo_magazine/pistol/desert_eagle,
+/obj/item/ammo_magazine/pistol/desert_eagle,
 /obj/effect/landmark/objective_landmark/science,
 /turf/open/floor/almayer,
 /area/varadero/interior/research/clfship)

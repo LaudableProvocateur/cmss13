@@ -933,10 +933,10 @@
 /area/adminlevel/ert_station/clf_station)
 "yM" = (
 /obj/structure/closet/crate,
-/obj/item/ammo_magazine/pistol/clfpistol,
-/obj/item/ammo_magazine/pistol/clfpistol,
-/obj/item/ammo_magazine/pistol/clfpistol,
-/obj/item/ammo_magazine/pistol/clfpistol,
+/obj/item/ammo_magazine/pistol/d18,
+/obj/item/ammo_magazine/pistol/d18,
+/obj/item/ammo_magazine/pistol/d18,
+/obj/item/ammo_magazine/pistol/d18,
 /turf/open/floor/wood/wood_broken3,
 /area/adminlevel/ert_station/clf_station)
 "yS" = (

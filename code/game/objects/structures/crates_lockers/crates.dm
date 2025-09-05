@@ -414,7 +414,7 @@
 	name = "training M4A3 crate"
 	desc = "A crate with an M4A3 pistol and nonlethal ammunition for it. Intended for use in combat exercises."
 	weapon_type = /obj/item/weapon/gun/pistol/m4a3/training
-	ammo_type = /obj/item/ammo_magazine/pistol/rubber
+	ammo_type = /obj/item/ammo_magazine/m4a3/rubber
 
 /obj/structure/closet/crate/weapon/training/mod88
 	name = "training 88 mod 4 crate"

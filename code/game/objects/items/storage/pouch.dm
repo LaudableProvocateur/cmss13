@@ -448,7 +448,7 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/rifle,
 		/obj/item/ammo_magazine/smg,
-		/obj/item/ammo_magazine/pistol,
+		/obj/item/ammo_magazine/m4a3,
 		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/ammo_magazine/sniper,
 		/obj/item/ammo_magazine/m60,
@@ -485,8 +485,8 @@
 	storage_slots = 4
 
 	can_hold = list(
-		/obj/item/ammo_magazine/pistol,
-		/obj/item/ammo_magazine/pistol/heavy,
+		/obj/item/ammo_magazine/m4a3,
+		/obj/item/ammo_magazine/pistol/desert_eagle,
 		/obj/item/ammo_magazine/revolver/m44,
 	)
 

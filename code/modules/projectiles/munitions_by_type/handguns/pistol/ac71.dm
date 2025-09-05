@@ -1,4 +1,4 @@
-/obj/item/ammo_magazine/pistol/action
+/obj/item/ammo_magazine/pistol/ac71
 	name = "AC71 magazine (.380 ACP)"
 	desc = "A small mag holding 8 .380 ACP rounds."
 	default_ammo = /datum/ammo/bullet/caliber_9x19mm/tiny

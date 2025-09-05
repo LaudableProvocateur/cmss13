@@ -23373,7 +23373,7 @@
 /obj/item/ammo_magazine/pistol{
 	pixel_x = -4
 	},
-/obj/item/ammo_magazine/pistol,
+/obj/item/ammo_magazine/m4a3,
 /obj/item/ammo_magazine/pistol{
 	pixel_x = 4
 	},

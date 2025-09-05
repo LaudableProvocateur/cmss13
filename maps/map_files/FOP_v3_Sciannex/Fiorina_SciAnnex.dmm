@@ -2514,8 +2514,8 @@
 /obj/structure/closet/cabinet,
 /obj/item/device/encryptionkey/WY,
 /obj/item/weapon/gun/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
+/obj/item/ammo_magazine/pistol/desert_eagle,
+/obj/item/ammo_magazine/pistol/desert_eagle,
 /turf/open/floor/wood,
 /area/fiorina/station/civres_blue)
 "bJn" = (

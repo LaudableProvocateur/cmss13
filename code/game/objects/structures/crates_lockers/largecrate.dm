@@ -177,7 +177,7 @@
 	name = "small ammocase"
 	icon_state = "mini_ammo"
 	stuff = list(
-		/obj/item/ammo_magazine/pistol,
+		/obj/item/ammo_magazine/m4a3,
 		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/ammo_magazine/rifle,
 		/obj/item/ammo_magazine/rifle/extended,
@@ -389,8 +389,8 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 	var/num_guns = 3
 	var/num_mags = 3
 	var/list/stuff = list(
-					/obj/item/weapon/gun/pistol/m4a3 = /obj/item/ammo_magazine/pistol,
-					/obj/item/weapon/gun/pistol/m4a3 = /obj/item/ammo_magazine/pistol,
+					/obj/item/weapon/gun/pistol/m4a3 = /obj/item/ammo_magazine/m4a3,
+					/obj/item/weapon/gun/pistol/m4a3 = /obj/item/ammo_magazine/m4a3,
 					/obj/item/weapon/gun/revolver/m44 = /obj/item/ammo_magazine/revolver/m44,
 					/obj/item/weapon/gun/rifle/m41a = /obj/item/ammo_magazine/rifle,
 					/obj/item/weapon/gun/rifle/m41a = /obj/item/ammo_magazine/rifle,
@@ -428,11 +428,11 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 	num_guns = 1
 	num_mags = 5
 	name = "\improper Black market firearm crate"
-	stuff = list( /obj/item/weapon/gun/pistol/holdout = /obj/item/ammo_magazine/pistol/holdout,
-					/obj/item/weapon/gun/pistol/action = /obj/item/ammo_magazine/pistol/action,
-					/obj/item/weapon/gun/pistol/highpower = /obj/item/ammo_magazine/pistol/highpower,
+	stuff = list( /obj/item/weapon/gun/pistol/holdout = /obj/item/ammo_magazine/pistol/w62,
+					/obj/item/weapon/gun/pistol/action = /obj/item/ammo_magazine/pistol/ac71,
+					/obj/item/weapon/gun/pistol/highpower = /obj/item/ammo_magazine/pistol/mk_45,
 					/obj/item/weapon/gun/pistol/m1911 = /obj/item/ammo_magazine/pistol/m1911,
-					/obj/item/weapon/gun/pistol/heavy = /obj/item/ammo_magazine/pistol/heavy,
+					/obj/item/weapon/gun/pistol/heavy = /obj/item/ammo_magazine/pistol/desert_eagle,
 					/obj/item/weapon/gun/revolver/small = /obj/item/ammo_magazine/revolver/smith_and_wesson,
 					/obj/item/weapon/gun/revolver/cmb = /obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
 					/obj/item/weapon/gun/shotgun/merc = /obj/item/ammo_magazine/handful/shotgun/buckshot,
@@ -557,8 +557,8 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 /obj/structure/largecrate/hunter_games_guns/mediocre/Initialize()
 	. = ..()
 	new /obj/item/weapon/gun/pistol/holdout(src)
-	new /obj/item/ammo_magazine/pistol/holdout(src)
-	new /obj/item/ammo_magazine/pistol/holdout(src)
+	new /obj/item/ammo_magazine/pistol/w62(src)
+	new /obj/item/ammo_magazine/pistol/w62(src)
 	new /obj/item/weapon/gun/pistol/m4a3(src)
 	new /obj/item/ammo_magazine/pistol(src)
 	new /obj/item/ammo_magazine/pistol(src)
@@ -596,8 +596,8 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 /obj/structure/largecrate/hunter_games_guns/good/Initialize()
 	. = ..()
 	new /obj/item/weapon/gun/pistol/highpower(src)
-	new /obj/item/ammo_magazine/pistol/highpower(src)
-	new /obj/item/ammo_magazine/pistol/highpower(src)
+	new /obj/item/ammo_magazine/pistol/mk_45(src)
+	new /obj/item/ammo_magazine/pistol/mk_45(src)
 	if(prob(50))
 		new /obj/item/weapon/gun/rifle/m41a(src)
 		new /obj/item/ammo_magazine/rifle(src)
@@ -619,9 +619,9 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 
 /obj/structure/largecrate/hunter_games_ammo/mediocre/Initialize()
 	. = ..()
-	new /obj/item/ammo_magazine/pistol/holdout(src)
-	new /obj/item/ammo_magazine/pistol/holdout(src)
-	new /obj/item/ammo_magazine/pistol/holdout(src)
+	new /obj/item/ammo_magazine/pistol/w62(src)
+	new /obj/item/ammo_magazine/pistol/w62(src)
+	new /obj/item/ammo_magazine/pistol/w62(src)
 	new /obj/item/ammo_magazine/pistol(src)
 	new /obj/item/ammo_magazine/pistol(src)
 	new /obj/item/ammo_magazine/pistol(src)
@@ -646,8 +646,8 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 
 /obj/structure/largecrate/hunter_games_ammo/good/Initialize()
 	. = ..()
-	new /obj/item/ammo_magazine/pistol/highpower(src)
-	new /obj/item/ammo_magazine/pistol/highpower(src)
+	new /obj/item/ammo_magazine/pistol/mk_45(src)
+	new /obj/item/ammo_magazine/pistol/mk_45(src)
 	new /obj/item/ammo_magazine/rifle(src)
 	new /obj/item/ammo_magazine/rifle(src)
 	new /obj/item/ammo_magazine/rifle/mar40(src)

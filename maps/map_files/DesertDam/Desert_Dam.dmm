@@ -6570,8 +6570,8 @@
 /turf/open/floor/prison/bright_clean/southwest,
 /area/desert_dam/interior/dam_interior/east_tunnel_entrance)
 "aCV" = (
-/obj/item/ammo_magazine/pistol/holdout,
-/obj/item/ammo_magazine/pistol/holdout{
+/obj/item/ammo_magazine/pistol/w62,
+/obj/item/ammo_magazine/pistol/w62{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -21555,24 +21555,24 @@
 /area/desert_dam/building/security/prison)
 "bYo" = (
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/pistol/holdout,
-/obj/item/ammo_magazine/pistol/holdout{
+/obj/item/ammo_magazine/pistol/w62,
+/obj/item/ammo_magazine/pistol/w62{
 	pixel_x = 6;
 	pixel_y = -4
 	},
-/obj/item/ammo_magazine/pistol/holdout,
-/obj/item/ammo_magazine/pistol/holdout,
+/obj/item/ammo_magazine/pistol/w62,
+/obj/item/ammo_magazine/pistol/w62,
 /turf/open/floor/prison,
 /area/desert_dam/building/security/armory)
 "bYp" = (
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/pistol/holdout,
-/obj/item/ammo_magazine/pistol/holdout,
-/obj/item/ammo_magazine/pistol/holdout{
+/obj/item/ammo_magazine/pistol/w62,
+/obj/item/ammo_magazine/pistol/w62,
+/obj/item/ammo_magazine/pistol/w62{
 	pixel_x = 6;
 	pixel_y = -4
 	},
-/obj/item/ammo_magazine/pistol/holdout,
+/obj/item/ammo_magazine/pistol/w62,
 /turf/open/floor/prison,
 /area/desert_dam/building/security/armory)
 "bYq" = (

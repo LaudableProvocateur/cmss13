@@ -135,7 +135,7 @@ Non-USCM items, from CLF, UPP, colonies, etc. Mostly combat-related.
 			new /obj/item/ammo_magazine/smg/fp9000(src)
 		if(2) //pizza
 			new /obj/item/weapon/gun/pistol/holdout(src)
-			new /obj/item/ammo_magazine/pistol/holdout(src)
+			new /obj/item/ammo_magazine/pistol/w62(src)
 		if(3) //clf
 			switch(rand(1, 2))
 				if(1)
@@ -366,10 +366,10 @@ Additionally, weapons that are way too good to put in the basically-flavor black
 	name = "Desert Eagle crate (x4 magazines included)"
 	contains = list(
 		/obj/item/weapon/gun/pistol/heavy,
-		/obj/item/ammo_magazine/pistol/heavy,
-		/obj/item/ammo_magazine/pistol/heavy,
-		/obj/item/ammo_magazine/pistol/heavy,
-		/obj/item/ammo_magazine/pistol/heavy,
+		/obj/item/ammo_magazine/pistol/desert_eagle,
+		/obj/item/ammo_magazine/pistol/desert_eagle,
+		/obj/item/ammo_magazine/pistol/desert_eagle,
+		/obj/item/ammo_magazine/pistol/desert_eagle,
 	)
 	dollar_cost = 45
 	containertype = /obj/structure/largecrate/black_market
@@ -405,13 +405,13 @@ Additionally, weapons that are way too good to put in the basically-flavor black
 	name = "holdout pistol (x7 magazines included)"
 	contains = list(
 		/obj/item/weapon/gun/pistol/holdout,
-		/obj/item/ammo_magazine/pistol/holdout,
-		/obj/item/ammo_magazine/pistol/holdout,
-		/obj/item/ammo_magazine/pistol/holdout,
-		/obj/item/ammo_magazine/pistol/holdout,
-		/obj/item/ammo_magazine/pistol/holdout,
-		/obj/item/ammo_magazine/pistol/holdout,
-		/obj/item/ammo_magazine/pistol/holdout,
+		/obj/item/ammo_magazine/pistol/w62,
+		/obj/item/ammo_magazine/pistol/w62,
+		/obj/item/ammo_magazine/pistol/w62,
+		/obj/item/ammo_magazine/pistol/w62,
+		/obj/item/ammo_magazine/pistol/w62,
+		/obj/item/ammo_magazine/pistol/w62,
+		/obj/item/ammo_magazine/pistol/w62,
 	)
 	dollar_cost = 5
 	crate_heat = 2
@@ -705,7 +705,7 @@ USCM spare items, miscellaneous gear that's too niche and distant (or restricted
 	randomised_num_contained = 2
 	contains = list(
 		/obj/item/ammo_magazine/smg/m39/rubber,
-		/obj/item/ammo_magazine/pistol/rubber,
+		/obj/item/ammo_magazine/m4a3/rubber,
 		/obj/item/ammo_magazine/pistol/mod88/rubber,
 		/obj/item/ammo_magazine/rifle/rubber,
 		/obj/item/ammo_magazine/rifle/m4ra/rubber,

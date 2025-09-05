@@ -572,7 +572,7 @@
 		/obj/item/restraint/handcuffs,
 		/obj/item/device/flash,
 		/obj/item/clothing/glasses,
-		/obj/item/ammo_magazine/pistol,
+		/obj/item/ammo_magazine/m4a3,
 		/obj/item/ammo_magazine/handful,
 		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/reagent_container/food/snacks/donut/normal,
@@ -602,7 +602,7 @@
 		/obj/item/device/flashlight/flare,
 		/obj/item/ammo_magazine/rifle,
 		/obj/item/ammo_magazine/smg,
-		/obj/item/ammo_magazine/pistol,
+		/obj/item/ammo_magazine/m4a3,
 		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/ammo_magazine/sniper,
 		/obj/item/ammo_magazine/handful,
@@ -727,7 +727,7 @@
 		/obj/item/device/flashlight/flare,
 		/obj/item/ammo_magazine/rifle,
 		/obj/item/ammo_magazine/smg,
-		/obj/item/ammo_magazine/pistol,
+		/obj/item/ammo_magazine/m4a3,
 		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/ammo_magazine/sniper,
 		/obj/item/ammo_magazine/handful,
@@ -857,7 +857,7 @@
 		/obj/item/ammo_magazine/smartgun,
 		/obj/item/ammo_magazine/rifle,
 		/obj/item/ammo_magazine/smg,
-		/obj/item/ammo_magazine/pistol,
+		/obj/item/ammo_magazine/m4a3,
 		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/ammo_magazine/sniper,
 		/obj/item/ammo_magazine/handful,
@@ -1371,7 +1371,7 @@
 	var/gun_has_gamemode_skin
 	can_hold = list(
 		/obj/item/weapon/gun/pistol,
-		/obj/item/ammo_magazine/pistol,
+		/obj/item/ammo_magazine/m4a3,
 	)
 	cant_hold = list(
 		/obj/item/weapon/gun/pistol/kt42, // HONKed currently
@@ -1579,14 +1579,14 @@
 	storage_slots = 7
 	can_hold = list(
 		/obj/item/weapon/gun/pistol,
-		/obj/item/ammo_magazine/pistol,
-		/obj/item/ammo_magazine/pistol/heavy,
-		/obj/item/ammo_magazine/pistol/heavy/super,
-		/obj/item/ammo_magazine/pistol/heavy/super/highimpact,
+		/obj/item/ammo_magazine/m4a3,
+		/obj/item/ammo_magazine/pistol/desert_eagle,
+		/obj/item/ammo_magazine/pistol/desert_eagle/super,
+		/obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact,
 	)
 	cant_hold = list(
 		/obj/item/weapon/gun/pistol/smart,
-		/obj/item/ammo_magazine/pistol/smart,
+		/obj/item/ammo_magazine/pistol/su_6,
 		/obj/item/weapon/gun/pistol/kt42, // HONKed currently
 		/obj/item/weapon/gun/pistol/auto9, // HONKed currently
 		/obj/item/weapon/gun/pistol/chimp, // HONKed currently
@@ -1601,10 +1601,10 @@
 
 /obj/item/storage/belt/gun/m4a3/commander/fill_preset_inventory()
 	handle_item_insertion(new /obj/item/weapon/gun/pistol/m4a3/custom())
-	new /obj/item/ammo_magazine/pistol/ap(src)
-	new /obj/item/ammo_magazine/pistol/ap(src)
-	new /obj/item/ammo_magazine/pistol/hp(src)
-	new /obj/item/ammo_magazine/pistol/hp(src)
+	new /obj/item/ammo_magazine/m4a3/ap(src)
+	new /obj/item/ammo_magazine/m4a3/ap(src)
+	new /obj/item/ammo_magazine/m4a3/hp(src)
+	new /obj/item/ammo_magazine/m4a3/hp(src)
 	new /obj/item/ammo_magazine/pistol(src)
 	new /obj/item/ammo_magazine/pistol(src)
 
@@ -1707,45 +1707,45 @@
 
 /obj/item/storage/belt/gun/m4a3/heavy/fill_preset_inventory()
 	handle_item_insertion(new /obj/item/weapon/gun/pistol/heavy())
-	new /obj/item/ammo_magazine/pistol/heavy(src)
-	new /obj/item/ammo_magazine/pistol/heavy(src)
-	new /obj/item/ammo_magazine/pistol/heavy(src)
-	new /obj/item/ammo_magazine/pistol/heavy(src)
-	new /obj/item/ammo_magazine/pistol/heavy(src)
-	new /obj/item/ammo_magazine/pistol/heavy(src)
+	new /obj/item/ammo_magazine/pistol/desert_eagle(src)
+	new /obj/item/ammo_magazine/pistol/desert_eagle(src)
+	new /obj/item/ammo_magazine/pistol/desert_eagle(src)
+	new /obj/item/ammo_magazine/pistol/desert_eagle(src)
+	new /obj/item/ammo_magazine/pistol/desert_eagle(src)
+	new /obj/item/ammo_magazine/pistol/desert_eagle(src)
 
 /obj/item/storage/belt/gun/m4a3/heavy/co/fill_preset_inventory()
 	handle_item_insertion(new /obj/item/weapon/gun/pistol/heavy/co())
-	new /obj/item/ammo_magazine/pistol/heavy/super/highimpact(src)
-	new /obj/item/ammo_magazine/pistol/heavy/super/highimpact(src)
-	new /obj/item/ammo_magazine/pistol/heavy/super/highimpact(src)
-	new /obj/item/ammo_magazine/pistol/heavy/super/highimpact(src)
-	new /obj/item/ammo_magazine/pistol/heavy/super/highimpact/ap(src)
-	new /obj/item/ammo_magazine/pistol/heavy/super/highimpact/ap(src)
+	new /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact(src)
+	new /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact(src)
+	new /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact(src)
+	new /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact(src)
+	new /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact/ap(src)
+	new /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact/ap(src)
 
 /obj/item/storage/belt/gun/m4a3/heavy/co_golden/fill_preset_inventory()
 	handle_item_insertion(new /obj/item/weapon/gun/pistol/heavy/co/gold())
-	new /obj/item/ammo_magazine/pistol/heavy/super/highimpact(src)
-	new /obj/item/ammo_magazine/pistol/heavy/super/highimpact(src)
-	new /obj/item/ammo_magazine/pistol/heavy/super/highimpact(src)
-	new /obj/item/ammo_magazine/pistol/heavy/super/highimpact(src)
-	new /obj/item/ammo_magazine/pistol/heavy/super/highimpact/ap(src)
-	new /obj/item/ammo_magazine/pistol/heavy/super/highimpact/ap(src)
+	new /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact(src)
+	new /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact(src)
+	new /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact(src)
+	new /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact(src)
+	new /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact/ap(src)
+	new /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact/ap(src)
 
 /obj/item/storage/belt/gun/m4a3/highpower/fill_preset_inventory()
 	handle_item_insertion(new /obj/item/weapon/gun/pistol/highpower())
 	for(var/i = 1 to storage_slots - 1)
-		new /obj/item/ammo_magazine/pistol/highpower(src)
+		new /obj/item/ammo_magazine/pistol/mk_45(src)
 
 /obj/item/storage/belt/gun/m4a3/highpower/black/fill_preset_inventory()
 	handle_item_insertion(new /obj/item/weapon/gun/pistol/highpower/black())
 	for(var/i = 1 to storage_slots - 1)
-		new /obj/item/ammo_magazine/pistol/highpower/black(src)
+		new /obj/item/ammo_magazine/pistol/mk_45/black(src)
 
 /obj/item/storage/belt/gun/m4a3/highpower/tactical/fill_preset_inventory()
 	handle_item_insertion(new /obj/item/weapon/gun/pistol/highpower/tactical())
 	for(var/i = 1 to storage_slots - 1)
-		new /obj/item/ammo_magazine/pistol/highpower/black(src)
+		new /obj/item/ammo_magazine/pistol/mk_45/black(src)
 
 /obj/item/storage/belt/gun/m4a3/black
 	icon = 'icons/obj/items/clothing/belts/belts_by_map/snow.dmi'
@@ -1844,7 +1844,7 @@
 	max_w_class = 5
 	can_hold = list(
 		/obj/item/weapon/gun/pistol/m10,
-		/obj/item/ammo_magazine/pistol,
+		/obj/item/ammo_magazine/m4a3,
 	)
 	holster_slots = list(
 		"1" = list(
@@ -2310,7 +2310,7 @@
 		/obj/item/ammo_magazine/rifle/rubber,
 		/obj/item/ammo_magazine/rifle/m4ra/rubber,
 		/obj/item/ammo_magazine/smg/m39/rubber,
-		/obj/item/ammo_magazine/pistol/rubber,
+		/obj/item/ammo_magazine/m4a3/rubber,
 		/obj/item/ammo_magazine/pistol/mod88/rubber) //Ivan doesn't bring children's ammo.
 
 	var/list/bad_guns = list(
@@ -2341,18 +2341,18 @@
 			"icon_y" = -2))
 	can_hold = list(
 		/obj/item/weapon/gun/pistol/smart,
-		/obj/item/ammo_magazine/pistol/smart,
+		/obj/item/ammo_magazine/pistol/su_6,
 	)
 	flags_atom = FPRINT // has gamemode skin
 
 /obj/item/storage/belt/gun/smartpistol/full/fill_preset_inventory()
 	handle_item_insertion(new /obj/item/weapon/gun/pistol/smart())
 	for(var/i = 1 to storage_slots - 1)
-		new /obj/item/ammo_magazine/pistol/smart(src)
+		new /obj/item/ammo_magazine/pistol/su_6(src)
 
 /obj/item/storage/belt/gun/smartpistol/full_nogun/fill_preset_inventory()
 	for(var/i = 1 to storage_slots - 1)
-		new /obj/item/ammo_magazine/pistol/smart(src)
+		new /obj/item/ammo_magazine/pistol/su_6(src)
 
 /obj/item/storage/belt/gun/flaregun
 	name = "\improper M276 pattern M82F flare gun holster rig"
@@ -2454,7 +2454,7 @@
 		/obj/item/weapon/gun/revolver,
 		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/weapon/gun/pistol,
-		/obj/item/ammo_magazine/pistol,
+		/obj/item/ammo_magazine/m4a3,
 	)
 	flags_atom = FPRINT|NO_NAME_OVERRIDE|NO_GAMEMODE_SKIN
 	holster_slots = list(
@@ -2497,14 +2497,14 @@
 		/obj/item/weapon/gun/pistol,
 		/obj/item/weapon/gun/revolver,
 		/obj/item/ammo_magazine/revolver/m44,
-		/obj/item/ammo_magazine/pistol,
+		/obj/item/ammo_magazine/m4a3,
 		/obj/item/ammo_magazine/smartgun,
 	)
 	flags_atom = FPRINT // has gamemode skin
 
 /obj/item/storage/belt/gun/smartgunner/full/fill_preset_inventory()
 	handle_item_insertion(new /obj/item/weapon/gun/pistol/m4a3())
-	new /obj/item/ammo_magazine/pistol/hp(src)
+	new /obj/item/ammo_magazine/m4a3/hp(src)
 	new /obj/item/ammo_magazine/smartgun(src)
 	new /obj/item/ammo_magazine/smartgun(src)
 
@@ -2526,7 +2526,7 @@
 		/obj/item/weapon/gun/revolver,
 		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/ammo_magazine/revolver/mateba,
-		/obj/item/ammo_magazine/pistol,
+		/obj/item/ammo_magazine/m4a3,
 		/obj/item/ammo_magazine/smartgun,
 	)
 
@@ -2555,7 +2555,7 @@
 		/obj/item/weapon/gun/revolver,
 		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/ammo_magazine/revolver/mateba,
-		/obj/item/ammo_magazine/pistol,
+		/obj/item/ammo_magazine/m4a3,
 		/obj/item/ammo_magazine/smartgun,
 	)
 
@@ -2583,7 +2583,7 @@
 		/obj/item/weapon/gun/revolver,
 		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/ammo_magazine/revolver/mateba,
-		/obj/item/ammo_magazine/pistol,
+		/obj/item/ammo_magazine/m4a3,
 		/obj/item/ammo_magazine/smartgun,
 	)
 
@@ -2652,7 +2652,7 @@
 		/obj/item/explosive/plastic,
 		/obj/item/device/lightreplacer,
 		/obj/item/device/defibrillator/synthetic,
-		/obj/item/ammo_magazine/pistol,
+		/obj/item/ammo_magazine/m4a3,
 		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/ammo_magazine/handful,
 	)
@@ -2876,7 +2876,7 @@
 	storage_slots = 7
 	can_hold = list(
 		/obj/item/weapon/gun/pistol,
-		/obj/item/ammo_magazine/pistol,
+		/obj/item/ammo_magazine/m4a3,
 	)
 
 /obj/item/storage/belt/gun/l54/full/fill_preset_inventory()

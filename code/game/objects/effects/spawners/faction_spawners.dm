@@ -33,7 +33,7 @@
 	mags_max = 2
 	mags_min = 1
 	guns = list(
-		/obj/item/weapon/gun/pistol/m4a3 = /obj/item/ammo_magazine/pistol,
+		/obj/item/weapon/gun/pistol/m4a3 = /obj/item/ammo_magazine/m4a3,
 		/obj/item/weapon/gun/revolver/m44 = /obj/item/ammo_magazine/handful/revolver/marksman
 	)
 

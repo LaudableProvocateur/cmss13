@@ -520,7 +520,7 @@
 /obj/structure/stairs/perspective{
 	icon_state = "p_stair_full"
 	},
-/obj/item/ammo_magazine/pistol/holdout{
+/obj/item/ammo_magazine/pistol/w62{
 	pixel_x = 3;
 	pixel_y = 2
 	},
@@ -1410,7 +1410,7 @@
 /area/shiva/interior/colony/s_admin)
 "Zi" = (
 /obj/item/weapon/gun/pistol/holdout,
-/obj/item/ammo_magazine/pistol/holdout,
+/obj/item/ammo_magazine/pistol/w62,
 /turf/open/floor/shiva/multi_tiles/southeast,
 /area/shiva/interior/bar)
 "Zl" = (

@@ -1536,10 +1536,10 @@
 /area/fiorina/station/clf_ship)
 "Pr" = (
 /obj/item/weapon/gun/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
+/obj/item/ammo_magazine/pistol/desert_eagle,
+/obj/item/ammo_magazine/pistol/desert_eagle,
+/obj/item/ammo_magazine/pistol/desert_eagle,
+/obj/item/ammo_magazine/pistol/desert_eagle,
 /obj/structure/surface/rack,
 /turf/open/floor/almayer/blue/west,
 /area/fiorina/station/clf_ship)

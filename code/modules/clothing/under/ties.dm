@@ -1187,7 +1187,7 @@
 	/obj/item/weapon/gun/pistol,
 	/obj/item/weapon/gun/energy/taser,
 	/obj/item/weapon/gun/revolver,
-	/obj/item/ammo_magazine/pistol,
+	/obj/item/ammo_magazine/m4a3,
 	/obj/item/ammo_magazine/revolver/m44,
 	/obj/item/weapon/gun/flare,
 	/obj/item/device/flashlight/flare

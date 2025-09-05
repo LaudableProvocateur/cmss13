@@ -320,7 +320,7 @@
 	name = "magazine box (AP M4A3 x 16)"
 	overlay_ammo_type = "_ap"
 	overlay_content = "_ap"
-	magazine_type = /obj/item/ammo_magazine/pistol/ap
+	magazine_type = /obj/item/ammo_magazine/m4a3/ap
 
 /obj/item/ammo_box/magazine/m4a3/ap/empty
 	empty = TRUE
@@ -329,7 +329,7 @@
 	name = "magazine box (HP M4A3 x 16)"
 	overlay_ammo_type = "_hp"
 	overlay_content = "_hp"
-	magazine_type = /obj/item/ammo_magazine/pistol/hp
+	magazine_type = /obj/item/ammo_magazine/m4a3/hp
 
 /obj/item/ammo_box/magazine/m4a3/hp/empty
 	empty = TRUE
@@ -338,7 +338,7 @@
 	name = "magazine box (Incen M4A3 x 16)"
 	overlay_ammo_type = "_incen"
 	overlay_content = "_incen"
-	magazine_type = /obj/item/ammo_magazine/pistol/incendiary
+	magazine_type = /obj/item/ammo_magazine/m4a3/incendiary
 
 /obj/item/ammo_box/magazine/m4a3/incen/empty
 	empty = TRUE
@@ -383,7 +383,7 @@
 	overlay_ammo_type = "_reg"
 	overlay_gun_type = "_su6"
 	num_of_magazines = 16
-	magazine_type = /obj/item/ammo_magazine/pistol/smart
+	magazine_type = /obj/item/ammo_magazine/pistol/su_6
 
 /obj/item/ammo_box/magazine/su6/empty
 	empty = TRUE
@@ -844,7 +844,7 @@
 	overlay_gun_type = "_deagle"
 	overlay_content = "_reg"
 	num_of_magazines = 16
-	magazine_type = /obj/item/ammo_magazine/pistol/heavy
+	magazine_type = /obj/item/ammo_magazine/pistol/desert_eagle
 
 /obj/item/ammo_box/magazine/deagle/empty
 	empty = TRUE
@@ -854,7 +854,7 @@
 	overlay_ammo_type = "_hp"
 	overlay_content = "_hp"
 	num_of_magazines = 8
-	magazine_type = /obj/item/ammo_magazine/pistol/heavy/super
+	magazine_type = /obj/item/ammo_magazine/pistol/desert_eagle/super
 
 /obj/item/ammo_box/magazine/deagle/super/empty
 	empty = TRUE
@@ -863,7 +863,7 @@
 	name = "magazine box (High Impact Desert Eagle x 8)"
 	overlay_ammo_type = "_impact"
 	overlay_content = "_impact"
-	magazine_type = /obj/item/ammo_magazine/pistol/heavy/super/highimpact
+	magazine_type = /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact
 
 /obj/item/ammo_box/magazine/deagle/super/highimpact/empty
 	empty = TRUE
@@ -872,7 +872,7 @@
 	name = "magazine box (High Impact Armor-Piercing Desert Eagle x 8)"
 	overlay_ammo_type = "_ap"
 	overlay_content = "_ap"
-	magazine_type = /obj/item/ammo_magazine/pistol/heavy/super/highimpact/ap
+	magazine_type = /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact/ap
 
 /obj/item/ammo_box/magazine/deagle/super/highimpact/ap/empty
 	empty = TRUE
@@ -1045,7 +1045,7 @@
 	overlay_gun_type = "_mk45"
 	overlay_content = "_uzi"
 	num_of_magazines = 16
-	magazine_type = /obj/item/ammo_magazine/pistol/highpower
+	magazine_type = /obj/item/ammo_magazine/pistol/mk_45
 
 /obj/item/ammo_box/magazine/mk45/update_icon()
 	if(overlays)

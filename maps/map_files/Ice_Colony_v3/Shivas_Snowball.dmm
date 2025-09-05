@@ -5224,7 +5224,7 @@
 /turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_left_to_right,
 /area/shiva/interior/aerodrome)
 "aWT" = (
-/obj/item/ammo_magazine/pistol/holdout{
+/obj/item/ammo_magazine/pistol/w62{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -14458,11 +14458,11 @@
 /area/shiva/interior/caves/s_lz2)
 "lYX" = (
 /obj/structure/surface/table,
-/obj/item/ammo_magazine/pistol/holdout{
+/obj/item/ammo_magazine/pistol/w62{
 	pixel_x = 3;
 	pixel_y = 2
 	},
-/obj/item/ammo_magazine/pistol/holdout,
+/obj/item/ammo_magazine/pistol/w62,
 /obj/item/device/flashlight/lamp,
 /turf/open/floor/shiva/bluefull,
 /area/shiva/interior/colony/s_admin)

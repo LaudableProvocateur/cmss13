@@ -326,10 +326,10 @@
 	var/list/guns = list(
 		/obj/item/weapon/gun/pistol/b92fs = /obj/item/ammo_magazine/pistol/b92fs,
 		/obj/item/weapon/gun/revolver/cmb = /obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
-		/obj/item/weapon/gun/pistol/highpower = /obj/item/ammo_magazine/pistol/highpower,
+		/obj/item/weapon/gun/pistol/highpower = /obj/item/ammo_magazine/pistol/mk_45,
 		/obj/item/weapon/gun/pistol/m1911 = /obj/item/ammo_magazine/pistol/m1911,
 		/obj/item/weapon/gun/revolver/small = /obj/item/ammo_magazine/revolver/smith_and_wesson,
-		/obj/item/weapon/gun/pistol/heavy = /obj/item/ammo_magazine/pistol/heavy
+		/obj/item/weapon/gun/pistol/heavy = /obj/item/ammo_magazine/pistol/desert_eagle
 		)
 
 
@@ -387,16 +387,16 @@
 		/obj/item/weapon/gun/revolver/cmb = /obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
 		/obj/item/weapon/gun/revolver/cmb = /obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
 		/obj/item/weapon/gun/revolver/cmb = /obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
-		/obj/item/weapon/gun/pistol/highpower = /obj/item/ammo_magazine/pistol/highpower,
-		/obj/item/weapon/gun/pistol/highpower = /obj/item/ammo_magazine/pistol/highpower,
-		/obj/item/weapon/gun/pistol/highpower = /obj/item/ammo_magazine/pistol/highpower,
+		/obj/item/weapon/gun/pistol/highpower = /obj/item/ammo_magazine/pistol/mk_45,
+		/obj/item/weapon/gun/pistol/highpower = /obj/item/ammo_magazine/pistol/mk_45,
+		/obj/item/weapon/gun/pistol/highpower = /obj/item/ammo_magazine/pistol/mk_45,
 		/obj/item/weapon/gun/pistol/kt42 = /obj/item/ammo_magazine/pistol/kt42,
 		/obj/item/weapon/gun/pistol/kt42 = /obj/item/ammo_magazine/pistol/kt42,
 		/obj/item/weapon/gun/pistol/kt42 = /obj/item/ammo_magazine/pistol/kt42,
 		/obj/item/weapon/gun/pistol/m1911 = /obj/item/ammo_magazine/pistol/m1911,
 		/obj/item/weapon/gun/revolver/small = /obj/item/ammo_magazine/revolver/smith_and_wesson,
-		/obj/item/weapon/gun/pistol/heavy = /obj/item/ammo_magazine/pistol/heavy,
-		/obj/item/weapon/gun/pistol/skorpion = /obj/item/ammo_magazine/pistol/skorpion,
+		/obj/item/weapon/gun/pistol/heavy = /obj/item/ammo_magazine/pistol/desert_eagle,
+		/obj/item/weapon/gun/pistol/skorpion = /obj/item/ammo_magazine/pistol/cz_81,
 		)
 
 /obj/effect/spawner/random/gun/pistol/lowchance

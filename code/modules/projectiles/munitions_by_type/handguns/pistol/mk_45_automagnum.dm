@@ -1,4 +1,4 @@
-/obj/item/ammo_magazine/pistol/highpower
+/obj/item/ammo_magazine/pistol/mk_45
 	name = "\improper MK-45 Automagnum magazine (.45)"
 	desc = "A .45 pistol magazine."
 	default_ammo = /datum/ammo/bullet/caliber_9x19mm/highpower
@@ -10,5 +10,5 @@
 
 //comes in black, for the black variant of the highpower, better for military usage
 
-/obj/item/ammo_magazine/pistol/highpower/black
+/obj/item/ammo_magazine/pistol/mk_45/black
 	icon_state = "highpower_b"

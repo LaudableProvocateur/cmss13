@@ -456,7 +456,7 @@
 		/obj/item/explosive/grenade/flashbang = 20,
 		/obj/item/explosive/grenade/custom/teargas = 40,
 		/obj/item/ammo_magazine/smg/m39/rubber = 40,
-		/obj/item/ammo_magazine/pistol/rubber = 40,
+		/obj/item/ammo_magazine/m4a3/rubber = 40,
 		/obj/item/ammo_magazine/pistol/mod88/rubber = 40,
 		/obj/item/ammo_magazine/rifle/rubber = 40,
 		/obj/item/ammo_magazine/rifle/m4ra/rubber = 40,
@@ -476,7 +476,7 @@
 	req_access = list(ACCESS_MARINE_SEA)
 	products = list(
 		/obj/item/ammo_magazine/smg/m39/rubber = 20,
-		/obj/item/ammo_magazine/pistol/rubber = 20,
+		/obj/item/ammo_magazine/m4a3/rubber = 20,
 		/obj/item/ammo_magazine/pistol/mod88/rubber = 20,
 		/obj/item/ammo_magazine/rifle/rubber = 20,
 		/obj/item/ammo_magazine/rifle/m4ra/rubber = 20,

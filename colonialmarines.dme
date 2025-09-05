@@ -2433,6 +2433,7 @@
 #include "code\modules\projectiles\guns\specialist\launcher\grenade_launcher.dm"
 #include "code\modules\projectiles\guns\specialist\launcher\launcher.dm"
 #include "code\modules\projectiles\guns\specialist\launcher\rocket_launcher.dm"
+#include "code\modules\projectiles\munitions_by_type\handguns\pistol\m4a3.dm"
 #include "code\modules\projectiles\munitions_by_type\handguns\revolver\m44.dm"
 #include "code\modules\projectiles\munitions_by_type\handguns\revolver\mateba.dm"
 #include "code\modules\projectiles\munitions_by_type\handguns\revolver\plfager_katsuma.dm"

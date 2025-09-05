@@ -1,4 +1,4 @@
-/obj/item/ammo_magazine/pistol/smart
+/obj/item/ammo_magazine/pistol/su_6
 	name = "\improper SU-6 Smartpistol magazine (.45)"
 	desc = "An IFF-compatible .45 pistol magazine, for use in the SU-6."
 	default_ammo = /datum/ammo/bullet/caliber_9x19mm/smart

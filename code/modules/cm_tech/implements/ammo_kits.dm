@@ -60,7 +60,7 @@
 	.[/obj/item/ammo_magazine/rifle/m4ra] = /obj/item/ammo_magazine/rifle/m4ra/incendiary
 	.[/obj/item/ammo_magazine/rifle/l42a] = /obj/item/ammo_magazine/rifle/l42a/incendiary
 	.[/obj/item/ammo_magazine/rifle/m41aMK1] = /obj/item/ammo_magazine/rifle/m41aMK1/incendiary
-	.[/obj/item/ammo_magazine/pistol] =  /obj/item/ammo_magazine/pistol/incendiary
+	.[/obj/item/ammo_magazine/pistol] =  /obj/item/ammo_magazine/m4a3/incendiary
 	.[/obj/item/ammo_magazine/pistol/vp78] =  /obj/item/ammo_magazine/pistol/vp78/incendiary
 	.[/obj/item/ammo_magazine/pistol/mod88] =  /obj/item/ammo_magazine/pistol/mod88/incendiary
 	.[/obj/item/ammo_magazine/revolver] =  /obj/item/ammo_magazine/revolver/m44/incendiary
@@ -109,7 +109,7 @@
 	.[/obj/item/ammo_magazine/rifle/m4ra] = /obj/item/ammo_magazine/rifle/m4ra/penetrating
 	.[/obj/item/ammo_magazine/rifle/l42a] = /obj/item/ammo_magazine/rifle/l42a/penetrating
 	.[/obj/item/ammo_magazine/rifle/m41aMK1] = /obj/item/ammo_magazine/rifle/m41aMK1/penetrating
-	.[/obj/item/ammo_magazine/pistol] =  /obj/item/ammo_magazine/pistol/penetrating
+	.[/obj/item/ammo_magazine/pistol] =  /obj/item/ammo_magazine/m4a3/penetrating
 	.[/obj/item/ammo_magazine/pistol/vp78] =  /obj/item/ammo_magazine/pistol/vp78/penetrating
 	.[/obj/item/ammo_magazine/pistol/mod88] =  /obj/item/ammo_magazine/pistol/mod88/penetrating
 	.[/obj/item/ammo_magazine/revolver] =  /obj/item/ammo_magazine/revolver/m44/penetrating
@@ -125,7 +125,7 @@
 	.[/obj/item/ammo_magazine/rifle] = /obj/item/ammo_magazine/rifle/toxin
 	.[/obj/item/ammo_magazine/rifle/l42a] = /obj/item/ammo_magazine/rifle/l42a/toxin
 	.[/obj/item/ammo_magazine/rifle/m41aMK1] = /obj/item/ammo_magazine/rifle/m41aMK1/toxin
-	.[/obj/item/ammo_magazine/pistol] =  /obj/item/ammo_magazine/pistol/toxin
+	.[/obj/item/ammo_magazine/pistol] =  /obj/item/ammo_magazine/m4a3/toxin
 	.[/obj/item/ammo_magazine/pistol/vp78] =  /obj/item/ammo_magazine/pistol/vp78/toxin
 	.[/obj/item/ammo_magazine/pistol/mod88] =  /obj/item/ammo_magazine/pistol/mod88/toxin
 	.[/obj/item/ammo_magazine/revolver] =  /obj/item/ammo_magazine/revolver/m44/marksman/toxin

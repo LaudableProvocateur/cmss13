@@ -91,9 +91,9 @@
 	layer = 2.5
 	},
 /obj/item/weapon/gun/pistol/highpower,
-/obj/item/ammo_magazine/pistol/highpower,
-/obj/item/ammo_magazine/pistol/highpower,
-/obj/item/ammo_magazine/pistol/highpower,
+/obj/item/ammo_magazine/pistol/mk_45,
+/obj/item/ammo_magazine/pistol/mk_45,
+/obj/item/ammo_magazine/pistol/mk_45,
 /obj/item/explosive/grenade/flashbang,
 /obj/item/explosive/grenade/flashbang,
 /obj/item/ammo_magazine/shotgun/beanbag,

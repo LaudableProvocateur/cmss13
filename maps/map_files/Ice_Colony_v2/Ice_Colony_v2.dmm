@@ -16842,11 +16842,11 @@
 /area/ice_colony/underground/crew/morgue)
 "boc" = (
 /obj/structure/surface/table/woodentable,
-/obj/item/ammo_magazine/pistol/holdout{
+/obj/item/ammo_magazine/pistol/w62{
 	pixel_x = 3;
 	pixel_y = 2
 	},
-/obj/item/ammo_magazine/pistol/holdout,
+/obj/item/ammo_magazine/pistol/w62,
 /turf/open/floor/wood,
 /area/ice_colony/surface/command/crisis)
 "boe" = (
@@ -24840,24 +24840,24 @@
 /area/ice_colony/underground/security/armory)
 "bSx" = (
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/pistol/holdout,
-/obj/item/ammo_magazine/pistol/holdout{
+/obj/item/ammo_magazine/pistol/w62,
+/obj/item/ammo_magazine/pistol/w62{
 	pixel_x = 6;
 	pixel_y = -4
 	},
-/obj/item/ammo_magazine/pistol/holdout,
-/obj/item/ammo_magazine/pistol/holdout,
+/obj/item/ammo_magazine/pistol/w62,
+/obj/item/ammo_magazine/pistol/w62,
 /turf/open/floor/darkred2,
 /area/ice_colony/underground/security/armory)
 "bSy" = (
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/pistol/holdout,
-/obj/item/ammo_magazine/pistol/holdout,
-/obj/item/ammo_magazine/pistol/holdout{
+/obj/item/ammo_magazine/pistol/w62,
+/obj/item/ammo_magazine/pistol/w62,
+/obj/item/ammo_magazine/pistol/w62{
 	pixel_x = 6;
 	pixel_y = -4
 	},
-/obj/item/ammo_magazine/pistol/holdout,
+/obj/item/ammo_magazine/pistol/w62,
 /turf/open/floor/darkred2/southeast,
 /area/ice_colony/underground/security/armory)
 "bSz" = (
@@ -26761,7 +26761,7 @@
 /turf/open/floor/plating/icefloor,
 /area/ice_colony/surface/tcomms)
 "luM" = (
-/obj/item/ammo_magazine/pistol/holdout{
+/obj/item/ammo_magazine/pistol/w62{
 	pixel_x = 6;
 	pixel_y = -4
 	},

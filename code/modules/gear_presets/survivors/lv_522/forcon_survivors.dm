@@ -282,7 +282,7 @@
 			if(CO_GUN_DEAGLE)
 				sidearm = /obj/item/weapon/gun/pistol/heavy/co
 				sidearmbelt = /obj/item/storage/belt/gun/m4a3
-				sidearmammo = /obj/item/ammo_magazine/pistol/heavy/super
+				sidearmammo = /obj/item/ammo_magazine/pistol/desert_eagle/super
 			if(CO_GUN_M1911C)
 				sidearm = /obj/item/weapon/gun/pistol/m1911/custom
 				sidearmbelt = /obj/item/storage/belt/gun/m4a3/m1911/commander

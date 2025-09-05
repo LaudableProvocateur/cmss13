@@ -74,7 +74,7 @@
 		list("Spearhead Speed Loader (.357)", 10, /obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver/normalpoint, VENDOR_ITEM_REGULAR),
 		list("Hollowpoint Spearhead Speed Loader (.357)", 5, /obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver, VENDOR_ITEM_REGULAR),
 		list("S&W Speed Loader (.357)", 5, /obj/item/ammo_magazine/revolver/smith_and_wesson, null, VENDOR_ITEM_REGULAR),
-		list("Tiny Pistol Magazine (.22)", 5, /obj/item/ammo_magazine/pistol/holdout, null, VENDOR_ITEM_REGULAR),
+		list("Tiny Pistol Magazine (.22)", 5, /obj/item/ammo_magazine/pistol/w62, null, VENDOR_ITEM_REGULAR),
 
 		list("ATTACHMENTS", 0, null, null, null),
 		list("2x Hunting Mini-Scope", 20, /obj/item/attachable/scope/mini/hunting, null, VENDOR_ITEM_REGULAR),
@@ -142,7 +142,7 @@
 		list("Spearhead Speed Loader (.357)", 40, /obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver/normalpoint, VENDOR_ITEM_REGULAR),
 		list("Hollowpoint Spearhead Speed Loader (.357)", 40, /obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver, VENDOR_ITEM_REGULAR),
 		list("S&W Speed Loader (.357)", 40, /obj/item/ammo_magazine/revolver/smith_and_wesson, VENDOR_ITEM_REGULAR),
-		list("Tiny Pistol Magazine (.22)", 40, /obj/item/ammo_magazine/pistol/holdout, VENDOR_ITEM_REGULAR),
+		list("Tiny Pistol Magazine (.22)", 40, /obj/item/ammo_magazine/pistol/w62, VENDOR_ITEM_REGULAR),
 
 		list("MELEE WEAPONS", -1, null, null),
 		list("Baseball Bat", 10, /obj/item/weapon/baseballbat, VENDOR_ITEM_REGULAR),
