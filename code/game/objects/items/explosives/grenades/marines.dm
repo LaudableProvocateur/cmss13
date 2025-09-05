@@ -275,7 +275,7 @@
 	icon_state = "grenade_40mm_buckshot"
 	item_state = "grenade_hornet_active"
 	shrapnel_count = 10
-	shrapnel_type = /datum/ammo/bullet/shotgun/spread
+	shrapnel_type = /datum/ammo/bullet/gauge_12/spread
 	direct_hit_shrapnel = 5
 	dispersion_angle = 35//big
 

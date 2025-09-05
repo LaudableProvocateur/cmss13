@@ -1,3 +1,10 @@
+// Used by
+/*
+
+Used by rifles.dm
+technically used by the type71
+
+*/
 /datum/ammo/bullet/rifle/caliber_5_45x39mm
 	name = "heavy rifle bullet"
 

@@ -1,7 +1,7 @@
 /obj/item/ammo_magazine/handful/shotgun/custom_color
 	name = "abstract handful custom type"
 	icon_state = "shell_greyscale_5"
-	default_ammo = /datum/ammo/bullet/shotgun/buckshot
+	default_ammo = /datum/ammo/bullet/gauge_12/buckshot
 	handful_state = "shell_greyscale" //unneeded
 /obj/item/ammo_magazine/handful/shotgun/custom_color/update_icon()
 	overlays.Cut()

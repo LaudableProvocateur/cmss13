@@ -3099,7 +3099,7 @@ Defined in conflicts.dm of the #defines folder.
 	w_class = SIZE_MEDIUM
 	max_rounds = 5
 	current_rounds = 5
-	ammo = /datum/ammo/bullet/shotgun/buckshot/masterkey
+	ammo = /datum/ammo/bullet/gauge_12/buckshot/masterkey
 	slot = "under"
 	fire_sound = 'sound/weapons/gun_shotgun_u7.ogg'
 	gun_activate_sound = 'sound/weapons/handling/gun_u7_activate.ogg'
@@ -3123,7 +3123,7 @@ Defined in conflicts.dm of the #defines folder.
 
 /obj/item/attachable/attached_gun/shotgun/reload_attachment(obj/item/ammo_magazine/handful/mag, mob/user)
 	if(istype(mag) && mag.flags_magazine & AMMUNITION_HANDFUL)
-		if(mag.default_ammo == /datum/ammo/bullet/shotgun/buckshot)
+		if(mag.default_ammo == /datum/ammo/bullet/gauge_12/buckshot)
 			if(current_rounds >= max_rounds)
 				to_chat(user, SPAN_WARNING("[src] is full."))
 			else
@@ -3146,7 +3146,7 @@ Defined in conflicts.dm of the #defines folder.
 	w_class = SIZE_MEDIUM
 	max_rounds = 6
 	current_rounds = 6
-	ammo = /datum/ammo/bullet/shotgun/buckshot/masterkey
+	ammo = /datum/ammo/bullet/gauge_12/buckshot/masterkey
 	slot = "under"
 	fire_sound = 'sound/weapons/gun_shotgun_u7.ogg'
 	gun_activate_sound = 'sound/weapons/handling/gun_u7_activate.ogg'
@@ -3170,7 +3170,7 @@ Defined in conflicts.dm of the #defines folder.
 
 /obj/item/attachable/attached_gun/shotgun/af13/reload_attachment(obj/item/ammo_magazine/handful/mag, mob/user)
 	if(istype(mag) && mag.flags_magazine & AMMUNITION_HANDFUL)
-		if(mag.default_ammo == /datum/ammo/bullet/shotgun/buckshot)
+		if(mag.default_ammo == /datum/ammo/bullet/gauge_12/buckshot)
 			if(current_rounds >= max_rounds)
 				to_chat(user, SPAN_WARNING("[src] is full."))
 			else
@@ -3193,7 +3193,7 @@ Defined in conflicts.dm of the #defines folder.
 	w_class = SIZE_MEDIUM
 	max_rounds = 6
 	current_rounds = 6
-	ammo = /datum/ammo/bullet/shotgun/buckshot/masterkey
+	ammo = /datum/ammo/bullet/gauge_12/buckshot/masterkey
 	slot = "under"
 	fire_sound = 'sound/weapons/gun_shotgun_u7.ogg'
 	gun_activate_sound = 'sound/weapons/handling/gun_u7_activate.ogg'
@@ -3217,7 +3217,7 @@ Defined in conflicts.dm of the #defines folder.
 
 /obj/item/attachable/attached_gun/shotgun/af13b/reload_attachment(obj/item/ammo_magazine/handful/mag, mob/user)
 	if(istype(mag) && mag.flags_magazine & AMMUNITION_HANDFUL)
-		if(mag.default_ammo == /datum/ammo/bullet/shotgun/buckshot)
+		if(mag.default_ammo == /datum/ammo/bullet/gauge_12/buckshot)
 			if(current_rounds >= max_rounds)
 				to_chat(user, SPAN_WARNING("[src] is full."))
 			else

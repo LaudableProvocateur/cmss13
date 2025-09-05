@@ -1,0 +1,260 @@
+// 12 Gauge Shotgun Shells
+
+/*
+
+Buckshot - Contains buckshot, incendiary buckshot, masterkey buckshot.
+-
+Slugs - Contains slug, incendiary slug, es-7 stun slug.
+-
+Flechette - Contains flechette.
+-
+Beanbag - Contains beanbag, es-7 beanbag.
+
+*/
+
+// default the meta 12 gauge shell to be a slug with no on hit effects.
+/datum/ammo/bullet/gauge_12
+	name = "12 gauge generic"
+	handful_state = "slug_shell"
+
+	accurate_range = 8
+	max_range = 8
+	damage = 70
+	penetration = ARMOR_PENETRATION_TIER_4
+	accuracy = HIT_ACCURACY_TIER_3
+	damage_armor_punch = 2
+	handful_state = "slug_shell"
+	headshot_state = HEADSHOT_OVERLAY_HEAVY
+
+// faction clash universal shotgun stuff.
+/datum/ammo/bullet/gauge_12/setup_faction_clash_values()
+	. = ..()
+	accuracy = accuracy * 2 + 85 //we revert accuracy reduction that is applied on other bullets shotguns are accurate but already have short range only
+
+// 12 Gauge - Buckshot
+/datum/ammo/bullet/gauge_12/buckshot
+	name = "buckshot shell"
+	icon_state = "buckshot"
+	handful_state = "buckshot_shell"
+	multiple_handful_name = TRUE
+	bonus_projectiles_type = /datum/ammo/bullet/gauge_12/spread
+
+	accuracy_var_low = PROJECTILE_VARIANCE_TIER_5
+	accuracy_var_high = PROJECTILE_VARIANCE_TIER_5
+	accurate_range = 4
+	max_range = 4
+	damage = 65
+	damage_var_low = PROJECTILE_VARIANCE_TIER_8
+	damage_var_high = PROJECTILE_VARIANCE_TIER_8
+	penetration = ARMOR_PENETRATION_TIER_1
+	bonus_projectiles_amount = EXTRA_PROJECTILES_TIER_3
+	shell_speed = AMMO_SPEED_TIER_2
+	damage_armor_punch = 0
+	pen_armor_punch = 0
+	handful_state = "buckshot_shell"
+	multiple_handful_name = TRUE
+
+/datum/ammo/bullet/gauge_12/buckshot/incendiary
+	name = "incendiary buckshot shell"
+	handful_state = "incen_buckshot"
+	handful_type = /obj/item/ammo_magazine/handful/shotgun/buckshot/incendiary
+
+/datum/ammo/bullet/gauge_12/buckshot/incendiary/set_bullet_traits()
+	. = ..()
+	LAZYADD(traits_to_give, list(
+		BULLET_TRAIT_ENTRY(/datum/element/bullet_trait_incendiary)
+	))
+
+/datum/ammo/bullet/gauge_12/buckshot/on_hit_mob(mob/M,obj/projectile/P)
+	knockback(M,P)
+
+/datum/ammo/bullet/gauge_12/buckshot/masterkey
+	bonus_projectiles_type = /datum/ammo/bullet/gauge_12/spread/masterkey
+
+	damage = 55
+
+/datum/ammo/bullet/gauge_12/buckshot/masterkey/on_hit_mob(mob/M,obj/projectile/P)
+	knockback(M,P,1)
+
+/datum/ammo/bullet/gauge_12/spread
+	name = "additional buckshot"
+	icon_state = "buckshot"
+
+	accuracy_var_low = PROJECTILE_VARIANCE_TIER_6
+	accuracy_var_high = PROJECTILE_VARIANCE_TIER_6
+	accurate_range = 4
+	max_range = 6
+	damage = 65
+	damage_var_low = PROJECTILE_VARIANCE_TIER_8
+	damage_var_high = PROJECTILE_VARIANCE_TIER_8
+	penetration = ARMOR_PENETRATION_TIER_1
+	shell_speed = AMMO_SPEED_TIER_2
+	scatter = SCATTER_AMOUNT_TIER_1
+	damage_armor_punch = 0
+	pen_armor_punch = 0
+
+/datum/ammo/bullet/gauge_12/spread/masterkey
+	damage = 20
+
+// 12 Gauge - Slugs
+/datum/ammo/bullet/gauge_12/slug
+	name = "shotgun slug"
+	handful_state = "slug_shell"
+
+	accurate_range = 8
+	max_range = 8
+	damage = 70
+	penetration = ARMOR_PENETRATION_TIER_4
+	accuracy = HIT_ACCURACY_TIER_3
+	damage_armor_punch = 2
+	handful_state = "slug_shell"
+
+/datum/ammo/bullet/gauge_12/slug/on_hit_mob(mob/M,obj/projectile/P)
+	knockback(M, P, 6)
+
+/datum/ammo/bullet/gauge_12/slug/knockback_effects(mob/living/living_mob, obj/projectile/fired_projectile)
+	if(iscarbonsizexeno(living_mob))
+		var/mob/living/carbon/xenomorph/target = living_mob
+		to_chat(target, SPAN_XENODANGER("You are shaken and slowed by the sudden impact!"))
+		target.KnockDown(0.5) // If you ask me the KD should be left out, but players like their visual cues
+		target.Stun(0.5)
+		target.apply_effect(1, SUPERSLOW)
+		target.apply_effect(3, SLOW)
+	else
+		if(!isyautja(living_mob)) //Not predators.
+			living_mob.apply_effect(1, SUPERSLOW)
+			living_mob.apply_effect(2, SLOW)
+			to_chat(living_mob, SPAN_HIGHDANGER("The impact knocks you off-balance!"))
+		living_mob.apply_stamina_damage(fired_projectile.ammo.damage, fired_projectile.def_zone, ARMOR_BULLET)
+
+/datum/ammo/bullet/gauge_12/slug/es7
+	name = "electrostatic solid slug"
+	icon_state = "bullet_iff"
+	handful_state = "es7_slug"
+	sound_miss = "energy_miss"
+	sound_bounce = "energy_bounce"
+	hit_effect_color = "#00aeff"
+	sound_override = 'sound/weapons/gun_es7lethal.ogg'
+	damage = 60
+	penetration = ARMOR_PENETRATION_TIER_8
+	accuracy = HIT_ACCURACY_TIER_5
+
+/datum/ammo/bullet/gauge_12/slug/incendiary
+	name = "incendiary slug"
+	handful_state = "incendiary_slug"
+	damage_type = BURN
+	flags_ammo_behavior = AMMO_BALLISTIC
+
+	accuracy = HIT_ACCURACY_TIER_2
+	max_range = 12
+	damage = 55
+	penetration= ARMOR_PENETRATION_TIER_1
+	handful_state = "incendiary_slug"
+
+/datum/ammo/bullet/gauge_12/slug/incendiary/set_bullet_traits()
+	. = ..()
+	LAZYADD(traits_to_give, list(
+		BULLET_TRAIT_ENTRY(/datum/element/bullet_trait_incendiary)
+	))
+
+/datum/ammo/bullet/gauge_12/slug/incendiary/on_hit_mob(mob/M,obj/projectile/P)
+	burst(get_turf(M),P,damage_type)
+	knockback(M,P)
+
+/datum/ammo/bullet/gauge_12/slug/incendiary/on_hit_obj(obj/O,obj/projectile/P)
+	burst(get_turf(P),P,damage_type)
+
+/datum/ammo/bullet/gauge_12/slug/incendiary/on_hit_turf(turf/T,obj/projectile/P)
+	burst(get_turf(T),P,damage_type)
+
+// 12 Gauge - Flechette
+/datum/ammo/bullet/gauge_12/flechette
+	name = "flechette shell"
+	icon_state = "flechette"
+	handful_state = "flechette_shell"
+	bonus_projectiles_type = /datum/ammo/bullet/gauge_12/flechette_spread
+
+	accuracy_var_low = PROJECTILE_VARIANCE_TIER_6
+	accuracy_var_high = PROJECTILE_VARIANCE_TIER_6
+	max_range = 12
+	damage = 30
+	damage_var_low = PROJECTILE_VARIANCE_TIER_8
+	damage_var_high = PROJECTILE_VARIANCE_TIER_8
+	penetration = ARMOR_PENETRATION_TIER_7
+	bonus_projectiles_amount = EXTRA_PROJECTILES_TIER_3
+	handful_state = "flechette_shell"
+	multiple_handful_name = TRUE
+
+/datum/ammo/bullet/gauge_12/flechette/setup_faction_clash_values()
+	. = ..()
+	damage *= 0.7
+
+/datum/ammo/bullet/gauge_12/flechette_spread
+	name = "additional flechette"
+	icon_state = "flechette"
+
+	accuracy_var_low = PROJECTILE_VARIANCE_TIER_6
+	accuracy_var_high = PROJECTILE_VARIANCE_TIER_6
+	max_range = 12
+	damage = 30
+	damage_var_low = PROJECTILE_VARIANCE_TIER_8
+	damage_var_high = PROJECTILE_VARIANCE_TIER_8
+	penetration = ARMOR_PENETRATION_TIER_7
+	scatter = SCATTER_AMOUNT_TIER_5
+
+/datum/ammo/bullet/gauge_12/flechette_spread/setup_faction_clash_values()
+	. = ..()
+	damage *= 0.7
+
+// 12 Gauge - Beanbag
+/datum/ammo/bullet/gauge_12/beanbag
+	name = "beanbag slug"
+	headshot_state = HEADSHOT_OVERLAY_LIGHT //It's not meant to kill people... but if you put it in your mouth, it will.
+	handful_state = "beanbag_slug"
+	icon_state = "beanbag"
+	flags_ammo_behavior = AMMO_BALLISTIC|AMMO_IGNORE_RESIST
+	sound_override = 'sound/weapons/gun_shotgun_riot.ogg'
+
+	max_range = 12
+	shrapnel_chance = 0
+	damage = 0
+	stamina_damage = 45
+	accuracy = HIT_ACCURACY_TIER_3
+	shell_speed = AMMO_SPEED_TIER_3
+	handful_state = "beanbag_slug"
+
+/datum/ammo/bullet/gauge_12/beanbag/on_hit_mob(mob/M, obj/projectile/P)
+	if(!M || M == P.firer)
+		return
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		shake_camera(H, 2, 1)
+
+/datum/ammo/bullet/gauge_12/beanbag/es7
+	name = "electrostatic shock slug"
+	headshot_state = HEADSHOT_OVERLAY_LIGHT //Electric version of the bean bag.
+	handful_state = "shock_slug"
+	icon_state = "cm_laser"
+	sound_override = 'sound/weapons/gun_es7.ogg'
+	flags_ammo_behavior = AMMO_ENERGY|AMMO_IGNORE_RESIST
+	sound_hit = "energy_hit"
+	sound_miss = "energy_miss"
+	sound_bounce = "energy_bounce"
+	max_range = 12
+	shrapnel_chance = 0
+	damage = 0
+	stamina_damage = 50
+	hit_effect_color = "#00aeff"
+	accuracy = HIT_ACCURACY_TIER_3
+	shell_speed = AMMO_SPEED_TIER_4
+	handful_state = "shock_slug"
+
+/datum/ammo/bullet/gauge_12/beanbag/es7/on_hit_mob(mob/mobs, obj/projectile/P)
+	if(!isyautja(mobs) && !isxeno(mobs))
+		mobs.emote("pain")
+		mobs.sway_jitter(2,1)
+
+	if(ishuman(mobs))
+		var/mob/living/carbon/human/humanus = mobs
+		humanus.disable_special_items() // Disables scout cloak
+		humanus.make_jittery(40)

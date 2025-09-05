@@ -12,7 +12,7 @@ GLOBAL_LIST_INIT(shotgun_boxes_8g, list(
 		WEAR_L_HAND = 'icons/mob/humans/onmob/inhands/weapons/ammo_lefthand.dmi',
 		WEAR_R_HAND = 'icons/mob/humans/onmob/inhands/weapons/ammo_righthand.dmi'
 		)
-	default_ammo = /datum/ammo/bullet/shotgun/heavy/slug
+	default_ammo = /datum/ammo/bullet/gauge_8/slug
 	caliber = "8g"
 	gun_type = /obj/item/weapon/gun/shotgun
 	max_rounds = 20
@@ -26,7 +26,7 @@ GLOBAL_LIST_INIT(shotgun_boxes_8g, list(
 	desc = "A box filled with buckshot spread shotgun shells. 8 Gauge."
 	icon_state = "buckshot"
 	item_state = "buckshot"
-	default_ammo = /datum/ammo/bullet/shotgun/heavy/buckshot
+	default_ammo = /datum/ammo/bullet/gauge_8/buckshot
 	handful_state = "buckshot_shell"
 
 /obj/item/ammo_magazine/shotgun/heavy/flechette
@@ -34,7 +34,7 @@ GLOBAL_LIST_INIT(shotgun_boxes_8g, list(
 	desc = "A box filled with flechette shotgun shells. 8 Gauge."
 	icon_state = "flechette"
 	item_state = "flechette"
-	default_ammo = /datum/ammo/bullet/shotgun/heavy/flechette
+	default_ammo = /datum/ammo/bullet/gauge_8/flechette
 	handful_state = "flechette_shell"
 
 /obj/item/ammo_magazine/shotgun/heavy/incendiary
@@ -42,7 +42,7 @@ GLOBAL_LIST_INIT(shotgun_boxes_8g, list(
 	desc = "A box filled with self-detonating incendiary shotgun rounds. 8 Gauge."
 	icon_state = "incendiary"
 	item_state = "incendiary"
-	default_ammo = /datum/ammo/bullet/shotgun/heavy/buckshot/dragonsbreath
+	default_ammo = /datum/ammo/bullet/gauge_8/buckshot/dragonsbreath
 	handful_state = "incendiary_slug"
 
 /obj/item/ammo_magazine/shotgun/heavy/beanbag
@@ -50,19 +50,19 @@ GLOBAL_LIST_INIT(shotgun_boxes_8g, list(
 	desc = "A box filled with beanbag shotgun shells used for non-lethal crowd control. 8 Gauge."
 	icon_state = "beanbag"
 	item_state = "beanbag"
-	default_ammo = /datum/ammo/bullet/shotgun/heavy/beanbag
+	default_ammo = /datum/ammo/bullet/gauge_8/beanbag
 	handful_state = "beanbag_slug"
 /obj/item/ammo_magazine/internal/shotgun/type23/slug
-	default_ammo = /datum/ammo/bullet/shotgun/heavy/slug
+	default_ammo = /datum/ammo/bullet/gauge_8/slug
 
 /obj/item/ammo_magazine/internal/shotgun/type23/flechette
-	default_ammo = /datum/ammo/bullet/shotgun/heavy/flechette
+	default_ammo = /datum/ammo/bullet/gauge_8/flechette
 
 /obj/item/ammo_magazine/internal/shotgun/type23/dragonsbreath
-	default_ammo = /datum/ammo/bullet/shotgun/heavy/buckshot/dragonsbreath
+	default_ammo = /datum/ammo/bullet/gauge_8/buckshot/dragonsbreath
 
 /obj/item/ammo_magazine/internal/shotgun/type23/beanbag
-	default_ammo = /datum/ammo/bullet/shotgun/heavy/beanbag
+	default_ammo = /datum/ammo/bullet/gauge_8/beanbag
 
 GLOBAL_LIST_INIT(shotgun_handfuls_8g, list(
 	/obj/item/ammo_magazine/handful/shotgun/heavy/slug,
@@ -75,7 +75,7 @@ GLOBAL_LIST_INIT(shotgun_handfuls_8g, list(
 	name = "handful of heavy shotgun slugs (8g)"
 	icon_state = "heavy_slug_4"
 	handful_state = "heavy_slug"
-	default_ammo = /datum/ammo/bullet/shotgun/heavy/slug
+	default_ammo = /datum/ammo/bullet/gauge_8/slug
 	caliber = "8g"
 	max_rounds = 4
 	current_rounds = 4
@@ -88,23 +88,23 @@ GLOBAL_LIST_INIT(shotgun_handfuls_8g, list(
 	name = "handful of heavy buckshot shells (8g)"
 	icon_state = "heavy_buckshot_4"
 	handful_state = "heavy_buckshot"
-	default_ammo = /datum/ammo/bullet/shotgun/heavy/buckshot
+	default_ammo = /datum/ammo/bullet/gauge_8/buckshot
 
 /obj/item/ammo_magazine/handful/shotgun/heavy/dragonsbreath
 	name = "handful of dragon's breath shells (8g)"
 	desc = "These shells fire magnesium (rather than the usual lead) pellets that ignite on contact with the air, setting anything it hits on fire. Its custom design also increases maximum range."
 	icon_state = "heavy_dragonsbreath_4"
 	handful_state = "heavy_dragonsbreath"
-	default_ammo = /datum/ammo/bullet/shotgun/heavy/buckshot/dragonsbreath
+	default_ammo = /datum/ammo/bullet/gauge_8/buckshot/dragonsbreath
 
 /obj/item/ammo_magazine/handful/shotgun/heavy/flechette
 	name = "handful of heavy flechette shells (8g)"
 	icon_state = "heavy_flechette_4"
 	handful_state = "heavy_flechette"
-	default_ammo = /datum/ammo/bullet/shotgun/heavy/flechette
+	default_ammo = /datum/ammo/bullet/gauge_8/flechette
 
 /obj/item/ammo_magazine/handful/shotgun/heavy/beanbag
 	name = "handful of heavy beanbag shells (8g)"
 	icon_state = "heavy_beanbag_4"
 	handful_state = "heavy_beanbag"
-	default_ammo = /datum/ammo/bullet/shotgun/heavy/beanbag
+	default_ammo = /datum/ammo/bullet/gauge_8/beanbag
