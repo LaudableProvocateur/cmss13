@@ -2481,6 +2481,7 @@
 #include "code\modules\projectiles\munitions_by_type\misc_munitions\specialist\sniper_rifle\m42a.dm"
 #include "code\modules\projectiles\munitions_by_type\misc_munitions\specialist\sniper_rifle\m42c.dm"
 #include "code\modules\projectiles\munitions_by_type\misc_munitions\specialist\sniper_rifle\type-88.dm"
+#include "code\modules\projectiles\munitions_by_type\misc_munitions\specialist\sniper_rifle\vulture.dm"
 #include "code\modules\projectiles\munitions_by_type\misc_munitions\specialist\sniper_rifle\xm43e1.dm"
 #include "code\modules\projectiles\munitions_by_type\misc_munitions\turret_ammo\sentries.dm"
 #include "code\modules\projectiles\munitions_by_type\misc_munitions\misc.dm"
