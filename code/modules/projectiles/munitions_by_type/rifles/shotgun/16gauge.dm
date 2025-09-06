@@ -5,7 +5,7 @@
 	item_state = "breaching"
 	max_rounds = 30 //6 handfuls of 6 shells, 12 rounds in a XM51 mag
 	transfer_handful_amount = 6
-	default_ammo = /datum/ammo/bullet/gauge_8/breaching
+	default_ammo = /datum/ammo/bullet/gauge_16/breaching
 	handful_state = "breaching_shell"
 	caliber = "16g"
 /obj/item/ammo_magazine/handful/gauge_16/breaching
@@ -15,7 +15,7 @@
 	max_rounds = 6 //XM51 magazines are 12 rounds total, two handfuls should be enough to reload a mag
 	current_rounds = 6
 	transfer_handful_amount = 6
-	default_ammo = /datum/ammo/bullet/gauge_8/breaching
+	default_ammo = /datum/ammo/bullet/gauge_16/breaching
 	caliber = "16g"
 	gun_type = /obj/item/weapon/gun/rifle/xm51
 
