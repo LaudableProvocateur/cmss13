@@ -20,6 +20,19 @@ GLOBAL_LIST_INIT(shotgun_boxes_8g, list(
 	transfer_handful_amount = 4
 
 /obj/item/ammo_magazine/gauge_8/slug
+	name = "box of shotgun heavy slugs"
+	desc = "A box filled with heavy shotgun shells. A timeless classic. 8 Gauge."
+	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/UPP/shotguns.dmi'
+	item_icons = list(
+		WEAR_L_HAND = 'icons/mob/humans/onmob/inhands/weapons/ammo_lefthand.dmi',
+		WEAR_R_HAND = 'icons/mob/humans/onmob/inhands/weapons/ammo_righthand.dmi'
+		)
+	default_ammo = /datum/ammo/bullet/gauge_8/slug
+	caliber = "8g"
+	gun_type = /obj/item/weapon/gun/shotgun
+	max_rounds = 20
+	handful_state = "slug_shell"
+	transfer_handful_amount = 4
 
 /obj/item/ammo_magazine/gauge_8/buckshot
 	name = "box of heavy buckshot shells"
@@ -83,6 +96,15 @@ GLOBAL_LIST_INIT(shotgun_handfuls_8g, list(
 	gun_type = /obj/item/weapon/gun/shotgun
 
 /obj/item/ammo_magazine/handful/gauge_8/slug
+	name = "handful of heavy shotgun slugs (8g)"
+	icon_state = "heavy_slug_4"
+	handful_state = "heavy_slug"
+	default_ammo = /datum/ammo/bullet/gauge_8/slug
+	caliber = "8g"
+	max_rounds = 4
+	current_rounds = 4
+	transfer_handful_amount = 4
+	gun_type = /obj/item/weapon/gun/shotgun
 
 /obj/item/ammo_magazine/handful/gauge_8/buckshot
 	name = "handful of heavy buckshot shells (8g)"

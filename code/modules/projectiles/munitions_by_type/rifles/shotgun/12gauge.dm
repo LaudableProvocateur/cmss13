@@ -55,7 +55,7 @@ GLOBAL_LIST_INIT(shotgun_boxes_12g, list(
 	desc = "A box filled with self-detonating incendiary shotgun rounds. 12 Gauge."
 	icon_state = "incendiary"
 	item_state = "incendiary"
-	default_ammo = /datum/ammo/bullet/gauge_12/incendiary
+	default_ammo = /datum/ammo/bullet/gauge_12/slug/incendiary
 	handful_state = "incendiary_slug"
 
 // 12 Gauge - Buckshot Boxes
@@ -92,12 +92,6 @@ GLOBAL_LIST_INIT(shotgun_boxes_12g, list(
 	item_state = "beanbag"
 	default_ammo = /datum/ammo/bullet/gauge_12/beanbag
 	handful_state = "beanbag_slug"
-/obj/item/ammo_magazine/gauge_20/beanbag/es7/slug
-	name = "box of X21 lethal slugs"
-	desc = "A box filled with X21 combat electrostatic lethal shotgun shells designed for ES-7 Supernova."
-	icon_state = "slug"
-	default_ammo = /datum/ammo/bullet/gauge_20/es7_slug
-	handful_state = "es7_slug"
 
 // 12 Gauge - Internal Tubes
 // 12 Gauge - Basic Tubes
@@ -167,7 +161,7 @@ GLOBAL_LIST_INIT(shotgun_handfuls_12g, list(
 /obj/item/ammo_magazine/handful/gauge_12/slug/incendiary
 	name = "handful of incendiary slugs (12g)"
 	icon_state = "incendiary_slug_5"
-	default_ammo = /datum/ammo/bullet/gauge_12/incendiary
+	default_ammo = /datum/ammo/bullet/gauge_12/slug/incendiary
 	handful_state = "incendiary_slug"
 /obj/item/ammo_magazine/handful/gauge_12/buckshot
 	name = "handful of shotgun buckshot shells (12g)"
