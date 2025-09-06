@@ -456,8 +456,8 @@
 	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/gauge_16/breaching, WEAR_IN_BELT)
 	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/gauge_16/breaching, WEAR_IN_BELT)
 	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/gauge_16/breaching, WEAR_IN_BELT)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/gauge_16/breaching/rubber, WEAR_IN_BELT)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/gauge_16/breaching/rubber, WEAR_IN_BELT)
+	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/gauge_16/rubber, WEAR_IN_BELT)
+	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/gauge_16/rubber, WEAR_IN_BELT)
 	//pouches
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/firstaid/ert, WEAR_L_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/magazine/large/m16, WEAR_R_STORE)

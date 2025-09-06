@@ -141840,7 +141840,7 @@
 /turf/open/floor/prison/red/north,
 /area/lv759/indoors/colonial_marshals/armory_evidenceroom)
 "uqV" = (
-/obj/item/ammo_magazine/handful/gauge_20/beanbag/riot,
+/obj/item/ammo_magazine/handful/gauge_20/beanbag,
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
@@ -154023,7 +154023,7 @@
 /area/lv759/indoors/recycling_plant/synthetic_storage)
 "weu" = (
 /obj/item/storage/pouch/shotgun/large/beanbag/riot,
-/obj/item/ammo_magazine/handful/gauge_20/beanbag/riot,
+/obj/item/ammo_magazine/handful/gauge_20/beanbag,
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb/m3717,
 /obj/structure/surface/table/reinforced/prison{
 	color = "#98a3ab"
