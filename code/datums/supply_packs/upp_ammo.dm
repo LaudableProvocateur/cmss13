@@ -22,26 +22,26 @@
 /datum/supply_packs/upp/ammo_8g_slug
 	name = "UPP Magazine box (Type 23, 20x slug)"
 	contains = list(
-		/obj/item/ammo_magazine/handful/shotgun/heavy/slug,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/slug,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/slug,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/slug,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/slug,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/slug,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/slug,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/slug,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/slug,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/slug,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/slug,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/slug,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/slug,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/slug,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/slug,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/slug,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/slug,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/slug,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/slug,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/slug,
+		/obj/item/ammo_magazine/handful/gauge_8/slug,
+		/obj/item/ammo_magazine/handful/gauge_8/slug,
+		/obj/item/ammo_magazine/handful/gauge_8/slug,
+		/obj/item/ammo_magazine/handful/gauge_8/slug,
+		/obj/item/ammo_magazine/handful/gauge_8/slug,
+		/obj/item/ammo_magazine/handful/gauge_8/slug,
+		/obj/item/ammo_magazine/handful/gauge_8/slug,
+		/obj/item/ammo_magazine/handful/gauge_8/slug,
+		/obj/item/ammo_magazine/handful/gauge_8/slug,
+		/obj/item/ammo_magazine/handful/gauge_8/slug,
+		/obj/item/ammo_magazine/handful/gauge_8/slug,
+		/obj/item/ammo_magazine/handful/gauge_8/slug,
+		/obj/item/ammo_magazine/handful/gauge_8/slug,
+		/obj/item/ammo_magazine/handful/gauge_8/slug,
+		/obj/item/ammo_magazine/handful/gauge_8/slug,
+		/obj/item/ammo_magazine/handful/gauge_8/slug,
+		/obj/item/ammo_magazine/handful/gauge_8/slug,
+		/obj/item/ammo_magazine/handful/gauge_8/slug,
+		/obj/item/ammo_magazine/handful/gauge_8/slug,
+		/obj/item/ammo_magazine/handful/gauge_8/slug,
 	)
 	cost = 10
 	containertype = /obj/structure/closet/crate/ammo
@@ -51,16 +51,16 @@
 /datum/supply_packs/ammo_8g_flechette
 	name = "Magazine box (Type 23, 10x flechette)"
 	contains = list(
-		/obj/item/ammo_magazine/handful/shotgun/heavy/flechette,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/flechette,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/flechette,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/flechette,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/flechette,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/flechette,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/flechette,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/flechette,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/flechette,
-		/obj/item/ammo_magazine/handful/shotgun/heavy/flechette,
+		/obj/item/ammo_magazine/handful/gauge_8/flechette,
+		/obj/item/ammo_magazine/handful/gauge_8/flechette,
+		/obj/item/ammo_magazine/handful/gauge_8/flechette,
+		/obj/item/ammo_magazine/handful/gauge_8/flechette,
+		/obj/item/ammo_magazine/handful/gauge_8/flechette,
+		/obj/item/ammo_magazine/handful/gauge_8/flechette,
+		/obj/item/ammo_magazine/handful/gauge_8/flechette,
+		/obj/item/ammo_magazine/handful/gauge_8/flechette,
+		/obj/item/ammo_magazine/handful/gauge_8/flechette,
+		/obj/item/ammo_magazine/handful/gauge_8/flechette,
 	)
 	cost = 10
 	containertype = /obj/structure/closet/crate/ammo

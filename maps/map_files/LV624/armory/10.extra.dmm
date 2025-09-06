@@ -54,9 +54,9 @@
 	layer = 2.5
 	},
 /obj/item/weapon/gun/shotgun/pump,
-/obj/item/ammo_magazine/shotgun/slugs,
-/obj/item/ammo_magazine/shotgun/flechette,
-/obj/item/ammo_magazine/shotgun/incendiary,
+/obj/item/ammo_magazine/gauge_12/slug,
+/obj/item/ammo_magazine/gauge_12/flechette,
+/obj/item/ammo_magazine/gauge_12/slug/incendiary,
 /turf/open/floor/cult,
 /area/lv624/lazarus/armory)
 "l" = (
@@ -96,7 +96,7 @@
 /obj/item/ammo_magazine/pistol/mk_45,
 /obj/item/explosive/grenade/flashbang,
 /obj/item/explosive/grenade/flashbang,
-/obj/item/ammo_magazine/shotgun/beanbag,
+/obj/item/ammo_magazine/gauge_12/beanbag,
 /turf/open/floor/cult,
 /area/lv624/lazarus/armory)
 "p" = (

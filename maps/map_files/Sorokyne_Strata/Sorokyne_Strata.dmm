@@ -3513,7 +3513,7 @@
 /obj/structure/surface/table/reinforced/prison{
 	color = "#98a3ab"
 	},
-/obj/item/ammo_magazine/shotgun/buckshot{
+/obj/item/ammo_magazine/gauge_12/buckshot{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -4608,11 +4608,11 @@
 	color = "#98a3ab"
 	},
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
-/obj/item/ammo_magazine/shotgun/slugs{
+/obj/item/ammo_magazine/gauge_12/slug{
 	pixel_x = 6;
 	pixel_y = -4
 	},
-/obj/item/ammo_magazine/shotgun/buckshot{
+/obj/item/ammo_magazine/gauge_12/buckshot{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -11825,7 +11825,7 @@
 /turf/open/floor/strata/floor3/east,
 /area/strata/interior/outpost/med)
 "aIm" = (
-/obj/item/ammo_magazine/shotgun/buckshot{
+/obj/item/ammo_magazine/gauge_12/buckshot{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -33383,11 +33383,11 @@
 	dir = 8
 	},
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
-/obj/item/ammo_magazine/shotgun/slugs{
+/obj/item/ammo_magazine/gauge_12/slug{
 	pixel_x = 6;
 	pixel_y = -4
 	},
-/obj/item/ammo_magazine/shotgun/buckshot{
+/obj/item/ammo_magazine/gauge_12/buckshot{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -45040,19 +45040,19 @@
 	pixel_x = 6;
 	pixel_y = -4
 	},
-/obj/item/ammo_magazine/shotgun/buckshot{
+/obj/item/ammo_magazine/gauge_12/buckshot{
 	pixel_x = 6;
 	pixel_y = -4
 	},
-/obj/item/ammo_magazine/shotgun/buckshot{
+/obj/item/ammo_magazine/gauge_12/buckshot{
 	pixel_x = 6;
 	pixel_y = -4
 	},
-/obj/item/ammo_magazine/shotgun/buckshot{
+/obj/item/ammo_magazine/gauge_12/buckshot{
 	pixel_x = 6;
 	pixel_y = -4
 	},
-/obj/item/ammo_magazine/shotgun/buckshot{
+/obj/item/ammo_magazine/gauge_12/buckshot{
 	pixel_x = 6;
 	pixel_y = -4
 	},

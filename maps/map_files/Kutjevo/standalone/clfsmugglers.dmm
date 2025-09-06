@@ -95,11 +95,11 @@
 /area/kutjevo/exterior/clf_lz)
 "dI" = (
 /obj/structure/surface/table,
-/obj/item/ammo_magazine/shotgun/incendiary{
+/obj/item/ammo_magazine/gauge_12/slug/incendiary{
 	pixel_x = 3;
 	pixel_y = 6
 	},
-/obj/item/ammo_magazine/shotgun/incendiary,
+/obj/item/ammo_magazine/gauge_12/slug/incendiary,
 /turf/open/auto_turf/sand/layer0,
 /area/kutjevo/exterior/clf_lz)
 "dL" = (

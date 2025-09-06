@@ -1,4 +1,4 @@
-/obj/item/ammo_magazine/shotgun/light/breaching
+/obj/item/ammo_magazine/gauge_16/breaching
 	name = "box of breaching shells"
 	desc = "A box filled with breaching shotgun shells. 16 Gauge."
 	icon_state = "breaching"
@@ -8,7 +8,7 @@
 	default_ammo = /datum/ammo/bullet/gauge_8/breaching
 	handful_state = "breaching_shell"
 	caliber = "16g"
-/obj/item/ammo_magazine/handful/shotgun/light/breaching
+/obj/item/ammo_magazine/handful/gauge_16/breaching
 	name = "handful of breaching shells (16g)"
 	icon_state = "breaching_shell_6"
 	handful_state = "breaching_shell"
@@ -19,7 +19,7 @@
 	caliber = "16g"
 	gun_type = /obj/item/weapon/gun/rifle/xm51
 
-/obj/item/ammo_magazine/handful/shotgun/light/breaching/rubber
+/obj/item/ammo_magazine/handful/gauge_16/breaching/rubber
 	name = "handful of rubber buckshot shells (16g)"
 	icon_state = "rubbershot_shell_6"
 	handful_state = "rubbershot_shell"

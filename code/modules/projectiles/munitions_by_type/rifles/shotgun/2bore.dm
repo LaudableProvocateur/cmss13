@@ -1,7 +1,7 @@
-/obj/item/ammo_magazine/internal/shotgun/double/twobore //Van Bandolier's superheavy double-barreled hunting rifle.
+/obj/item/ammo_magazine/internal/twobore //Van Bandolier's superheavy double-barreled hunting rifle.
 	caliber = "2 bore"
 	default_ammo = /datum/ammo/bullet/gauge_12/twobore
-/obj/item/ammo_magazine/handful/shotgun/twobore
+/obj/item/ammo_magazine/handful/twobore
 	name = "handful of shotgun slugs (2 bore)"
 	icon_state = "twobore_3"
 	default_ammo = /datum/ammo/bullet/gauge_12/twobore

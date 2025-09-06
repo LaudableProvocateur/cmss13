@@ -7,7 +7,7 @@
 	icon_state = "wrench"
 
 	var/gun_type = /obj/item/weapon/gun/shotgun/pump
-	var/ammo_type = /obj/item/ammo_magazine/shotgun/buckshot
+	var/ammo_type = /obj/item/ammo_magazine/gauge_12/buckshot
 	var/ammo_type_count = 3
 
 

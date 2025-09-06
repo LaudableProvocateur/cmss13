@@ -20,7 +20,7 @@ their unique feature is that a direct hit will buff your damage and firerate
 	fire_sound = 'sound/weapons/gun_lever_action_fire.ogg'
 	reload_sound = 'sound/weapons/handling/gun_lever_action_reload.ogg'
 	flags_gun_features = GUN_CAN_POINTBLANK|GUN_INTERNAL_MAG
-	current_mag = /obj/item/ammo_magazine/internal/lever_action
+	current_mag = /obj/item/ammo_magazine/internal/r4t
 	gun_category = GUN_CATEGORY_RIFLE
 	aim_slowdown = SLOWDOWN_ADS_QUICK
 	wield_delay = WIELD_DELAY_FAST
@@ -360,7 +360,7 @@ their unique feature is that a direct hit will buff your damage and firerate
 	flags_gun_lever_action = USES_STREAKS
 	lever_name = "chambering button"
 	lever_message = "<i>You press the chambering button.<i>"
-	current_mag = /obj/item/ammo_magazine/internal/lever_action/xm88
+	current_mag = /obj/item/ammo_magazine/internal/xm88
 	default_caliber = ".458"
 	hit_buff_reset_cooldown = 2 SECONDS //how much time after a direct hit until streaks reset
 	var/floating_penetration = FLOATING_PENETRATION_TIER_0 //holder var

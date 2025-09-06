@@ -639,11 +639,11 @@
 	icon = 'icons/obj/items/storage/kits.dmi'
 	desc = "A box filled with enormous slug shells, for hunting only the most dangerous game. 2 Bore."
 	storage_slots = 5
-	can_hold = list(/obj/item/ammo_magazine/handful/shotgun/twobore)
+	can_hold = list(/obj/item/ammo_magazine/handful/twobore)
 
 /obj/item/storage/box/twobore/fill_preset_inventory()
 	for(var/i in 1 to storage_slots)
-		new /obj/item/ammo_magazine/handful/shotgun/twobore(src)
+		new /obj/item/ammo_magazine/handful/twobore(src)
 
 /obj/item/storage/box/stompers
 	name = "\improper Reebok shoe box"

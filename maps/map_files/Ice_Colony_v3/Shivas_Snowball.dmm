@@ -1981,7 +1981,7 @@
 "amI" = (
 /obj/structure/surface/table,
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
-/obj/item/ammo_magazine/handful/shotgun/incendiary,
+/obj/item/ammo_magazine/handful/gauge_12/slug/incendiary,
 /obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/interior/plastic,
 /area/shiva/interior/warehouse)
@@ -1998,8 +1998,8 @@
 /area/shiva/interior/colony/medseceng)
 "amL" = (
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/shotgun/slugs,
-/obj/item/ammo_magazine/shotgun/slugs{
+/obj/item/ammo_magazine/gauge_12/slug,
+/obj/item/ammo_magazine/gauge_12/slug{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -2161,8 +2161,8 @@
 /area/shiva/interior/colony/medseceng)
 "anU" = (
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/shotgun/buckshot,
-/obj/item/ammo_magazine/shotgun/buckshot{
+/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -2191,7 +2191,7 @@
 /area/shiva/interior/colony/n_admin)
 "anY" = (
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/shotgun/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
 /turf/open/floor/shiva/redfull/west,
 /area/shiva/interior/colony/medseceng)
 "anZ" = (
@@ -2460,7 +2460,7 @@
 /obj/item/ammo_magazine/rifle/boltaction,
 /obj/item/ammo_magazine/rifle/boltaction,
 /obj/item/ammo_magazine/rifle/boltaction,
-/obj/item/ammo_magazine/handful/shotgun/buckshot,
+/obj/item/ammo_magazine/handful/gauge_12/buckshot,
 /turf/open/floor/shiva/north,
 /area/shiva/exterior/lz2_fortress)
 "apZ" = (
@@ -2867,7 +2867,7 @@
 /turf/open/floor/plating/warnplate,
 /area/shiva/interior/valley_huts/disposals)
 "atB" = (
-/obj/item/ammo_magazine/shotgun/slugs{
+/obj/item/ammo_magazine/gauge_12/slug{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -4615,7 +4615,7 @@
 /area/shiva/interior/warehouse)
 "aPg" = (
 /obj/structure/surface/table,
-/obj/item/ammo_magazine/shotgun/buckshot{
+/obj/item/ammo_magazine/gauge_12/buckshot{
 	pixel_y = 8
 	},
 /turf/open/floor/shiva/purplefull/west,
@@ -7962,7 +7962,7 @@
 /turf/open/floor/shiva/north,
 /area/shiva/interior/colony/botany)
 "ejF" = (
-/obj/item/ammo_magazine/handful/shotgun/incendiary,
+/obj/item/ammo_magazine/handful/gauge_12/slug/incendiary,
 /turf/open/floor/wood,
 /area/shiva/interior/bar)
 "ejX" = (
@@ -13623,7 +13623,7 @@
 /turf/open/floor/shiva/redfull/west,
 /area/shiva/interior/colony/research_hab)
 "kZK" = (
-/obj/item/ammo_magazine/handful/shotgun/buckshot{
+/obj/item/ammo_magazine/handful/gauge_12/buckshot{
 	pixel_x = 4;
 	pixel_y = -16
 	},
@@ -16933,7 +16933,7 @@
 /area/shiva/exterior/cp_lz2)
 "pfP" = (
 /obj/structure/surface/table/woodentable,
-/obj/item/ammo_magazine/handful/shotgun/buckshot,
+/obj/item/ammo_magazine/handful/gauge_12/buckshot,
 /turf/open/floor/wood,
 /area/shiva/interior/bar)
 "pgh" = (
@@ -18458,7 +18458,7 @@
 /area/shiva/interior/colony/n_admin)
 "qUw" = (
 /obj/structure/foamed_metal,
-/obj/item/ammo_magazine/handful/shotgun/buckshot,
+/obj/item/ammo_magazine/handful/gauge_12/buckshot,
 /turf/open/floor/shiva/radiator_tile,
 /area/shiva/exterior/lz2_fortress)
 "qVo" = (
@@ -21544,7 +21544,7 @@
 "uFr" = (
 /obj/structure/surface/table,
 /obj/item/device/flashlight,
-/obj/item/ammo_magazine/shotgun/slugs,
+/obj/item/ammo_magazine/gauge_12/slug,
 /turf/open/floor/shiva/bluefull,
 /area/shiva/interior/colony/s_admin)
 "uFA" = (

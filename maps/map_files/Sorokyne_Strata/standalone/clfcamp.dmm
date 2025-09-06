@@ -1754,8 +1754,8 @@
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb{
 	pixel_y = -3
 	},
-/obj/item/ammo_magazine/shotgun/buckshot,
-/obj/item/ammo_magazine/shotgun/buckshot{
+/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot{
 	pixel_x = 6;
 	pixel_y = -4
 	},

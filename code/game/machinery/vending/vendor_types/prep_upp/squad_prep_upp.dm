@@ -143,9 +143,9 @@
 		list("REGULAR AMMUNITION", -1, null, null),
 		list("Type 71 Magazine (5.45x39mm)", floor(scale * 30), /obj/item/ammo_magazine/rifle/type71, VENDOR_ITEM_REGULAR),
 		list("Type 64 Helical Magazine (7.62x19mm)", floor(scale * 30), /obj/item/ammo_magazine/smg/bizon, VENDOR_ITEM_REGULAR),
-		list("Box of Heavy Buckshot Shells (8g)", floor(scale * 10), /obj/item/ammo_magazine/shotgun/heavy/buckshot, VENDOR_ITEM_REGULAR),
-		list("Box of Heavy Slugs (8g)", floor(scale * 10), /obj/item/ammo_magazine/shotgun/heavy/slug, VENDOR_ITEM_REGULAR),
-		list("Box of Heavy Flechette Shells (8g)", floor(scale * 6), /obj/item/ammo_magazine/shotgun/heavy/flechette, VENDOR_ITEM_REGULAR),
+		list("Box of Heavy Buckshot Shells (8g)", floor(scale * 10), /obj/item/ammo_magazine/gauge_8/buckshot, VENDOR_ITEM_REGULAR),
+		list("Box of Heavy Slugs (8g)", floor(scale * 10), /obj/item/ammo_magazine/gauge_8/slug, VENDOR_ITEM_REGULAR),
+		list("Box of Heavy Flechette Shells (8g)", floor(scale * 6), /obj/item/ammo_magazine/gauge_8/flechette, VENDOR_ITEM_REGULAR),
 
 		list("SIDEARMS", -1, null, null),
 		list("Type 73 Pistol", floor(scale * 20), /obj/item/weapon/gun/pistol/t73, VENDOR_ITEM_REGULAR),

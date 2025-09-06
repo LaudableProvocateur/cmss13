@@ -459,8 +459,8 @@
 	icon_state = "wy_ammo_mag_small"
 
 /obj/item/storage/pouch/magazine/attackby(obj/item/W, mob/user)
-	if(istype(W, /obj/item/ammo_magazine/shotgun))
-		var/obj/item/ammo_magazine/shotgun/M = W
+	if(istype(W, /obj/item/ammo_magazine/gauge_12))
+		var/obj/item/ammo_magazine/gauge_12/M = W
 		if(istype(src, /obj/item/storage/pouch/magazine/pistol))
 			return..()
 		else
@@ -623,23 +623,23 @@
 	flap = FALSE
 
 /obj/item/storage/pouch/shotgun/attackby(obj/item/W, mob/user)
-	if(istype(W, /obj/item/ammo_magazine/shotgun))
-		var/obj/item/ammo_magazine/shotgun/M = W
+	if(istype(W, /obj/item/ammo_magazine/gauge_12))
+		var/obj/item/ammo_magazine/gauge_12/M = W
 		dump_ammo_to(M, user, M.transfer_handful_amount)
 	else
 		return ..()
 
 /obj/item/storage/pouch/shotgun/heavybuck/fill_preset_inventory()
 	for(var/i in 1 to storage_slots)
-		new /obj/item/ammo_magazine/handful/shotgun/heavy/buckshot(src)
+		new /obj/item/ammo_magazine/handful/gauge_8/buckshot(src)
 
 /obj/item/storage/pouch/shotgun/heavyslug/fill_preset_inventory()
 	for(var/i in 1 to storage_slots)
-		new /obj/item/ammo_magazine/handful/shotgun/heavy/slug(src)
+		new /obj/item/ammo_magazine/handful/gauge_8/slug(src)
 
 /obj/item/storage/pouch/shotgun/heavyflechette/fill_preset_inventory()
 	for(var/i in 1 to storage_slots)
-		new /obj/item/ammo_magazine/handful/shotgun/heavy/flechette(src)
+		new /obj/item/ammo_magazine/handful/gauge_8/flechette(src)
 
 /obj/item/storage/pouch/shotgun/large
 	name = "large shotgun shell pouch"
@@ -649,19 +649,19 @@
 
 /obj/item/storage/pouch/shotgun/large/beanbag/fill_preset_inventory()
 	for(var/i = 1 to storage_slots)
-		new /obj/item/ammo_magazine/handful/shotgun/beanbag(src)
+		new /obj/item/ammo_magazine/handful/gauge_12/beanbag(src)
 
 /obj/item/storage/pouch/shotgun/large/beanbag/riot/fill_preset_inventory()
 	for(var/i = 1 to storage_slots)
-		new /obj/item/ammo_magazine/handful/shotgun/beanbag/riot(src)
+		new /obj/item/ammo_magazine/handful/gauge_20/beanbag/riot(src)
 
 /obj/item/storage/pouch/shotgun/large/slug/fill_preset_inventory()
 	for(var/i = 1 to storage_slots)
-		new /obj/item/ammo_magazine/handful/shotgun/slug(src)
+		new /obj/item/ammo_magazine/handful/gauge_12/slug(src)
 
 /obj/item/storage/pouch/shotgun/large/buckshot/fill_preset_inventory()
 	for(var/i = 1 to storage_slots)
-		new /obj/item/ammo_magazine/handful/shotgun/buckshot(src)
+		new /obj/item/ammo_magazine/handful/gauge_12/buckshot(src)
 
 /obj/item/storage/pouch/explosive
 	name = "explosive pouch"

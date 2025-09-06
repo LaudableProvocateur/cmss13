@@ -771,7 +771,7 @@
 	pixel_x = 30
 	},
 /obj/structure/surface/table,
-/obj/item/ammo_magazine/shotgun/slugs,
+/obj/item/ammo_magazine/gauge_12/slug,
 /turf/open/floor/shiva/floor3,
 /area/shiva/interior/colony/s_admin)
 "BD" = (

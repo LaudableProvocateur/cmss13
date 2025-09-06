@@ -760,9 +760,9 @@
 	var/obj/item/clothing/accessory/storage/black_vest/W = new()
 	UPP.attach_accessory(new_human, W)
 	for(var/i in 1 to W.hold.storage_slots)
-		new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/shotgun/heavy/dragonsbreath, WEAR_IN_ACCESSORY)
+		new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/gauge_8/dragonsbreath, WEAR_IN_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/shotgun/type23/dragon, WEAR_J_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/shotgun/heavy/dragonsbreath, WEAR_IN_JACKET)
+	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/gauge_8/dragonsbreath, WEAR_IN_JACKET)
 	//waist
 	var/uppvetsidearm = prob(50) ? /obj/item/storage/belt/gun/type47/t73 : /obj/item/storage/belt/gun/type47/np92
 	new_human.equip_to_slot_or_del(new uppvetsidearm, WEAR_WAIST)

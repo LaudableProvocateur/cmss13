@@ -387,8 +387,8 @@
 /obj/item/storage/box/kit/mou53_sapper/fill_preset_inventory()
 	new /obj/item/weapon/gun/shotgun/double/mou53(src)
 	new /obj/item/attachable/stock/mou53(src)
-	new /obj/item/ammo_magazine/shotgun/slugs(src)
-	new /obj/item/ammo_magazine/shotgun/flechette(src)
+	new /obj/item/ammo_magazine/gauge_12/slug(src)
+	new /obj/item/ammo_magazine/gauge_12/flechette(src)
 	new /obj/item/storage/belt/shotgun(src)
 
 /obj/item/storage/box/kit/r4t_scout
@@ -402,11 +402,11 @@
 	new /obj/item/weapon/gun/lever_action/r4t(src)
 	new /obj/item/attachable/stock/r4t(src)
 	new /obj/item/attachable/magnetic_harness/lever_sling(src)
-	new /obj/item/ammo_magazine/lever_action(src)
-	new /obj/item/ammo_magazine/lever_action(src)
+	new /obj/item/ammo_magazine/r4t(src)
+	new /obj/item/ammo_magazine/r4t(src)
 	new /obj/item/storage/belt/shotgun/lever_action(src)
 	new /obj/item/storage/belt/gun/m44/lever_action/attach_holster(src)
-	new /obj/item/ammo_magazine/lever_action/training(src)
+	new /obj/item/ammo_magazine/r4t/training(src)
 
 /obj/item/storage/box/kit/machinegunner
 	name = "\improper M2C Heavy Gunner Kit"
@@ -617,8 +617,8 @@
 	new /obj/item/storage/pill_bottle/packet/bicaridine(src)
 	new /obj/item/weapon/gun/shotgun/combat/guard(src)
 	new /obj/item/storage/pouch/general/large(src)
-	new /obj/item/ammo_magazine/shotgun/buckshot(src)
-	new /obj/item/ammo_magazine/shotgun/buckshot(src)
+	new /obj/item/ammo_magazine/gauge_12/buckshot(src)
+	new /obj/item/ammo_magazine/gauge_12/buckshot(src)
 
 /obj/item/storage/box/kit/spotter
 	name = "\improper Spotter Kit"

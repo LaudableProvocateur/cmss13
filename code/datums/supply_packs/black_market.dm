@@ -150,12 +150,12 @@ Non-USCM items, from CLF, UPP, colonies, etc. Mostly combat-related.
 					new /obj/item/ammo_magazine/smg/mac15(src)
 		if(4) //upp
 			new /obj/item/weapon/gun/shotgun/type23/riot_control(src)
-			new /obj/item/ammo_magazine/handful/shotgun/heavy/beanbag(src)
-			new /obj/item/ammo_magazine/handful/shotgun/heavy/beanbag(src)
-			new /obj/item/ammo_magazine/handful/shotgun/heavy/flechette(src)
-			new /obj/item/ammo_magazine/handful/shotgun/heavy/flechette(src)
-			new /obj/item/ammo_magazine/handful/shotgun/heavy/slug(src)
-			new /obj/item/ammo_magazine/handful/shotgun/heavy/slug(src) //NO buckshot!
+			new /obj/item/ammo_magazine/handful/gauge_8/beanbag(src)
+			new /obj/item/ammo_magazine/handful/gauge_8/beanbag(src)
+			new /obj/item/ammo_magazine/handful/gauge_8/flechette(src)
+			new /obj/item/ammo_magazine/handful/gauge_8/flechette(src)
+			new /obj/item/ammo_magazine/handful/gauge_8/slug(src)
+			new /obj/item/ammo_magazine/handful/gauge_8/slug(src) //NO buckshot!
 		if(5) //freelancer
 			new /obj/item/weapon/gun/rifle/mar40(src)
 			new /obj/item/ammo_magazine/rifle/mar40/extended(src)
@@ -248,7 +248,7 @@ Additionally, weapons that are way too good to put in the basically-flavor black
 	name = "custom-built shotgun crate (x1 ammo box included)"
 	contains = list(
 		/obj/item/weapon/gun/shotgun/merc/damaged,
-		/obj/item/ammo_magazine/shotgun,
+		/obj/item/ammo_magazine/gauge_12/slug,
 	)
 	dollar_cost = 50
 	containertype = /obj/structure/largecrate/black_market
@@ -477,9 +477,9 @@ Additionally, weapons that are way too good to put in the basically-flavor black
 	contains = list(
 		/obj/item/weapon/gun/lever_action/r4t,
 		/obj/item/attachable/stock/r4t,
-		/obj/item/ammo_magazine/lever_action,
-		/obj/item/ammo_magazine/lever_action,
-		/obj/item/ammo_magazine/lever_action/training,
+		/obj/item/ammo_magazine/r4t,
+		/obj/item/ammo_magazine/r4t,
+		/obj/item/ammo_magazine/r4t/training,
 	)
 	dollar_cost = 75
 	containertype = /obj/structure/largecrate/black_market
@@ -691,7 +691,7 @@ USCM spare items, miscellaneous gear that's too niche and distant (or restricted
 		/obj/item/weapon/baton/damaged,
 		/obj/item/reagent_container/spray/pepper,
 		/obj/item/weapon/baton/cattleprod,
-		/obj/item/ammo_magazine/shotgun/beanbag,
+		/obj/item/ammo_magazine/gauge_12/beanbag,
 		/obj/item/storage/box/packet/m15/rubber,
 		/obj/item/storage/box/guncase/m85a1,
 		/obj/item/clothing/head/helmet/marine/MP,
@@ -709,7 +709,7 @@ USCM spare items, miscellaneous gear that's too niche and distant (or restricted
 		/obj/item/ammo_magazine/pistol/mod88/rubber,
 		/obj/item/ammo_magazine/rifle/rubber,
 		/obj/item/ammo_magazine/rifle/m4ra/rubber,
-		/obj/item/ammo_magazine/shotgun/beanbag,
+		/obj/item/ammo_magazine/gauge_12/beanbag,
 	)
 	dollar_cost = 50
 	containertype = /obj/structure/largecrate/black_market

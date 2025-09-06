@@ -352,7 +352,7 @@
 "cx" = (
 /obj/structure/closet/crate/secure,
 /obj/item/trash/sosjerky,
-/obj/item/ammo_magazine/shotgun/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
 /turf/open/floor/shiva/floor3,
 /area/varadero/interior/cargo)
 "cA" = (
@@ -2629,8 +2629,8 @@
 /area/varadero/interior/comms1)
 "uV" = (
 /obj/structure/closet/crate/ammo/alt/flame,
-/obj/item/ammo_magazine/shotgun/buckshot,
-/obj/item/ammo_magazine/shotgun/slugs{
+/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/gauge_12/slug{
 	pixel_x = -6;
 	pixel_y = 6
 	},

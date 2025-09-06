@@ -3373,7 +3373,7 @@
 	pixel_x = 4;
 	pixel_y = 4
 	},
-/obj/item/ammo_magazine/shotgun/buckshot{
+/obj/item/ammo_magazine/gauge_12/buckshot{
 	pixel_x = -10;
 	pixel_y = 4
 	},
@@ -4594,7 +4594,7 @@
 /turf/open/floor/carpet,
 /area/varadero/interior/maintenance/north)
 "dvw" = (
-/obj/item/ammo_magazine/handful/shotgun/buckshot{
+/obj/item/ammo_magazine/handful/gauge_12/buckshot{
 	pixel_x = -13;
 	pixel_y = 12
 	},
@@ -5360,7 +5360,7 @@
 /turf/open/gm/river/shallow_ocean_shallow_ocean,
 /area/varadero/exterior/pontoon_beach/lz)
 "egV" = (
-/obj/item/ammo_magazine/handful/shotgun/buckshot,
+/obj/item/ammo_magazine/handful/gauge_12/buckshot,
 /turf/open/floor/carpet,
 /area/varadero/interior/maintenance/north)
 "ehD" = (
@@ -9898,7 +9898,7 @@
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/maintenance)
 "hQP" = (
-/obj/item/ammo_magazine/handful/shotgun/buckshot{
+/obj/item/ammo_magazine/handful/gauge_12/buckshot{
 	pixel_x = 4;
 	pixel_y = -16
 	},
@@ -10850,7 +10850,7 @@
 /obj/structure/machinery/computer/communications{
 	dir = 1
 	},
-/obj/item/ammo_magazine/shotgun/buckshot{
+/obj/item/ammo_magazine/gauge_12/buckshot{
 	pixel_x = 17;
 	pixel_y = -4
 	},
@@ -11517,8 +11517,8 @@
 /area/varadero/interior/research)
 "jcC" = (
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/shotgun/buckshot,
-/obj/item/ammo_magazine/shotgun/buckshot{
+/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -11962,7 +11962,7 @@
 	},
 /obj/effect/landmark/objective_landmark/medium,
 /obj/item/weapon/gun/lever_action/r4t,
-/obj/item/ammo_magazine/handful/lever_action,
+/obj/item/ammo_magazine/handful/r4t,
 /obj/item/clock{
 	pixel_y = 17;
 	pixel_x = -2
@@ -15742,11 +15742,11 @@
 /area/varadero/interior/hall_SE)
 "mAP" = (
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/shotgun/slugs{
+/obj/item/ammo_magazine/gauge_12/slug{
 	pixel_x = 3;
 	pixel_y = 2
 	},
-/obj/item/ammo_magazine/shotgun/slugs{
+/obj/item/ammo_magazine/gauge_12/slug{
 	pixel_x = -2;
 	pixel_y = -4
 	},
@@ -15922,7 +15922,7 @@
 "mMd" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/shotgun/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/maintenance/security/south)
 "mMu" = (
@@ -16193,7 +16193,7 @@
 /obj/structure/pipes/vents/pump{
 	dir = 1
 	},
-/obj/item/ammo_magazine/handful/shotgun/buckshot{
+/obj/item/ammo_magazine/handful/gauge_12/buckshot{
 	pixel_x = -9
 	},
 /obj/item/clothing/suit/armor/vest,
@@ -16302,7 +16302,7 @@
 /turf/open/floor/plating,
 /area/varadero/interior_protected/caves/makeshift_tent)
 "ncC" = (
-/obj/item/ammo_magazine/handful/lever_action,
+/obj/item/ammo_magazine/handful/r4t,
 /obj/structure/machinery/storm_siren{
 	dir = 8;
 	pixel_x = 3
@@ -17451,7 +17451,7 @@
 "ocQ" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/weapon/gun/shotgun/pump,
-/obj/item/ammo_magazine/shotgun/buckshot{
+/obj/item/ammo_magazine/gauge_12/buckshot{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -18989,7 +18989,7 @@
 /turf/open/floor/asteroidfloor/north,
 /area/varadero/exterior/eastbeach)
 "pnn" = (
-/obj/item/ammo_magazine/shotgun/slugs,
+/obj/item/ammo_magazine/gauge_12/slug,
 /turf/open/floor/shiva/multi_tiles,
 /area/varadero/interior/research)
 "pnL" = (
@@ -21608,7 +21608,7 @@
 	pixel_x = -8;
 	pixel_y = -1
 	},
-/obj/item/ammo_magazine/shotgun/buckshot{
+/obj/item/ammo_magazine/gauge_12/buckshot{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -21968,8 +21968,8 @@
 /area/varadero/interior/security)
 "rwP" = (
 /obj/structure/closet/crate/ammo/alt/flame,
-/obj/item/ammo_magazine/shotgun/buckshot,
-/obj/item/ammo_magazine/shotgun/slugs{
+/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/gauge_12/slug{
 	pixel_x = -6;
 	pixel_y = 6
 	},
@@ -27705,8 +27705,8 @@
 /obj/structure/barricade/handrail/wire{
 	layer = 3.1
 	},
-/obj/item/ammo_magazine/handful/shotgun/buckshot,
-/obj/item/ammo_magazine/handful/shotgun/buckshot,
+/obj/item/ammo_magazine/handful/gauge_12/buckshot,
+/obj/item/ammo_magazine/handful/gauge_12/buckshot,
 /turf/open/floor/wood,
 /area/varadero/interior/bunks)
 "vYW" = (
@@ -29479,7 +29479,7 @@
 /turf/open/floor/carpet,
 /area/varadero/interior/chapel)
 "xxO" = (
-/obj/item/ammo_magazine/handful/lever_action,
+/obj/item/ammo_magazine/handful/r4t,
 /turf/open/floor/wood,
 /area/varadero/interior/research)
 "xxV" = (
@@ -30068,7 +30068,7 @@
 "xVC" = (
 /obj/structure/closet/crate/secure,
 /obj/item/trash/sosjerky,
-/obj/item/ammo_magazine/shotgun/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
 /turf/open/floor/shiva/floor3,
 /area/varadero/interior/cargo)
 "xVQ" = (

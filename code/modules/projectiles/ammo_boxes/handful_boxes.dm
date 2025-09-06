@@ -8,7 +8,7 @@
 	overlay_ammo_type = ""
 	overlay_gun_type = "_shells"
 	overlay_content = "_slug"
-	magazine_type = /obj/item/ammo_magazine/shotgun/slugs
+	magazine_type = /obj/item/ammo_magazine/gauge_12/slug
 	num_of_magazines = 100
 	handfuls = TRUE
 
@@ -25,7 +25,7 @@
 	name = "\improper shotgun shell box (Buckshot x 100)"
 	icon_state = "base_buck"
 	overlay_content = "_buck"
-	magazine_type = /obj/item/ammo_magazine/shotgun/buckshot
+	magazine_type = /obj/item/ammo_magazine/gauge_12/buckshot
 
 /obj/item/ammo_box/magazine/shotgun/buckshot/empty
 	empty = TRUE
@@ -34,7 +34,7 @@
 	name = "\improper shotgun shell box (Flechette x 100)"
 	icon_state = "base_flech"
 	overlay_content = "_flech"
-	magazine_type = /obj/item/ammo_magazine/shotgun/flechette
+	magazine_type = /obj/item/ammo_magazine/gauge_12/flechette
 
 /obj/item/ammo_box/magazine/shotgun/flechette/empty
 	empty = TRUE
@@ -43,7 +43,7 @@
 	name = "\improper shotgun shell box (Incendiary slug x 100)"
 	icon_state = "base_inc"
 	overlay_content = "_incen"
-	magazine_type = /obj/item/ammo_magazine/shotgun/incendiary
+	magazine_type = /obj/item/ammo_magazine/gauge_12/slug/incendiary
 
 /obj/item/ammo_box/magazine/shotgun/incendiary/empty
 	empty = TRUE
@@ -52,7 +52,7 @@
 	name = "\improper shotgun shell box (Incendiary buckshot x 100)"
 	icon_state = "base_incbuck"
 	overlay_content = "_incenbuck"
-	magazine_type = /obj/item/ammo_magazine/shotgun/incendiarybuck
+	magazine_type = /obj/item/ammo_magazine/gauge_12/buckshot/incendiary
 
 /obj/item/ammo_box/magazine/shotgun/incendiarybuck/empty
 	empty = TRUE
@@ -61,7 +61,7 @@
 	name = "\improper shotgun shell box (Beanbag x 100)"
 	icon_state = "base_bean"
 	overlay_content = "_bean"
-	magazine_type = /obj/item/ammo_magazine/shotgun/beanbag
+	magazine_type = /obj/item/ammo_magazine/gauge_12/beanbag
 	can_explode = FALSE
 
 
@@ -74,7 +74,7 @@
 	icon_state = "base_slug_upp"
 	overlay_gun_type = "_type23"
 	overlay_content = "_upp_slug"
-	magazine_type = /obj/item/ammo_magazine/shotgun/heavy/slug
+	magazine_type = /obj/item/ammo_magazine/gauge_8/slug
 
 /obj/item/ammo_box/magazine/shotgun/upp/empty
 	empty = TRUE
@@ -83,7 +83,7 @@
 	name = "\improper Type 23 shotgun shell box (Buckshot 8g x 100)"
 	icon_state = "base_buck_upp"
 	overlay_content = "_upp_buck"
-	magazine_type = /obj/item/ammo_magazine/shotgun/heavy/buckshot
+	magazine_type = /obj/item/ammo_magazine/gauge_8/buckshot
 
 /obj/item/ammo_box/magazine/shotgun/upp/buckshot/empty
 	empty = TRUE
@@ -92,7 +92,7 @@
 	name = "\improper Type 23 shotgun shell box (Flechette 8g x 100)"
 	icon_state = "base_flech_upp"
 	overlay_content = "_upp_flech"
-	magazine_type = /obj/item/ammo_magazine/shotgun/heavy/flechette
+	magazine_type = /obj/item/ammo_magazine/gauge_8/flechette
 
 /obj/item/ammo_box/magazine/shotgun/upp/flechette/empty
 	empty = TRUE
@@ -101,7 +101,7 @@
 	name = "\improper Type 23 shotgun shell box (Dragon's breath 8g x 100)"
 	icon_state = "base_inc_upp"
 	overlay_content = "_upp_incen"
-	magazine_type = /obj/item/ammo_magazine/shotgun/heavy/incendiary
+	magazine_type = /obj/item/ammo_magazine/gauge_8/incendiary
 
 /obj/item/ammo_box/magazine/shotgun/upp/incendiary/empty
 	empty = TRUE
@@ -110,7 +110,7 @@
 	name = "\improper Type 23 shotgun shell box (Beanbag 8g x 100)"
 	icon_state = "base_bean_upp"
 	overlay_content = "_upp_bean"
-	magazine_type = /obj/item/ammo_magazine/shotgun/heavy/beanbag
+	magazine_type = /obj/item/ammo_magazine/gauge_8/beanbag
 	can_explode = FALSE
 
 /obj/item/ammo_box/magazine/shotgun/upp/beanbag/empty
@@ -123,7 +123,7 @@
 	name = "\improper 16-gauge shotgun shell box (Breaching x 120)"
 	icon_state = "base_breach"
 	overlay_content = "_breach"
-	magazine_type = /obj/item/ammo_magazine/shotgun/light/breaching
+	magazine_type = /obj/item/ammo_magazine/gauge_16/breaching
 	num_of_magazines = 120 //10 full mag reloads.
 	can_explode = FALSE
 
@@ -138,7 +138,7 @@
 	overlay_ammo_type = "_reg"
 	overlay_gun_type = "_4570"
 	overlay_content = "_4570"
-	magazine_type = /obj/item/ammo_magazine/handful/lever_action
+	magazine_type = /obj/item/ammo_magazine/handful/r4t
 	num_of_magazines = 300
 	handfuls = TRUE
 	handful = "rounds"
@@ -152,7 +152,7 @@
 	overlay_ammo_type = "_45_training"
 	overlay_gun_type = "_4570"
 	overlay_content = "_training"
-	magazine_type = /obj/item/ammo_magazine/handful/lever_action/training
+	magazine_type = /obj/item/ammo_magazine/handful/r4t/training
 
 /obj/item/ammo_box/magazine/lever_action/training/empty
 	empty = TRUE
@@ -164,7 +164,7 @@
 	overlay_ammo_type = "_45_tracker"
 	overlay_gun_type = "_4570"
 	overlay_content = "_tracker"
-	magazine_type = /obj/item/ammo_magazine/handful/lever_action/tracker
+	magazine_type = /obj/item/ammo_magazine/handful/r4t/tracker
 
 /obj/item/ammo_box/magazine/lever_action/tracker/empty
 	empty = TRUE
@@ -176,7 +176,7 @@
 	overlay_ammo_type = "_45_marksman"
 	overlay_gun_type = "_4570"
 	overlay_content = "_marksman"
-	magazine_type = /obj/item/ammo_magazine/handful/lever_action/marksman
+	magazine_type = /obj/item/ammo_magazine/handful/r4t/marksman
 
 /obj/item/ammo_box/magazine/lever_action/marksman/empty
 	empty = TRUE

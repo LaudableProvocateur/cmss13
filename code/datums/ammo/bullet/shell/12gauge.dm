@@ -4,11 +4,11 @@
 
 Buckshot - Contains buckshot, incendiary buckshot, masterkey buckshot.
 -
-Slugs - Contains slug, incendiary slug, es-7 stun slug.
+Slugs - Contains slug, incendiary slug.
 -
 Flechette - Contains flechette.
 -
-Beanbag - Contains beanbag, es-7 beanbag.
+Beanbag - Contains beanbag.
 
 */
 
@@ -57,7 +57,7 @@ Beanbag - Contains beanbag, es-7 beanbag.
 /datum/ammo/bullet/gauge_12/buckshot/incendiary
 	name = "incendiary buckshot shell"
 	handful_state = "incen_buckshot"
-	handful_type = /obj/item/ammo_magazine/handful/shotgun/buckshot/incendiary
+	handful_type = /obj/item/ammo_magazine/handful/gauge_12/buckshot/incendiary
 
 /datum/ammo/bullet/gauge_12/buckshot/incendiary/set_bullet_traits()
 	. = ..()
@@ -126,18 +126,6 @@ Beanbag - Contains beanbag, es-7 beanbag.
 			living_mob.apply_effect(2, SLOW)
 			to_chat(living_mob, SPAN_HIGHDANGER("The impact knocks you off-balance!"))
 		living_mob.apply_stamina_damage(fired_projectile.ammo.damage, fired_projectile.def_zone, ARMOR_BULLET)
-
-/datum/ammo/bullet/gauge_12/slug/es7
-	name = "electrostatic solid slug"
-	icon_state = "bullet_iff"
-	handful_state = "es7_slug"
-	sound_miss = "energy_miss"
-	sound_bounce = "energy_bounce"
-	hit_effect_color = "#00aeff"
-	sound_override = 'sound/weapons/gun_es7lethal.ogg'
-	damage = 60
-	penetration = ARMOR_PENETRATION_TIER_8
-	accuracy = HIT_ACCURACY_TIER_5
 
 /datum/ammo/bullet/gauge_12/slug/incendiary
 	name = "incendiary slug"
@@ -229,32 +217,3 @@ Beanbag - Contains beanbag, es-7 beanbag.
 	if(ishuman(M))
 		var/mob/living/carbon/human/H = M
 		shake_camera(H, 2, 1)
-
-/datum/ammo/bullet/gauge_12/beanbag/es7
-	name = "electrostatic shock slug"
-	headshot_state = HEADSHOT_OVERLAY_LIGHT //Electric version of the bean bag.
-	handful_state = "shock_slug"
-	icon_state = "cm_laser"
-	sound_override = 'sound/weapons/gun_es7.ogg'
-	flags_ammo_behavior = AMMO_ENERGY|AMMO_IGNORE_RESIST
-	sound_hit = "energy_hit"
-	sound_miss = "energy_miss"
-	sound_bounce = "energy_bounce"
-	max_range = 12
-	shrapnel_chance = 0
-	damage = 0
-	stamina_damage = 50
-	hit_effect_color = "#00aeff"
-	accuracy = HIT_ACCURACY_TIER_3
-	shell_speed = AMMO_SPEED_TIER_4
-	handful_state = "shock_slug"
-
-/datum/ammo/bullet/gauge_12/beanbag/es7/on_hit_mob(mob/mobs, obj/projectile/P)
-	if(!isyautja(mobs) && !isxeno(mobs))
-		mobs.emote("pain")
-		mobs.sway_jitter(2,1)
-
-	if(ishuman(mobs))
-		var/mob/living/carbon/human/humanus = mobs
-		humanus.disable_special_items() // Disables scout cloak
-		humanus.make_jittery(40)

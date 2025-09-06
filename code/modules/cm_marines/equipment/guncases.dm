@@ -114,14 +114,14 @@
 	name = "\improper R4T lever action rifle case"
 	desc = "A gun case containing the R4T lever action rifle, intended for scouting. Comes with an ammunition belt, the optional revolver attachment for it, two boxes of ammunition, a sling, and a stock for the rifle."
 	storage_slots = 7
-	can_hold = list(/obj/item/weapon/gun/lever_action/r4t, /obj/item/attachable/stock/r4t, /obj/item/attachable/magnetic_harness/lever_sling, /obj/item/ammo_magazine/lever_action, /obj/item/ammo_magazine/lever_action/training, /obj/item/storage/belt/shotgun/lever_action, /obj/item/storage/belt/gun/m44/lever_action/attach_holster, /obj/item/device/motiondetector/m717)
+	can_hold = list(/obj/item/weapon/gun/lever_action/r4t, /obj/item/attachable/stock/r4t, /obj/item/attachable/magnetic_harness/lever_sling, /obj/item/ammo_magazine/r4t, /obj/item/ammo_magazine/r4t/training, /obj/item/storage/belt/shotgun/lever_action, /obj/item/storage/belt/gun/m44/lever_action/attach_holster, /obj/item/device/motiondetector/m717)
 
 /obj/item/storage/box/guncase/r4t_scout/fill_preset_inventory()
 	new /obj/item/weapon/gun/lever_action/r4t(src)
 	new /obj/item/attachable/stock/r4t(src)
 	new /obj/item/attachable/magnetic_harness/lever_sling(src)
-	new /obj/item/ammo_magazine/lever_action(src)
-	new /obj/item/ammo_magazine/lever_action(src)
+	new /obj/item/ammo_magazine/r4t(src)
+	new /obj/item/ammo_magazine/r4t(src)
 	new /obj/item/storage/belt/shotgun/lever_action(src)
 	new /obj/item/storage/belt/gun/m44/lever_action/attach_holster(src)
 
@@ -129,14 +129,14 @@
 	name = "\improper XM88 heavy rifle case"
 	desc = "A gun case containing the XM88 Heavy Rifle, a prototype weapon designed for use against heavily armored infantry targets and light vehicles. Contains an ammunition belt, two boxes of ammunition, the XS-9 Targeting Relay attachment, and the stock for the rifle."
 	storage_slots = 6
-	can_hold = list(/obj/item/weapon/gun/lever_action/xm88, /obj/item/attachable/stock/xm88, /obj/item/attachable/scope/mini/xm88, /obj/item/ammo_magazine/lever_action/xm88, /obj/item/storage/belt/shotgun/xm88)
+	can_hold = list(/obj/item/weapon/gun/lever_action/xm88, /obj/item/attachable/stock/xm88, /obj/item/attachable/scope/mini/xm88, /obj/item/ammo_magazine/xm88, /obj/item/storage/belt/shotgun/xm88)
 
 /obj/item/storage/box/guncase/xm88/fill_preset_inventory()
 	new /obj/item/weapon/gun/lever_action/xm88(src)
 	new /obj/item/attachable/stock/xm88(src)
 	new /obj/item/attachable/scope/mini/xm88(src)
-	new /obj/item/ammo_magazine/lever_action/xm88(src)
-	new /obj/item/ammo_magazine/lever_action/xm88(src)
+	new /obj/item/ammo_magazine/xm88(src)
+	new /obj/item/ammo_magazine/xm88(src)
 	new /obj/item/storage/belt/shotgun/xm88(src)
 
 //------------
@@ -203,7 +203,7 @@
 	name = "\improper M37A2 Pump Shotgun case"
 	desc = "A gun case containing the M37A2 Pump Shotgun."
 	storage_slots = 4
-	can_hold = list(/obj/item/weapon/gun/shotgun/pump/m37a, /obj/item/ammo_magazine/shotgun/buckshot, /obj/item/ammo_magazine/shotgun/flechette, /obj/item/ammo_magazine/shotgun/slugs)
+	can_hold = list(/obj/item/weapon/gun/shotgun/pump/m37a, /obj/item/ammo_magazine/gauge_12/buckshot, /obj/item/ammo_magazine/gauge_12/flechette, /obj/item/ammo_magazine/gauge_12/slug)
 
 /obj/item/storage/box/guncase/pumpshotgun/fill_preset_inventory()
 	new /obj/item/weapon/gun/shotgun/pump(src)
@@ -211,11 +211,11 @@
 		var/random_pick = rand(1, 3)
 		switch(random_pick)
 			if(1)
-				new /obj/item/ammo_magazine/shotgun/buckshot(src)
+				new /obj/item/ammo_magazine/gauge_12/buckshot(src)
 			if(2)
-				new /obj/item/ammo_magazine/shotgun/flechette(src)
+				new /obj/item/ammo_magazine/gauge_12/flechette(src)
 			if(3)
-				new /obj/item/ammo_magazine/shotgun/slugs(src)
+				new /obj/item/ammo_magazine/gauge_12/slug(src)
 
 /obj/item/storage/box/guncase/mk45_automag
 	name = "\improper MK-45 Automagnum case"
@@ -260,13 +260,13 @@
 	name = "\improper M37-17 pump shotgun case"
 	desc = "A gun case containing the M37-17 pump shotgun. Rarely seen issued to USCM vessels on the edges of inhabited space who need the extra bang for their buck (literally) the M37-17 has. Like this one! Well, if it had the budget for it."
 	storage_slots = 4
-	can_hold = list(/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb/m3717, /obj/item/ammo_magazine/shotgun/buckshot)
+	can_hold = list(/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb/m3717, /obj/item/ammo_magazine/gauge_12/buckshot)
 
 /obj/item/storage/box/guncase/m3717/fill_preset_inventory()
 	new /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb/m3717(src)
-	new /obj/item/ammo_magazine/shotgun/buckshot(src)
-	new /obj/item/ammo_magazine/shotgun/buckshot(src)
-	new /obj/item/ammo_magazine/shotgun/buckshot(src)
+	new /obj/item/ammo_magazine/gauge_12/buckshot(src)
+	new /obj/item/ammo_magazine/gauge_12/buckshot(src)
+	new /obj/item/ammo_magazine/gauge_12/buckshot(src)
 
 /obj/item/storage/box/guncase/m1911
 	name = "\improper M1911 service pistol case"
@@ -385,8 +385,8 @@
 	new /obj/item/weapon/gun/rifle/xm51(src)
 	new /obj/item/ammo_magazine/rifle/xm51(src)
 	new /obj/item/ammo_magazine/rifle/xm51(src)
-	new /obj/item/ammo_magazine/shotgun/light/breaching(src)
-	new /obj/item/ammo_magazine/shotgun/light/breaching(src)
+	new /obj/item/ammo_magazine/gauge_16/breaching(src)
+	new /obj/item/ammo_magazine/gauge_16/breaching(src)
 	new /obj/item/storage/belt/gun/xm51(src)
 
 //Handgun case for Military police vendor three mag , a railflashligh and the handgun.

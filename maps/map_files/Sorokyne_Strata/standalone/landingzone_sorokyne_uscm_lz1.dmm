@@ -1137,7 +1137,7 @@
 /obj/structure/surface/table/reinforced/prison{
 	color = "#98a3ab"
 	},
-/obj/item/ammo_magazine/shotgun/buckshot{
+/obj/item/ammo_magazine/gauge_12/buckshot{
 	pixel_x = 6;
 	pixel_y = -4
 	},

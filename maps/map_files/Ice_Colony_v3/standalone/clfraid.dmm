@@ -1686,10 +1686,10 @@
 /area/shiva/interior/colony/botany)
 "Rv" = (
 /obj/structure/surface/table,
-/obj/item/ammo_magazine/shotgun/buckshot,
-/obj/item/ammo_magazine/shotgun/buckshot,
-/obj/item/ammo_magazine/shotgun/buckshot,
-/obj/item/ammo_magazine/shotgun/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
 /turf/open/floor/shiva/bluefull,
 /area/shiva/interior/colony/s_admin)
 "Rz" = (
@@ -1909,10 +1909,10 @@
 /area/shiva/interior/colony/s_admin)
 "Yf" = (
 /obj/structure/surface/table,
-/obj/item/ammo_magazine/shotgun/slugs,
-/obj/item/ammo_magazine/shotgun/slugs,
-/obj/item/ammo_magazine/shotgun/slugs,
-/obj/item/ammo_magazine/shotgun/slugs,
+/obj/item/ammo_magazine/gauge_12/slug,
+/obj/item/ammo_magazine/gauge_12/slug,
+/obj/item/ammo_magazine/gauge_12/slug,
+/obj/item/ammo_magazine/gauge_12/slug,
 /turf/open/floor/shiva/bluefull,
 /area/shiva/interior/colony/s_admin)
 "Yn" = (
@@ -1935,8 +1935,8 @@
 /obj/structure/closet/secure_closet/guncabinet{
 	req_access = null
 	},
-/obj/item/ammo_magazine/shotgun/incendiary,
-/obj/item/ammo_magazine/shotgun/incendiary{
+/obj/item/ammo_magazine/gauge_12/slug/incendiary,
+/obj/item/ammo_magazine/gauge_12/slug/incendiary{
 	pixel_x = 3;
 	pixel_y = 6
 	},

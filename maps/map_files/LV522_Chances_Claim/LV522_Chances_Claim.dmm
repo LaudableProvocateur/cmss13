@@ -15941,7 +15941,7 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 5
 	},
-/obj/item/ammo_magazine/handful/shotgun,
+/obj/item/ammo_magazine/handful/gauge_12,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv522/indoors/a_block/security)
 "iJx" = (
@@ -44666,7 +44666,7 @@
 /obj/item/weapon/gun/lever_action/r4t{
 	pixel_y = 26
 	},
-/obj/item/ammo_magazine/lever_action/marksman{
+/obj/item/ammo_magazine/r4t/marksman{
 	layer = 3.1;
 	pixel_x = -5;
 	pixel_y = 8

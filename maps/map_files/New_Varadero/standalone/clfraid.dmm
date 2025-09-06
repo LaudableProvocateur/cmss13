@@ -473,11 +473,11 @@
 /area/varadero/interior/research)
 "lu" = (
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/shotgun/incendiary{
+/obj/item/ammo_magazine/gauge_12/slug/incendiary{
 	pixel_x = 3;
 	pixel_y = 6
 	},
-/obj/item/ammo_magazine/shotgun/incendiary,
+/obj/item/ammo_magazine/gauge_12/slug/incendiary,
 /turf/open/floor/shiva/north,
 /area/varadero/interior/research)
 "lE" = (
@@ -2037,25 +2037,25 @@
 /turf/open/floor/shiva/purple,
 /area/varadero/interior/research)
 "UT" = (
-/obj/item/ammo_magazine/shotgun/slugs{
+/obj/item/ammo_magazine/gauge_12/slug{
 	pixel_x = 4;
 	pixel_y = 5
 	},
-/obj/item/ammo_magazine/shotgun/slugs{
+/obj/item/ammo_magazine/gauge_12/slug{
 	pixel_y = 5
 	},
-/obj/item/ammo_magazine/shotgun/slugs{
+/obj/item/ammo_magazine/gauge_12/slug{
 	pixel_x = -4;
 	pixel_y = 5
 	},
-/obj/item/ammo_magazine/shotgun/buckshot{
+/obj/item/ammo_magazine/gauge_12/buckshot{
 	pixel_x = 4;
 	pixel_y = -2
 	},
-/obj/item/ammo_magazine/shotgun/buckshot{
+/obj/item/ammo_magazine/gauge_12/buckshot{
 	pixel_y = -2
 	},
-/obj/item/ammo_magazine/shotgun/buckshot{
+/obj/item/ammo_magazine/gauge_12/buckshot{
 	pixel_y = -2;
 	pixel_x = -4
 	},

@@ -45,9 +45,9 @@
 		overlays += "+[icon_state]_full"
 
 /obj/item/storage/belt/attackby(obj/item/W, mob/user)
-	if(istype(W, /obj/item/ammo_magazine/shotgun))
+	if(istype(W, /obj/item/ammo_magazine/gauge_12))
 		if(/obj/item/ammo_magazine/handful in src.can_hold)
-			var/obj/item/ammo_magazine/shotgun/M = W
+			var/obj/item/ammo_magazine/gauge_12/M = W
 			dump_ammo_to(M,user, M.transfer_handful_amount)
 			return
 	. = ..()
@@ -773,8 +773,8 @@
 		new /obj/item/ammo_magazine/smg/m39 (src)
 
 /obj/item/storage/belt/marine/attackby(obj/item/W, mob/user)
-	if(istype(W, /obj/item/ammo_magazine/shotgun))
-		var/obj/item/ammo_magazine/shotgun/M = W
+	if(istype(W, /obj/item/ammo_magazine/gauge_12))
+		var/obj/item/ammo_magazine/gauge_12/M = W
 		dump_ammo_to(M,user, M.transfer_handful_amount)
 	else
 		return ..()
@@ -840,7 +840,7 @@
 
 /obj/item/storage/belt/marine/shotgun_ammo/fill_preset_inventory() // shotgun ammo for survs, cursed but we want non-optimal storage on purpose
 	for(var/i = 1 to storage_slots)
-		new /obj/item/ammo_magazine/handful/shotgun/buckshot(src)
+		new /obj/item/ammo_magazine/handful/gauge_12/buckshot(src)
 
 /obj/item/storage/belt/marine/smartgunner
 	name = "\improper M280 pattern smartgunner drum belt"
@@ -1034,7 +1034,7 @@
 
 /obj/item/storage/belt/shotgun/full/fill_preset_inventory()
 	for(var/i = 1 to storage_slots)
-		new /obj/item/ammo_magazine/handful/shotgun/slug(src)
+		new /obj/item/ammo_magazine/handful/gauge_12/slug(src)
 
 /obj/item/storage/belt/shotgun/full/random/fill_preset_inventory()
 	for(var/i = 1 to storage_slots)
@@ -1042,8 +1042,8 @@
 		new random_shell_type(src)
 
 /obj/item/storage/belt/shotgun/attackby(obj/item/W, mob/user)
-	if(istype(W, /obj/item/ammo_magazine/shotgun))
-		var/obj/item/ammo_magazine/shotgun/M = W
+	if(istype(W, /obj/item/ammo_magazine/gauge_12))
+		var/obj/item/ammo_magazine/gauge_12/M = W
 		dump_ammo_to(M, user, M.transfer_handful_amount)
 	else
 		return ..()
@@ -1066,11 +1066,11 @@
 
 /obj/item/storage/belt/shotgun/upp/heavybuck/fill_preset_inventory()
 	for(var/i = 1 to storage_slots)
-		new /obj/item/ammo_magazine/handful/shotgun/heavy/buckshot(src)
+		new /obj/item/ammo_magazine/handful/gauge_8/buckshot(src)
 
 /obj/item/storage/belt/shotgun/upp/heavyslug/fill_preset_inventory()
 	for(var/i in 1 to storage_slots)
-		new /obj/item/ammo_magazine/handful/shotgun/heavy/slug(src)
+		new /obj/item/ammo_magazine/handful/gauge_8/slug(src)
 
 /obj/item/storage/belt/shotgun/van_bandolier
 	name = "two bore bandolier"
@@ -1085,7 +1085,7 @@
 	flags_equip_slot = SLOT_WAIST|SLOT_BACK
 	storage_slots = null
 	max_storage_space = 20
-	can_hold = list(/obj/item/ammo_magazine/handful/shotgun/twobore)
+	can_hold = list(/obj/item/ammo_magazine/handful/twobore)
 	flags_atom = FPRINT|NO_GAMEMODE_SKIN // same sprite for all gamemodes
 	item_state_slots = list(
 		WEAR_J_STORE = "van_bandolier_10",
@@ -1112,7 +1112,7 @@
 
 /obj/item/storage/belt/shotgun/van_bandolier/fill_preset_inventory()
 	for(var/i in 1 to max_storage_space * 0.5)
-		new /obj/item/ammo_magazine/handful/shotgun/twobore(src)
+		new /obj/item/ammo_magazine/handful/twobore(src)
 
 
 /obj/item/storage/belt/shotgun/lever_action
@@ -1127,8 +1127,8 @@
 	can_hold = list(/obj/item/ammo_magazine/handful)
 
 /obj/item/storage/belt/shotgun/lever_action/attackby(obj/item/W, mob/user)
-	if(istype(W, /obj/item/ammo_magazine/lever_action))
-		var/obj/item/ammo_magazine/lever_action/M = W
+	if(istype(W, /obj/item/ammo_magazine/r4t))
+		var/obj/item/ammo_magazine/r4t/M = W
 		dump_ammo_to(M, user, M.transfer_handful_amount)
 
 	if(istype(W, /obj/item/storage/belt/gun/m44/lever_action/attach_holster))
@@ -1156,8 +1156,8 @@
 	can_hold = list(/obj/item/ammo_magazine/handful)
 
 /obj/item/storage/belt/shotgun/xm88/attackby(obj/item/W, mob/user)
-	if(istype(W, /obj/item/ammo_magazine/lever_action/xm88))
-		var/obj/item/ammo_magazine/lever_action/xm88/B = W
+	if(istype(W, /obj/item/ammo_magazine/xm88))
+		var/obj/item/ammo_magazine/xm88/B = W
 		dump_ammo_to(B, user, B.transfer_handful_amount)
 	else
 		return ..()
@@ -1889,8 +1889,8 @@
 	var/magazines = 0
 
 /obj/item/storage/belt/gun/xm51/attackby(obj/item/item, mob/user)
-	if(istype(item, /obj/item/ammo_magazine/shotgun/light/breaching))
-		var/obj/item/ammo_magazine/shotgun/light/breaching/ammo_box = item
+	if(istype(item, /obj/item/ammo_magazine/gauge_16/breaching))
+		var/obj/item/ammo_magazine/gauge_16/breaching/ammo_box = item
 		dump_ammo_to(ammo_box, user, ammo_box.transfer_handful_amount)
 	else
 		return ..()
@@ -2018,8 +2018,8 @@
 			"icon_y" = 3))
 
 /obj/item/storage/belt/gun/m44/lever_action/attackby(obj/item/W, mob/user)
-	if(istype(W, /obj/item/ammo_magazine/lever_action))
-		var/obj/item/ammo_magazine/lever_action/M = W
+	if(istype(W, /obj/item/ammo_magazine/r4t))
+		var/obj/item/ammo_magazine/r4t/M = W
 		dump_ammo_to(M,user, M.transfer_handful_amount)
 	else
 		return ..()
@@ -2303,7 +2303,7 @@
 
 /obj/item/storage/belt/gun/type47/ivan/Initialize()
 	. = ..()
-	var/list/bad_mags = typesof(/obj/item/ammo_magazine/hardpoint) + /obj/item/ammo_magazine/handful + /obj/item/ammo_magazine/handful/shotgun/custom_color + /obj/item/ammo_magazine/flamer_tank/empty + /obj/item/ammo_magazine/flamer_tank/large/empty + /obj/item/ammo_magazine/flamer_tank/custom + /obj/item/ammo_magazine/rocket/custom + /obj/item/ammo_magazine/smg
+	var/list/bad_mags = typesof(/obj/item/ammo_magazine/hardpoint) + /obj/item/ammo_magazine/handful + /obj/item/ammo_magazine/handful/gauge_12/custom_color + /obj/item/ammo_magazine/flamer_tank/empty + /obj/item/ammo_magazine/flamer_tank/large/empty + /obj/item/ammo_magazine/flamer_tank/custom + /obj/item/ammo_magazine/rocket/custom + /obj/item/ammo_magazine/smg
 	var/list/sentry_mags = typesof(/obj/item/ammo_magazine/sentry) + typesof(/obj/item/ammo_magazine/sentry_flamer) + /obj/item/ammo_magazine/m56d + /obj/item/ammo_magazine/m2c
 	var/list/internal_mags = (typesof(/obj/item/ammo_magazine/internal) + /obj/item/ammo_magazine/handful)
 	var/list/training_mags = list(

@@ -125,7 +125,7 @@
 /turf/open/floor/prison/cell_stripe/west,
 /area/fiorina/station/medbay)
 "aay" = (
-/obj/item/ammo_magazine/handful/shotgun/beanbag{
+/obj/item/ammo_magazine/handful/gauge_12/beanbag{
 	current_rounds = 1
 	},
 /turf/open/floor/prison,
@@ -173,7 +173,7 @@
 /obj/structure/barricade/metal{
 	dir = 4
 	},
-/obj/item/ammo_magazine/handful/shotgun/beanbag{
+/obj/item/ammo_magazine/handful/gauge_12/beanbag{
 	current_rounds = 2
 	},
 /turf/open/floor/prison/whitegreenfull/southwest,
@@ -3652,7 +3652,7 @@
 /area/fiorina/lz/near_lzI)
 "cEg" = (
 /obj/structure/surface/table/reinforced/prison,
-/obj/item/ammo_magazine/shotgun/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
 /turf/open/floor/prison/darkpurplefull2,
 /area/fiorina/station/research_cells/west)
 "cEw" = (
@@ -3837,8 +3837,8 @@
 /obj/structure/closet/secure_closet/guncabinet{
 	req_access = null
 	},
-/obj/item/ammo_magazine/shotgun/buckshot,
-/obj/item/ammo_magazine/shotgun/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
 /obj/item/reagent_container/glass/bottle/robot/antitoxin,
 /obj/item/clothing/suit/storage/marine/veteran/ua_riot,
 /obj/item/prop/helmetgarb/riot_shield,
@@ -4624,7 +4624,7 @@
 /area/fiorina/station/civres_blue)
 "dtg" = (
 /obj/structure/surface/table/reinforced/prison,
-/obj/item/ammo_magazine/shotgun/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
 /turf/open/floor/plating/prison,
 /area/fiorina/station/lowsec/east)
 "dtk" = (
@@ -9185,7 +9185,7 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/item/ammo_magazine/shotgun/beanbag,
+/obj/item/ammo_magazine/gauge_12/beanbag,
 /turf/open/floor/prison/redfull,
 /area/fiorina/station/security)
 "gYM" = (
@@ -12015,8 +12015,8 @@
 	req_access = null
 	},
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
-/obj/item/ammo_magazine/shotgun/buckshot,
-/obj/item/ammo_magazine/shotgun/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
 /obj/item/storage/belt/shotgun,
 /obj/item/clothing/under/marine/ua_riot,
 /obj/item/clothing/suit/storage/marine/veteran/ua_riot,
@@ -12257,7 +12257,7 @@
 /turf/open/floor/prison/bluefull,
 /area/fiorina/station/power_ring)
 "jmp" = (
-/obj/item/ammo_magazine/handful/shotgun/incendiary{
+/obj/item/ammo_magazine/handful/gauge_12/slug/incendiary{
 	unacidable = 1
 	},
 /turf/open/organic/grass/astroturf,
@@ -12860,7 +12860,7 @@
 /turf/open/floor/wood,
 /area/fiorina/station/park)
 "jJZ" = (
-/obj/item/ammo_magazine/shotgun/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
 /turf/open/organic/grass/astroturf,
 /area/fiorina/station/central_ring)
 "jKv" = (
@@ -15756,7 +15756,7 @@
 /turf/open/floor/plating/prison,
 /area/fiorina/station/research_cells/west)
 "lSq" = (
-/obj/item/ammo_magazine/shotgun/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
 /turf/open/floor/prison/darkpurplefull2,
 /area/fiorina/station/research_cells/west)
 "lTp" = (
@@ -15949,7 +15949,7 @@
 /area/fiorina/tumor/servers)
 "mcJ" = (
 /obj/structure/surface/table/reinforced/prison,
-/obj/item/ammo_magazine/shotgun/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
 /turf/open/floor/prison/yellowfull,
 /area/fiorina/station/disco)
 "mdd" = (
@@ -22085,8 +22085,8 @@
 	name = "CMB riot locker"
 	},
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
-/obj/item/ammo_magazine/shotgun/buckshot,
-/obj/item/ammo_magazine/shotgun/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
 /obj/item/clothing/mask/gas/swat,
 /obj/item/clothing/head/helmet/marine/veteran/cmb,
 /obj/item/clothing/glasses/mgoggles/cmb_riot_shield,

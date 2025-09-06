@@ -83,7 +83,7 @@
 		list("Type 71 AP Magazine (5.45x39mm)", 15, /obj/item/ammo_magazine/rifle/type71/ap, null, VENDOR_ITEM_REGULAR),
 		list("Type 71 Magazine (5.45x39mm)", 5, /obj/item/ammo_magazine/rifle/type71, null, VENDOR_ITEM_REGULAR),
 		list("Type 64 Helical Magazine (7.62x19mm)", 5, /obj/item/ammo_magazine/smg/bizon, null, VENDOR_ITEM_REGULAR),
-		list("Handful of Heavy Buckshot Shells (8g)", 5, /obj/item/ammo_magazine/handful/shotgun/heavy/buckshot, null, VENDOR_ITEM_REGULAR),
+		list("Handful of Heavy Buckshot Shells (8g)", 5, /obj/item/ammo_magazine/handful/gauge_8/buckshot, null, VENDOR_ITEM_REGULAR),
 
 		list("SIDEARMS", 0, null, null, null),
 		list("Type 73 Pistol", 15, /obj/item/weapon/gun/pistol/t73, null, VENDOR_ITEM_REGULAR),
@@ -125,7 +125,7 @@
 		list("Type 71 AP Magazine (5.45x39mm)", 60, /obj/item/ammo_magazine/rifle/type71/ap, null, VENDOR_ITEM_REGULAR),
 		list("Type 71 Magazine (5.45x39mm)", 60, /obj/item/ammo_magazine/rifle/type71, null, VENDOR_ITEM_RECOMMENDED),
 		list("Type 64 Helical Magazine (7.62x19mm)", 60, /obj/item/ammo_magazine/smg/bizon, null, VENDOR_ITEM_REGULAR),
-		list("Handful of Heavy Buckshot Shells (8g)", 60, /obj/item/ammo_magazine/handful/shotgun/heavy/buckshot, null, VENDOR_ITEM_REGULAR),
+		list("Handful of Heavy Buckshot Shells (8g)", 60, /obj/item/ammo_magazine/handful/gauge_8/buckshot, null, VENDOR_ITEM_REGULAR),
 
 		list("SIDEARMS", -1, null, null),
 		list("Type 73 Pistol", 20, /obj/item/weapon/gun/pistol/t73, null, VENDOR_ITEM_REGULAR),

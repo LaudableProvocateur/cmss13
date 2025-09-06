@@ -155,8 +155,8 @@
 /obj/structure/closet/secure_closet/guncabinet{
 	req_access = null
 	},
-/obj/item/ammo_magazine/shotgun/buckshot,
-/obj/item/ammo_magazine/shotgun/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
 /obj/item/reagent_container/glass/bottle/robot/antitoxin,
 /obj/item/clothing/suit/storage/marine/veteran/ua_riot,
 /obj/item/prop/helmetgarb/riot_shield,
@@ -252,8 +252,8 @@
 	req_access = null
 	},
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
-/obj/item/ammo_magazine/shotgun/buckshot,
-/obj/item/ammo_magazine/shotgun/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
 /obj/item/storage/belt/shotgun,
 /obj/item/clothing/under/marine/ua_riot,
 /obj/item/clothing/suit/storage/marine/veteran/ua_riot,
@@ -394,7 +394,7 @@
 /turf/open/floor/prison/floor_plate,
 /area/fiorina/station/security)
 "pd" = (
-/obj/item/ammo_magazine/handful/shotgun/beanbag,
+/obj/item/ammo_magazine/handful/gauge_12/beanbag,
 /turf/open/floor/prison/redfull,
 /area/fiorina/station/security)
 "pn" = (
@@ -544,7 +544,7 @@
 /turf/open/floor/prison,
 /area/fiorina/lz/near_lzII)
 "uX" = (
-/obj/item/ammo_magazine/shotgun/beanbag,
+/obj/item/ammo_magazine/gauge_12/beanbag,
 /turf/open/floor/prison/redfull,
 /area/fiorina/station/security)
 "vf" = (
@@ -659,7 +659,7 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/item/ammo_magazine/shotgun/beanbag,
+/obj/item/ammo_magazine/gauge_12/beanbag,
 /turf/open/floor/prison/redfull,
 /area/fiorina/station/security)
 "zA" = (
@@ -736,8 +736,8 @@
 	name = "CMB riot locker"
 	},
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
-/obj/item/ammo_magazine/shotgun/buckshot,
-/obj/item/ammo_magazine/shotgun/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
 /obj/item/clothing/mask/gas/swat,
 /obj/item/clothing/head/helmet/marine/veteran/cmb,
 /obj/item/clothing/glasses/mgoggles/cmb_riot_shield,
@@ -752,7 +752,7 @@
 /turf/open/floor/prison/floor_plate,
 /area/fiorina/station/security)
 "CO" = (
-/obj/item/ammo_magazine/handful/shotgun/beanbag,
+/obj/item/ammo_magazine/handful/gauge_12/beanbag,
 /turf/open/floor/plating/prison,
 /area/fiorina/station/security)
 "De" = (
@@ -832,8 +832,8 @@
 	req_access = null
 	},
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
-/obj/item/ammo_magazine/shotgun/buckshot,
-/obj/item/ammo_magazine/shotgun/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/gauge_12/buckshot,
 /obj/item/clothing/under/marine/ua_riot,
 /obj/item/storage/pill_bottle/alkysine,
 /obj/item/clothing/suit/storage/marine/veteran/ua_riot,

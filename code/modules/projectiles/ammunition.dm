@@ -168,7 +168,7 @@ They're all essentially identical when it comes to getting the job done.
 	else
 		source.update_icon()
 
-	if(!istype(src, /obj/item/ammo_magazine/internal) && !istype(src, /obj/item/ammo_magazine/shotgun) && !istype(source, /obj/item/ammo_magazine/shotgun)) //if we are shotgun or revolver or whatever not using normal mag system
+	if(!istype(src, /obj/item/ammo_magazine/internal) && !istype(src, /obj/item/ammo_magazine/gauge_12) && !istype(source, /obj/item/ammo_magazine/gauge_12)) //if we are shotgun or revolver or whatever not using normal mag system
 		playsound(loc, pick('sound/weapons/handling/mag_refill_1.ogg', 'sound/weapons/handling/mag_refill_2.ogg', 'sound/weapons/handling/mag_refill_3.ogg'), 25, 1)
 
 	update_icon(S)
@@ -194,7 +194,7 @@ They're all essentially identical when it comes to getting the job done.
 		amount_to_transfer = transfer_amount ? min(current_rounds, transfer_amount) : min(current_rounds, transfer_handful_amount)
 		new_handful.generate_handful(default_ammo, caliber, transfer_handful_amount, amount_to_transfer, gun_type)
 		current_rounds -= amount_to_transfer
-		if(!istype(src, /obj/item/ammo_magazine/internal) && !istype(src, /obj/item/ammo_magazine/shotgun)) //if we are shotgun or revolver or whatever not using normal mag system
+		if(!istype(src, /obj/item/ammo_magazine/internal) && !istype(src, /obj/item/ammo_magazine/gauge_12)) //if we are shotgun or revolver or whatever not using normal mag system
 			playsound(loc, pick('sound/weapons/handling/mag_refill_1.ogg', 'sound/weapons/handling/mag_refill_2.ogg', 'sound/weapons/handling/mag_refill_3.ogg'), 25, 1)
 
 		if(user)
@@ -401,7 +401,7 @@ Turn() or Shift() as there is virtually no overhead. ~N
 	overlay_ammo_type = "_blank"
 	overlay_gun_type = "_458"
 	overlay_content = "_458"
-	magazine_type = /obj/item/ammo_magazine/lever_action/xm88
+	magazine_type = /obj/item/ammo_magazine/xm88
 
 /obj/item/ammo_box/magazine/lever_action/xm88/empty
 	empty = TRUE

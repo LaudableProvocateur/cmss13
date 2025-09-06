@@ -336,9 +336,9 @@ GLOBAL_LIST_INIT(cm_vending_gear_xo, list(
 		list("PRIMARY AMMUNITION", 0, null, null, null),
 		list("M41A MK1 Magazine", 40, /obj/item/ammo_magazine/rifle/m41aMK1, null, VENDOR_ITEM_RECOMMENDED),
 		list("M41A MK1 AP Magazine", 60, /obj/item/ammo_magazine/rifle/m41aMK1/ap, null, VENDOR_ITEM_RECOMMENDED),
-		list("Buckshot Shells", 20, /obj/item/ammo_magazine/shotgun/buckshot, null, VENDOR_ITEM_REGULAR),
-		list("Shotgun Slugs", 20, /obj/item/ammo_magazine/shotgun/slugs, null, VENDOR_ITEM_REGULAR),
-		list("Flechette Shells", 20, /obj/item/ammo_magazine/shotgun/flechette, null, VENDOR_ITEM_REGULAR),
+		list("Buckshot Shells", 20, /obj/item/ammo_magazine/gauge_12/buckshot, null, VENDOR_ITEM_REGULAR),
+		list("Shotgun Slugs", 20, /obj/item/ammo_magazine/gauge_12/slug, null, VENDOR_ITEM_REGULAR),
+		list("Flechette Shells", 20, /obj/item/ammo_magazine/gauge_12/flechette, null, VENDOR_ITEM_REGULAR),
 
 		list("SPECIALISATION KIT (CHOOSE 1)", 0, null, null, null),
 		list("Essential Engineer Set", 0, /obj/effect/essentials_set/engi, MARINE_CAN_BUY_ESSENTIALS, VENDOR_ITEM_RECOMMENDED),
@@ -390,8 +390,8 @@ GLOBAL_LIST_INIT(cm_vending_gear_xo, list(
 /obj/effect/essentials_set/xo/shotgunpreset
 	spawned_gear_list = list(
 		/obj/item/weapon/gun/shotgun/combat,
-		/obj/item/ammo_magazine/shotgun/buckshot,
-		/obj/item/ammo_magazine/shotgun/slugs,
+		/obj/item/ammo_magazine/gauge_12/buckshot,
+		/obj/item/ammo_magazine/gauge_12/slug,
 	)
 
 /obj/structure/machinery/cm_vending/gear/executive_officer

@@ -111,14 +111,14 @@
 	//head
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/marine/sof, WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/prop/helmetgarb/helmet_nvg/marsoc, WEAR_IN_HELMET)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/shotgun/buckshot, WEAR_IN_HELMET)
+	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/gauge_12/buckshot, WEAR_IN_HELMET)
 	//uniform
 	var/obj/item/clothing/under/marine/veteran/marsoc/uniform = new()
 	var/obj/item/clothing/accessory/storage/black_vest/accessory = new()
 	uniform.attach_accessory(new_human, accessory)
 	new_human.equip_to_slot_or_del(uniform, WEAR_BODY)
 	for(var/i in 1 to accessory.hold.storage_slots)
-		new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/shotgun/buckshot, WEAR_IN_ACCESSORY)
+		new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/gauge_12/buckshot, WEAR_IN_ACCESSORY)
 	//jacket
 	var/obj/item/clothing/suit/storage/marine/sof/armor = new()
 	new_human.equip_to_slot_or_del(armor, WEAR_JACKET)

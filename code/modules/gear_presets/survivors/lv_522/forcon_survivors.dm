@@ -237,7 +237,7 @@
 	uniform.attach_accessory(new_human,patch_forecon)
 	new_human.equip_to_slot_or_del(uniform, WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/shotgun/pump(new_human), WEAR_R_HAND)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/shotgun/slugs(new_human), WEAR_L_HAND)
+	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/gauge_12/slug(new_human), WEAR_L_HAND)
 	..()
 	add_forecon_weapon_pistol(new_human)
 	spawn_random_headgear(new_human)

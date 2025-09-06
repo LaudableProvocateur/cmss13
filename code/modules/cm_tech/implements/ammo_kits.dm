@@ -83,18 +83,18 @@
 	name = "incendiary buckshot kit"
 	desc = "A box containing 5 handfuls of incendiary buckshot."
 	can_hold = list(
-		/obj/item/ammo_magazine/handful/shotgun/buckshot/incendiary,
+		/obj/item/ammo_magazine/handful/gauge_12/buckshot/incendiary,
 	)
-	to_hold = /obj/item/ammo_magazine/handful/shotgun/buckshot/incendiary
+	to_hold = /obj/item/ammo_magazine/handful/gauge_12/buckshot/incendiary
 
 /obj/item/storage/box/shotgun/slug
 	name = "incendiary slug kit"
 	desc = "A box containing 5 handfuls of incendiary slugs."
 	icon_state = "incenslug"
 	can_hold = list(
-		/obj/item/ammo_magazine/handful/shotgun/incendiary,
+		/obj/item/ammo_magazine/handful/gauge_12/slug/incendiary,
 	)
-	to_hold = /obj/item/ammo_magazine/handful/shotgun/incendiary
+	to_hold = /obj/item/ammo_magazine/handful/gauge_12/slug/incendiary
 
 //unused due to thermal/wallpìercing combo
 /obj/item/ammo_kit/penetrating

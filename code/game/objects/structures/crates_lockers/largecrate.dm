@@ -181,9 +181,9 @@
 		/obj/item/ammo_magazine/revolver/m44,
 		/obj/item/ammo_magazine/rifle,
 		/obj/item/ammo_magazine/rifle/extended,
-		/obj/item/ammo_magazine/shotgun,
-		/obj/item/ammo_magazine/shotgun/buckshot,
-		/obj/item/ammo_magazine/shotgun/flechette,
+		/obj/item/ammo_magazine/gauge_12/slug,
+		/obj/item/ammo_magazine/gauge_12/buckshot,
+		/obj/item/ammo_magazine/gauge_12/flechette,
 		/obj/item/ammo_magazine/smg/m39,
 		/obj/item/ammo_magazine/smg/m39/extended,
 	)
@@ -394,7 +394,7 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 					/obj/item/weapon/gun/revolver/m44 = /obj/item/ammo_magazine/revolver/m44,
 					/obj/item/weapon/gun/rifle/m41a = /obj/item/ammo_magazine/rifle,
 					/obj/item/weapon/gun/rifle/m41a = /obj/item/ammo_magazine/rifle,
-					/obj/item/weapon/gun/shotgun/pump = /obj/item/ammo_magazine/shotgun,
+					/obj/item/weapon/gun/shotgun/pump = /obj/item/ammo_magazine/gauge_12/slug,
 					/obj/item/weapon/gun/smg/m39 = /obj/item/ammo_magazine/smg/m39,
 					/obj/item/weapon/gun/smg/m39 = /obj/item/ammo_magazine/smg/m39
 				)
@@ -435,8 +435,8 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 					/obj/item/weapon/gun/pistol/heavy = /obj/item/ammo_magazine/pistol/desert_eagle,
 					/obj/item/weapon/gun/revolver/small = /obj/item/ammo_magazine/revolver/smith_and_wesson,
 					/obj/item/weapon/gun/revolver/cmb = /obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
-					/obj/item/weapon/gun/shotgun/merc = /obj/item/ammo_magazine/handful/shotgun/buckshot,
-					/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb = /obj/item/ammo_magazine/handful/shotgun/buckshot,
+					/obj/item/weapon/gun/shotgun/merc = /obj/item/ammo_magazine/handful/gauge_12/buckshot,
+					/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb = /obj/item/ammo_magazine/handful/gauge_12/buckshot,
 					/obj/item/weapon/gun/smg/mp27 = /obj/item/ammo_magazine/smg/mp27,
 					/obj/item/weapon/gun/smg/bizon = /obj/item/ammo_magazine/smg/bizon,
 					/obj/item/weapon/gun/smg/mac15 = /obj/item/ammo_magazine/smg/mac15,
@@ -563,7 +563,7 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 	new /obj/item/ammo_magazine/pistol(src)
 	new /obj/item/ammo_magazine/pistol(src)
 	new /obj/item/weapon/gun/shotgun/double/with_stock(src)
-	new /obj/item/ammo_magazine/shotgun(src)
+	new /obj/item/ammo_magazine/gauge_12(src)
 	new /obj/item/weapon/gun/revolver/small(src)
 	new /obj/item/ammo_magazine/revolver/smith_and_wesson(src)
 	new /obj/item/ammo_magazine/revolver/smith_and_wesson(src)
@@ -583,8 +583,8 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 		new /obj/item/ammo_magazine/smg/mac15(src)
 		new /obj/item/ammo_magazine/smg/mac15(src)
 	new /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb(src)
-	new /obj/item/ammo_magazine/shotgun(src)
-	new /obj/item/ammo_magazine/shotgun/buckshot(src)
+	new /obj/item/ammo_magazine/gauge_12(src)
+	new /obj/item/ammo_magazine/gauge_12/buckshot(src)
 	new /obj/item/weapon/gun/revolver/m44(src)
 	new /obj/item/ammo_magazine/revolver(src)
 	new /obj/item/ammo_magazine/revolver(src)
@@ -610,8 +610,8 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 	new /obj/item/ammo_magazine/smg/bizon(src)
 	new /obj/item/ammo_magazine/smg/bizon(src)
 	new /obj/item/weapon/gun/shotgun/combat(src)
-	new /obj/item/ammo_magazine/shotgun(src)
-	new /obj/item/ammo_magazine/shotgun/buckshot(src)
+	new /obj/item/ammo_magazine/gauge_12(src)
+	new /obj/item/ammo_magazine/gauge_12/buckshot(src)
 
 
 /obj/structure/largecrate/hunter_games_ammo
@@ -625,7 +625,7 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 	new /obj/item/ammo_magazine/pistol(src)
 	new /obj/item/ammo_magazine/pistol(src)
 	new /obj/item/ammo_magazine/pistol(src)
-	new /obj/item/ammo_magazine/shotgun(src)
+	new /obj/item/ammo_magazine/gauge_12(src)
 	new /obj/item/ammo_magazine/revolver/smith_and_wesson(src)
 	new /obj/item/ammo_magazine/revolver/smith_and_wesson(src)
 
@@ -637,8 +637,8 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 	new /obj/item/ammo_magazine/smg/m39(src)
 	new /obj/item/ammo_magazine/smg/mac15(src)
 	new /obj/item/ammo_magazine/smg/mac15(src)
-	new /obj/item/ammo_magazine/shotgun(src)
-	new /obj/item/ammo_magazine/shotgun/buckshot(src)
+	new /obj/item/ammo_magazine/gauge_12(src)
+	new /obj/item/ammo_magazine/gauge_12/buckshot(src)
 	new /obj/item/ammo_magazine/revolver(src)
 	new /obj/item/ammo_magazine/revolver(src)
 	new /obj/item/ammo_magazine/rifle/m16(src)
@@ -654,8 +654,8 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 	new /obj/item/ammo_magazine/rifle/mar40(src)
 	new /obj/item/ammo_magazine/smg/bizon(src)
 	new /obj/item/ammo_magazine/smg/bizon(src)
-	new /obj/item/ammo_magazine/shotgun(src)
-	new /obj/item/ammo_magazine/shotgun/buckshot(src)
+	new /obj/item/ammo_magazine/gauge_12(src)
+	new /obj/item/ammo_magazine/gauge_12/buckshot(src)
 
 
 

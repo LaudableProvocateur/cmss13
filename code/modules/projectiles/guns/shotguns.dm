@@ -971,7 +971,7 @@ can cause issues with ammo types getting mixed up during the burst.
 	unacidable = TRUE
 	explo_proof = TRUE
 	force = 20 //Big heavy elephant gun.
-	current_mag = /obj/item/ammo_magazine/internal/shotgun/double/twobore
+	current_mag = /obj/item/ammo_magazine/internal/twobore
 	gauge = "2 bore"
 	fire_sound = 'sound/weapons/gun_mateba.ogg'
 	break_sound = 'sound/weapons/handling/gun_mou_open.ogg'

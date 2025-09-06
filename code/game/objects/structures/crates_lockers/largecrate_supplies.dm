@@ -163,7 +163,7 @@
 /obj/structure/largecrate/supply/ammo/shotgun
 	name = "12 Gauge ammunition crate (x20)"
 	desc = "An ammunition case containing eight boxes of slugs, eight boxes of buckshot, and four boxes of flechette rounds."
-	supplies = list(/obj/item/ammo_magazine/shotgun/slugs = 8, /obj/item/ammo_magazine/shotgun/buckshot = 8, /obj/item/ammo_magazine/shotgun/flechette = 4)
+	supplies = list(/obj/item/ammo_magazine/gauge_12/slug = 8, /obj/item/ammo_magazine/gauge_12/buckshot = 8, /obj/item/ammo_magazine/gauge_12/flechette = 4)
 
 /obj/structure/largecrate/supply/ammo/m39
 	name = "\improper M39 HV magazine case (x16)"

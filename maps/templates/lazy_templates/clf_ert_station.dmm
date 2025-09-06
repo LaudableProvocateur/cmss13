@@ -523,8 +523,8 @@
 /area/adminlevel/ert_station/clf_station)
 "oc" = (
 /obj/structure/surface/table/woodentable/poor,
-/obj/item/ammo_magazine/shotgun/slugs,
-/obj/item/ammo_magazine/shotgun/slugs,
+/obj/item/ammo_magazine/gauge_12/slug,
+/obj/item/ammo_magazine/gauge_12/slug,
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
 /obj/structure/machinery/light/small/built{
 	dir = 1
@@ -1004,8 +1004,8 @@
 /area/adminlevel/ert_station/clf_station)
 "AO" = (
 /obj/structure/surface/table/woodentable/poor,
-/obj/item/ammo_magazine/shotgun/flechette,
-/obj/item/ammo_magazine/shotgun/flechette,
+/obj/item/ammo_magazine/gauge_12/flechette,
+/obj/item/ammo_magazine/gauge_12/flechette,
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb/m3717,
 /obj/structure/machinery/light/small/built{
 	dir = 1
