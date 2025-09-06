@@ -6,23 +6,27 @@ GLOBAL_LIST_INIT(shotgun_boxes_12g, list(
 	))
 
 /obj/item/ammo_magazine/gauge_12
-	name = "generic shotgun shell box"
-	desc = "You shouldn't be seeing this"
-	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/USCM/shotguns.dmi'
+	name = "box of generic 12 gauge shells"
+	desc = "You shouldn't be seeing this, if you are, you should probably report it to someone/something who can fix it."
+
+	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/USCM/shotguns.dmi' // replace this with wherever is relevant
 	icon_state = "slugs"
 	item_state = "slugs"
 	item_icons = list(
 		WEAR_L_HAND = 'icons/mob/humans/onmob/inhands/weapons/ammo_lefthand.dmi',
 		WEAR_R_HAND = 'icons/mob/humans/onmob/inhands/weapons/ammo_righthand.dmi'
 		)
+	handful_state = "slug_shell"
+
 	default_ammo = /datum/ammo/bullet/gauge_12/slug
 	caliber = "12g"
+
 	gun_type = /obj/item/weapon/gun/shotgun
 	max_rounds = 25 // Real shotgun boxes are usually 5 or 25 rounds. This works with the new system, five handfuls.
+	transfer_handful_amount = 5
+
 	w_class = SIZE_LARGE // Can't throw it in your pocket, friend.
 	flags_magazine = AMMUNITION_REFILLABLE|AMMUNITION_HANDFUL_BOX
-	handful_state = "slug_shell"
-	transfer_handful_amount = 5
 
 /obj/item/ammo_magazine/gauge_12/attack_self(mob/user)
 	if(current_rounds == 0)

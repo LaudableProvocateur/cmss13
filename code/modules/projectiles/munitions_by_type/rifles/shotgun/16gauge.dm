@@ -1,13 +1,21 @@
 /obj/item/ammo_magazine/gauge_16
-	name = "box of generic shells"
-	desc = "You shouldn't be seeing this"
+	name = "box of generic 16 gauge shells"
+	desc = "You shouldn't be seeing this, if you are, you should probably report it to someone/something who can fix it."
+	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/USCM/shotguns.dmi'
 	icon_state = "breaching"
 	item_state = "breaching"
+	item_icons = list(
+		WEAR_L_HAND = 'icons/mob/humans/onmob/inhands/weapons/ammo_lefthand.dmi',
+		WEAR_R_HAND = 'icons/mob/humans/onmob/inhands/weapons/ammo_righthand.dmi'
+		)
 	max_rounds = 30 //6 handfuls of 6 shells, 12 rounds in a XM51 mag
 	transfer_handful_amount = 6
 	default_ammo = /datum/ammo/bullet/gauge_16
 	handful_state = "breaching_shell"
+	w_class = SIZE_LARGE
+	flags_magazine = AMMUNITION_REFILLABLE|AMMUNITION_HANDFUL_BOX
 	caliber = "16g"
+
 /obj/item/ammo_magazine/gauge_16/breaching
 	name = "box of breaching shells"
 	desc = "A box filled with breaching shotgun shells. 16 Gauge."

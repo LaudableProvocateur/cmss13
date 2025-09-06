@@ -5,8 +5,9 @@ GLOBAL_LIST_INIT(shotgun_boxes_8g, list(
 	))
 
 /obj/item/ammo_magazine/gauge_8
-	name = "box of shotgun heavy slugs"
-	desc = "A box filled with heavy shotgun shells. A timeless classic. 8 Gauge."
+	name = "box of generic 8 gauge shells"
+	desc = "You shouldn't be seeing this, if you are, you should probably report it to someone/something who can fix it."
+
 	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/UPP/shotguns.dmi'
 	item_icons = list(
 		WEAR_L_HAND = 'icons/mob/humans/onmob/inhands/weapons/ammo_lefthand.dmi',
