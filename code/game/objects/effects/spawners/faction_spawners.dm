@@ -11,7 +11,7 @@
 		/obj/item/weapon/gun/rifle/m41a/tactical = /obj/item/ammo_magazine/rifle,
 		/obj/item/weapon/gun/smg/m39 = /obj/item/ammo_magazine/smg/m39,
 		/obj/item/weapon/gun/smg/m39 = /obj/item/ammo_magazine/smg/m39,
-		/obj/item/weapon/gun/shotgun/pump = /datum/ammo/bullet/gauge_12/buckshot
+		/obj/item/weapon/gun/shotgun/pump = /datum/ammo/bullet/shell/gauge_12/buckshot
 	)
 
 /obj/effect/spawner/random/gun/uscm_primary/lowchance

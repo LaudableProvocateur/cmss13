@@ -101,7 +101,7 @@
 	name = "\improper Type 23 shotgun shell box (Dragon's breath 8g x 100)"
 	icon_state = "base_inc_upp"
 	overlay_content = "_upp_incen"
-	magazine_type = /obj/item/ammo_magazine/gauge_8/incendiary
+	magazine_type = /obj/item/ammo_magazine/gauge_8/dragonsbreath
 
 /obj/item/ammo_box/magazine/shotgun/upp/incendiary/empty
 	empty = TRUE

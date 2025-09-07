@@ -1,4 +1,4 @@
-/datum/ammo/bullet/gauge_12/twobore
+/datum/ammo/bullet/shell/gauge_12/twobore
 	name = "two bore bullet"
 	icon_state = "autocannon"
 	handful_state = "twobore"
@@ -11,7 +11,7 @@
 	effective_range_max = EFFECTIVE_RANGE_MAX_TIER_2 //Full damage up to this distance, then falloff for each tile beyond.
 	var/hit_messages = list()
 
-/datum/ammo/bullet/gauge_12/twobore/on_hit_mob(mob/living/M, obj/projectile/P)
+/datum/ammo/bullet/shell/gauge_12/twobore/on_hit_mob(mob/living/M, obj/projectile/P)
 	var/mob/shooter = P.firer
 	if(shooter && ismob(shooter) && HAS_TRAIT(shooter, TRAIT_TWOBORE_TRAINING) && M.stat != DEAD && prob(40)) //Death is handled by periodic life() checks so this should have a chance to fire on a killshot.
 		if(!length(hit_messages)) //Pick and remove lines, refill on exhaustion.
@@ -36,7 +36,7 @@
 
 	step(M, get_dir(P.firer, M))
 
-/datum/ammo/bullet/gauge_12/twobore/knockback_effects(mob/living/living_mob, obj/projectile/fired_projectile)
+/datum/ammo/bullet/shell/gauge_12/twobore/knockback_effects(mob/living/living_mob, obj/projectile/fired_projectile)
 	if(iscarbonsizexeno(living_mob))
 		var/mob/living/carbon/xenomorph/target = living_mob
 		to_chat(target, SPAN_XENODANGER("You are shaken and slowed by the sudden impact!"))

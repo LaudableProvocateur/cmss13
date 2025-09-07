@@ -13,7 +13,7 @@ Beanbag - Contains beanbag.
 */
 
 // default the meta 12 gauge shell to be a slug with no on hit effects.
-/datum/ammo/bullet/gauge_12
+/datum/ammo/bullet/shell/gauge_12
 	name = "12 gauge generic"
 	handful_state = "slug_shell"
 
@@ -27,17 +27,17 @@ Beanbag - Contains beanbag.
 	headshot_state = HEADSHOT_OVERLAY_HEAVY
 
 // faction clash universal shotgun stuff.
-/datum/ammo/bullet/gauge_12/setup_faction_clash_values()
+/datum/ammo/bullet/shell/gauge_12/setup_faction_clash_values()
 	. = ..()
 	accuracy = accuracy * 2 + 85 //we revert accuracy reduction that is applied on other bullets shotguns are accurate but already have short range only
 
 // 12 Gauge - Buckshot
-/datum/ammo/bullet/gauge_12/buckshot
+/datum/ammo/bullet/shell/gauge_12/buckshot
 	name = "buckshot shell"
 	icon_state = "buckshot"
 	handful_state = "buckshot_shell"
 	multiple_handful_name = TRUE
-	bonus_projectiles_type = /datum/ammo/bullet/gauge_12/spread
+	bonus_projectiles_type = /datum/ammo/bullet/shell/gauge_12/spread
 
 	accuracy_var_low = PROJECTILE_VARIANCE_TIER_5
 	accuracy_var_high = PROJECTILE_VARIANCE_TIER_5
@@ -54,29 +54,29 @@ Beanbag - Contains beanbag.
 	handful_state = "buckshot_shell"
 	multiple_handful_name = TRUE
 
-/datum/ammo/bullet/gauge_12/buckshot/incendiary
+/datum/ammo/bullet/shell/gauge_12/buckshot/incendiary
 	name = "incendiary buckshot shell"
 	handful_state = "incen_buckshot"
 	handful_type = /obj/item/ammo_magazine/handful/gauge_12/buckshot/incendiary
 
-/datum/ammo/bullet/gauge_12/buckshot/incendiary/set_bullet_traits()
+/datum/ammo/bullet/shell/gauge_12/buckshot/incendiary/set_bullet_traits()
 	. = ..()
 	LAZYADD(traits_to_give, list(
 		BULLET_TRAIT_ENTRY(/datum/element/bullet_trait_incendiary)
 	))
 
-/datum/ammo/bullet/gauge_12/buckshot/on_hit_mob(mob/M,obj/projectile/P)
+/datum/ammo/bullet/shell/gauge_12/buckshot/on_hit_mob(mob/M,obj/projectile/P)
 	knockback(M,P)
 
-/datum/ammo/bullet/gauge_12/buckshot/masterkey
-	bonus_projectiles_type = /datum/ammo/bullet/gauge_12/spread/masterkey
+/datum/ammo/bullet/shell/gauge_12/buckshot/masterkey
+	bonus_projectiles_type = /datum/ammo/bullet/shell/gauge_12/spread/masterkey
 
 	damage = 55
 
-/datum/ammo/bullet/gauge_12/buckshot/masterkey/on_hit_mob(mob/M,obj/projectile/P)
+/datum/ammo/bullet/shell/gauge_12/buckshot/masterkey/on_hit_mob(mob/M,obj/projectile/P)
 	knockback(M,P,1)
 
-/datum/ammo/bullet/gauge_12/spread
+/datum/ammo/bullet/shell/gauge_12/spread
 	name = "additional buckshot"
 	icon_state = "buckshot"
 
@@ -93,11 +93,11 @@ Beanbag - Contains beanbag.
 	damage_armor_punch = 0
 	pen_armor_punch = 0
 
-/datum/ammo/bullet/gauge_12/spread/masterkey
+/datum/ammo/bullet/shell/gauge_12/spread/masterkey
 	damage = 20
 
 // 12 Gauge - Slugs
-/datum/ammo/bullet/gauge_12/slug
+/datum/ammo/bullet/shell/gauge_12/slug
 	name = "shotgun slug"
 	handful_state = "slug_shell"
 
@@ -109,10 +109,10 @@ Beanbag - Contains beanbag.
 	damage_armor_punch = 2
 	handful_state = "slug_shell"
 
-/datum/ammo/bullet/gauge_12/slug/on_hit_mob(mob/M,obj/projectile/P)
+/datum/ammo/bullet/shell/gauge_12/slug/on_hit_mob(mob/M,obj/projectile/P)
 	knockback(M, P, 6)
 
-/datum/ammo/bullet/gauge_12/slug/knockback_effects(mob/living/living_mob, obj/projectile/fired_projectile)
+/datum/ammo/bullet/shell/gauge_12/slug/knockback_effects(mob/living/living_mob, obj/projectile/fired_projectile)
 	if(iscarbonsizexeno(living_mob))
 		var/mob/living/carbon/xenomorph/target = living_mob
 		to_chat(target, SPAN_XENODANGER("You are shaken and slowed by the sudden impact!"))
@@ -127,7 +127,7 @@ Beanbag - Contains beanbag.
 			to_chat(living_mob, SPAN_HIGHDANGER("The impact knocks you off-balance!"))
 		living_mob.apply_stamina_damage(fired_projectile.ammo.damage, fired_projectile.def_zone, ARMOR_BULLET)
 
-/datum/ammo/bullet/gauge_12/slug/incendiary
+/datum/ammo/bullet/shell/gauge_12/slug/incendiary
 	name = "incendiary slug"
 	handful_state = "incendiary_slug"
 	damage_type = BURN
@@ -139,28 +139,28 @@ Beanbag - Contains beanbag.
 	penetration= ARMOR_PENETRATION_TIER_1
 	handful_state = "incendiary_slug"
 
-/datum/ammo/bullet/gauge_12/slug/incendiary/set_bullet_traits()
+/datum/ammo/bullet/shell/gauge_12/slug/incendiary/set_bullet_traits()
 	. = ..()
 	LAZYADD(traits_to_give, list(
 		BULLET_TRAIT_ENTRY(/datum/element/bullet_trait_incendiary)
 	))
 
-/datum/ammo/bullet/gauge_12/slug/incendiary/on_hit_mob(mob/M,obj/projectile/P)
+/datum/ammo/bullet/shell/gauge_12/slug/incendiary/on_hit_mob(mob/M,obj/projectile/P)
 	burst(get_turf(M),P,damage_type)
 	knockback(M,P)
 
-/datum/ammo/bullet/gauge_12/slug/incendiary/on_hit_obj(obj/O,obj/projectile/P)
+/datum/ammo/bullet/shell/gauge_12/slug/incendiary/on_hit_obj(obj/O,obj/projectile/P)
 	burst(get_turf(P),P,damage_type)
 
-/datum/ammo/bullet/gauge_12/slug/incendiary/on_hit_turf(turf/T,obj/projectile/P)
+/datum/ammo/bullet/shell/gauge_12/slug/incendiary/on_hit_turf(turf/T,obj/projectile/P)
 	burst(get_turf(T),P,damage_type)
 
 // 12 Gauge - Flechette
-/datum/ammo/bullet/gauge_12/flechette
+/datum/ammo/bullet/shell/gauge_12/flechette
 	name = "flechette shell"
 	icon_state = "flechette"
 	handful_state = "flechette_shell"
-	bonus_projectiles_type = /datum/ammo/bullet/gauge_12/flechette_spread
+	bonus_projectiles_type = /datum/ammo/bullet/shell/gauge_12/flechette_spread
 
 	accuracy_var_low = PROJECTILE_VARIANCE_TIER_6
 	accuracy_var_high = PROJECTILE_VARIANCE_TIER_6
@@ -173,11 +173,11 @@ Beanbag - Contains beanbag.
 	handful_state = "flechette_shell"
 	multiple_handful_name = TRUE
 
-/datum/ammo/bullet/gauge_12/flechette/setup_faction_clash_values()
+/datum/ammo/bullet/shell/gauge_12/flechette/setup_faction_clash_values()
 	. = ..()
 	damage *= 0.7
 
-/datum/ammo/bullet/gauge_12/flechette_spread
+/datum/ammo/bullet/shell/gauge_12/flechette_spread
 	name = "additional flechette"
 	icon_state = "flechette"
 
@@ -190,12 +190,12 @@ Beanbag - Contains beanbag.
 	penetration = ARMOR_PENETRATION_TIER_7
 	scatter = SCATTER_AMOUNT_TIER_5
 
-/datum/ammo/bullet/gauge_12/flechette_spread/setup_faction_clash_values()
+/datum/ammo/bullet/shell/gauge_12/flechette_spread/setup_faction_clash_values()
 	. = ..()
 	damage *= 0.7
 
 // 12 Gauge - Beanbag
-/datum/ammo/bullet/gauge_12/beanbag
+/datum/ammo/bullet/shell/gauge_12/beanbag
 	name = "beanbag slug"
 	headshot_state = HEADSHOT_OVERLAY_LIGHT //It's not meant to kill people... but if you put it in your mouth, it will.
 	handful_state = "beanbag_slug"
@@ -211,7 +211,7 @@ Beanbag - Contains beanbag.
 	shell_speed = AMMO_SPEED_TIER_3
 	handful_state = "beanbag_slug"
 
-/datum/ammo/bullet/gauge_12/beanbag/on_hit_mob(mob/M, obj/projectile/P)
+/datum/ammo/bullet/shell/gauge_12/beanbag/on_hit_mob(mob/M, obj/projectile/P)
 	if(!M || M == P.firer)
 		return
 	if(ishuman(M))

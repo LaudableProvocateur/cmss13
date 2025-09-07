@@ -207,7 +207,7 @@
 	icon_state = "sharp_flechette_dart"
 	handful_state = "sharp_flechette"
 	embed_object = /obj/item/sharp/flechette
-	shrapnel_type = /datum/ammo/bullet/gauge_12/flechette_spread
+	shrapnel_type = /datum/ammo/bullet/shell/gauge_12/flechette_spread
 
 /datum/ammo/rifle/sharp/flechette/on_hit_mob(mob/living/target, obj/projectile/shot_dart)
 	if(!target || target == shot_dart.firer)

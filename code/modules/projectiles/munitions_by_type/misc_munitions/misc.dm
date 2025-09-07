@@ -104,7 +104,7 @@
 	icon_state = "xm51"
 	caliber = "16g"
 	w_class = SIZE_MEDIUM
-	default_ammo = /datum/ammo/bullet/gauge_16/breaching
+	default_ammo = /datum/ammo/bullet/shell/gauge_16/breaching
 	max_rounds = 12
 	gun_type = /obj/item/weapon/gun/rifle/xm51
 	transfer_handful_amount = 6
@@ -119,7 +119,7 @@
 	desc = "A 16 gauge rubber buckshot shotgun magazine."
 	icon_state = "m51b_rubber"
 	gun_type = /obj/item/weapon/gun/rifle/xm51/cmb
-	default_ammo = /datum/ammo/bullet/gauge_8/rubber
+	default_ammo = /datum/ammo/bullet/shell/gauge_8/rubber
 
 //-------------------------------------------------------
 //P9 SHARP Rifle

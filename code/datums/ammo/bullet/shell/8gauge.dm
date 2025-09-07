@@ -13,7 +13,7 @@ Beanbag - Contains beanbag.
 */
 
 // default the meta 12 gauge shell to be a slug with no on hit effects.
-/datum/ammo/bullet/gauge_8
+/datum/ammo/bullet/shell/gauge_8
 	name = "8 gauge generic"
 	handful_state = "slug_shell"
 
@@ -27,17 +27,17 @@ Beanbag - Contains beanbag.
 	headshot_state = HEADSHOT_OVERLAY_HEAVY
 
 // faction clash universal shotgun stuff.
-/datum/ammo/bullet/gauge_8/setup_faction_clash_values()
+/datum/ammo/bullet/shell/gauge_8/setup_faction_clash_values()
 	. = ..()
 	accuracy = accuracy * 2 + 85 //we revert accuracy reduction that is applied on other bullets shotguns are accurate but already have short range only
 
 // 8 Gauge - Buckshot
-/datum/ammo/bullet/gauge_8/buckshot
+/datum/ammo/bullet/shell/gauge_8/buckshot
 	name = "heavy buckshot shell"
 	icon_state = "buckshot"
 	handful_state = "heavy_buckshot"
 	multiple_handful_name = TRUE
-	bonus_projectiles_type = /datum/ammo/bullet/gauge_8/buckshot/spread
+	bonus_projectiles_type = /datum/ammo/bullet/shell/gauge_8/buckshot/spread
 	bonus_projectiles_amount = EXTRA_PROJECTILES_TIER_3
 	accurate_range = 3
 	max_range = 3
@@ -47,16 +47,16 @@ Beanbag - Contains beanbag.
 	damage_armor_punch = 0
 	pen_armor_punch = 0
 
-/datum/ammo/bullet/gauge_8/buckshot/on_hit_mob(mob/M,obj/projectile/P)
+/datum/ammo/bullet/shell/gauge_8/buckshot/on_hit_mob(mob/M,obj/projectile/P)
 	knockback(M,P)
 
-/datum/ammo/bullet/gauge_8/buckshot/spread
+/datum/ammo/bullet/shell/gauge_8/buckshot/spread
 	name = "additional heavy buckshot"
 	max_range = 4
 	scatter = SCATTER_AMOUNT_TIER_1
 	bonus_projectiles_amount = 0
 
-/datum/ammo/bullet/gauge_8/buckshot/dragonsbreath
+/datum/ammo/bullet/shell/gauge_8/buckshot/dragonsbreath
 	name = "dragon's breath shell"
 	handful_state = "heavy_dragonsbreath"
 	multiple_handful_name = TRUE
@@ -64,15 +64,15 @@ Beanbag - Contains beanbag.
 	damage = 60
 	accurate_range = 3
 	max_range = 4
-	bonus_projectiles_type = /datum/ammo/bullet/gauge_8/buckshot/dragonsbreath/spread
+	bonus_projectiles_type = /datum/ammo/bullet/shell/gauge_8/buckshot/dragonsbreath/spread
 
-/datum/ammo/bullet/gauge_8/buckshot/dragonsbreath/set_bullet_traits()
+/datum/ammo/bullet/shell/gauge_8/buckshot/dragonsbreath/set_bullet_traits()
 	. = ..()
 	LAZYADD(traits_to_give, list(
 		BULLET_TRAIT_ENTRY(/datum/element/bullet_trait_incendiary)
 	))
 
-/datum/ammo/bullet/gauge_8/buckshot/dragonsbreath/spread
+/datum/ammo/bullet/shell/gauge_8/buckshot/dragonsbreath/spread
 	name = "additional dragon's breath"
 	bonus_projectiles_amount = 0
 	accurate_range = 4
@@ -80,7 +80,7 @@ Beanbag - Contains beanbag.
 	shell_speed = AMMO_SPEED_TIER_4 // so they hit before the main shell stuns
 
 // 8 Gauge - Slug
-/datum/ammo/bullet/gauge_8/slug
+/datum/ammo/bullet/shell/gauge_8/slug
 	name = "heavy shotgun slug"
 	handful_state = "heavy_slug"
 
@@ -90,10 +90,10 @@ Beanbag - Contains beanbag.
 	penetration = ARMOR_PENETRATION_TIER_6
 	damage_armor_punch = 2
 
-/datum/ammo/bullet/gauge_8/slug/on_hit_mob(mob/M,obj/projectile/P)
+/datum/ammo/bullet/shell/gauge_8/slug/on_hit_mob(mob/M,obj/projectile/P)
 	knockback(M, P, 7)
 
-/datum/ammo/bullet/gauge_8/slug/knockback_effects(mob/living/living_mob, obj/projectile/fired_projectile)
+/datum/ammo/bullet/shell/gauge_8/slug/knockback_effects(mob/living/living_mob, obj/projectile/fired_projectile)
 	if(iscarbonsizexeno(living_mob))
 		var/mob/living/carbon/xenomorph/target = living_mob
 		to_chat(target, SPAN_XENODANGER("You are shaken and slowed by the sudden impact!"))
@@ -109,12 +109,12 @@ Beanbag - Contains beanbag.
 		living_mob.apply_stamina_damage(fired_projectile.ammo.damage, fired_projectile.def_zone, ARMOR_BULLET)
 
 // 8 Gauge - Flechette
-/datum/ammo/bullet/gauge_8/flechette
+/datum/ammo/bullet/shell/gauge_8/flechette
 	name = "heavy flechette shell"
 	icon_state = "flechette"
 	handful_state = "heavy_flechette"
 	multiple_handful_name = TRUE
-	bonus_projectiles_type = /datum/ammo/bullet/gauge_8/flechette_spread
+	bonus_projectiles_type = /datum/ammo/bullet/shell/gauge_8/flechette_spread
 
 	accuracy_var_low = PROJECTILE_VARIANCE_TIER_3
 	accuracy_var_high = PROJECTILE_VARIANCE_TIER_3
@@ -125,11 +125,11 @@ Beanbag - Contains beanbag.
 	penetration = ARMOR_PENETRATION_TIER_10
 	bonus_projectiles_amount = EXTRA_PROJECTILES_TIER_2
 
-/datum/ammo/bullet/gauge_8/flechette/setup_faction_clash_values()
+/datum/ammo/bullet/shell/gauge_8/flechette/setup_faction_clash_values()
 	. = ..()
 	damage *= 0.7
 
-/datum/ammo/bullet/gauge_8/flechette_spread
+/datum/ammo/bullet/shell/gauge_8/flechette_spread
 	name = "additional heavy flechette"
 	icon_state = "flechette"
 	accuracy_var_low = PROJECTILE_VARIANCE_TIER_6
@@ -141,12 +141,12 @@ Beanbag - Contains beanbag.
 	penetration = ARMOR_PENETRATION_TIER_10
 	scatter = SCATTER_AMOUNT_TIER_4
 
-/datum/ammo/bullet/gauge_8/flechette_spread/setup_faction_clash_values()
+/datum/ammo/bullet/shell/gauge_8/flechette_spread/setup_faction_clash_values()
 	. = ..()
 	damage *= 0.7
 
 // 8 Gauge - Beanbag
-/datum/ammo/bullet/gauge_8/beanbag
+/datum/ammo/bullet/shell/gauge_8/beanbag
 	name = "heavy beanbag slug"
 	icon_state = "beanbag"
 	headshot_state = HEADSHOT_OVERLAY_MEDIUM
@@ -161,7 +161,7 @@ Beanbag - Contains beanbag.
 	accuracy = HIT_ACCURACY_TIER_2
 	shell_speed = AMMO_SPEED_TIER_2
 
-/datum/ammo/bullet/gauge_8/beanbag/on_hit_mob(mob/M, obj/projectile/P)
+/datum/ammo/bullet/shell/gauge_8/beanbag/on_hit_mob(mob/M, obj/projectile/P)
 	if(!M || M == P.firer)
 		return
 	if(ishuman(M))

@@ -381,7 +381,7 @@ GLOBAL_LIST_INIT(wy_droid_emotes, setup_wy_droid_emotes())
 	return ammo_list
 
 /proc/setup_ammo()
-	var/list/blacklist = list(/datum/ammo/energy, /datum/ammo/energy/yautja, /datum/ammo/energy/yautja/rifle, /datum/ammo/bullet/gauge_12, /datum/ammo/xeno)
+	var/list/blacklist = list(/datum/ammo/energy, /datum/ammo/energy/yautja, /datum/ammo/energy/yautja/rifle, /datum/ammo/bullet/shell/gauge_12, /datum/ammo/xeno)
 	var/list/ammo_list = list()
 	for(var/T in subtypesof(/datum/ammo) - blacklist)
 		var/datum/ammo/A = new T

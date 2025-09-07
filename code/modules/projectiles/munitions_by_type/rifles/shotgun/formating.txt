@@ -13,7 +13,7 @@ As it stands theres a serious issue of some of the stuff in these ammo files see
 		)
 	handful_state = "slug_shell"
 
-	default_ammo = /datum/ammo/bullet/gauge_12/slug
+	default_ammo = /datum/ammo/bullet/shell/gauge_12/slug
 	caliber = "12g"
 
 	gun_type = /obj/item/weapon/gun/shotgun
@@ -28,3 +28,14 @@ As it stands theres a serious issue of some of the stuff in these ammo files see
 	Naming block "Contains dedicated names and descriptions for the ammo"
 
 	Icon block "Contains the DMI extension, icon state, item_state, and item_icons, to my understanding handful_state goes here?"
+
+
+rewrite time.
+
+shotgun
+	generic
+		shell_box.dm
+		internal_tube.dm
+		handful.dm
+	gauge_12
+		etc ~

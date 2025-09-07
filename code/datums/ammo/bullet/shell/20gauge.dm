@@ -7,7 +7,21 @@ ES7-Beanbag - Contains Electrified Stunning Beanbags.
 ES7-Slug - Contains Electrified Stunning Slugs.
 
 */
-/datum/ammo/bullet/gauge_20/es7_beanbag
+// default the meta 12 gauge shell to be a slug with no on hit effects.
+/datum/ammo/bullet/shell/gauge_20
+	name = "20 gauge generic"
+	handful_state = "slug_shell"
+
+	accurate_range = 8
+	max_range = 8
+	damage = 70
+	penetration = ARMOR_PENETRATION_TIER_4
+	accuracy = HIT_ACCURACY_TIER_3
+	damage_armor_punch = 2
+	handful_state = "slug_shell"
+	headshot_state = HEADSHOT_OVERLAY_HEAVY
+
+/datum/ammo/bullet/shell/gauge_20/es7_beanbag
 	name = "electrostatic shock slug"
 	headshot_state = HEADSHOT_OVERLAY_LIGHT //Electric version of the bean bag.
 	handful_state = "shock_slug"
@@ -26,7 +40,7 @@ ES7-Slug - Contains Electrified Stunning Slugs.
 	shell_speed = AMMO_SPEED_TIER_4
 	handful_state = "shock_slug"
 
-/datum/ammo/bullet/gauge_20/es7_beanbag/on_hit_mob(mob/mobs, obj/projectile/P)
+/datum/ammo/bullet/shell/gauge_20/es7_beanbag/on_hit_mob(mob/mobs, obj/projectile/P)
 	if(!mobs || mobs == P.firer)
 		return
 	if(!isyautja(mobs) && !isxeno(mobs))
@@ -39,7 +53,7 @@ ES7-Slug - Contains Electrified Stunning Slugs.
 		humanus.disable_special_items() // Disables scout cloak
 		humanus.make_jittery(40)
 
-/datum/ammo/bullet/gauge_20/es7_slug
+/datum/ammo/bullet/shell/gauge_20/es7_slug
 	name = "electrostatic solid slug"
 	icon_state = "bullet_iff"
 	handful_state = "es7_slug"
@@ -54,7 +68,7 @@ ES7-Slug - Contains Electrified Stunning Slugs.
 	penetration = ARMOR_PENETRATION_TIER_8
 	accuracy = HIT_ACCURACY_TIER_5
 
-/datum/ammo/bullet/gauge_20/es7_slug/on_hit_mob(mob/mobs,obj/projectile/P)
+/datum/ammo/bullet/shell/gauge_20/es7_slug/on_hit_mob(mob/mobs,obj/projectile/P)
 	if(!mobs || mobs == P.firer)
 		return
 	if(!isyautja(mobs) && !isxeno(mobs))
@@ -69,7 +83,7 @@ ES7-Slug - Contains Electrified Stunning Slugs.
 
 	knockback(mobs, P, 6)
 
-/datum/ammo/bullet/gauge_20/es7_slug/knockback_effects(mob/living/living_mob, obj/projectile/fired_projectile)
+/datum/ammo/bullet/shell/gauge_20/es7_slug/knockback_effects(mob/living/living_mob, obj/projectile/fired_projectile)
 	if(iscarbonsizexeno(living_mob))
 		var/mob/living/carbon/xenomorph/target = living_mob
 		to_chat(target, SPAN_XENODANGER("You are shaken and slowed by the sudden impact!"))
@@ -84,7 +98,7 @@ ES7-Slug - Contains Electrified Stunning Slugs.
 			to_chat(living_mob, SPAN_HIGHDANGER("The impact knocks you off-balance!"))
 		living_mob.apply_stamina_damage(fired_projectile.ammo.damage, fired_projectile.def_zone, ARMOR_BULLET)
 
-/datum/ammo/bullet/gauge_20/beanbag
+/datum/ammo/bullet/shell/gauge_20/beanbag
 	name = "beanbag slug"
 	headshot_state = HEADSHOT_OVERLAY_LIGHT //It's not meant to kill people... but if you put it in your mouth, it will.
 	handful_state = "beanbag_slug"
@@ -100,7 +114,7 @@ ES7-Slug - Contains Electrified Stunning Slugs.
 	shell_speed = AMMO_SPEED_TIER_5 // this is a 20 gauge slug, not a 12 gauge one.
 	handful_state = "beanbag_slug"
 
-/datum/ammo/bullet/gauge_20/beanbag/on_hit_mob(mob/M, obj/projectile/P)
+/datum/ammo/bullet/shell/gauge_20/beanbag/on_hit_mob(mob/M, obj/projectile/P)
 	if(!M || M == P.firer)
 		return
 	if(ishuman(M))
