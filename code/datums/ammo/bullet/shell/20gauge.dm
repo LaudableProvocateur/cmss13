@@ -7,7 +7,7 @@ ES7-Beanbag - Contains Electrified Stunning Beanbags.
 ES7-Slug - Contains Electrified Stunning Slugs.
 
 */
-// default the meta 12 gauge shell to be a slug with no on hit effects.
+// default the generic 20 gauge shell to be a slug with no on hit effects.
 /datum/ammo/bullet/shell/gauge_20
 	name = "20 gauge generic"
 	handful_state = "slug_shell"

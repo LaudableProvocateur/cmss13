@@ -12,7 +12,7 @@ Beanbag - Contains beanbag.
 
 */
 
-// default the meta 12 gauge shell to be a slug with no on hit effects.
+// default the generic 8 gauge shell to be a slug with no on hit effects.
 /datum/ammo/bullet/shell/gauge_8
 	name = "8 gauge generic"
 	handful_state = "slug_shell"

@@ -8,7 +8,7 @@ Rubber - Contains rubber buckshot.
 
 */
 
-// default the meta 12 gauge shell to be a slug with no on hit effects.
+// default the generic 16 gauge shell to be a slug with no on hit effects.
 /datum/ammo/bullet/shell/gauge_16
 	name = "16 gauge generic"
 	handful_state = "slug_shell"
