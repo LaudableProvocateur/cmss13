@@ -13,5 +13,5 @@
 /obj/item/ammo_magazine/rifle/l42a/abr40/holo_target
 	name = "\improper ABR-40 holotargeting magazine (10x24mm)"
 	desc = "An ABR-40 magazine loaded with holo-targeting ammunition, primarily utilized to highlight hunting targets for easier target capture. Theoretically cross-compatible with an L42A battle rifle."
-	default_ammo = /datum/ammo/bullet/rifle/holo_target/hunting
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm/holo_target/hunting
 	ammo_band_color = AMMO_BAND_COLOR_HOLOTARGETING

@@ -272,7 +272,7 @@
 	flags_equip_slot = SLOT_BACK
 	var/overlay_gun_type = "_rounds" //used for ammo type color overlay
 	var/overlay_content = "_reg"
-	var/default_ammo = /datum/ammo/bullet/rifle
+	var/default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm
 	var/bullet_amount = 600
 	var/max_bullet_amount = 600
 	var/caliber = "10x24mm"

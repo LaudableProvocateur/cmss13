@@ -6,7 +6,7 @@
 	icon_state = "m4a3"
 	max_rounds = 12
 	w_class = SIZE_SMALL
-	default_ammo = /datum/ammo/bullet/caliber_9x19mm
+	default_ammo = /datum/ammo/bullet/pistol/caliber_9x19mm
 	gun_type = /obj/item/weapon/gun/pistol/m4a3
 	ammo_band_icon = "+m4a3_band"
 	ammo_band_icon_empty = "+m4a3_band_e"

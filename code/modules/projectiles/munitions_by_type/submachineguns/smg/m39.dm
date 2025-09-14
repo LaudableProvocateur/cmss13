@@ -8,50 +8,50 @@
 	max_rounds = 48
 	w_class = SIZE_MEDIUM
 	gun_type = /obj/item/weapon/gun/smg/m39
-	default_ammo = /datum/ammo/bullet/smg/m39
+	default_ammo = /datum/ammo/bullet/smg/caliber_10x20mm/hv
 	ammo_band_icon = "+m39_band"
 	ammo_band_icon_empty = "+m39_band_e"
 
 /obj/item/ammo_magazine/smg/m39/ap
 	name = "\improper M39 AP magazine (10x20mm)"
 	desc = "A 10x20mm caseless armor-piercing submachinegun magazine. The bullet tips are made out of high-density material, allowing them to pierce straight through armor, but also reducing the raw stopping power and velocity of the ammunition."
-	default_ammo = /datum/ammo/bullet/smg/ap
+	default_ammo = /datum/ammo/bullet/smg/caliber_10x20mm/ap
 	ammo_band_color = AMMO_BAND_COLOR_AP
 
 /obj/item/ammo_magazine/smg/m39/le
 	name = "\improper M39 LE magazine (10x20mm)"
 	desc = "A 10x20mm caseless light-explosive submachinegun magazine containing special light explosive rounds, designed to rapidly decimate armor, at the cost of vastly reduced damage and penetration."
-	default_ammo = /datum/ammo/bullet/smg/le
+	default_ammo = /datum/ammo/bullet/smg/caliber_10x20mm/le
 	ammo_band_color = AMMO_BAND_COLOR_LIGHT_EXPLOSIVE
 
 /obj/item/ammo_magazine/smg/m39/rubber
 	name = "\improper M39 rubber magazine (10x20mm)"
 	desc = "A 10x20mm caseless rubber bullet submachinegun magazine, containing rubber bullets. Non-lethal, but terrible on bioforms."
-	default_ammo = /datum/ammo/bullet/smg/rubber
+	default_ammo = /datum/ammo/bullet/smg/caliber_10x20mm/rubber
 	ammo_band_color = AMMO_BAND_COLOR_RUBBER
 
 /obj/item/ammo_magazine/smg/m39/heap
 	name = "\improper M39 HEAP magazine (10x20mm)"
 	desc = "A 10x20mm caseless armor-piercing high-explosive submachinegun magazine. The bullet tips are made out of a special explosive, designed to penetrate armor then detonate for maximum soft-tissue damage."
-	default_ammo = /datum/ammo/bullet/smg/heap
+	default_ammo = /datum/ammo/bullet/smg/caliber_10x20mm/heap
 	ammo_band_color = AMMO_BAND_COLOR_HEAP
 
 /obj/item/ammo_magazine/smg/m39/penetrating
 	name = "\improper M39 wall-penetrating magazine (10x20mm)"
 	desc = "A 10x20mm caseless wall-penetrating bullet submachinegun magazine, containing wall-penetrating bullets. Designed to penetrate straight through objects and walls."
-	default_ammo = /datum/ammo/bullet/smg/ap/penetrating
+	default_ammo = /datum/ammo/bullet/smg/caliber_10x20mm/ap/penetrating
 	ammo_band_color = AMMO_BAND_COLOR_PENETRATING
 
 /obj/item/ammo_magazine/smg/m39/toxin
 	name = "\improper M39 toxin magazine (10x20mm)"
 	desc = "A 10x20mm caseless toxin bullet submachinegun magazine, containing toxin bullets. Great at stripping away armor and destroying biological structures."
-	default_ammo = /datum/ammo/bullet/smg/ap/toxin
+	default_ammo = /datum/ammo/bullet/smg/caliber_10x20mm/ap/toxin
 	ammo_band_color = AMMO_BAND_COLOR_TOXIN
 
 /obj/item/ammo_magazine/smg/m39/incendiary
 	name = "\improper M39 incendiary magazine (10x20mm)"
 	desc = "A 10x20mm caseless incendiary submachinegun magazine. Incendiary payload sets targets ablaze, but causes the gun to have low stopping power and strongly decreased accuracy."
-	default_ammo = /datum/ammo/bullet/smg/incendiary
+	default_ammo = /datum/ammo/bullet/smg/caliber_10x20mm/incendiary
 	ammo_band_color = AMMO_BAND_COLOR_INCENDIARY
 
 /obj/item/ammo_magazine/smg/m39/extended

@@ -4,7 +4,7 @@
 	caliber = "7.62x51mm"
 	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/colony/assault_rifles.dmi'
 	icon_state = "ar10"
-	default_ammo = /datum/ammo/bullet/rifle
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm
 	max_rounds = 20
 	gun_type = /obj/item/weapon/gun/rifle/ar10
 	w_class = SIZE_MEDIUM

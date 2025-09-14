@@ -4,5 +4,5 @@
 	caliber = "9mm"
 	icon_state = "m4a3" //PLACEHOLDER
 	max_rounds = 15
-	default_ammo = /datum/ammo/bullet/caliber_9x19mm
+	default_ammo = /datum/ammo/bullet/pistol/caliber_9x19mm
 	gun_type = /obj/item/weapon/gun/pistol/b92fs

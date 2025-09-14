@@ -4,7 +4,7 @@
 	caliber = "5.56x45mm"
 	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/colony/assault_rifles.dmi'
 	icon_state = "m16"
-	default_ammo = /datum/ammo/bullet/rifle
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm
 	max_rounds = 20
 	gun_type = /obj/item/weapon/gun/rifle/m16
 	w_class = SIZE_MEDIUM
@@ -15,7 +15,7 @@
 	name = "\improper M16 AP magazine (5.56x45mm)"
 	desc = "An armor-piercing 5.56x45mm magazine for the M16 assault rifle."
 	caliber = "5.56x45mm"
-	default_ammo = /datum/ammo/bullet/rifle/ap
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm/ap
 	max_rounds = 20
 	gun_type = /obj/item/weapon/gun/rifle/m16
 	w_class = SIZE_MEDIUM

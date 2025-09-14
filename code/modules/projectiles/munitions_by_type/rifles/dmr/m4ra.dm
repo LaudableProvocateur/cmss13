@@ -3,7 +3,7 @@
 	desc = "A magazine of 10x24mm rounds for use in the M4RA battle rifle."
 	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/USCM/marksman_rifles.dmi'
 	icon_state = "m4ra"
-	default_ammo = /datum/ammo/bullet/rifle
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm
 	max_rounds = 25
 	gun_type = /obj/item/weapon/gun/rifle/m4ra
 	bonus_overlay_icon = 'icons/obj/items/weapons/guns/guns_by_faction/USCM/marksman_rifles.dmi'
@@ -13,7 +13,7 @@
 /obj/item/ammo_magazine/rifle/m4ra/ap
 	name = "\improper M4RA armor-piercing magazine (10x24mm)"
 	desc = "A magazine of armor-piercing 10x24mm rounds for use in the M4RA battle rifle."
-	default_ammo = /datum/ammo/bullet/rifle/ap
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm/ap
 	max_rounds = 25
 	ammo_band_color = AMMO_BAND_COLOR_AP
 
@@ -27,23 +27,23 @@
 /obj/item/ammo_magazine/rifle/m4ra/rubber
 	name = "M4RA rubber magazine (10x24mm)"
 	desc = "A magazine of less than lethal rubber 10x24mm rounds for use in the M4RA battle rifle."
-	default_ammo = /datum/ammo/bullet/rifle/rubber
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm/rubber
 	ammo_band_color = AMMO_BAND_COLOR_RUBBER
 
 /obj/item/ammo_magazine/rifle/m4ra/heap
 	name = "\improper M4RA high-explosive armor-piercing magazine (10x24mm)"
 	desc = "A magazine of high-explosive armor-piercing 10x24mm rounds for use in the M4RA battle rifle."
-	default_ammo = /datum/ammo/bullet/rifle/heap
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm/heap
 	ammo_band_color = AMMO_BAND_COLOR_HEAP
 
 /obj/item/ammo_magazine/rifle/m4ra/penetrating
 	name = "\improper M4RA wall-penetrating magazine (10x24mm)"
 	desc = "A magazine of wall-penetrating 10x24mm rounds for use in the M4RA battle rifle."
-	default_ammo = /datum/ammo/bullet/rifle/ap/penetrating
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm/ap/penetrating
 	ammo_band_color = AMMO_BAND_COLOR_PENETRATING
 
 /obj/item/ammo_magazine/rifle/m4ra/incendiary
 	name = "\improper M4RA incendiary magazine (10x24mm)"
 	desc = "A magazine of incendiary 10x24mm rounds for use in the M4RA battle rifle."
-	default_ammo = /datum/ammo/bullet/rifle/incendiary
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm/incendiary
 	ammo_band_color = AMMO_BAND_COLOR_INCENDIARY

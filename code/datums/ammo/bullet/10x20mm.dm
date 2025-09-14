@@ -6,17 +6,19 @@
 //way too many people don't read the changelog, and after one or two months the changelog entry is all but archive, so there needs to be an ingame description of what the ammo does
 //in comparison to armor-piercing rounds.
 
-/datum/ammo/bullet/smg/m39
+/datum/ammo/bullet/smg/caliber_10x20mm/hv
 	name = "high-velocity submachinegun bullet" //i don't want all smgs to inherit 'high velocity'
 
-/datum/ammo/bullet/smg/ap
+	shell_speed = AMMO_SPEED_TIER_6
+
+/datum/ammo/bullet/smg/caliber_10x20mm/ap
 	name = "armor-piercing submachinegun bullet"
 
 	damage = 26
 	penetration = ARMOR_PENETRATION_TIER_6
 	shell_speed = AMMO_SPEED_TIER_4
 
-/datum/ammo/bullet/smg/heap
+/datum/ammo/bullet/smg/caliber_10x20mm/heap
 	name = "high-explosive armor-piercing submachinegun bullet"
 
 	damage = 45
@@ -24,26 +26,26 @@
 	penetration = ARMOR_PENETRATION_TIER_6
 	shell_speed = AMMO_SPEED_TIER_4
 
-/datum/ammo/bullet/smg/ap/toxin
+/datum/ammo/bullet/smg/caliber_10x20mm/ap/toxin
 	name = "toxic submachinegun bullet"
 	var/acid_per_hit = 5
 	var/organic_damage_mult = 3
 
-/datum/ammo/bullet/smg/ap/toxin/on_hit_mob(mob/M, obj/projectile/P)
+/datum/ammo/bullet/smg/caliber_10x20mm/ap/toxin/on_hit_mob(mob/M, obj/projectile/P)
 	. = ..()
 	M.AddComponent(/datum/component/status_effect/toxic_buildup, acid_per_hit)
 
-/datum/ammo/bullet/smg/ap/toxin/on_hit_turf(turf/T, obj/projectile/P)
+/datum/ammo/bullet/smg/caliber_10x20mm/ap/toxin/on_hit_turf(turf/T, obj/projectile/P)
 	. = ..()
 	if(T.turf_flags & TURF_ORGANIC)
 		P.damage *= organic_damage_mult
 
-/datum/ammo/bullet/smg/ap/toxin/on_hit_obj(obj/O, obj/projectile/P)
+/datum/ammo/bullet/smg/caliber_10x20mm/ap/toxin/on_hit_obj(obj/O, obj/projectile/P)
 	. = ..()
 	if(O.flags_obj & OBJ_ORGANIC)
 		P.damage *= organic_damage_mult
 
-/datum/ammo/bullet/smg/incendiary
+/datum/ammo/bullet/smg/caliber_10x20mm/incendiary
 	name = "incendiary submachinegun bullet"
 	damage_type = BURN
 	shrapnel_chance = 0
@@ -52,26 +54,26 @@
 	damage = 25
 	accuracy = -HIT_ACCURACY_TIER_2
 
-/datum/ammo/bullet/smg/incendiary/set_bullet_traits()
+/datum/ammo/bullet/smg/caliber_10x20mm/incendiary/set_bullet_traits()
 	. = ..()
 	LAZYADD(traits_to_give, list(
 		BULLET_TRAIT_ENTRY(/datum/element/bullet_trait_incendiary)
 	))
 
-/datum/ammo/bullet/smg/ap/penetrating
+/datum/ammo/bullet/smg/caliber_10x20mm/ap/penetrating
 	name = "wall-penetrating submachinegun bullet"
 	shrapnel_chance = 0
 
 	damage = 30
 	penetration = ARMOR_PENETRATION_TIER_10
 
-/datum/ammo/bullet/smg/ap/penetrating/set_bullet_traits()
+/datum/ammo/bullet/smg/caliber_10x20mm/ap/penetrating/set_bullet_traits()
 	. = ..()
 	LAZYADD(traits_to_give, list(
 		BULLET_TRAIT_ENTRY(/datum/element/bullet_trait_penetrating)
 	))
 
-/datum/ammo/bullet/smg/le
+/datum/ammo/bullet/smg/caliber_10x20mm/le
 	name = "armor-shredding submachinegun bullet"
 
 	scatter = SCATTER_AMOUNT_TIER_10
@@ -81,7 +83,7 @@
 	damage_falloff = DAMAGE_FALLOFF_TIER_10
 	pen_armor_punch = 4
 
-/datum/ammo/bullet/smg/rubber
+/datum/ammo/bullet/smg/caliber_10x20mm/rubber
 	name = "rubber submachinegun bullet"
 	sound_override = 'sound/weapons/gun_c99.ogg'
 

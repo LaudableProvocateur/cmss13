@@ -22,23 +22,23 @@
 /obj/item/ammo_magazine/rifle/nsg23/ap
 	name = "\improper NSG 23 armor-piercing magazine (10x24mm)"
 	desc = "An armor-piercing NSG 23 assault rifle magazine."
-	default_ammo = /datum/ammo/bullet/rifle/ap
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm/ap
 	ammo_band_color = AMMO_BAND_COLOR_AP
 
 /obj/item/ammo_magazine/rifle/nsg23/heap
 	name = "\improper NSG 23 HEAP magazine (10x24mm)"
 	desc = "A high-explosive armor-piercing NSG 23 assault rifle magazine."
-	default_ammo = /datum/ammo/bullet/rifle/heap
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm/heap
 	ammo_band_color = AMMO_BAND_COLOR_HEAP
 
 /obj/item/ammo_magazine/rifle/nsg23/incendiary
 	name = "\improper NSG 23 incindiary magazine (10x24mm)"
 	desc = "A white phosphorus-tipped incendiary NSG 23 assault rifle magazine."
-	default_ammo = /datum/ammo/bullet/rifle/incendiary
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm/incendiary
 	ammo_band_color = AMMO_BAND_COLOR_INCENDIARY
 
 /obj/item/ammo_magazine/rifle/nsg23/rubber
 	name = "\improper NSG 23 training magazine (10x24mm)"
 	desc = "An NSG 23 assault rifle magazine. This one is loaded with rubber bullets."
-	default_ammo = /datum/ammo/bullet/rifle/rubber
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm/rubber
 	ammo_band_color = AMMO_BAND_COLOR_RUBBER

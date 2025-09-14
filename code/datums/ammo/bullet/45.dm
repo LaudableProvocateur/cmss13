@@ -3,7 +3,7 @@
 // but this is CM, half our guns have baffling misconceptions and mistakes (how do you grab the type-71?) so it's on-brand.
 // maybe in the far flung future of 2280 someone screwed up the design.
 
-/datum/ammo/bullet/caliber_9x19mm/highpower
+/datum/ammo/bullet/pistol/highpower
 	name = "high-powered pistol bullet"
 	headshot_state = HEADSHOT_OVERLAY_MEDIUM
 
@@ -11,7 +11,7 @@
 	damage = 36
 	penetration = ARMOR_PENETRATION_TIER_5
 	damage_falloff = DAMAGE_FALLOFF_TIER_7
-/datum/ammo/bullet/caliber_9x19mm/smart
+/datum/ammo/bullet/pistol/smart
 	name = "smartpistol bullet"
 	flags_ammo_behavior = AMMO_BALLISTIC
 

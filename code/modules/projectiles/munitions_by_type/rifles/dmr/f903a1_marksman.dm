@@ -3,7 +3,7 @@
 	desc = "An armor-piercing 10x24mm armor-piercing F903 assault rifle magazine."
 	icon_state = "aug_dmr"
 	item_state = "aug_dmr"
-	default_ammo = /datum/ammo/bullet/rifle/ap
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm/ap
 	gun_type = /obj/item/weapon/gun/rifle/rmc_f90/scope
 	max_rounds = 20
 	ammo_band_color = AMMO_BAND_COLOR_AP
@@ -14,5 +14,5 @@
 	desc = "A high-explosive armor-piercing 10x24mm F903 assault rifle magazine."
 	icon_state = "aug_dmr"
 	item_state = "aug_dmr"
-	default_ammo = /datum/ammo/bullet/rifle/heap
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm/heap
 	ammo_band_color = AMMO_BAND_COLOR_HEAP

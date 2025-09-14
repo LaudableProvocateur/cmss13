@@ -4,7 +4,7 @@
 	icon_state = "m40_sd"
 	max_rounds = 60
 	gun_type = /obj/item/weapon/gun/rifle/m41a/elite/xm40
-	default_ammo = /datum/ammo/bullet/rifle/ap
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm/ap
 
 /obj/item/ammo_magazine/rifle/xm40/heap
 	name = "\improper XM40 HEAP magazine (10x24mm)"
@@ -12,4 +12,4 @@
 	icon_state = "m40_sd_heap"
 	max_rounds = 60
 	gun_type = /obj/item/weapon/gun/rifle/m41a/elite/xm40
-	default_ammo = /datum/ammo/bullet/rifle/heap
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm/heap

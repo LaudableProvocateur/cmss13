@@ -26,7 +26,7 @@
 
 /obj/item/ammo_magazine/pistol/tranq
 	name = "\improper Tranquilizer magazine (Horse Tranquilizer)"
-	default_ammo = /datum/ammo/bullet/caliber_9x19mm/caliber_9x18mm_tranq
+	default_ammo = /datum/ammo/bullet/pistol/caliber_9x18mm_tranq
 	caliber = ".22"
 	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/event.dmi'
 	icon_state = "pk-9_tranq"

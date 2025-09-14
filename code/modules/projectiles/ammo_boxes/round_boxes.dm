@@ -6,7 +6,7 @@
 	name = "\improper rifle ammunition box (10x24mm AP)"
 	desc = "A 10x24mm armor-piercing ammunition box. Used to refill M41A MK2, and M4RA AP magazines. It comes with a leather strap allowing to wear it on the back."
 	overlay_content = "_ap"
-	default_ammo = /datum/ammo/bullet/rifle/ap
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm/ap
 
 /obj/item/ammo_box/rounds/ap/empty
 	empty = TRUE
@@ -15,7 +15,7 @@
 	name = "\improper rifle ammunition box (10x24mm LE)"
 	desc = "A 10x24mm armor-shredding ammunition box. Used to refill M41A MK2 LE magazines. It comes with a leather strap allowing to wear it on the back."
 	overlay_content = "_le"
-	default_ammo = /datum/ammo/bullet/rifle/le
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm/le
 
 /obj/item/ammo_box/rounds/le/empty
 	empty = TRUE
@@ -24,7 +24,7 @@
 	name = "\improper rifle ammunition box (10x24mm Incen)"
 	desc = "A 10x24mm incendiary ammunition box. Used to refill M41A MK2 and M4RA incendiary magazines. It comes with a leather strap allowing to wear it on the back."
 	overlay_content = "_incen"
-	default_ammo = /datum/ammo/bullet/rifle/incendiary
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm/incendiary
 	bullet_amount = 400 //Incen is OP
 	max_bullet_amount = 400
 
@@ -35,7 +35,7 @@
 	name = "rifle ammunition box (10x24mm HEAP)"
 	desc = "A 10x24mm high-explosive armor-piercing ammunition box. Used to refill magazines. It comes with a leather strap allowing to wear it on the back."
 	overlay_content = "_heap"
-	default_ammo = /datum/ammo/bullet/rifle/heap
+	default_ammo = /datum/ammo/bullet/rifle/caliber_10x24mm/heap
 
 /obj/item/ammo_box/rounds/heap/empty
 	empty = TRUE
@@ -48,7 +48,7 @@
 	caliber = "10x20mm"
 	icon_state = "base_m39"
 	overlay_content = "_hv"
-	default_ammo = /datum/ammo/bullet/smg/m39
+	default_ammo = /datum/ammo/bullet/smg/caliber_10x20mm/hv
 
 /obj/item/ammo_box/rounds/smg/empty
 	empty = TRUE
@@ -58,7 +58,7 @@
 	desc = "A 10x20mm armor-piercing ammunition box. Used to refill M39 AP magazines. It comes with a leather strap allowing to wear it on the back."
 	caliber = "10x20mm"
 	overlay_content = "_ap"
-	default_ammo = /datum/ammo/bullet/smg/ap
+	default_ammo = /datum/ammo/bullet/smg/caliber_10x20mm/ap
 
 /obj/item/ammo_box/rounds/smg/ap/empty
 	empty = TRUE
@@ -68,7 +68,7 @@
 	desc = "A 10x20mm armor-shredding ammunition box. Used to refill M39 LE magazines. It comes with a leather strap allowing to wear it on the back."
 	caliber = "10x20mm"
 	overlay_content = "_le"
-	default_ammo = /datum/ammo/bullet/smg/le
+	default_ammo = /datum/ammo/bullet/smg/caliber_10x20mm/le
 
 /obj/item/ammo_box/rounds/smg/le/empty
 	empty = TRUE
@@ -78,7 +78,7 @@
 	desc = "A 10x20mm incendiary ammunition box. Used to refill M39 incendiary magazines. It comes with a leather strap allowing to wear it on the back."
 	caliber = "10x20mm"
 	overlay_content = "_incen"
-	default_ammo = /datum/ammo/bullet/smg/incendiary
+	default_ammo = /datum/ammo/bullet/smg/caliber_10x20mm/incendiary
 	bullet_amount = 400 //Incen is OP
 	max_bullet_amount = 400
 
@@ -90,7 +90,7 @@
 	desc = "A 10x20mm armor-piercing high-explosive ammunition box. Used to refill M39 HEAP magazines. It comes with a leather strap allowing to wear it on the back."
 	caliber = "10x20mm"
 	overlay_content = "_heap"
-	default_ammo = /datum/ammo/bullet/smg/heap
+	default_ammo = /datum/ammo/bullet/smg/caliber_10x20mm/heap
 
 /obj/item/ammo_box/rounds/smg/heap/empty
 	empty = TRUE
@@ -139,7 +139,7 @@
 	caliber = "9mm"
 	icon_state = "base_m4a3"
 	overlay_content = "_reg"
-	default_ammo = /datum/ammo/bullet/caliber_9x19mm
+	default_ammo = /datum/ammo/bullet/pistol/caliber_9x19mm
 
 /obj/item/ammo_box/rounds/pistol/empty
 	empty = TRUE
@@ -148,7 +148,7 @@
 	name = "\improper pistol ammunition box (9mm AP)"
 	desc = "A 9mm armor-piercing ammunition box. Used to refill mod88 and M4A3 magazines. It comes with a leather strap allowing to wear it on the back."
 	overlay_content = "_ap"
-	default_ammo = /datum/ammo/bullet/caliber_9x19mm/ap
+	default_ammo = /datum/ammo/bullet/pistol/caliber_9x19mm/ap
 
 /obj/item/ammo_box/rounds/pistol/ap/empty
 	empty = TRUE
@@ -157,7 +157,7 @@
 	name = "\improper pistol ammunition box (9mm HP)"
 	desc = "A 9mm hollow-point ammunition box. Used to refill M4A3 magazines. It comes with a leather strap allowing to wear it on the back."
 	overlay_content = "_hp"
-	default_ammo = /datum/ammo/bullet/caliber_9x19mm/hollow
+	default_ammo = /datum/ammo/bullet/pistol/caliber_9x19mm/hollow
 
 /obj/item/ammo_box/rounds/pistol/hp/empty
 	empty = TRUE
@@ -166,7 +166,7 @@
 	name = "\improper pistol ammunition box (9mm Incendiary)"
 	desc = "A 9mm incendiary ammunition box. Used to refill M4A3 magazines. It comes with a leather strap allowing to wear it on the back."
 	overlay_content = "_incen"
-	default_ammo = /datum/ammo/bullet/caliber_9x19mm/incendiary
+	default_ammo = /datum/ammo/bullet/pistol/caliber_9x19mm/incendiary
 
 /obj/item/ammo_box/rounds/pistol/incen/empty
 	empty = TRUE
