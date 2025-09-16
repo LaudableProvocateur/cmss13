@@ -31,3 +31,15 @@ As all of these weapons now use the same ammunition type, if you spawn with a HI
 	damage = 55
 	penetration = ARMOR_PENETRATION_TIER_3
 	shrapnel_chance = SHRAPNEL_CHANCE_TIER_2
+/datum/ammo/bullet/pistol/caliber_11_43x23mm/highimpact
+	name = ".45 ACP HIP Bullet"
+	debilitate = list(0,0.2,0,0,0,1,0,0)
+
+/datum/ammo/bullet/pistol/caliber_11_43x23mm/highimpact/ap
+	name = ".45 ACP HIAP Bullet"
+	penetration = ARMOR_PENETRATION_TIER_10
+	damage = 40
+
+/datum/ammo/bullet/pistol/caliber_11_43x23mm/highimpact/New()
+	..()
+	RegisterSignal(src, COMSIG_AMMO_POINT_BLANK, PROC_REF(handle_battlefield_execution))

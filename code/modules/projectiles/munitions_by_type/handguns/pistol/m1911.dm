@@ -14,11 +14,11 @@
 /obj/item/ammo_magazine/pistol/m1911/highimpact
 	name = "\improper M1911 high-impact magazine (.45)"
 	desc = "A magazine for the legendary M1911 pistol. Holds eight concussive rounds that can briefly knock people down."
-	default_ammo = /datum/ammo/bullet/pistol/heavy/highimpact
+	default_ammo = /datum/ammo/bullet/pistol/caliber_11_43x23mm/highimpact
 	ammo_band_color = AMMO_BAND_COLOR_HIGH_IMPACT
 
 /obj/item/ammo_magazine/pistol/m1911/highimpact/ap
 	name = "\improper M1911 high-impact armor-piercing magazine (.45)"
 	desc = "A magazine for the legendary M1911 pistol. Holds eight concussive armor-piercing rounds that can briefly knock people down."
-	default_ammo = /datum/ammo/bullet/pistol/heavy/highimpact/ap
+	default_ammo = /datum/ammo/bullet/pistol/caliber_11_43x23mm/highimpact/ap
 	ammo_band_color = AMMO_BAND_COLOR_HIGH_IMPACT_AP
