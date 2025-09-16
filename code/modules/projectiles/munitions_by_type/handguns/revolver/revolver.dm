@@ -23,6 +23,6 @@
 
 /obj/item/ammo_magazine/internal/revolver
 	name = "revolver cylinder"
-	default_ammo = /datum/ammo/bullet/revolver/m44
+	default_ammo = /datum/ammo/bullet/revolver/caliber_10_9x33mmR
 	max_rounds = 6
 	gun_type = /obj/item/weapon/gun/revolver

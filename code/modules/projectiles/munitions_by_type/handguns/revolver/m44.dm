@@ -2,7 +2,7 @@
 	name = "\improper M44 speed loader (.44)"
 	desc = "A 7-round .44 revolver speed loader."
 
-	default_ammo = /datum/ammo/bullet/revolver/m44
+	default_ammo = /datum/ammo/bullet/revolver/caliber_10_9x33mmR
 	caliber = ".44"
 	flags_equip_slot = NO_FLAGS
 	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/USCM/revolvers.dmi'
@@ -22,33 +22,33 @@
 /obj/item/ammo_magazine/revolver/m44/marksman
 	name = "\improper M44 marksman speed loader (.44)"
 	desc = "A 7-round .44 revolver speed loader containing long-range armor-piercing marksman bullets."
-	default_ammo = /datum/ammo/bullet/revolver/m44/marksman
+	default_ammo = /datum/ammo/bullet/revolver/caliber_10_9x33mmR/marksman
 	caliber = ".44"
 	ammo_band_color = REVOLVER_TIP_COLOR_MARKSMAN
 
 /obj/item/ammo_magazine/revolver/m44/heavy
 	name = "\improper M44 heavy speed loader (.44)"
 	desc = "A 7-round .44 revolver speed loader containing heavy bullets. While less damaging than traditional .44 rounds, they deliver a higher stopping power."
-	default_ammo = /datum/ammo/bullet/revolver/m44/heavy
+	default_ammo = /datum/ammo/bullet/revolver/caliber_10_9x33mmR/heavy
 	caliber = ".44"
 	ammo_band_color = REVOLVER_TIP_COLOR_HEAVY
 
 /obj/item/ammo_magazine/revolver/m44/incendiary
 	name = "\improper M44 incendiary speed loader (.44)"
 	desc = "a 7-round .44 revolver speed loader containing incendiary bullets."
-	default_ammo = /datum/ammo/bullet/revolver/m44/incendiary
+	default_ammo = /datum/ammo/bullet/revolver/caliber_10_9x33mmR/incendiary
 	ammo_band_color = REVOLVER_TIP_COLOR_INCENDIARY
 
 /obj/item/ammo_magazine/revolver/m44/marksman/toxin
 	name = "\improper M44 toxic speed loader (.44)"
 	desc = "a 7-round .44 revolver speed loader containing toxin bullets."
-	default_ammo = /datum/ammo/bullet/revolver/m44/marksman/toxin
+	default_ammo = /datum/ammo/bullet/revolver/caliber_10_9x33mmR/marksman/toxin
 	ammo_band_color = REVOLVER_TIP_COLOR_TOXIN
 
 /obj/item/ammo_magazine/revolver/m44/penetrating
 	name = "\improper M44 wall-penetrating speed loader (.44)"
 	desc = "A 7-round .44 revolver speed loader containing wall-penetrating bullets."
-	default_ammo = /datum/ammo/bullet/revolver/m44/penetrating
+	default_ammo = /datum/ammo/bullet/revolver/caliber_10_9x33mmR/penetrating
 	ammo_band_color = REVOLVER_TIP_COLOR_PENETRATING
 
 /obj/item/ammo_magazine/internal/revolver/m44
@@ -61,4 +61,4 @@
 	caliber = ".44 sabot"
 
 /obj/item/ammo_magazine/internal/revolver/m44/marksman
-	default_ammo = /datum/ammo/bullet/revolver/m44/marksman //because the starting m44 custom revolver belt is full of marksman ammo, but your gun would have normal ammo loaded
+	default_ammo = /datum/ammo/bullet/revolver/caliber_10_9x33mmR/marksman //because the starting m44 custom revolver belt is full of marksman ammo, but your gun would have normal ammo loaded

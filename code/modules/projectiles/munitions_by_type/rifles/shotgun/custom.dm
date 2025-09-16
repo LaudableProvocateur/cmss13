@@ -15,7 +15,7 @@
 
 /obj/item/ammo_magazine/handful/revolver
 	name = "handful of revolver bullets (.44)"
-	default_ammo = /datum/ammo/bullet/revolver/m44
+	default_ammo = /datum/ammo/bullet/revolver/caliber_10_9x33mmR
 	caliber = ".44"
 	max_rounds = 8
 	current_rounds = 8
@@ -23,11 +23,11 @@
 
 /obj/item/ammo_magazine/handful/revolver/marksman
 	name = "handful of marksman revolver bullets (.44)"
-	default_ammo = /datum/ammo/bullet/revolver/m44/marksman
+	default_ammo = /datum/ammo/bullet/revolver/caliber_10_9x33mmR/marksman
 	gun_type = /obj/item/weapon/gun/shotgun/double/cane
 
 /obj/item/ammo_magazine/handful/revolver/marksman/six_rounds
 	name = "handful of marksman revolver bullets (.44)"
-	default_ammo = /datum/ammo/bullet/revolver/m44/marksman
+	default_ammo = /datum/ammo/bullet/revolver/caliber_10_9x33mmR/marksman
 	current_rounds = 6
 	gun_type = /obj/item/weapon/gun/shotgun/double/cane

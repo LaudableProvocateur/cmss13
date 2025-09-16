@@ -1,7 +1,7 @@
 /obj/item/ammo_magazine/pistol/kt42
 	name = "\improper KT-42 magazine (.44)"
 	desc = "A .44 pistol magazine."
-	default_ammo = /datum/ammo/bullet/pistol/heavy
+	default_ammo = /datum/ammo/bullet/revolver/caliber_10_9x33mmR
 	caliber = ".44"
 	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/colony/pistols.dmi'
 	icon_state = "kt42"
