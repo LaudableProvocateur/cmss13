@@ -3,7 +3,7 @@
 /obj/item/ammo_magazine/pistol/m1911
 	name = "\improper M1911 magazine (.45)"
 	desc = "A magazine for the legendary M1911 pistol. Holds eight standard rounds."
-	default_ammo = /datum/ammo/bullet/pistol/heavy
+	default_ammo = /datum/ammo/bullet/pistol/caliber_11_43x23mm
 	caliber = ".45"
 	icon_state = "m4a345"//rename later
 	max_rounds = 8

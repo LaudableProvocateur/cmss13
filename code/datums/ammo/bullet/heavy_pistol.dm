@@ -1,7 +1,7 @@
 // THE MOST AGGREGIOUS FUCKUP IN THE AMMO DEFINITIONS FILE, BEING RELEVANT TO SEVERAL FIREARMS SIMULTANIOUSLY.
 // Deagle .50 "this includes the basic deagle and extends into the CO deagle but does not include BASIC co deagle ammo.  Horrible.."
 // KT-42 .44 "common ammo caliber, but sourced of the exact same bullets as the deagle."
-// M1911 .45 "common ammo caliber, also extends into CO m1911."
+// M1911 .45 "common ammo caliber, also extends into CO m1911."  FIXED!!
 // Type 73 7.62x25mm Tokarev "Another case of this pistol bullet being used, does NOT extend into the type 74 HI IMPACT"
 
 
