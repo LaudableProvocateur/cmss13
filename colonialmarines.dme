@@ -438,6 +438,8 @@
 #include "code\datums\ammo\bullet\twobore.dm"
 #include "code\datums\ammo\bullet\generic\pistol.dm"
 #include "code\datums\ammo\bullet\generic\revolver.dm"
+#include "code\datums\ammo\bullet\generic\sniper\anti_material_rifle.dm"
+#include "code\datums\ammo\bullet\generic\sniper\sniper.dm"
 #include "code\datums\ammo\bullet\shell\12gauge.dm"
 #include "code\datums\ammo\bullet\shell\16gauge.dm"
 #include "code\datums\ammo\bullet\shell\20gauge.dm"

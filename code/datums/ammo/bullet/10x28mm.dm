@@ -1,4 +1,4 @@
-/datum/ammo/bullet/sniper
+/datum/ammo/bullet/sniper/caliber_10x28mm
 	name = "sniper bullet"
 	headshot_state = HEADSHOT_OVERLAY_HEAVY
 	damage_falloff = 0
@@ -14,13 +14,7 @@
 	shell_speed = AMMO_SPEED_TIER_6
 	damage_falloff = 0
 
-/datum/ammo/bullet/sniper/on_hit_mob(mob/M,obj/projectile/P)
-	if((P.projectile_flags & PROJECTILE_BULLSEYE) && M == P.original)
-		var/mob/living/L = M
-		L.apply_armoured_damage(damage*2, ARMOR_BULLET, BRUTE, null, penetration)
-		to_chat(P.firer, SPAN_WARNING("Bullseye!"))
-
-/datum/ammo/bullet/sniper/incendiary
+/datum/ammo/bullet/sniper/caliber_10x28mm/incendiary
 	name = "incendiary sniper bullet"
 	damage_type = BRUTE
 	shrapnel_chance = 0
@@ -30,13 +24,13 @@
 	damage = 60
 	penetration = ARMOR_PENETRATION_TIER_4
 
-/datum/ammo/bullet/sniper/incendiary/set_bullet_traits()
+/datum/ammo/bullet/sniper/caliber_10x28mm/incendiary/set_bullet_traits()
 	. = ..()
 	LAZYADD(traits_to_give, list(
 		BULLET_TRAIT_ENTRY(/datum/element/bullet_trait_incendiary)
 	))
 
-/datum/ammo/bullet/sniper/incendiary/on_hit_mob(mob/M,obj/projectile/P)
+/datum/ammo/bullet/sniper/caliber_10x28mm/incendiary/on_hit_mob(mob/M,obj/projectile/P)
 	if((P.projectile_flags & PROJECTILE_BULLSEYE) && M == P.original)
 		var/mob/living/L = M
 		var/blind_duration = 5
@@ -48,7 +42,7 @@
 		L.adjust_fire_stacks(10)
 		to_chat(P.firer, SPAN_WARNING("Bullseye!"))
 
-/datum/ammo/bullet/sniper/flak
+/datum/ammo/bullet/sniper/caliber_10x28mm/flak
 	name = "flak sniper bullet"
 	damage_type = BRUTE
 	flags_ammo_behavior = AMMO_BALLISTIC|AMMO_SNIPER|AMMO_IGNORE_COVER
@@ -59,7 +53,7 @@
 	damage_var_high = PROJECTILE_VARIANCE_TIER_8 //Documenting old code: This converts to a variance of 96-109% damage. -Kaga
 	penetration = 0
 
-/datum/ammo/bullet/sniper/flak/on_hit_mob(mob/M,obj/projectile/P)
+/datum/ammo/bullet/sniper/caliber_10x28mm/flak/on_hit_mob(mob/M,obj/projectile/P)
 	if((P.projectile_flags & PROJECTILE_BULLSEYE) && M == P.original)
 		var/slow_duration = 7
 		var/mob/living/L = M
@@ -74,7 +68,7 @@
 		burst(get_turf(M),P,damage_type, 2 , 2)
 		burst(get_turf(M),P,damage_type, 1 , 2 , 0)
 
-/datum/ammo/bullet/sniper/flak/on_near_target(turf/T, obj/projectile/P)
+/datum/ammo/bullet/sniper/caliber_10x28mm/flak/on_near_target(turf/T, obj/projectile/P)
 	burst(T,P,damage_type, 2 , 2)
 	burst(T,P,damage_type, 1 , 2, 0)
 	return 1
