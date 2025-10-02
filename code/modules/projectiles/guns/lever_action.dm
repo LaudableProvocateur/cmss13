@@ -481,16 +481,16 @@ their unique feature is that a direct hit will buff your damage and firerate
 		var/obj/projectile/P = in_chamber
 		switch(floating_penetration)
 			if(FLOATING_PENETRATION_TIER_1)
-				P.ammo = GLOB.ammo_list[/datum/ammo/bullet/lever_action/xm88/pen20]
+				P.ammo = GLOB.ammo_list[/datum/ammo/bullet/caliber_11_63x40mmRB/pen20]
 				direct_hit_sound = "sound/weapons/gun_xm88_directhit_low.ogg"
 			if(FLOATING_PENETRATION_TIER_2)
-				P.ammo = GLOB.ammo_list[/datum/ammo/bullet/lever_action/xm88/pen30]
+				P.ammo = GLOB.ammo_list[/datum/ammo/bullet/caliber_11_63x40mmRB/pen30]
 				direct_hit_sound = "sound/weapons/gun_xm88_directhit_medium.ogg"
 			if(FLOATING_PENETRATION_TIER_3)
-				P.ammo = GLOB.ammo_list[/datum/ammo/bullet/lever_action/xm88/pen40]
+				P.ammo = GLOB.ammo_list[/datum/ammo/bullet/caliber_11_63x40mmRB/pen40]
 				direct_hit_sound = "sound/weapons/gun_xm88_directhit_medium.ogg"
 			if(FLOATING_PENETRATION_TIER_4)
-				P.ammo = GLOB.ammo_list[/datum/ammo/bullet/lever_action/xm88/pen50]
+				P.ammo = GLOB.ammo_list[/datum/ammo/bullet/caliber_11_63x40mmRB/pen50]
 				direct_hit_sound = "sound/weapons/gun_xm88_directhit_high.ogg"
 	return ..()
 
@@ -513,7 +513,7 @@ their unique feature is that a direct hit will buff your damage and firerate
 	direct_hit_sound = "sound/weapons/gun_xm88_directhit_low.ogg"
 	if(in_chamber)
 		var/obj/projectile/P = in_chamber
-		P.ammo = GLOB.ammo_list[/datum/ammo/bullet/lever_action/xm88]
+		P.ammo = GLOB.ammo_list[/datum/ammo/bullet/caliber_11_63x40mmRB]
 	floating_penetration = FLOATING_PENETRATION_TIER_0
 	//these are init configs and so cannot be initial()
 	set_fire_delay(FIRE_DELAY_TIER_1 + FIRE_DELAY_TIER_12)

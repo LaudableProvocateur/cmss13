@@ -1,3 +1,4 @@
+
 /datum/ammo/bullet/rifle/caliber_10x24mm/a19
 	name = "A19 high velocity bullet"
 	shrapnel_chance = 0

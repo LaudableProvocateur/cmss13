@@ -1,39 +1,83 @@
-/datum/ammo/bullet/sniper/anti_material_rifle/caliber_20x102mm
-	damage = 400 // Fully intended to vaporize anything smaller than a mini cooper
-	accurate_range_min = 10
-	handful_state = "vulture_bullet"
-	sound_hit = 'sound/bullets/bullet_vulture_impact.ogg'
-	flags_ammo_behavior = AMMO_BALLISTIC|AMMO_SNIPER|AMMO_IGNORE_COVER|AMMO_ANTIVEHICLE
+/datum/ammo/bullet/vehicle/caliber_20x102mm
+	name = "20x102mm Autocannon Bullet"
+	icon_state = "autocannon"
+	damage_falloff = 0
+	flags_ammo_behavior = AMMO_BALLISTIC
 
-/datum/ammo/bullet/sniper/anti_material_rifle/caliber_20x102mm/on_hit_mob(mob/hit_mob, obj/projectile/bullet)
-	. = ..()
-	knockback(hit_mob, bullet, 30)
-	hit_mob.apply_effect(3, SLOW)
+	accuracy = HIT_ACCURACY_TIER_8
+	scatter = 0
+	damage = 50
+	damage_var_high = PROJECTILE_VARIANCE_TIER_8
+	penetration = ARMOR_PENETRATION_TIER_3
+	accurate_range = 32
+	max_range = 32
+	shell_speed = AMMO_SPEED_TIER_5
+/datum/ammo/bullet/vehicle/caliber_20x102mm/flak
+	name = "flak autocannon bullet"
+	icon_state = "autocannon"
+	sound_hit  = 'sound/weapons/sting_boom_small1.ogg'
+	damage_falloff = 0
+	flags_ammo_behavior = AMMO_BALLISTIC
+	accurate_range_min = 4
 
-/datum/ammo/bullet/sniper/anti_material_rifle/caliber_20x102mm/set_bullet_traits()
-	. = ..()
-	LAZYADD(traits_to_give, list(
-		BULLET_TRAIT_ENTRY(/datum/element/bullet_trait_penetrating/heavy)
-	))
+	accuracy = HIT_ACCURACY_TIER_8
+	scatter = 0
+	damage = 60
+	damage_var_high = PROJECTILE_VARIANCE_TIER_8
+	penetration = ARMOR_PENETRATION_TIER_6
+	accurate_range = 32
+	max_range = 32
+	shell_speed = AMMO_SPEED_TIER_6
 
-/datum/ammo/bullet/sniper/anti_material_rifle/caliber_20x102mm/holo_target
-	name = "holo-targeting anti-materiel sniper bullet"
-	damage = 60 // it's a big bullet but its purpose is to support marines, not to kill enemies by itself
-	/// inflicts this many holo stacks per bullet hit
-	var/holo_stacks = 333
-	/// modifies the default cap limit of 100 by this amount
-	var/bonus_damage_cap_increase = 233
-	/// multiplies the default drain of 5 holo stacks per second by this amount
-	var/stack_loss_multiplier = 2
+/datum/ammo/bullet/vehicle/caliber_20x102mm/flak/on_hit_mob(mob/M,obj/projectile/P)
+	burst(get_turf(M),P,damage_type, 2 , 3)
+	burst(get_turf(M),P,damage_type, 1 , 3 , 0)
 
-/datum/ammo/bullet/sniper/anti_material_rifle/caliber_20x102mm/holo_target/on_hit_mob(mob/hit_mob, obj/projectile/bullet)
-	hit_mob.AddComponent(/datum/component/bonus_damage_stack, holo_stacks, world.time, bonus_damage_cap_increase, stack_loss_multiplier)
-	playsound(hit_mob, 'sound/weapons/gun_vulture_mark.ogg', 40)
-	to_chat(hit_mob, isxeno(hit_mob) ? SPAN_XENOHIGHDANGER("It feels as if we were MARKED FOR DEATH!") : SPAN_HIGHDANGER("It feels as if you were MARKED FOR DEATH!"))
-	hit_mob.balloon_alert_to_viewers("marked for death!")
+/datum/ammo/bullet/vehicle/caliber_20x102mm/flak/on_near_target(turf/T, obj/projectile/P)
+	burst(get_turf(T),P,damage_type, 2 , 3)
+	burst(get_turf(T),P,damage_type, 1 , 3, 0)
+	return 1
 
-// the effect should be limited to one target, with IFF to compensate how hard it will be to hit these shots
-/datum/ammo/bullet/sniper/anti_material_rifle/caliber_20x102mm/holo_target/set_bullet_traits()
-	LAZYADD(traits_to_give, list(
-		BULLET_TRAIT_ENTRY(/datum/element/bullet_trait_iff)
-	))
+/datum/ammo/bullet/vehicle/caliber_20x102mm/flak/on_hit_obj(obj/O,obj/projectile/P)
+	burst(get_turf(P),P,damage_type, 2 , 3)
+	burst(get_turf(P),P,damage_type, 1 , 3 , 0)
+
+/datum/ammo/bullet/vehicle/caliber_20x102mm/flak/on_hit_turf(turf/T,obj/projectile/P)
+	burst(get_turf(T),P,damage_type, 2 , 3)
+	burst(get_turf(T),P,damage_type, 1 , 3 , 0)
+
+/datum/ammo/bullet/vehicle/caliber_20x102mm/dualcannon
+	name = "dualcannon bullet"
+	icon_state = "autocannon"
+	damage_falloff = 0
+	flags_ammo_behavior = AMMO_BALLISTIC
+
+	accuracy = HIT_ACCURACY_TIER_8
+	scatter = 0
+	damage = 50
+	damage_var_high = PROJECTILE_VARIANCE_TIER_8
+	penetration = ARMOR_PENETRATION_TIER_3
+	accurate_range = 10
+	max_range = 12
+	shell_speed = AMMO_SPEED_TIER_5
+
+/datum/ammo/bullet/vehicle/caliber_20x102mm/dualcannon/on_hit_mob(mob/M,obj/projectile/P)
+	for(var/mob/living/carbon/L in get_turf(M))
+		if(L.stat == CONSCIOUS && L.mob_size <= MOB_SIZE_XENO)
+			shake_camera(L, 1, 1)
+
+/datum/ammo/bullet/vehicle/caliber_20x102mm/dualcannon/on_near_target(turf/T, obj/projectile/P)
+	for(var/mob/living/carbon/L in T)
+		if(L.stat == CONSCIOUS && L.mob_size <= MOB_SIZE_XENO)
+			shake_camera(L, 1, 1)
+	return 1
+
+/datum/ammo/bullet/vehicle/caliber_20x102mm/dualcannon/on_hit_obj(obj/O,obj/projectile/P)
+	for(var/mob/living/carbon/L in get_turf(O))
+		if(L.stat == CONSCIOUS && L.mob_size <= MOB_SIZE_XENO)
+			shake_camera(L, 1, 1)
+
+/datum/ammo/bullet/vehicle/caliber_20x102mm/dualcannon/on_hit_turf(turf/T,obj/projectile/P)
+	for(var/mob/living/carbon/L in T)
+		if(L.stat == CONSCIOUS && L.mob_size <= MOB_SIZE_XENO)
+			shake_camera(L, 1, 1)

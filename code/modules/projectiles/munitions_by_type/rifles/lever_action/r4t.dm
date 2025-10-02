@@ -4,7 +4,7 @@
 	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/colony/marksman_rifles.dmi'
 	icon_state = "45-70-box"
 	item_state = "45-70-box"
-	default_ammo = /datum/ammo/bullet/lever_action
+	default_ammo = /datum/ammo/bullet/caliber_11_6x53mmR
 	caliber = "45-70"
 	gun_type = /obj/item/weapon/gun/lever_action
 	max_rounds = 90
@@ -19,7 +19,7 @@
 	desc = "A box filled with handfuls of 45-70 Govt. blank rounds. These won't do much damage unless you fire them point blank, or something."
 	icon_state = "45-70-training-box"
 	item_state = "45-70-training-box"
-	default_ammo = /datum/ammo/bullet/lever_action/training
+	default_ammo = /datum/ammo/bullet/caliber_11_6x53mmR/training
 	handful_state = "training_lever_action_bullet"
 
 //unused
@@ -28,7 +28,7 @@
 	desc = "A box filled with handfuls of marksman 45-70 Govt. rounds, which have a lower-density, more precise bullet package."
 	icon_state = "45-70-marksman-box"
 	item_state = "45-70-marksman-box"
-	default_ammo = /datum/ammo/bullet/lever_action/marksman
+	default_ammo = /datum/ammo/bullet/caliber_11_6x53mmR/marksman
 	handful_state = "marksman_lever_action_bullet"
 
 //unused, broken
@@ -37,13 +37,13 @@
 	desc = "A box filled with handfuls of tracker 45-70 Govt. rounds, which replace some of the bullet package with an electronic tracking chip."
 	icon_state = "45-70-tracker-box"
 	item_state = "45-70-tracker-box"
-	default_ammo = /datum/ammo/bullet/lever_action/tracker
+	default_ammo = /datum/ammo/bullet/caliber_11_6x53mmR/tracker
 	handful_state = "tracking_lever_action_bullet"
 
 /obj/item/ammo_magazine/internal/r4t
 	name = "lever action tube"
 	desc = "An internal magazine. It is not supposed to be seen or removed."
-	default_ammo = /datum/ammo/bullet/lever_action
+	default_ammo = /datum/ammo/bullet/caliber_11_6x53mmR
 	caliber = "45-70"
 	max_rounds = 9
 	chamber_closed = 0
@@ -52,7 +52,7 @@
 	name = "handful of rounds (45-70)"
 	desc = "A handful of standard 45-70 Govt. rounds."
 	icon_state = "lever_action_bullet_9"
-	default_ammo = /datum/ammo/bullet/lever_action
+	default_ammo = /datum/ammo/bullet/caliber_11_6x53mmR
 	caliber = "45-70"
 	max_rounds = 9
 	current_rounds = 9
@@ -64,7 +64,7 @@
 	name = "handful of blanks (45-70)"
 	desc = "A handful of blank 45-70 Govt. rounds. These rounds are blanks, which are mostly harmless... Just don't shoot them at point-blank range."
 	icon_state = "training_lever_action_bullet_9"
-	default_ammo = /datum/ammo/bullet/lever_action/training
+	default_ammo = /datum/ammo/bullet/caliber_11_6x53mmR/training
 	handful_state = "training_lever_action_bullet"
 
 //unused
@@ -72,7 +72,7 @@
 	name = "handful of tracker 45-70 rounds (45-70)"
 	desc = "A handful of tracker 45-70 Govt. rounds. Some of their bullet package has been replaced with a chip that, when fired, can be picked up by Motion Detectors."
 	icon_state = "tracking_lever_action_bullet_9"
-	default_ammo = /datum/ammo/bullet/lever_action/tracker
+	default_ammo = /datum/ammo/bullet/caliber_11_6x53mmR/tracker
 	handful_state = "tracking_lever_action_bullet"
 
 //unused
@@ -80,5 +80,5 @@
 	name = "handful of marksman 45-70 rounds (45-70)"
 	desc = "A handful of marksman 45-70 Govt. rounds. Their smaller bullet package reduces damage, but increases penetration and bullet velocity."
 	icon_state = "marksman_lever_action_bullet_9"
-	default_ammo = /datum/ammo/bullet/lever_action/marksman
+	default_ammo = /datum/ammo/bullet/caliber_11_6x53mmR/marksman
 	handful_state = "marksman_lever_action_bullet"

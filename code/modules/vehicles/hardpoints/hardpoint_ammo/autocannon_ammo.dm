@@ -5,7 +5,7 @@
 	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/USCM/vehicles.dmi'
 	icon_state = "ace_autocannon"
 	w_class = SIZE_LARGE
-	default_ammo = /datum/ammo/bullet/tank/flak
+	default_ammo = /datum/ammo/bullet/vehicle/caliber_20x102mm/flak
 	max_rounds = 40
 	gun_type = /obj/item/hardpoint/primary/autocannon
 

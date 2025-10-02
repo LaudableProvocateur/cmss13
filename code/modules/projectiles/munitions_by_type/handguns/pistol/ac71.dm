@@ -1,7 +1,7 @@
 /obj/item/ammo_magazine/pistol/ac71
 	name = "AC71 magazine (.380 ACP)"
 	desc = "A small mag holding 8 .380 ACP rounds."
-	default_ammo = /datum/ammo/bullet/pistol/tiny
+	default_ammo = /datum/ammo/bullet/pistol/caliber_9x17mm
 	caliber = ".380 ACP"
 	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/colony/pistols.dmi'
 	icon_state = "action"

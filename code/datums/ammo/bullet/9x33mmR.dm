@@ -1,7 +1,14 @@
-/datum/ammo/bullet/revolver/small/cmb
+// .357 Magnum, or 9x33mmR
+
+/datum/ammo/bullet/revolver/caliber_9x33mmR
+	name = "small revolver bullet"
+	headshot_state = HEADSHOT_OVERLAY_LIGHT
+
 	damage = 60
 
-/datum/ammo/bullet/revolver/small/hollowpoint
+	penetration = ARMOR_PENETRATION_TIER_3
+
+/datum/ammo/bullet/revolver/caliber_9x33mmR/hp
 	name = "small hollowpoint revolver bullet"
 	headshot_state = HEADSHOT_OVERLAY_MEDIUM
 

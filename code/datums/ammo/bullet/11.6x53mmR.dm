@@ -1,4 +1,5 @@
-/datum/ammo/bullet/lever_action
+// 45-70 rifle cartridge, otherwise known as the 11.6x53mmR
+/datum/ammo/bullet/caliber_11_6x53mmR
 	name = "lever-action bullet"
 
 	damage = 80
@@ -11,7 +12,7 @@
 
 //unused and not working. need to refactor MD code. Unobtainable.
 //intended mechanic is to have xenos hit with it show up very frequently on any MDs around
-/datum/ammo/bullet/lever_action/tracker
+/datum/ammo/bullet/caliber_11_6x53mmR/tracker
 	name = "tracking lever-action bullet"
 	icon_state = "redbullet"
 	damage = 70
@@ -19,11 +20,11 @@
 	accuracy = HIT_ACCURACY_TIER_1
 	handful_state = "tracking_lever_action_bullet"
 
-/datum/ammo/bullet/lever_action/tracker/on_hit_mob(mob/M, obj/projectile/P, mob/user)
+/datum/ammo/bullet/caliber_11_6x53mmR/tracker/on_hit_mob(mob/M, obj/projectile/P, mob/user)
 	//SEND_SIGNAL(user, COMSIG_BULLET_TRACKING, user, M)
 	M.visible_message(SPAN_DANGER("You hear a faint beep under [M]'s [M.mob_size > MOB_SIZE_HUMAN ? "chitin" : "skin"]."))
 
-/datum/ammo/bullet/lever_action/training
+/datum/ammo/bullet/caliber_11_6x53mmR/training
 	name = "lever-action blank"
 	icon_state = "blank"
 	damage = 70  //blanks CAN hurt you if shot very close
@@ -35,7 +36,7 @@
 	handful_state = "training_lever_action_bullet"
 
 //unused, and unobtainable... for now
-/datum/ammo/bullet/lever_action/marksman
+/datum/ammo/bullet/caliber_11_6x53mmR/marksman
 	name = "marksman lever-action bullet"
 	shrapnel_chance = 0
 	damage_falloff = 0
