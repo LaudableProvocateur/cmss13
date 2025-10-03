@@ -1,4 +1,4 @@
-
+// A19 10x24mm HV Caseless ammunition, a specialized ammunition type intended for use in the M4RA battle rifle.
 /datum/ammo/bullet/rifle/caliber_10x24mm/a19
 	name = "A19 high velocity bullet"
 	shrapnel_chance = 0

@@ -1,3 +1,4 @@
+// M309 10x24mm caseless, the standard issue round of the USCM.
 /datum/ammo/bullet/rifle/caliber_10x24mm
 	name = "rifle bullet"
 	headshot_state = HEADSHOT_OVERLAY_MEDIUM
