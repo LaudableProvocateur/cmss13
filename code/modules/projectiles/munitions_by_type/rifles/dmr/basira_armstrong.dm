@@ -6,5 +6,5 @@
 	icon_state = "hunting"
 	default_ammo = /datum/ammo/bullet/rifle/caliber_6_5mm
 	max_rounds = 10
-	gun_type = /obj/item/weapon/gun/boltaction
+	gun_type = /obj/item/weapon/gun/bolt_action/basira_armstrong
 	w_class = SIZE_SMALL

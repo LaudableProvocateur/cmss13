@@ -233,7 +233,7 @@ Additionally, weapons that are way too good to put in the basically-flavor black
 /datum/supply_packs/contraband/seized/hunting
 	name = "Basira-Armstrong bolt-action hunting rifle crate (x5 magazines included)"
 	contains = list(
-		/obj/item/weapon/gun/boltaction,
+		/obj/item/weapon/gun/bolt_action/basira_armstrong,
 		/obj/item/ammo_magazine/rifle/boltaction,
 		/obj/item/ammo_magazine/rifle/boltaction,
 		/obj/item/ammo_magazine/rifle/boltaction,

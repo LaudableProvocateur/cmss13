@@ -865,7 +865,7 @@
 	pixel_x = -21;
 	pixel_y = -9
 	},
-/obj/item/weapon/gun/boltaction{
+/obj/item/weapon/gun/bolt_action/basira_armstrong{
 	pixel_x = -5;
 	pixel_y = -13
 	},
@@ -13882,7 +13882,7 @@
 /turf/open/floor/corsat/brown/north,
 /area/lv522/atmos/reactor_garage)
 "hAX" = (
-/obj/item/weapon/gun/boltaction,
+/obj/item/weapon/gun/bolt_action/basira_armstrong,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/floor_plate,
 /area/lv522/indoors/c_block/cargo)
@@ -33926,7 +33926,7 @@
 /turf/open/floor/corsat/marked,
 /area/lv522/indoors/a_block/fitness)
 "rMd" = (
-/obj/item/weapon/gun/boltaction{
+/obj/item/weapon/gun/bolt_action/basira_armstrong{
 	current_mag = null;
 	pixel_x = 6;
 	pixel_y = 6
@@ -42199,7 +42199,7 @@
 /turf/open/floor/prison/darkbrownfull2,
 /area/lv522/indoors/c_block/casino)
 "vMu" = (
-/obj/item/weapon/gun/boltaction,
+/obj/item/weapon/gun/bolt_action/basira_armstrong,
 /turf/open/floor/prison,
 /area/lv522/indoors/c_block/cargo)
 "vMC" = (
@@ -46879,7 +46879,7 @@
 /turf/open/floor/prison/greenfull/northwest,
 /area/lv522/indoors/b_block/hydro)
 "yfX" = (
-/obj/item/weapon/gun/boltaction{
+/obj/item/weapon/gun/bolt_action/basira_armstrong{
 	pixel_y = -8
 	},
 /obj/item/prop{

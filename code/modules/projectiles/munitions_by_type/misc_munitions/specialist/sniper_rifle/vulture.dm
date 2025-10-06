@@ -7,7 +7,7 @@
 	handful_state = "vulture_bullet"
 	default_ammo = /datum/ammo/bullet/sniper/anti_material_rifle/caliber_10x102mm
 	max_rounds = 4
-	gun_type = /obj/item/weapon/gun/boltaction/vulture
+	gun_type = /obj/item/weapon/gun/bolt_action/vulture
 	w_class = SIZE_MEDIUM // maybe small? This shit's >4 inches long mind you
 	ammo_band_icon = "+vulture_band"
 	ammo_band_icon_empty = "+vulture_band_e"

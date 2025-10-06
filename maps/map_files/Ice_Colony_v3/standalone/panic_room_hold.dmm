@@ -371,7 +371,7 @@
 /turf/open/floor/shiva/floor3,
 /area/shiva/interior/colony/s_admin)
 "pz" = (
-/obj/item/weapon/gun/boltaction,
+/obj/item/weapon/gun/bolt_action/basira_armstrong,
 /turf/open/floor/shiva/redfull/west,
 /area/shiva/interior/colony/s_admin)
 "pC" = (
@@ -690,7 +690,7 @@
 	dir = 8;
 	pixel_x = -24
 	},
-/obj/item/weapon/gun/boltaction,
+/obj/item/weapon/gun/bolt_action/basira_armstrong,
 /obj/structure/closet/secure_closet/guncabinet/wy,
 /turf/open/floor/shiva/redfull/west,
 /area/shiva/interior/colony/s_admin)

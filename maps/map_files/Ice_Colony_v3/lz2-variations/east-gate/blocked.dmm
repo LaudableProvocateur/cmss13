@@ -14,7 +14,7 @@
 /turf/open/floor/shiva/radiator_tile,
 /area/shiva/exterior/lz2_fortress)
 "f" = (
-/obj/item/weapon/gun/boltaction,
+/obj/item/weapon/gun/bolt_action/basira_armstrong,
 /turf/open/floor/plating/plating_catwalk/shiva,
 /area/shiva/exterior/lz2_fortress)
 "g" = (

@@ -898,7 +898,7 @@
 /area/shiva/interior/colony/research_hab)
 "aeX" = (
 /obj/structure/surface/table/woodentable,
-/obj/item/weapon/gun/boltaction,
+/obj/item/weapon/gun/bolt_action/basira_armstrong,
 /turf/open/floor/wood,
 /area/shiva/interior/bar)
 "afb" = (
@@ -4783,7 +4783,7 @@
 /area/shiva/interior/colony/medseceng)
 "aSc" = (
 /obj/structure/closet/secure_closet/guncabinet,
-/obj/item/weapon/gun/boltaction,
+/obj/item/weapon/gun/bolt_action/basira_armstrong,
 /obj/item/ammo_magazine/rifle/boltaction,
 /obj/item/ammo_magazine/rifle/boltaction,
 /obj/item/ammo_magazine/rifle/boltaction,
@@ -7826,7 +7826,7 @@
 	dir = 8;
 	pixel_x = -24
 	},
-/obj/item/weapon/gun/boltaction,
+/obj/item/weapon/gun/bolt_action/basira_armstrong,
 /obj/item/ammo_magazine/rifle/boltaction,
 /obj/item/ammo_magazine/rifle/boltaction,
 /obj/item/ammo_magazine/rifle/boltaction,
@@ -10702,7 +10702,7 @@
 /turf/open/asphalt/cement,
 /area/shiva/interior/warehouse)
 "hHk" = (
-/obj/item/weapon/gun/boltaction,
+/obj/item/weapon/gun/bolt_action/basira_armstrong,
 /obj/item/lightstick/red/spoke/planted{
 	pixel_x = 12;
 	pixel_y = 25
@@ -12509,7 +12509,7 @@
 /turf/open/auto_turf/ice/layer1,
 /area/shiva/exterior/lz2_fortress)
 "jSb" = (
-/obj/item/weapon/gun/boltaction{
+/obj/item/weapon/gun/bolt_action/basira_armstrong{
 	pixel_x = 12;
 	pixel_y = 6
 	},
@@ -19106,7 +19106,7 @@
 /turf/open/floor/shiva/multi_tiles/southeast,
 /area/shiva/interior/aux_power)
 "rSL" = (
-/obj/item/weapon/gun/boltaction{
+/obj/item/weapon/gun/bolt_action/basira_armstrong{
 	pixel_x = -6
 	},
 /turf/open/floor/shiva/floor3,
@@ -21548,7 +21548,7 @@
 /turf/open/floor/shiva/bluefull,
 /area/shiva/interior/colony/s_admin)
 "uFA" = (
-/obj/item/weapon/gun/boltaction{
+/obj/item/weapon/gun/bolt_action/basira_armstrong{
 	pixel_x = -6
 	},
 /turf/open/floor/shiva/multi_tiles/north,
@@ -21776,7 +21776,7 @@
 /turf/open/floor/shiva/floor3,
 /area/shiva/interior/aux_power)
 "uRn" = (
-/obj/item/weapon/gun/boltaction,
+/obj/item/weapon/gun/bolt_action/basira_armstrong,
 /turf/open/floor/shiva/north,
 /area/shiva/exterior/lz2_fortress)
 "uRt" = (
@@ -22743,7 +22743,7 @@
 /turf/open/auto_turf/ice/layer1,
 /area/shiva/exterior/telecomm/lz2_southeast)
 "whI" = (
-/obj/item/weapon/gun/boltaction,
+/obj/item/weapon/gun/bolt_action/basira_armstrong,
 /turf/open/auto_turf/snow/layer1,
 /area/shiva/exterior/junkyard)
 "whS" = (

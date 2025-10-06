@@ -126,7 +126,7 @@
 /turf/open/auto_turf/snow/layer4,
 /area/shiva/exterior/cp_lz2)
 "X" = (
-/obj/item/weapon/gun/boltaction{
+/obj/item/weapon/gun/bolt_action/basira_armstrong{
 	pixel_x = -6
 	},
 /turf/open/floor/shiva/multi_tiles/north,

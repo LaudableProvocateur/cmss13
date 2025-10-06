@@ -293,7 +293,7 @@
 	if(!bound_rifle)
 		return
 
-	var/obj/item/weapon/gun/boltaction/vulture/rifle = bound_rifle.resolve()
+	var/obj/item/weapon/gun/bolt_action/vulture/rifle = bound_rifle.resolve()
 	if(!("rail" in rifle.attachments) || !istype(rifle.attachments["rail"], /obj/item/attachable/vulture_scope))
 		return
 
