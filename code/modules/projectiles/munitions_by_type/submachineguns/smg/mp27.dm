@@ -1,7 +1,7 @@
 /obj/item/ammo_magazine/smg/mp27
 	name = "\improper MP27 magazine (4.6x30mm)"
 	desc = "A 4.6mm magazine for the MP27. Fires large, heavy bullets that have noticeable punch for an SMG but also have equally noticeable scatter and a loss of accuracy."
-	default_ammo = /datum/ammo/bullet/caliber_4_6x30mm
+	default_ammo = /datum/ammo/bullet/smg/caliber_4_6x30mm
 	caliber = "4.6x30mm"
 	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/colony/smgs.dmi'
 	icon_state = "mp7_30"

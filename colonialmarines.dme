@@ -440,6 +440,7 @@
 #include "code\datums\ammo\bullet\10x28mm\10x28mm_smartgun.dm"
 #include "code\datums\ammo\bullet\10x28mm\10x28mm_sniper.dm"
 #include "code\datums\ammo\bullet\10x28mm\10x28mm_turret.dm"
+#include "code\datums\ammo\bullet\AMISC.dm"
 #include "code\datums\ammo\bullet\generic\pistol.dm"
 #include "code\datums\ammo\bullet\generic\revolver.dm"
 #include "code\datums\ammo\bullet\generic\sniper\anti_material_rifle.dm"

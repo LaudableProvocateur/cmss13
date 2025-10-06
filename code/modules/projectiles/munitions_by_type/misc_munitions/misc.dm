@@ -119,7 +119,7 @@
 	desc = "A 16 gauge rubber buckshot shotgun magazine."
 	icon_state = "m51b_rubber"
 	gun_type = /obj/item/weapon/gun/rifle/xm51/cmb
-	default_ammo = /datum/ammo/bullet/shell/gauge_8/rubber
+	default_ammo = /datum/ammo/bullet/shell/gauge_16/rubber
 
 //-------------------------------------------------------
 //P9 SHARP Rifle
