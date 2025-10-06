@@ -1185,11 +1185,11 @@
 /turf/open/floor/kutjevo/tan/alt_inner_edge/north,
 /area/event/deep_underground/dynamic)
 "Rx" = (
-/obj/item/ammo_magazine/gauge_12/buckshot{
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot{
 	pixel_x = 10;
 	pixel_y = 5
 	},
-/obj/item/ammo_magazine/gauge_12/buckshot{
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot{
 	pixel_x = -10;
 	pixel_y = 5
 	},

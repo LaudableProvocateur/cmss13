@@ -16,9 +16,9 @@
 		list("M41A Pulse Rifle MK2", 4, /obj/item/weapon/gun/rifle/m41a, VENDOR_ITEM_REGULAR),
 
 		list("PRIMARY AMMUNITION", -1, null, null),
-		list("Box Of Buckshot Shells (12g)", 12, /obj/item/ammo_magazine/gauge_12/buckshot, VENDOR_ITEM_REGULAR),
-		list("Box Of Flechette Shells (12g)", 12, /obj/item/ammo_magazine/gauge_12/flechette, VENDOR_ITEM_REGULAR),
-		list("Box Of Shotgun Slugs (12g)", 12, /obj/item/ammo_magazine/gauge_12/slug, VENDOR_ITEM_REGULAR),
+		list("Box Of Buckshot Shells (12g)", 12, /obj/item/ammo_magazine/shell_box/gauge_12/buckshot, VENDOR_ITEM_REGULAR),
+		list("Box Of Flechette Shells (12g)", 12, /obj/item/ammo_magazine/shell_box/gauge_12/flechette, VENDOR_ITEM_REGULAR),
+		list("Box Of Shotgun Slugs (12g)", 12, /obj/item/ammo_magazine/shell_box/gauge_12/slug, VENDOR_ITEM_REGULAR),
 		list("M4RA Magazine (10x24mm)", 24, /obj/item/ammo_magazine/rifle/m4ra, VENDOR_ITEM_REGULAR),
 		list("M39 HV Magazine (10x20mm)", 24, /obj/item/ammo_magazine/smg/m39, VENDOR_ITEM_REGULAR),
 		list("M41A Magazine (10x24mm)", 24, /obj/item/ammo_magazine/rifle, VENDOR_ITEM_REGULAR),

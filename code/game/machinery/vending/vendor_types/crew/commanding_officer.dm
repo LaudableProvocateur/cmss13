@@ -19,13 +19,13 @@ GLOBAL_LIST_INIT(cm_vending_gear_commanding_officer, list(
 		list("High Impact AP Desert Eagle Magazine (.50)", 20, /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact/ap, null, VENDOR_ITEM_REGULAR),
 
 		list("SHOTGUN AMMUNITION", 0, null, null, null),
-		list("Buckshot Shells", 20, /obj/item/ammo_magazine/gauge_12/buckshot, null, VENDOR_ITEM_REGULAR),
-		list("Shotgun Slugs", 20, /obj/item/ammo_magazine/gauge_12/slug, null, VENDOR_ITEM_REGULAR),
-		list("Flechette Shells", 20, /obj/item/ammo_magazine/gauge_12/flechette, null, VENDOR_ITEM_REGULAR),
+		list("Buckshot Shells", 20, /obj/item/ammo_magazine/shell_box/gauge_12/buckshot, null, VENDOR_ITEM_REGULAR),
+		list("Shotgun Slugs", 20, /obj/item/ammo_magazine/shell_box/gauge_12/slug, null, VENDOR_ITEM_REGULAR),
+		list("Flechette Shells", 20, /obj/item/ammo_magazine/shell_box/gauge_12/flechette, null, VENDOR_ITEM_REGULAR),
 
 		list("SPECIAL AMMUNITION", 0, null, null, null),
 		list("M41A Rubber Shot Magazine", 10, /obj/item/ammo_magazine/rifle/rubber, null, VENDOR_ITEM_REGULAR),
-		list("Beanbag Slugs", 10, /obj/item/ammo_magazine/gauge_12/beanbag, null, VENDOR_ITEM_REGULAR),
+		list("Beanbag Slugs", 10, /obj/item/ammo_magazine/shell_box/gauge_12/beanbag, null, VENDOR_ITEM_REGULAR),
 
 		list("EXPLOSIVES", 0, null, null, null),
 		list("HEDP Grenade Pack", 15, /obj/item/storage/box/packet/high_explosive, null, VENDOR_ITEM_REGULAR),

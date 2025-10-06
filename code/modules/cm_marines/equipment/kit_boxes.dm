@@ -387,8 +387,8 @@
 /obj/item/storage/box/kit/mou53_sapper/fill_preset_inventory()
 	new /obj/item/weapon/gun/shotgun/double/mou53(src)
 	new /obj/item/attachable/stock/mou53(src)
-	new /obj/item/ammo_magazine/gauge_12/slug(src)
-	new /obj/item/ammo_magazine/gauge_12/flechette(src)
+	new /obj/item/ammo_magazine/shell_box/gauge_12/slug(src)
+	new /obj/item/ammo_magazine/shell_box/gauge_12/flechette(src)
 	new /obj/item/storage/belt/shotgun(src)
 
 /obj/item/storage/box/kit/r4t_scout
@@ -617,8 +617,8 @@
 	new /obj/item/storage/pill_bottle/packet/bicaridine(src)
 	new /obj/item/weapon/gun/shotgun/combat/guard(src)
 	new /obj/item/storage/pouch/general/large(src)
-	new /obj/item/ammo_magazine/gauge_12/buckshot(src)
-	new /obj/item/ammo_magazine/gauge_12/buckshot(src)
+	new /obj/item/ammo_magazine/shell_box/gauge_12/buckshot(src)
+	new /obj/item/ammo_magazine/shell_box/gauge_12/buckshot(src)
 
 /obj/item/storage/box/kit/spotter
 	name = "\improper Spotter Kit"

@@ -91,9 +91,9 @@
 /area/shuttle/ert)
 "hQ" = (
 /obj/structure/closet/secure_closet/personal,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/beanbag{
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/beanbag{
 	pixel_x = -3;
 	pixel_y = -5
 	},

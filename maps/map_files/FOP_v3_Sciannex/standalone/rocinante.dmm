@@ -553,10 +553,10 @@
 /area/fiorina/station/clf_ship)
 "jS" = (
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/gauge_12/slug,
-/obj/item/ammo_magazine/gauge_12/slug,
-/obj/item/ammo_magazine/gauge_12/slug,
-/obj/item/ammo_magazine/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
 /turf/open/floor/almayer/orange/east,
 /area/fiorina/station/clf_ship)
 "ke" = (
@@ -790,10 +790,10 @@
 /area/fiorina/station/clf_ship)
 "ro" = (
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /turf/open/floor/almayer/orange/southeast,
 /area/fiorina/station/clf_ship)
 "ry" = (
@@ -1648,11 +1648,11 @@
 /area/fiorina/station/clf_ship)
 "RC" = (
 /obj/structure/surface/table/woodentable,
-/obj/item/ammo_magazine/gauge_12/slug/incendiary{
+/obj/item/ammo_magazine/shell_box/gauge_12/slug/incendiary{
 	pixel_x = 3;
 	pixel_y = 6
 	},
-/obj/item/ammo_magazine/gauge_12/slug/incendiary,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug/incendiary,
 /turf/open/floor/almayer,
 /area/fiorina/station/clf_ship)
 "RI" = (

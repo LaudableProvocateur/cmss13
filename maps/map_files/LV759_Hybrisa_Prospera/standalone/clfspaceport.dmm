@@ -1734,25 +1734,25 @@
 /turf/open/floor/almayer/test_floor5,
 /area/lv759/indoors/spaceport/clf_dropship)
 "xL" = (
-/obj/item/ammo_magazine/gauge_12/slug{
+/obj/item/ammo_magazine/shell_box/gauge_12/slug{
 	pixel_x = 4;
 	pixel_y = 5
 	},
-/obj/item/ammo_magazine/gauge_12/slug{
+/obj/item/ammo_magazine/shell_box/gauge_12/slug{
 	pixel_y = 5
 	},
-/obj/item/ammo_magazine/gauge_12/slug{
+/obj/item/ammo_magazine/shell_box/gauge_12/slug{
 	pixel_x = -4;
 	pixel_y = 5
 	},
-/obj/item/ammo_magazine/gauge_12/buckshot{
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot{
 	pixel_x = 4;
 	pixel_y = -2
 	},
-/obj/item/ammo_magazine/gauge_12/buckshot{
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot{
 	pixel_y = -2
 	},
-/obj/item/ammo_magazine/gauge_12/buckshot{
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot{
 	pixel_y = -2;
 	pixel_x = -4
 	},

@@ -168,9 +168,9 @@
 		else
 			to_chat(user, SPAN_WARNING("You don't want to mix different magazines in one box."))
 	else
-		if(istype(W, /obj/item/ammo_magazine/gauge_12))
+		if(istype(W, /obj/item/ammo_magazine/shell_box/gauge_12))
 			var/obj/item/ammo_magazine/O = W
-			var/obj/item/ammo_magazine/AM = locate(/obj/item/ammo_magazine/gauge_12) in item_box.contents
+			var/obj/item/ammo_magazine/AM = locate(/obj/item/ammo_magazine/shell_box/gauge_12) in item_box.contents
 			if(!O || !W)
 				return
 			if(O.default_ammo == AM.default_ammo)

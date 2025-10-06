@@ -203,7 +203,7 @@
 	name = "\improper M37A2 Pump Shotgun case"
 	desc = "A gun case containing the M37A2 Pump Shotgun."
 	storage_slots = 4
-	can_hold = list(/obj/item/weapon/gun/shotgun/pump/m37a, /obj/item/ammo_magazine/gauge_12/buckshot, /obj/item/ammo_magazine/gauge_12/flechette, /obj/item/ammo_magazine/gauge_12/slug)
+	can_hold = list(/obj/item/weapon/gun/shotgun/pump/m37a, /obj/item/ammo_magazine/shell_box/gauge_12/buckshot, /obj/item/ammo_magazine/shell_box/gauge_12/flechette, /obj/item/ammo_magazine/shell_box/gauge_12/slug)
 
 /obj/item/storage/box/guncase/pumpshotgun/fill_preset_inventory()
 	new /obj/item/weapon/gun/shotgun/pump(src)
@@ -211,11 +211,11 @@
 		var/random_pick = rand(1, 3)
 		switch(random_pick)
 			if(1)
-				new /obj/item/ammo_magazine/gauge_12/buckshot(src)
+				new /obj/item/ammo_magazine/shell_box/gauge_12/buckshot(src)
 			if(2)
-				new /obj/item/ammo_magazine/gauge_12/flechette(src)
+				new /obj/item/ammo_magazine/shell_box/gauge_12/flechette(src)
 			if(3)
-				new /obj/item/ammo_magazine/gauge_12/slug(src)
+				new /obj/item/ammo_magazine/shell_box/gauge_12/slug(src)
 
 /obj/item/storage/box/guncase/mk45_automag
 	name = "\improper MK-45 Automagnum case"
@@ -260,13 +260,13 @@
 	name = "\improper M37-17 pump shotgun case"
 	desc = "A gun case containing the M37-17 pump shotgun. Rarely seen issued to USCM vessels on the edges of inhabited space who need the extra bang for their buck (literally) the M37-17 has. Like this one! Well, if it had the budget for it."
 	storage_slots = 4
-	can_hold = list(/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb/m3717, /obj/item/ammo_magazine/gauge_12/buckshot)
+	can_hold = list(/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb/m3717, /obj/item/ammo_magazine/shell_box/gauge_12/buckshot)
 
 /obj/item/storage/box/guncase/m3717/fill_preset_inventory()
 	new /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb/m3717(src)
-	new /obj/item/ammo_magazine/gauge_12/buckshot(src)
-	new /obj/item/ammo_magazine/gauge_12/buckshot(src)
-	new /obj/item/ammo_magazine/gauge_12/buckshot(src)
+	new /obj/item/ammo_magazine/shell_box/gauge_12/buckshot(src)
+	new /obj/item/ammo_magazine/shell_box/gauge_12/buckshot(src)
+	new /obj/item/ammo_magazine/shell_box/gauge_12/buckshot(src)
 
 /obj/item/storage/box/guncase/m1911
 	name = "\improper M1911 service pistol case"
@@ -385,8 +385,8 @@
 	new /obj/item/weapon/gun/rifle/xm51(src)
 	new /obj/item/ammo_magazine/rifle/xm51(src)
 	new /obj/item/ammo_magazine/rifle/xm51(src)
-	new /obj/item/ammo_magazine/gauge_16/breaching(src)
-	new /obj/item/ammo_magazine/gauge_16/breaching(src)
+	new /obj/item/ammo_magazine/shell_box/gauge_16/breaching(src)
+	new /obj/item/ammo_magazine/shell_box/gauge_16/breaching(src)
 	new /obj/item/storage/belt/gun/xm51(src)
 
 //Handgun case for Military police vendor three mag , a railflashligh and the handgun.

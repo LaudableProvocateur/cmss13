@@ -1193,7 +1193,7 @@
 	dir = 1;
 	pixel_y = 20
 	},
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /turf/open/floor/kutjevo/colors/green/tile,
 /area/kutjevo/interior/complex/botany)
 "bDA" = (
@@ -1576,7 +1576,7 @@
 /turf/open/desert/desert_shore/shore_edge1/east,
 /area/kutjevo/exterior/scrubland/south)
 "cey" = (
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /turf/open/floor/kutjevo/tan,
 /area/kutjevo/interior/complex/med)
 "ceG" = (
@@ -1608,7 +1608,7 @@
 /turf/open/floor/kutjevo/multi_tiles,
 /area/kutjevo/interior/colony_central/mine_elevator)
 "cht" = (
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /turf/open/floor/kutjevo/tan/multi_tiles,
 /area/kutjevo/interior/complex/botany)
 "cid" = (
@@ -1735,7 +1735,7 @@
 /area/kutjevo/exterior/lz_pad)
 "cqc" = (
 /obj/structure/surface/table/almayer,
-/obj/item/ammo_magazine/gauge_12/buckshot{
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot{
 	pixel_x = -7;
 	pixel_y = 13
 	},
@@ -4723,7 +4723,7 @@
 /area/kutjevo/interior/colony_south)
 "gQF" = (
 /obj/structure/surface/table/almayer,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /turf/open/floor/kutjevo/colors/orange/edge,
 /area/kutjevo/interior/power_pt2_electric_boogaloo)
 "gQI" = (
@@ -4820,11 +4820,11 @@
 /area/kutjevo/interior/power_pt2_electric_boogaloo)
 "gYr" = (
 /obj/structure/surface/table/almayer,
-/obj/item/ammo_magazine/gauge_12/buckshot{
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot{
 	pixel_x = 10;
 	pixel_y = 5
 	},
-/obj/item/ammo_magazine/gauge_12/buckshot{
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot{
 	pixel_x = -10;
 	pixel_y = 5
 	},
@@ -14075,7 +14075,7 @@
 /area/kutjevo/interior/colony_south)
 "vxM" = (
 /obj/structure/surface/table/almayer,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /turf/open/floor/kutjevo/tan/alt_edge,
 /area/kutjevo/interior/complex/Northwest_Flight_Control)
 "vxV" = (
@@ -14694,7 +14694,7 @@
 	pixel_x = -6;
 	pixel_y = 19
 	},
-/obj/item/ammo_magazine/gauge_12/buckshot{
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot{
 	pixel_x = 5;
 	pixel_y = -2
 	},

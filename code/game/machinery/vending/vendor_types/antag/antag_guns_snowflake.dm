@@ -73,9 +73,9 @@
 /obj/effect/essentials_set/kit/custom_shotgun
 	spawned_gear_list = list(
 		/obj/item/weapon/gun/shotgun/merc,
-		/obj/item/ammo_magazine/gauge_12/slug/incendiary,
-		/obj/item/ammo_magazine/gauge_12/slug,
-		/obj/item/ammo_magazine/gauge_12/flechette,
+		/obj/item/ammo_magazine/shell_box/gauge_12/slug/incendiary,
+		/obj/item/ammo_magazine/shell_box/gauge_12/slug,
+		/obj/item/ammo_magazine/shell_box/gauge_12/flechette,
 	)
 
 /obj/effect/essentials_set/kit/m60

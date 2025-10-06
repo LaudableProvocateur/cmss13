@@ -49,8 +49,8 @@
 /obj/structure/closet/secure_closet/guncabinet/red/cic_armory_shotgun/Initialize()
 	. = ..()
 	new /obj/item/weapon/gun/shotgun/combat(src)
-	new /obj/item/ammo_magazine/gauge_12/slug(src)
-	new /obj/item/ammo_magazine/gauge_12/buckshot(src)
+	new /obj/item/ammo_magazine/shell_box/gauge_12/slug(src)
+	new /obj/item/ammo_magazine/shell_box/gauge_12/buckshot(src)
 
 //4 MK1 cabinet(using guncase because it fit well here it seem)
 /obj/structure/closet/secure_closet/guncabinet/red/cic_armory_mk1_rifle
@@ -75,10 +75,10 @@
 	. = ..()
 	new /obj/item/weapon/gun/shotgun/combat(src)
 	new /obj/item/weapon/gun/shotgun/combat(src)
-	new /obj/item/ammo_magazine/gauge_12/slug(src)
-	new /obj/item/ammo_magazine/gauge_12/slug(src)
-	new /obj/item/ammo_magazine/gauge_12/buckshot(src)
-	new /obj/item/ammo_magazine/gauge_12/buckshot(src)
+	new /obj/item/ammo_magazine/shell_box/gauge_12/slug(src)
+	new /obj/item/ammo_magazine/shell_box/gauge_12/slug(src)
+	new /obj/item/ammo_magazine/shell_box/gauge_12/buckshot(src)
+	new /obj/item/ammo_magazine/shell_box/gauge_12/buckshot(src)
 
 // 2 pistol amory closet maybe to replace with full pistol belt...
 /obj/structure/closet/secure_closet/guncabinet/red/armory_m4a3_pistol

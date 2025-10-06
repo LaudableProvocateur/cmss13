@@ -892,7 +892,7 @@
 	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/m41aMK1/ap, WEAR_IN_R_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/m41aMK1/ap, WEAR_IN_R_STORE) // he's collected the squad's supply of these magazines on request of OW
 	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/m41aMK1/ap, WEAR_IN_R_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/gauge_12/buckshot, WEAR_L_HAND)
+	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/shell_box/gauge_12/buckshot, WEAR_L_HAND)
 
 //Anchorpoint Station Marine RTO - technical specialist, has the responsibility of engineering as well
 /datum/equipment_preset/uscm/cmb/rto

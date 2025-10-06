@@ -338,10 +338,10 @@
 /area/lv624/lazarus/crashed_ship)
 "bf" = (
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /turf/open/floor/almayer/orange/southwest,
 /area/lv624/lazarus/crashed_ship)
 "by" = (
@@ -729,9 +729,9 @@
 /area/lv624/lazarus/crashed_ship)
 "nx" = (
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/gauge_12/slug,
-/obj/item/ammo_magazine/gauge_12/slug,
-/obj/item/ammo_magazine/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
 /turf/open/floor/almayer/orange/northwest,
 /area/lv624/lazarus/crashed_ship)
 "nO" = (
@@ -1099,11 +1099,11 @@
 /area/lv624/lazarus/crashed_ship)
 "Bg" = (
 /obj/structure/surface/table/woodentable,
-/obj/item/ammo_magazine/gauge_12/slug/incendiary{
+/obj/item/ammo_magazine/shell_box/gauge_12/slug/incendiary{
 	pixel_x = 3;
 	pixel_y = 6
 	},
-/obj/item/ammo_magazine/gauge_12/slug/incendiary,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug/incendiary,
 /turf/open/floor/wood,
 /area/lv624/lazarus/crashed_ship)
 "BC" = (

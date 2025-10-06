@@ -459,8 +459,8 @@
 	icon_state = "wy_ammo_mag_small"
 
 /obj/item/storage/pouch/magazine/attackby(obj/item/W, mob/user)
-	if(istype(W, /obj/item/ammo_magazine/gauge_12))
-		var/obj/item/ammo_magazine/gauge_12/M = W
+	if(istype(W, /obj/item/ammo_magazine/shell_box/gauge_12))
+		var/obj/item/ammo_magazine/shell_box/gauge_12/M = W
 		if(istype(src, /obj/item/storage/pouch/magazine/pistol))
 			return..()
 		else
@@ -623,8 +623,8 @@
 	flap = FALSE
 
 /obj/item/storage/pouch/shotgun/attackby(obj/item/W, mob/user)
-	if(istype(W, /obj/item/ammo_magazine/gauge_12))
-		var/obj/item/ammo_magazine/gauge_12/M = W
+	if(istype(W, /obj/item/ammo_magazine/shell_box/gauge_12))
+		var/obj/item/ammo_magazine/shell_box/gauge_12/M = W
 		dump_ammo_to(M, user, M.transfer_handful_amount)
 	else
 		return ..()

@@ -11581,7 +11581,7 @@
 /turf/open/floor/prison,
 /area/lv759/indoors/bar)
 "aXS" = (
-/obj/item/ammo_magazine/gauge_12/beanbag,
+/obj/item/ammo_magazine/shell_box/gauge_12/beanbag,
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
 /obj/structure/surface/rack{
 	color = "#98a3ab"
@@ -21627,7 +21627,7 @@
 /area/lv759/indoors/spaceport/docking_bay_1)
 "cvK" = (
 /obj/item/ammo_magazine/handful/gauge_12/flechette,
-/obj/item/ammo_magazine/gauge_12/flechette,
+/obj/item/ammo_magazine/shell_box/gauge_12/flechette,
 /obj/structure/closet,
 /obj/item/weapon/gun/shotgun/double/mou53,
 /turf/open/floor/corsat/officetiles,
@@ -22750,7 +22750,7 @@
 /obj/structure/platform/metal/hybrisa/metalplatform6/north,
 /obj/structure/closet/crate/weapon,
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /obj/item/weapon/shield/riot,
 /obj/item/clothing/suit/armor/vest/hybrisa/nspa_vest,
 /obj/item/clothing/suit/armor/vest/hybrisa/nspa_vest,
@@ -59548,14 +59548,14 @@
 /area/lv759/indoors/power_plant/south_hallway)
 "iek" = (
 /obj/structure/closet/crate/ammo/alt/flame,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/slug{
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug{
 	pixel_x = -6;
 	pixel_y = 6
 	},
 /obj/effect/landmark/wo_supplies/storage/belts/shotgunbelt,
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/lv759/indoors/landing_zone_2/kmcc_hub_cargo)
 "iel" = (
@@ -90690,7 +90690,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/mining_outpost/northeast)
 "mJb" = (
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
 /obj/structure/prop/hybrisa/misc/redmeter{
 	pixel_y = 32
@@ -149000,7 +149000,7 @@
 /obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver/normalpoint,
 /obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver/normalpoint,
 /obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver/normalpoint,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /turf/open/floor/prison/red/north,
 /area/lv759/indoors/colonial_marshals/armory_foyer)
 "vsA" = (
@@ -152287,7 +152287,7 @@
 /obj/structure/machinery/light/double/blue{
 	dir = 1
 	},
-/obj/item/ammo_magazine/gauge_12/beanbag,
+/obj/item/ammo_magazine/shell_box/gauge_12/beanbag,
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
 /obj/structure/surface/rack{
 	color = "#98a3ab"
@@ -153598,7 +153598,7 @@
 /obj/item/poster,
 /obj/item/weapon/throwing_knife,
 /obj/item/weapon/sword/machete,
-/obj/item/ammo_magazine/gauge_12/slug/incendiary,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug/incendiary,
 /obj/structure/sign/poster/wylogo{
 	pixel_y = 32;
 	layer = 2.9

@@ -1,7 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /obj/structure/surface/table/reinforced/prison,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
 /obj/item/weapon/gun/shotgun/pump{
 	pixel_y = 9

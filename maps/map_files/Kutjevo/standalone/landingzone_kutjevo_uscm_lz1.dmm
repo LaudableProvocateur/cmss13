@@ -1118,7 +1118,7 @@
 /area/kutjevo/exterior/lz_pad)
 "GX" = (
 /obj/structure/surface/table/almayer,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /turf/open/floor/kutjevo/tan/alt_edge,
 /area/kutjevo/interior/complex/Northwest_Flight_Control)
 "Ha" = (
@@ -1321,7 +1321,7 @@
 	pixel_x = -6;
 	pixel_y = 19
 	},
-/obj/item/ammo_magazine/gauge_12/buckshot{
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot{
 	pixel_x = 5;
 	pixel_y = -2
 	},

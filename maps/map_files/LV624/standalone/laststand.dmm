@@ -181,7 +181,7 @@
 /area/lv624/ground/caves/north_central_caves)
 "aR" = (
 /obj/structure/surface/table/woodentable/poor,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /turf/open/floor/carpet/bcarpet02,
 /area/lv624/ground/caves/north_central_caves)
 "aS" = (
@@ -221,10 +221,10 @@
 /area/lv624/ground/caves/north_central_caves)
 "bd" = (
 /obj/structure/closet/crate,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/slug/incendiary,
-/obj/item/ammo_magazine/gauge_12/slug/incendiary,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug/incendiary,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug/incendiary,
 /turf/open/floor/wood,
 /area/lv624/ground/caves/north_central_caves)
 "bf" = (
@@ -318,7 +318,7 @@
 /area/lv624/ground/caves/north_central_caves)
 "EY" = (
 /obj/structure/surface/table/woodentable/poor,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /turf/open/floor/carpet/bcarpet07,
 /area/lv624/ground/caves/north_central_caves)
 "Ic" = (

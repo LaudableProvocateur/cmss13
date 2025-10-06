@@ -117,8 +117,8 @@
 /area/lv624/lazarus/crashed_ship_containers)
 "vD" = (
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb{
 	pixel_y = 7
 	},

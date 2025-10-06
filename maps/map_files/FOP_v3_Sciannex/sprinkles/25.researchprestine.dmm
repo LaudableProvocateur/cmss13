@@ -515,7 +515,7 @@
 /area/template_noop)
 "PS" = (
 /obj/structure/surface/table/reinforced/prison,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /turf/open/floor/prison/darkpurplefull2,
 /area/template_noop)
 "Qc" = (

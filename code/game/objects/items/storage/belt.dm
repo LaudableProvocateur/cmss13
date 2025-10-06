@@ -45,9 +45,9 @@
 		overlays += "+[icon_state]_full"
 
 /obj/item/storage/belt/attackby(obj/item/W, mob/user)
-	if(istype(W, /obj/item/ammo_magazine/gauge_12))
+	if(istype(W, /obj/item/ammo_magazine/shell_box/gauge_12))
 		if(/obj/item/ammo_magazine/handful in src.can_hold)
-			var/obj/item/ammo_magazine/gauge_12/M = W
+			var/obj/item/ammo_magazine/shell_box/gauge_12/M = W
 			dump_ammo_to(M,user, M.transfer_handful_amount)
 			return
 	. = ..()
@@ -773,8 +773,8 @@
 		new /obj/item/ammo_magazine/smg/m39 (src)
 
 /obj/item/storage/belt/marine/attackby(obj/item/W, mob/user)
-	if(istype(W, /obj/item/ammo_magazine/gauge_12))
-		var/obj/item/ammo_magazine/gauge_12/M = W
+	if(istype(W, /obj/item/ammo_magazine/shell_box/gauge_12))
+		var/obj/item/ammo_magazine/shell_box/gauge_12/M = W
 		dump_ammo_to(M,user, M.transfer_handful_amount)
 	else
 		return ..()
@@ -1042,8 +1042,8 @@
 		new random_shell_type(src)
 
 /obj/item/storage/belt/shotgun/attackby(obj/item/W, mob/user)
-	if(istype(W, /obj/item/ammo_magazine/gauge_12))
-		var/obj/item/ammo_magazine/gauge_12/M = W
+	if(istype(W, /obj/item/ammo_magazine/shell_box/gauge_12))
+		var/obj/item/ammo_magazine/shell_box/gauge_12/M = W
 		dump_ammo_to(M, user, M.transfer_handful_amount)
 	else
 		return ..()
@@ -1889,8 +1889,8 @@
 	var/magazines = 0
 
 /obj/item/storage/belt/gun/xm51/attackby(obj/item/item, mob/user)
-	if(istype(item, /obj/item/ammo_magazine/gauge_16/breaching))
-		var/obj/item/ammo_magazine/gauge_16/breaching/ammo_box = item
+	if(istype(item, /obj/item/ammo_magazine/shell_box/gauge_16/breaching))
+		var/obj/item/ammo_magazine/shell_box/gauge_16/breaching/ammo_box = item
 		dump_ammo_to(ammo_box, user, ammo_box.transfer_handful_amount)
 	else
 		return ..()

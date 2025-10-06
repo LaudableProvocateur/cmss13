@@ -2107,12 +2107,12 @@
 /area/adminlevel/chinook/cargo)
 "hT" = (
 /obj/structure/closet/secure_closet/guncabinet/red,
-/obj/item/ammo_magazine/gauge_12/slug,
-/obj/item/ammo_magazine/gauge_12/slug,
-/obj/item/ammo_magazine/gauge_12/slug,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /obj/item/weapon/gun/shotgun/combat,
 /obj/item/weapon/gun/shotgun/combat,
 /obj/item/weapon/gun/shotgun/combat,
@@ -3405,12 +3405,12 @@
 /area/adminlevel/chinook/offices)
 "nB" = (
 /obj/structure/closet/secure_closet/guncabinet/red,
-/obj/item/ammo_magazine/gauge_12/slug,
-/obj/item/ammo_magazine/gauge_12/slug,
-/obj/item/ammo_magazine/gauge_12/slug,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /obj/item/weapon/gun/shotgun/combat,
 /obj/item/weapon/gun/shotgun/combat,
 /obj/item/weapon/gun/shotgun/combat,
@@ -3510,9 +3510,9 @@
 /area/adminlevel/chinook/event)
 "nS" = (
 /obj/structure/closet/secure_closet/guncabinet/red,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /obj/item/weapon/gun/shotgun/combat,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /obj/structure/machinery/door/window/ultra{
 	dir = 2;
 	req_access_txt = "1"
@@ -5186,12 +5186,12 @@
 /area/adminlevel/chinook/offices)
 "uQ" = (
 /obj/structure/closet/secure_closet/guncabinet/red,
-/obj/item/ammo_magazine/gauge_12/slug,
-/obj/item/ammo_magazine/gauge_12/slug,
-/obj/item/ammo_magazine/gauge_12/slug,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /obj/item/weapon/gun/shotgun/combat,
 /obj/item/weapon/gun/shotgun/combat,
 /obj/item/weapon/gun/shotgun/combat,
@@ -5729,9 +5729,9 @@
 /area/adminlevel/chinook/event)
 "xg" = (
 /obj/structure/closet/secure_closet/guncabinet/red,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /obj/item/weapon/gun/shotgun/combat,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /obj/structure/machinery/door/window/brigdoor/southleft,
 /turf/open/floor/almayer/redfull,
 /area/adminlevel/chinook/offices)
@@ -7049,12 +7049,12 @@
 /area/adminlevel/chinook/event)
 "Dn" = (
 /obj/structure/closet/secure_closet/guncabinet/red,
-/obj/item/ammo_magazine/gauge_12/slug,
-/obj/item/ammo_magazine/gauge_12/slug,
-/obj/item/ammo_magazine/gauge_12/slug,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /obj/item/weapon/gun/shotgun/combat,
 /obj/item/weapon/gun/shotgun/combat,
 /obj/item/weapon/gun/shotgun/combat,
@@ -7481,9 +7481,9 @@
 /area/adminlevel/chinook)
 "Fa" = (
 /obj/structure/closet/secure_closet/guncabinet/red,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /obj/item/weapon/gun/shotgun/combat,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /obj/structure/machinery/door/window/brigdoor/southright,
 /turf/open/floor/almayer/redfull,
 /area/adminlevel/chinook/offices)

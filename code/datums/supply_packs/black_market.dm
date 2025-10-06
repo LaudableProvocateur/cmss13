@@ -248,7 +248,7 @@ Additionally, weapons that are way too good to put in the basically-flavor black
 	name = "custom-built shotgun crate (x1 ammo box included)"
 	contains = list(
 		/obj/item/weapon/gun/shotgun/merc/damaged,
-		/obj/item/ammo_magazine/gauge_12/slug,
+		/obj/item/ammo_magazine/shell_box/gauge_12/slug,
 	)
 	dollar_cost = 50
 	containertype = /obj/structure/largecrate/black_market
@@ -691,7 +691,7 @@ USCM spare items, miscellaneous gear that's too niche and distant (or restricted
 		/obj/item/weapon/baton/damaged,
 		/obj/item/reagent_container/spray/pepper,
 		/obj/item/weapon/baton/cattleprod,
-		/obj/item/ammo_magazine/gauge_12/beanbag,
+		/obj/item/ammo_magazine/shell_box/gauge_12/beanbag,
 		/obj/item/storage/box/packet/m15/rubber,
 		/obj/item/storage/box/guncase/m85a1,
 		/obj/item/clothing/head/helmet/marine/MP,
@@ -709,7 +709,7 @@ USCM spare items, miscellaneous gear that's too niche and distant (or restricted
 		/obj/item/ammo_magazine/pistol/mod88/rubber,
 		/obj/item/ammo_magazine/rifle/rubber,
 		/obj/item/ammo_magazine/rifle/m4ra/rubber,
-		/obj/item/ammo_magazine/gauge_12/beanbag,
+		/obj/item/ammo_magazine/shell_box/gauge_12/beanbag,
 	)
 	dollar_cost = 50
 	containertype = /obj/structure/largecrate/black_market

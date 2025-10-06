@@ -3458,10 +3458,10 @@
 /area/lv624/ground/river/west_river)
 "atM" = (
 /obj/structure/closet/crate,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/buckshot,
-/obj/item/ammo_magazine/gauge_12/slug/incendiary,
-/obj/item/ammo_magazine/gauge_12/slug/incendiary,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug/incendiary,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug/incendiary,
 /turf/open/floor/wood,
 /area/lv624/ground/caves/north_central_caves)
 "atO" = (
@@ -7211,7 +7211,7 @@
 "aLS" = (
 /obj/structure/surface/rack,
 /obj/item/weapon/gun/shotgun/pump,
-/obj/item/ammo_magazine/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
 /turf/open/floor/cult,
 /area/lv624/lazarus/armory)
 "aLT" = (
@@ -7257,7 +7257,7 @@
 "aMb" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /turf/open/floor/red,
 /area/lv624/lazarus/security)
 "aMc" = (
@@ -9059,7 +9059,7 @@
 /area/lv624/ground/jungle/south_west_jungle)
 "aVx" = (
 /obj/structure/surface/table/woodentable/poor,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /turf/open/floor/carpet/bcarpet02,
 /area/lv624/ground/caves/north_central_caves)
 "aVA" = (
@@ -9571,13 +9571,13 @@
 /area/lv624/lazarus/secure_storage)
 "aXF" = (
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/greengrid,
 /area/lv624/lazarus/secure_storage)
 "aXG" = (
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/greengrid,
 /area/lv624/lazarus/secure_storage)
@@ -10650,7 +10650,7 @@
 /area/lv624/lazarus/comms)
 "bUs" = (
 /obj/structure/surface/table/woodentable/poor,
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /turf/open/floor/carpet/bcarpet07,
 /area/lv624/ground/caves/north_central_caves)
 "bUU" = (
@@ -15846,7 +15846,7 @@
 	pixel_x = -5;
 	pixel_y = -1
 	},
-/obj/item/ammo_magazine/gauge_12/buckshot{
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot{
 	pixel_x = 6;
 	pixel_y = -2
 	},

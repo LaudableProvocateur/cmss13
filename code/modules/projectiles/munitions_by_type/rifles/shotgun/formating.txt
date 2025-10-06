@@ -1,6 +1,6 @@
 As it stands theres a serious issue of some of the stuff in these ammo files seemingly connects to nothing.
 
-/obj/item/ammo_magazine/gauge_12
+/obj/item/ammo_magazine/shell_box/gauge_12
 	name = "generic shotgun shell box"
 	desc = "You shouldn't be seeing this"
 

@@ -480,7 +480,7 @@
 		/obj/item/ammo_magazine/pistol/mod88/rubber = 20,
 		/obj/item/ammo_magazine/rifle/rubber = 20,
 		/obj/item/ammo_magazine/rifle/m4ra/rubber = 20,
-		/obj/item/ammo_magazine/gauge_12/beanbag = 20,
+		/obj/item/ammo_magazine/shell_box/gauge_12/beanbag = 20,
 		/obj/item/storage/firstaid/regular = 2,
 		/obj/item/storage/firstaid/fire = 2,
 		/obj/item/storage/firstaid/rad = 1,

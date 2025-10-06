@@ -1537,7 +1537,7 @@
 	pixel_x = -4;
 	pixel_y = 7
 	},
-/obj/item/ammo_magazine/gauge_12/buckshot,
+/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
 /obj/item/reagent_container/food/snacks/packaged_burger,
 /turf/open/floor/plating/platingdmg3/west,

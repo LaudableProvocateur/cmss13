@@ -254,9 +254,9 @@
 /obj/structure/machinery/cm_vending/sorted/cargo_ammo/populate_product_list(scale)
 	listed_products = list(
 		list("REGULAR AMMUNITION", -1, null, null),
-		list("Box Of Buckshot Shells", floor(scale * 56), /obj/item/ammo_magazine/gauge_12/buckshot, VENDOR_ITEM_REGULAR),
-		list("Box Of Flechette Shells", floor(scale * 56), /obj/item/ammo_magazine/gauge_12/flechette, VENDOR_ITEM_REGULAR),
-		list("Box Of Shotgun Slugs", floor(scale * 56), /obj/item/ammo_magazine/gauge_12/slug, VENDOR_ITEM_REGULAR),
+		list("Box Of Buckshot Shells", floor(scale * 56), /obj/item/ammo_magazine/shell_box/gauge_12/buckshot, VENDOR_ITEM_REGULAR),
+		list("Box Of Flechette Shells", floor(scale * 56), /obj/item/ammo_magazine/shell_box/gauge_12/flechette, VENDOR_ITEM_REGULAR),
+		list("Box Of Shotgun Slugs", floor(scale * 56), /obj/item/ammo_magazine/shell_box/gauge_12/slug, VENDOR_ITEM_REGULAR),
 		list("M4RA Magazine (10x24mm)", floor(scale * 60), /obj/item/ammo_magazine/rifle/m4ra, VENDOR_ITEM_REGULAR),
 		list("M41A MK2 Magazine (10x24mm)", floor(scale * 100), /obj/item/ammo_magazine/rifle, VENDOR_ITEM_REGULAR),
 		list("M39 HV Magazine (10x20mm)", floor(scale * 100), /obj/item/ammo_magazine/smg/m39, VENDOR_ITEM_REGULAR),
@@ -600,7 +600,7 @@
 		list("M41A Pulse Rifle MK2", floor(scale * 30), /obj/item/weapon/gun/rifle/m41a, VENDOR_ITEM_RECOMMENDED),
 
 		list("PRIMARY NONLETHAL AMMUNITION", -1, null, null),
-		list("Box of Beanbag Shells (12g)", floor(scale * 15), /obj/item/ammo_magazine/gauge_12/beanbag, VENDOR_ITEM_REGULAR),
+		list("Box of Beanbag Shells (12g)", floor(scale * 15), /obj/item/ammo_magazine/shell_box/gauge_12/beanbag, VENDOR_ITEM_REGULAR),
 		list("M4RA Rubber Magazine (10x24mm)", floor(scale * 15), /obj/item/ammo_magazine/rifle/m4ra/rubber, VENDOR_ITEM_REGULAR),
 		list("M39 Rubber Magazine (10x20mm)", floor(scale * 25), /obj/item/ammo_magazine/smg/m39/rubber, VENDOR_ITEM_REGULAR),
 		list("M41A Rubber Magazine (10x24mm)", floor(scale * 25), /obj/item/ammo_magazine/rifle/rubber, VENDOR_ITEM_REGULAR),

@@ -52,7 +52,7 @@
 "k" = (
 /obj/structure/surface/rack,
 /obj/item/weapon/gun/shotgun/pump,
-/obj/item/ammo_magazine/gauge_12/slug,
+/obj/item/ammo_magazine/shell_box/gauge_12/slug,
 /turf/open/floor/cult,
 /area/lv624/lazarus/armory)
 "l" = (

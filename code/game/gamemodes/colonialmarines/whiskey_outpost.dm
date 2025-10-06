@@ -704,12 +704,12 @@
 							/obj/item/ammo_magazine/smg/m39/ap,
 							/obj/item/ammo_magazine/smg/m39/ap,
 							/obj/item/ammo_magazine/smg/m39/ap,
-							/obj/item/ammo_magazine/gauge_12/slug,
-							/obj/item/ammo_magazine/gauge_12/slug,
-							/obj/item/ammo_magazine/gauge_12/slug,
-							/obj/item/ammo_magazine/gauge_12/buckshot,
-							/obj/item/ammo_magazine/gauge_12/buckshot,
-							/obj/item/ammo_magazine/gauge_12/buckshot)
+							/obj/item/ammo_magazine/shell_box/gauge_12/slug,
+							/obj/item/ammo_magazine/shell_box/gauge_12/slug,
+							/obj/item/ammo_magazine/shell_box/gauge_12/slug,
+							/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+							/obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
+							/obj/item/ammo_magazine/shell_box/gauge_12/buckshot)
 		if(1) // Six rockets should be good. Tossed in two AP rockets for possible late round fighting.
 			spawnitems = list(/obj/item/ammo_magazine/rocket,
 							/obj/item/ammo_magazine/rocket,
