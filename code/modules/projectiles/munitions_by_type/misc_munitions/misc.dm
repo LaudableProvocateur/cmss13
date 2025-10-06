@@ -152,3 +152,10 @@
 	desc = "A specialized flechette dart magazine for the SHARP rifle."
 	icon_state = "sharp_flechette_mag"
 	default_ammo = /datum/ammo/rifle/sharp/flechette
+
+//Flare gun. Close enough?
+/obj/item/ammo_magazine/internal/flare
+	name = "flare gun internal magazine"
+	caliber = "FL"
+	max_rounds = 1
+	default_ammo = /datum/ammo/flare
