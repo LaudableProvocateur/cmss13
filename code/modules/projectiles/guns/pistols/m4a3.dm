@@ -44,7 +44,7 @@
 	attachable_offset = list("muzzle_x" = 28, "muzzle_y" = 21,"rail_x" = 10, "rail_y" = 23, "under_x" = 21, "under_y" = 16, "stock_x" = 21, "stock_y" = 17)
 
 /obj/item/weapon/gun/pistol/m4a3/training
-	current_mag = /obj/item/ammo_magazine/pistol/rubber
+	current_mag = /obj/item/ammo_magazine/m4a3/rubber
 
 /obj/item/weapon/gun/pistol/m4a3/tactical
 	starting_attachment_types = list(/obj/item/attachable/suppressor, /obj/item/attachable/reflex, /obj/item/attachable/lasersight)
