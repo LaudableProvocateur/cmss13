@@ -2437,6 +2437,7 @@
 #include "code\modules\projectiles\guns\generics\revolver.dm"
 #include "code\modules\projectiles\guns\generics\rifle.dm"
 #include "code\modules\projectiles\guns\generics\shotgun.dm"
+#include "code\modules\projectiles\guns\generics\smg.dm"
 #include "code\modules\projectiles\guns\miscel\flare_gun.dm"
 #include "code\modules\projectiles\guns\miscel\machinegun.dm"
 #include "code\modules\projectiles\guns\miscel\mini_gun.dm"
