@@ -562,7 +562,7 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 	new /obj/item/weapon/gun/pistol/m4a3(src)
 	new /obj/item/ammo_magazine/pistol(src)
 	new /obj/item/ammo_magazine/pistol(src)
-	new /obj/item/weapon/gun/shotgun/double/with_stock(src)
+	new /obj/item/weapon/gun/shotgun/double/spearhead/with_stock(src)
 	new /obj/item/ammo_magazine/shell_box/gauge_12(src)
 	new /obj/item/weapon/gun/revolver/small(src)
 	new /obj/item/ammo_magazine/revolver/smith_and_wesson(src)

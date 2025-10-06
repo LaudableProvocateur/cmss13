@@ -74,7 +74,7 @@
 	can_hold = list(
 		/obj/item/weapon/gun/shotgun/pump,
 		/obj/item/weapon/gun/shotgun/combat,
-		/obj/item/weapon/gun/shotgun/double/mou53,
+		/obj/item/weapon/gun/shotgun/double/spearhead/mou53,
 		/obj/item/weapon/gun/shotgun/pump/m37a,
 	)
 	flags_atom = FPRINT // has gamemode skin

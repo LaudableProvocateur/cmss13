@@ -13627,7 +13627,7 @@
 	pixel_x = 4;
 	pixel_y = -16
 	},
-/obj/item/weapon/gun/shotgun/double/with_stock,
+/obj/item/weapon/gun/shotgun/double/spearhead/with_stock,
 /turf/open/floor/wood,
 /area/shiva/interior/bar)
 "las" = (
@@ -19134,7 +19134,7 @@
 	pixel_x = 3;
 	pixel_y = -7
 	},
-/obj/item/weapon/gun/shotgun/double/sawn{
+/obj/item/weapon/gun/shotgun/double/spearhead/sawn{
 	name = "\improper sawn-off Sleepyhead Rival 78";
 	desc = "Shhhh, he's sleeping.";
 	pixel_x = 3;

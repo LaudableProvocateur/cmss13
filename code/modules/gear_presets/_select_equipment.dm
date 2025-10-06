@@ -397,12 +397,12 @@
 		return
 
 	var/list/rebel_firearms = list(
-		/obj/item/weapon/gun/shotgun/double = /obj/item/ammo_magazine/handful/gauge_12/buckshot,
-		/obj/item/weapon/gun/shotgun/double/with_stock = /obj/item/ammo_magazine/handful/gauge_12/flechette,
+		/obj/item/weapon/gun/shotgun/double/spearhead = /obj/item/ammo_magazine/handful/gauge_12/buckshot,
+		/obj/item/weapon/gun/shotgun/double/spearhead/with_stock = /obj/item/ammo_magazine/handful/gauge_12/flechette,
 		/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb = /obj/item/ammo_magazine/handful/gauge_12/slug/incendiary,
 		/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb = /obj/item/ammo_magazine/handful/gauge_12/slug/incendiary,
-		/obj/item/weapon/gun/shotgun/double/sawn = /obj/item/ammo_magazine/handful/gauge_12/slug/incendiary,
-		/obj/item/weapon/gun/shotgun/double/sawn = /obj/item/ammo_magazine/handful/gauge_12/buckshot,
+		/obj/item/weapon/gun/shotgun/double/spearhead/sawn = /obj/item/ammo_magazine/handful/gauge_12/slug/incendiary,
+		/obj/item/weapon/gun/shotgun/double/spearhead/sawn = /obj/item/ammo_magazine/handful/gauge_12/buckshot,
 		/obj/item/weapon/gun/rifle/mar40 = /obj/item/ammo_magazine/rifle/mar40,
 		/obj/item/weapon/gun/rifle/mar40 = /obj/item/ammo_magazine/rifle/mar40,
 		/obj/item/weapon/gun/rifle/mar40/carbine = /obj/item/ammo_magazine/rifle/mar40,
@@ -493,12 +493,12 @@
 
 
 GLOBAL_LIST_INIT(rebel_shotguns, list(
-	/obj/item/weapon/gun/shotgun/double = /obj/item/ammo_magazine/handful/gauge_12/buckshot,
-	/obj/item/weapon/gun/shotgun/double/with_stock = /obj/item/ammo_magazine/handful/gauge_12/flechette,
+	/obj/item/weapon/gun/shotgun/double/spearhead = /obj/item/ammo_magazine/handful/gauge_12/buckshot,
+	/obj/item/weapon/gun/shotgun/double/spearhead/with_stock = /obj/item/ammo_magazine/handful/gauge_12/flechette,
 	/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb = /obj/item/ammo_magazine/handful/gauge_12/slug/incendiary,
 	/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb = /obj/item/ammo_magazine/handful/gauge_12/slug/incendiary,
-	/obj/item/weapon/gun/shotgun/double/sawn = /obj/item/ammo_magazine/handful/gauge_12/slug/incendiary,
-	/obj/item/weapon/gun/shotgun/double/sawn = /obj/item/ammo_magazine/handful/gauge_12/buckshot
+	/obj/item/weapon/gun/shotgun/double/spearhead/sawn = /obj/item/ammo_magazine/handful/gauge_12/slug/incendiary,
+	/obj/item/weapon/gun/shotgun/double/spearhead/sawn = /obj/item/ammo_magazine/handful/gauge_12/buckshot
 	))
 
 GLOBAL_LIST_INIT(rebel_smgs, list(
@@ -591,7 +591,7 @@ GLOBAL_LIST_INIT(rebel_rifles, list(
 	var/list/merc_firearms = list(
 		/obj/item/weapon/gun/shotgun/merc = /obj/item/ammo_magazine/handful/gauge_12/slug,
 		/obj/item/weapon/gun/shotgun/combat = /obj/item/ammo_magazine/handful/gauge_12/slug,
-		/obj/item/weapon/gun/shotgun/double/with_stock = /obj/item/ammo_magazine/handful/gauge_12/buckshot,
+		/obj/item/weapon/gun/shotgun/double/spearhead/with_stock = /obj/item/ammo_magazine/handful/gauge_12/buckshot,
 		/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb = /obj/item/ammo_magazine/handful/gauge_12/slug/incendiary,
 		/obj/item/weapon/gun/rifle/mar40 = /obj/item/ammo_magazine/rifle/mar40,
 		/obj/item/weapon/gun/rifle/mar40/carbine = /obj/item/ammo_magazine/rifle/mar40,
@@ -615,7 +615,7 @@ GLOBAL_LIST_INIT(rebel_rifles, list(
 	var/list/merc_shotguns = list(
 		/obj/item/weapon/gun/shotgun/merc = pick(GLOB.shotgun_handfuls_12g),
 		/obj/item/weapon/gun/shotgun/combat = pick(GLOB.shotgun_handfuls_12g),
-		/obj/item/weapon/gun/shotgun/double/with_stock = pick(GLOB.shotgun_handfuls_12g),
+		/obj/item/weapon/gun/shotgun/double/spearhead/with_stock = pick(GLOB.shotgun_handfuls_12g),
 		/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb = pick(GLOB.shotgun_handfuls_12g))
 
 	var/gunpath = pick(merc_shotguns)

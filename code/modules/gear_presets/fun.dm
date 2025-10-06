@@ -372,7 +372,7 @@
 
 /datum/equipment_preset/fun/van_bandolier/load_gear(mob/living/carbon/human/new_human)
 	//back
-	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/shotgun/double/twobore(new_human), WEAR_BACK)
+	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/shotgun/double/spearhead/twobore(new_human), WEAR_BACK)
 
 	//face
 	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/distress/dutch(new_human), WEAR_L_EAR)

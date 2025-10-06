@@ -1,4 +1,4 @@
-/obj/item/weapon/gun/shotgun/double/cane
+/obj/item/weapon/gun/shotgun/double/spearhead/cane
 	name = "fancy cane"
 	desc = "An ebony cane with a fancy, seemingly-golden tip. Feels hollow to the touch."
 	icon = 'icons/obj/items/weapons/melee/canes.dmi'
@@ -26,11 +26,11 @@
 
 	inherent_traits = list(TRAIT_GUN_SILENCED)
 
-/obj/item/weapon/gun/shotgun/double/cane/Initialize(mapload, spawn_empty)
+/obj/item/weapon/gun/shotgun/double/spearhead/cane/Initialize(mapload, spawn_empty)
 	. = ..()
 	AddElement(/datum/element/traitbound/gun_silenced)
 
-/obj/item/weapon/gun/shotgun/double/cane/set_gun_config_values()
+/obj/item/weapon/gun/shotgun/double/spearhead/cane/set_gun_config_values()
 	..()
 	set_burst_amount(BURST_AMOUNT_TIER_1)
 	set_fire_delay(FIRE_DELAY_TIER_7)
@@ -40,7 +40,7 @@
 	recoil = RECOIL_AMOUNT_TIER_2
 	recoil_unwielded = RECOIL_AMOUNT_TIER_3
 
-/obj/item/weapon/gun/shotgun/double/cane/gun_safety_handle(mob/user)
+/obj/item/weapon/gun/shotgun/double/spearhead/cane/gun_safety_handle(mob/user)
 	if(flags_gun_features & GUN_TRIGGER_SAFETY)
 		to_chat(user, SPAN_NOTICE("You turn [src] back into its normal cane stance."))
 		playsound(user, 'sound/weapons/handling/nsg23_unload.ogg', 25, 1)
@@ -56,7 +56,7 @@
 
 	playsound(user, 'sound/weapons/handling/safety_toggle.ogg', 25, 1)
 
-/obj/item/weapon/gun/shotgun/double/cane/proc/update_desc()
+/obj/item/weapon/gun/shotgun/double/spearhead/cane/proc/update_desc()
 	if(flags_gun_features & GUN_TRIGGER_SAFETY)
 		name = initial(name)
 		desc = initial(desc)
@@ -64,13 +64,13 @@
 		name = "cane revolver"
 		desc = initial(desc) + " Apparently, because it's a large revolver. Who'da thunk it?"
 
-/obj/item/weapon/gun/shotgun/double/cane/open_chamber(mob/user, override)
+/obj/item/weapon/gun/shotgun/double/spearhead/cane/open_chamber(mob/user, override)
 	if(flags_gun_features & GUN_TRIGGER_SAFETY && !override)
 		to_chat(user, SPAN_WARNING("Not with the safety on!"))
 		return
 	return ..()
 
-/obj/item/weapon/gun/shotgun/double/cane/update_icon()
+/obj/item/weapon/gun/shotgun/double/spearhead/cane/update_icon()
 	if(flags_gun_features & GUN_TRIGGER_SAFETY)
 		icon_state = initial(icon_state)
 

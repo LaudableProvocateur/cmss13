@@ -21629,7 +21629,7 @@
 /obj/item/ammo_magazine/handful/gauge_12/flechette,
 /obj/item/ammo_magazine/shell_box/gauge_12/flechette,
 /obj/structure/closet,
-/obj/item/weapon/gun/shotgun/double/mou53,
+/obj/item/weapon/gun/shotgun/double/spearhead/mou53,
 /turf/open/floor/corsat/officetiles,
 /area/lv759/indoors/casino/casino_vault)
 "cvM" = (

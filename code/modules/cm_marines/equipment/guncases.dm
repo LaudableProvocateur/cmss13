@@ -51,10 +51,10 @@
 	name = "\improper MOU53 shotgun case"
 	desc = "A gun case containing the MOU53 shotgun. It does come loaded, but you'll still have to find ammunition as you go."
 	storage_slots = 2
-	can_hold = list(/obj/item/weapon/gun/shotgun/double/mou53, /obj/item/attachable/stock/mou53)
+	can_hold = list(/obj/item/weapon/gun/shotgun/double/spearhead/mou53, /obj/item/attachable/stock/mou53)
 
 /obj/item/storage/box/guncase/mou53/fill_preset_inventory()
-	new /obj/item/weapon/gun/shotgun/double/mou53(src)
+	new /obj/item/weapon/gun/shotgun/double/spearhead/mou53(src)
 	new /obj/item/attachable/stock/mou53(src)
 
 //------------
@@ -302,11 +302,11 @@
 /obj/item/storage/box/guncase/cane_gun_kit
 	name = "spy-agent cane case"
 	desc = "A gun case containing a top-secret Gun Cane chambered in .44, alongside two spare handfuls of said caliber. Make sure to fold this after you use it!"
-	can_hold = list(/obj/item/weapon/gun/shotgun/double/cane, /obj/item/ammo_magazine/handful/revolver)
+	can_hold = list(/obj/item/weapon/gun/shotgun/double/spearhead/cane, /obj/item/ammo_magazine/handful/revolver)
 	storage_slots = 3
 
 /obj/item/storage/box/guncase/cane_gun_kit/fill_preset_inventory()
-	new /obj/item/weapon/gun/shotgun/double/cane(src)
+	new /obj/item/weapon/gun/shotgun/double/spearhead/cane(src)
 	new /obj/item/ammo_magazine/handful/revolver/marksman/six_rounds(src)
 	new /obj/item/ammo_magazine/handful/revolver/marksman/six_rounds(src)
 

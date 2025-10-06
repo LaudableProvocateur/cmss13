@@ -8,6 +8,6 @@
 	caliber = "2 bore"
 	max_rounds = 3
 	current_rounds = 3
-	gun_type = /obj/item/weapon/gun/shotgun/double/twobore
+	gun_type = /obj/item/weapon/gun/shotgun/double/spearhead/twobore
 	handful_state = "twobore"
 	transfer_handful_amount = 3

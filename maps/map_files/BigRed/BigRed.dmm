@@ -27334,7 +27334,7 @@
 /obj/item/ammo_casing/shell,
 /obj/item/ammo_casing/shell,
 /obj/effect/decal/cleanable/blood,
-/obj/item/weapon/gun/shotgun/double/with_stock,
+/obj/item/weapon/gun/shotgun/double/spearhead/with_stock,
 /turf/open/floor/wood,
 /area/bigredv2/outside/bar)
 "mnv" = (
@@ -33030,7 +33030,7 @@
 /obj/item/ammo_magazine/handful/gauge_12/buckshot/incendiary{
 	pixel_y = 12
 	},
-/obj/item/weapon/gun/shotgun/double/sawn,
+/obj/item/weapon/gun/shotgun/double/spearhead/sawn,
 /turf/open/floor/plating/platingdmg3/west,
 /area/bigredv2/caves/mining)
 "rXJ" = (
@@ -38829,7 +38829,7 @@
 	},
 /obj/item/ammo_magazine/shell_box/gauge_12/buckshot,
 /obj/item/reagent_container/food/snacks/packaged_burger,
-/obj/item/weapon/gun/shotgun/double/sawn,
+/obj/item/weapon/gun/shotgun/double/spearhead/sawn,
 /turf/open/floor/plating/platingdmg3/west,
 /area/bigredv2/caves/mining)
 "xNa" = (

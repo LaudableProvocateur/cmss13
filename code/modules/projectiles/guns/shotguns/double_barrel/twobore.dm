@@ -19,13 +19,13 @@
 	return TRUE
 
 /datum/action/item_action/specialist/twobore_brace/action_cooldown_check()
-	var/obj/item/weapon/gun/shotgun/double/twobore/G = holder_item
+	var/obj/item/weapon/gun/shotgun/double/spearhead/twobore/G = holder_item
 	if(G.braced)
 		return TRUE
 
 /datum/action/item_action/specialist/twobore_brace/action_activate()
 	. = ..()
-	var/obj/item/weapon/gun/shotgun/double/twobore/G = holder_item
+	var/obj/item/weapon/gun/shotgun/double/spearhead/twobore/G = holder_item
 	if(G.braced)
 		return
 	var/mob/living/carbon/human/H = owner
@@ -37,7 +37,7 @@
 	G.brace(H)
 	update_button_icon()
 
-/obj/item/weapon/gun/shotgun/double/twobore
+/obj/item/weapon/gun/shotgun/double/spearhead/twobore
 	name = "two-bore rifle"
 	desc = "An enormously heavy double-barreled rifle with a bore big enough to fire the Moon. If you want an intact trophy, don't aim for the head. \nThe recoil is apocalyptic: if you aren't highly experienced with it and braced using a Specialist Activation, you won't get a second shot."
 	icon = 'icons/obj/items/weapons/guns/guns_by_faction/event.dmi'
@@ -63,12 +63,12 @@
 	var/fired_shots = 0 //How many shots were fired since it was last closed, for casing ejection purposes.
 	var/image/fired_casing
 
-/obj/item/weapon/gun/shotgun/double/twobore/Initialize(mapload, spawn_empty)
+/obj/item/weapon/gun/shotgun/double/spearhead/twobore/Initialize(mapload, spawn_empty)
 	. = ..()
 	fired_casing = image('icons/obj/items/weapons/projectiles.dmi', "casing_twobore", ABOVE_BLOOD_LAYER)
 	fired_casing.appearance_flags = PIXEL_SCALE
 
-/obj/item/weapon/gun/shotgun/double/twobore/set_gun_config_values()
+/obj/item/weapon/gun/shotgun/double/spearhead/twobore/set_gun_config_values()
 	..()
 	set_burst_amount(BURST_AMOUNT_TIER_1)
 	set_fire_delay(2 SECONDS )//Less than the stun time, but you still have to brace to fire safely.
@@ -80,17 +80,17 @@
 	recoil = RECOIL_OFF //This is done manually.
 	recoil_unwielded = RECOIL_OFF
 
-/obj/item/weapon/gun/shotgun/double/twobore/set_gun_attachment_offsets()
+/obj/item/weapon/gun/shotgun/double/spearhead/twobore/set_gun_attachment_offsets()
 	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 21,"rail_x" = 15, "rail_y" = 22, "under_x" = 21, "under_y" = 16, "stock_x" = 0, "stock_y" = 16)
 
-/obj/item/weapon/gun/shotgun/double/twobore/proc/brace(mob/living/carbon/human/user)
+/obj/item/weapon/gun/shotgun/double/spearhead/twobore/proc/brace(mob/living/carbon/human/user)
 	RegisterSignal(user, COMSIG_MOVABLE_MOVED, PROC_REF(unbrace), user)
 	RegisterSignal(src, COMSIG_ITEM_DROPPED, PROC_REF(unbrace), user)
 	RegisterSignal(src, COMSIG_ITEM_EQUIPPED, PROC_REF(unbrace), user)
 	braced = TRUE
 
 ///Returns TRUE if the gun was braced.
-/obj/item/weapon/gun/shotgun/double/twobore/proc/unbrace(mob/living/carbon/human/user)
+/obj/item/weapon/gun/shotgun/double/spearhead/twobore/proc/unbrace(mob/living/carbon/human/user)
 	SIGNAL_HANDLER
 	if(braced)
 		to_chat(user, SPAN_NOTICE("You relax your stance."))
@@ -102,11 +102,11 @@
 			A.update_button_icon()
 		return TRUE
 
-/obj/item/weapon/gun/shotgun/double/twobore/item_action_slot_check(mob/user, slot)
+/obj/item/weapon/gun/shotgun/double/spearhead/twobore/item_action_slot_check(mob/user, slot)
 	if(HAS_TRAIT(user, TRAIT_TWOBORE_TRAINING)) //Only the hunter himself knows how to use this weapon properly.
 		return TRUE
 
-/obj/item/weapon/gun/shotgun/double/twobore/open_chamber(mob/user)
+/obj/item/weapon/gun/shotgun/double/spearhead/twobore/open_chamber(mob/user)
 	..()
 	if(!fired_shots) //No empty shells. Means it wasn't fired or is being closed.
 		return
@@ -124,7 +124,7 @@
 		floor.overlays += fired_casing
 	fired_shots = 0
 
-/obj/item/weapon/gun/shotgun/double/twobore/Fire(atom/target, mob/living/carbon/human/user, params, reflex = 0, dual_wield) //Using this instead of apply_bullet_effects() as RPG does so I get more granular angles than just user direction.
+/obj/item/weapon/gun/shotgun/double/spearhead/twobore/Fire(atom/target, mob/living/carbon/human/user, params, reflex = 0, dual_wield) //Using this instead of apply_bullet_effects() as RPG does so I get more granular angles than just user direction.
 	var/prefire_rounds = current_mag.current_rounds //How many rounds do we have before we fire?
 	. = ..()
 	if(current_mag.current_rounds == prefire_rounds) //We didn't fire a shot.
@@ -133,7 +133,7 @@
 	fired_shots++
 	twobore_recoil(user, target_angle)
 
-/obj/item/weapon/gun/shotgun/double/twobore/attack(mob/living/M, mob/living/user, def_zone)
+/obj/item/weapon/gun/shotgun/double/spearhead/twobore/attack(mob/living/M, mob/living/user, def_zone)
 	var/target_angle
 	if(M != user && get_turf(M) != get_turf(user))
 		target_angle = get_dir(user, M)
@@ -145,7 +145,7 @@
 	fired_shots++
 	twobore_recoil(user, target_angle)
 
-/obj/item/weapon/gun/shotgun/double/twobore/proc/twobore_recoil(mob/living/carbon/human/user, target_angle)
+/obj/item/weapon/gun/shotgun/double/spearhead/twobore/proc/twobore_recoil(mob/living/carbon/human/user, target_angle)
 	var/turf/start_turf = get_turf(user)
 	//Muzzle smoke. Black powder is messy.
 	var/obj/effect/particle_effect/smoke/newsmoke = new(get_step(start_turf, target_angle), 1, src, user)

@@ -385,7 +385,7 @@
 	pro_case_overlay = "dots"
 
 /obj/item/storage/box/kit/mou53_sapper/fill_preset_inventory()
-	new /obj/item/weapon/gun/shotgun/double/mou53(src)
+	new /obj/item/weapon/gun/shotgun/double/spearhead/mou53(src)
 	new /obj/item/attachable/stock/mou53(src)
 	new /obj/item/ammo_magazine/shell_box/gauge_12/slug(src)
 	new /obj/item/ammo_magazine/shell_box/gauge_12/flechette(src)
