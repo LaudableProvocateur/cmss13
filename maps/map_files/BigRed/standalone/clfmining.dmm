@@ -1675,7 +1675,7 @@
 "Bo" = (
 /obj/structure/surface/table,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/weapon/gun/pistol/holdout,
+/obj/item/weapon/gun/pistol/w62,
 /obj/structure/machinery/light,
 /turf/open/floor/plating/platingdmg3/west,
 /area/bigredv2/caves/mining)

@@ -90,7 +90,7 @@
 /obj/structure/surface/rack{
 	layer = 2.5
 	},
-/obj/item/weapon/gun/pistol/highpower,
+/obj/item/weapon/gun/pistol/mk45,
 /obj/item/ammo_magazine/pistol/mk_45,
 /obj/item/ammo_magazine/pistol/mk_45,
 /obj/item/ammo_magazine/pistol/mk_45,

@@ -34267,7 +34267,7 @@
 /obj/item/reagent_container/food/drinks/bottle/whiskey{
 	pixel_y = 15
 	},
-/obj/item/weapon/gun/pistol/holdout{
+/obj/item/weapon/gun/pistol/w62{
 	pixel_y = 2
 	},
 /obj/effect/decal/hybrisa/gold/line3,
@@ -86303,7 +86303,7 @@
 	pixel_x = -18;
 	layer = 4.1
 	},
-/obj/item/weapon/gun/pistol/clfpistol,
+/obj/item/weapon/gun/pistol/d18,
 /obj/effect/decal/strata_decals/grime/grime2{
 	dir = 4
 	},
@@ -101239,7 +101239,7 @@
 /obj/item/ammo_magazine/pistol/desert_eagle,
 /obj/item/ammo_magazine/pistol/desert_eagle,
 /obj/item/ammo_magazine/pistol/desert_eagle,
-/obj/item/weapon/gun/pistol/heavy,
+/obj/item/weapon/gun/pistol/deagle,
 /obj/structure/surface/table/reinforced/prison{
 	color = "#98a3ab"
 	},
@@ -131444,7 +131444,7 @@
 	pixel_x = -1;
 	pixel_y = 2
 	},
-/obj/item/weapon/gun/pistol/clfpistol{
+/obj/item/weapon/gun/pistol/d18{
 	pixel_x = -1;
 	pixel_y = -1
 	},

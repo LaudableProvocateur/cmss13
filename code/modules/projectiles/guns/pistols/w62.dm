@@ -1,4 +1,4 @@
-/obj/item/weapon/gun/pistol/holdout
+/obj/item/weapon/gun/pistol/w62
 	name = "W62 'Whisper' pistol"
 	desc = "A small plinker in .22LR made by Spearhead. Designed for target shooting or quietly dealing with interplanetary vermin. Integrally suppressed and has tritium paint on the ironsights as standard."
 	icon = 'icons/obj/items/weapons/guns/guns_by_faction/colony/pistols.dmi'
@@ -16,10 +16,10 @@
 	)
 
 
-/obj/item/weapon/gun/pistol/holdout/set_gun_attachment_offsets()
+/obj/item/weapon/gun/pistol/w62/set_gun_attachment_offsets()
 	attachable_offset = list("muzzle_x" = 25, "muzzle_y" = 20,"rail_x" = 6, "rail_y" = 20, "under_x" = 20, "under_y" = 17, "stock_x" = 22, "stock_y" = 17)
 
-/obj/item/weapon/gun/pistol/holdout/set_gun_config_values()
+/obj/item/weapon/gun/pistol/w62/set_gun_config_values()
 	..()
 	set_fire_delay(FIRE_DELAY_TIER_11)
 	accuracy_mult = BASE_ACCURACY_MULT
@@ -29,7 +29,7 @@
 	scatter_unwielded = SCATTER_AMOUNT_TIER_6
 	damage_mult = BASE_BULLET_DAMAGE_MULT
 
-/obj/item/weapon/gun/pistol/holdout/handle_starting_attachment()
+/obj/item/weapon/gun/pistol/w62/handle_starting_attachment()
 	..()
 	var/obj/item/attachable/suppressor/S = new(src)
 	S.hidden = TRUE
@@ -37,7 +37,7 @@
 	S.Attach(src)
 	update_attachable(S.slot)
 
-/obj/item/weapon/gun/pistol/holdout/custom
+/obj/item/weapon/gun/pistol/w62/custom
 	name = "W62 'Whisper' custom pistol"
 	desc = "A small plinker in .22LR made by Spearhead. Designed for target shooting or quietly dealing with interplanetary vermin. This one is custom fitted with ivory grip plates and a bluesteel finish."
 	icon_state = "whisperc"

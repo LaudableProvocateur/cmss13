@@ -538,7 +538,7 @@
 /area/lv624/lazarus/main_hall)
 "bD" = (
 /obj/effect/decal/cleanable/blood/gibs,
-/obj/item/weapon/gun/pistol/highpower,
+/obj/item/weapon/gun/pistol/mk45,
 /obj/item/ammo_casing,
 /obj/item/ammo_casing,
 /obj/item/ammo_casing,

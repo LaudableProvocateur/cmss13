@@ -1584,7 +1584,7 @@
 /turf/open/floor/darkyellow2/north,
 /area/ice_colony/surface/engineering)
 "afZ" = (
-/obj/item/weapon/gun/pistol/highpower,
+/obj/item/weapon/gun/pistol/mk45,
 /turf/open/floor/dark2,
 /area/ice_colony/surface/engineering)
 "aga" = (
@@ -9561,7 +9561,7 @@
 /area/ice_colony/surface/hydroponics/lobby)
 "aHZ" = (
 /obj/structure/surface/table/woodentable,
-/obj/item/weapon/gun/pistol/holdout,
+/obj/item/weapon/gun/pistol/w62,
 /turf/open/floor/wood,
 /area/ice_colony/surface/command/crisis)
 "aIa" = (
@@ -24703,8 +24703,8 @@
 /obj/structure/machinery/light{
 	dir = 4
 	},
-/obj/item/weapon/gun/pistol/holdout,
-/obj/item/weapon/gun/pistol/holdout{
+/obj/item/weapon/gun/pistol/w62,
+/obj/item/weapon/gun/pistol/w62{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -24758,8 +24758,8 @@
 /area/ice_colony/underground/security/armory)
 "bSj" = (
 /obj/structure/surface/rack,
-/obj/item/weapon/gun/pistol/holdout,
-/obj/item/weapon/gun/pistol/holdout{
+/obj/item/weapon/gun/pistol/w62,
+/obj/item/weapon/gun/pistol/w62{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -26494,7 +26494,7 @@
 /area/ice_colony/surface/tcomms)
 "dFm" = (
 /obj/structure/machinery/light,
-/obj/item/weapon/gun/pistol/holdout,
+/obj/item/weapon/gun/pistol/w62,
 /turf/open/shuttle/can_surgery/red,
 /area/ice_colony/surface/hangar/beta)
 "dRe" = (

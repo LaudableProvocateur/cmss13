@@ -21,8 +21,8 @@
 	allowed_items_typecache = list(
 		/obj/item/attachable/bayonet,
 		/obj/item/weapon/throwing_knife,
-		/obj/item/weapon/gun/pistol/action,
-		/obj/item/weapon/gun/pistol/clfpistol,
+		/obj/item/weapon/gun/pistol/ac71,
+		/obj/item/weapon/gun/pistol/d18,
 		/obj/item/tool/screwdriver,
 		/obj/item/tool/surgery/scalpel,
 		/obj/item/weapon/straight_razor,
@@ -148,8 +148,8 @@
 	allowed_items_typecache = list(
 		/obj/item/attachable/bayonet,
 		/obj/item/weapon/throwing_knife,
-		/obj/item/weapon/gun/pistol/action,
-		/obj/item/weapon/gun/pistol/clfpistol,
+		/obj/item/weapon/gun/pistol/ac71,
+		/obj/item/weapon/gun/pistol/d18,
 		/obj/item/weapon/straight_razor,
 	)
 
@@ -245,8 +245,8 @@
 	allowed_items_typecache = list(
 		/obj/item/attachable/bayonet,
 		/obj/item/weapon/throwing_knife,
-		/obj/item/weapon/gun/pistol/action,
-		/obj/item/weapon/gun/pistol/clfpistol,
+		/obj/item/weapon/gun/pistol/ac71,
+		/obj/item/weapon/gun/pistol/d18,
 		/obj/item/weapon/straight_razor,
 	)
 	var/weed_slowdown_mult = 0.5
@@ -290,8 +290,8 @@
 	allowed_items_typecache = list(
 		/obj/item/attachable/bayonet,
 		/obj/item/weapon/throwing_knife,
-		/obj/item/weapon/gun/pistol/action,
-		/obj/item/weapon/gun/pistol/clfpistol,
+		/obj/item/weapon/gun/pistol/ac71,
+		/obj/item/weapon/gun/pistol/d18,
 	)
 	flags_atom = NO_NAME_OVERRIDE
 

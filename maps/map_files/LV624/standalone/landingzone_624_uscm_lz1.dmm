@@ -640,7 +640,7 @@
 /area/lv624/lazarus/landing_zones/lz2)
 "xX" = (
 /obj/structure/surface/table,
-/obj/item/weapon/gun/pistol/holdout,
+/obj/item/weapon/gun/pistol/w62,
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
 /turf/open/floor/plating/platebot,
 /area/lv624/lazarus/robotics)

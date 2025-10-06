@@ -7,4 +7,4 @@
 	icon_state = "m4a3" // placeholder
 	max_rounds = 7
 	w_class = SIZE_TINY
-	gun_type = /obj/item/weapon/gun/pistol/clfpistol
+	gun_type = /obj/item/weapon/gun/pistol/d18

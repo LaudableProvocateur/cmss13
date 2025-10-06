@@ -63,7 +63,7 @@
 		list("88 Mod 4 Combat Pistol", 15, /obj/item/weapon/gun/pistol/mod88, null, VENDOR_ITEM_REGULAR),
 		list("Beretta 92FS Pistol", 15, /obj/item/weapon/gun/pistol/b92fs, null, VENDOR_ITEM_REGULAR),
 		list("CMB Spearhead Autorevolver", 15, /obj/item/weapon/gun/revolver/cmb, null, VENDOR_ITEM_REGULAR),
-		list("Holdout Pistol", 10, /obj/item/weapon/gun/pistol/holdout, null, VENDOR_ITEM_REGULAR),
+		list("Holdout Pistol", 10, /obj/item/weapon/gun/pistol/w62, null, VENDOR_ITEM_REGULAR),
 		list("KT-42 Automag", 15, /obj/item/weapon/gun/pistol/kt42, null, VENDOR_ITEM_REGULAR),
 		list("S&W .357 Revolver", 15, /obj/item/weapon/gun/revolver/small, null, VENDOR_ITEM_REGULAR),
 
@@ -131,7 +131,7 @@
 		list("88 Mod 4 Combat Pistol", 20, /obj/item/weapon/gun/pistol/mod88, VENDOR_ITEM_REGULAR),
 		list("Beretta 92FS Pistol", 20, /obj/item/weapon/gun/pistol/b92fs, VENDOR_ITEM_REGULAR),
 		list("CMB Spearhead Autorevolver", 20, /obj/item/weapon/gun/revolver/cmb, VENDOR_ITEM_REGULAR),
-		list("Holdout Pistol", 20, /obj/item/weapon/gun/pistol/holdout, VENDOR_ITEM_REGULAR),
+		list("Holdout Pistol", 20, /obj/item/weapon/gun/pistol/w62, VENDOR_ITEM_REGULAR),
 		list("KT-42 Automag", 20, /obj/item/weapon/gun/pistol/kt42, VENDOR_ITEM_REGULAR),
 		list("S&W .357 Revolver", 20, /obj/item/weapon/gun/revolver/small, VENDOR_ITEM_REGULAR),
 

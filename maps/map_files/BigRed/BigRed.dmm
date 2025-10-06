@@ -7158,7 +7158,7 @@
 /obj/structure/pipes/vents/pump{
 	dir = 4
 	},
-/obj/item/weapon/gun/pistol/holdout,
+/obj/item/weapon/gun/pistol/w62,
 /turf/open/floor/yellowfull,
 /area/bigredv2/outside/general_store)
 "aGW" = (
@@ -10162,7 +10162,7 @@
 /area/bigredv2/outside/general_store)
 "aTS" = (
 /obj/structure/surface/table,
-/obj/item/weapon/gun/pistol/holdout,
+/obj/item/weapon/gun/pistol/w62,
 /obj/structure/machinery/light{
 	dir = 8
 	},
@@ -10339,7 +10339,7 @@
 /area/bigredv2/outside/general_store)
 "aVe" = (
 /obj/structure/surface/table,
-/obj/item/weapon/gun/pistol/holdout,
+/obj/item/weapon/gun/pistol/w62,
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
 /turf/open/floor/yellowfull,
 /area/bigredv2/outside/general_store)
@@ -22727,7 +22727,7 @@
 /turf/open/floor/delivery,
 /area/bigredv2/caves/lambda/research)
 "hmJ" = (
-/obj/item/weapon/gun/pistol/holdout,
+/obj/item/weapon/gun/pistol/w62,
 /turf/open/floor/plating,
 /area/bigredv2/outside/cargo)
 "hmL" = (
@@ -34298,7 +34298,7 @@
 	pixel_y = -15
 	},
 /obj/effect/decal/cleanable/blood,
-/obj/item/weapon/gun/pistol/highpower,
+/obj/item/weapon/gun/pistol/mk45,
 /turf/open/mars_cave/mars_dirt_4,
 /area/bigredv2/caves/mining)
 "tiL" = (
@@ -38643,7 +38643,7 @@
 /area/bigredv2/outside/medical)
 "xHb" = (
 /obj/item/ammo_casing/bullet,
-/obj/item/weapon/gun/pistol/holdout{
+/obj/item/weapon/gun/pistol/w62{
 	pixel_x = -8;
 	pixel_y = 11
 	},
@@ -38816,7 +38816,7 @@
 "xMx" = (
 /obj/structure/surface/table,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/weapon/gun/pistol/holdout,
+/obj/item/weapon/gun/pistol/w62,
 /obj/structure/machinery/light,
 /turf/open/floor/plating/platingdmg3/west,
 /area/bigredv2/caves/mining)

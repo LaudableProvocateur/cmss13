@@ -1625,7 +1625,7 @@
 "agG" = (
 /obj/structure/surface/table,
 /obj/item/ammo_casing,
-/obj/item/weapon/gun/pistol/holdout,
+/obj/item/weapon/gun/pistol/w62,
 /turf/open/floor/plating,
 /area/lv624/ground/barrens/central_barrens)
 "agH" = (
@@ -1842,7 +1842,7 @@
 /obj/structure/surface/table,
 /obj/item/ashtray/plastic,
 /obj/item/stack/flag/red,
-/obj/item/weapon/gun/pistol/holdout,
+/obj/item/weapon/gun/pistol/w62,
 /turf/open/floor/plating/warnplate/north,
 /area/lv624/ground/barrens/east_barrens/ceiling)
 "aim" = (
@@ -5504,7 +5504,7 @@
 /area/lv624/lazarus/sleep_female)
 "aCZ" = (
 /obj/structure/surface/table,
-/obj/item/weapon/gun/pistol/holdout,
+/obj/item/weapon/gun/pistol/w62,
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
 /turf/open/floor/plating/platebot,
 /area/lv624/lazarus/robotics)
@@ -7411,7 +7411,7 @@
 	dir = 1
 	},
 /obj/structure/surface/rack,
-/obj/item/weapon/gun/pistol/highpower,
+/obj/item/weapon/gun/pistol/mk45,
 /obj/item/ammo_magazine/pistol/mk_45,
 /obj/item/ammo_magazine/pistol/mk_45,
 /obj/item/ammo_magazine/pistol/mk_45,

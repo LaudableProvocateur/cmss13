@@ -134,7 +134,7 @@ Non-USCM items, from CLF, UPP, colonies, etc. Mostly combat-related.
 			new /obj/item/ammo_magazine/smg/fp9000(src)
 			new /obj/item/ammo_magazine/smg/fp9000(src)
 		if(2) //pizza
-			new /obj/item/weapon/gun/pistol/holdout(src)
+			new /obj/item/weapon/gun/pistol/w62(src)
 			new /obj/item/ammo_magazine/pistol/w62(src)
 		if(3) //clf
 			switch(rand(1, 2))
@@ -365,7 +365,7 @@ Additionally, weapons that are way too good to put in the basically-flavor black
 /datum/supply_packs/contraband/seized/heavy
 	name = "Desert Eagle crate (x4 magazines included)"
 	contains = list(
-		/obj/item/weapon/gun/pistol/heavy,
+		/obj/item/weapon/gun/pistol/deagle,
 		/obj/item/ammo_magazine/pistol/desert_eagle,
 		/obj/item/ammo_magazine/pistol/desert_eagle,
 		/obj/item/ammo_magazine/pistol/desert_eagle,
@@ -404,7 +404,7 @@ Additionally, weapons that are way too good to put in the basically-flavor black
 /datum/supply_packs/contraband/seized/holdout
 	name = "holdout pistol (x7 magazines included)"
 	contains = list(
-		/obj/item/weapon/gun/pistol/holdout,
+		/obj/item/weapon/gun/pistol/w62,
 		/obj/item/ammo_magazine/pistol/w62,
 		/obj/item/ammo_magazine/pistol/w62,
 		/obj/item/ammo_magazine/pistol/w62,

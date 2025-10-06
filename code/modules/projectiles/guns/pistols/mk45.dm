@@ -1,4 +1,4 @@
-/obj/item/weapon/gun/pistol/highpower
+/obj/item/weapon/gun/pistol/mk45
 	name = "\improper MK-45 'High-Power' Automagnum"
 	desc = "Originally designed as a replacement for the USCM's M44 combat revolver, it was rejected at the last minute by a committee, citing its need to be cocked after every loaded magazine to be too cumbersone and antiquated. The design has recently been purchased by the Henjin-Garcia company, refitted for .45 ACP, and sold to the Colonial Marshals and other various unscrupulous armed groups."
 	icon = 'icons/obj/items/weapons/guns/guns_by_faction/colony/pistols.dmi'
@@ -38,18 +38,18 @@
 	/// This weapon needs to be manually racked every time a new magazine is loaded. I tried and failed to touch gun shitcode so this will do.
 	var/manually_slided = FALSE
 
-/obj/item/weapon/gun/pistol/highpower/Initialize(mapload, spawn_empty)
+/obj/item/weapon/gun/pistol/mk45/Initialize(mapload, spawn_empty)
 	. = ..()
 	manually_slided = TRUE
 
-/obj/item/weapon/gun/pistol/highpower/Fire(atom/target, mob/living/user, params, reflex = 0, dual_wield)
+/obj/item/weapon/gun/pistol/mk45/Fire(atom/target, mob/living/user, params, reflex = 0, dual_wield)
 	if(!manually_slided)
 		click_empty()
 		to_chat(user, SPAN_DANGER("\The [src] makes a clicking noise! You need to manually rack the slide after loading in a new magazine!"))
 		return NONE
 	return ..()
 
-/obj/item/weapon/gun/pistol/highpower/unique_action(mob/user)
+/obj/item/weapon/gun/pistol/mk45/unique_action(mob/user)
 	if(!manually_slided)
 		user.visible_message(SPAN_NOTICE("[user] racks \the [src]'s slide."), SPAN_NOTICE("You rack \the [src]'s slide, loading the next bullet in."))
 		manually_slided = TRUE
@@ -57,21 +57,21 @@
 		return
 	..()
 
-/obj/item/weapon/gun/pistol/highpower/cock_gun(mob/user, manual = FALSE)
+/obj/item/weapon/gun/pistol/mk45/cock_gun(mob/user, manual = FALSE)
 	if(manual)
 		..()
 	else
 		return
 
-/obj/item/weapon/gun/pistol/highpower/reload(mob/user, obj/item/ammo_magazine/magazine)
+/obj/item/weapon/gun/pistol/mk45/reload(mob/user, obj/item/ammo_magazine/magazine)
 	//reset every time its reloaded
 	manually_slided = FALSE
 	..()
 
-/obj/item/weapon/gun/pistol/highpower/set_gun_attachment_offsets()
+/obj/item/weapon/gun/pistol/mk45/set_gun_attachment_offsets()
 	attachable_offset = list("muzzle_x" = 29, "muzzle_y" = 20,"rail_x" = 6, "rail_y" = 22, "under_x" = 20, "under_y" = 15, "stock_x" = 0, "stock_y" = 0)
 
-/obj/item/weapon/gun/pistol/highpower/set_gun_config_values()
+/obj/item/weapon/gun/pistol/mk45/set_gun_config_values()
 	..()
 	set_fire_delay(FIRE_DELAY_TIER_5)
 	accuracy_mult = BASE_ACCURACY_MULT + HIT_ACCURACY_MULT_TIER_4
@@ -85,13 +85,13 @@
 //also comes in.... BLAPCK
 //the parent has a blueish tint, making it look best for civilian usage (colonies, marshals). this one has a black tint on its metal, making it best for military groups like VAIPO, elite mercs, etc.
 // black tinted magazines also included
-/obj/item/weapon/gun/pistol/highpower/black
+/obj/item/weapon/gun/pistol/mk45/black
 	current_mag = /obj/item/ammo_magazine/pistol/mk_45/black
 	icon_state = "highpower_b"
 	item_state = "highpower_b"
 
 //unimplemented
-/obj/item/weapon/gun/pistol/highpower/tactical
+/obj/item/weapon/gun/pistol/mk45/tactical
 	name = "\improper MK-44 SOCOM Automagnum"
 	desc = "Originally designed as a replacement for the USCM's M44 combat revolver, it was rejected at the last minute by a committee, citing its need to be cocked after every loaded magazine to be too cumbersone and antiquated. The design has recently been purchased by the Henjin-Garcia company and sold to the Colonial Marshals and other various unscrupulous armed groups. This one has a sleek, dark design."
 	current_mag = /obj/item/ammo_magazine/pistol/mk_45/black

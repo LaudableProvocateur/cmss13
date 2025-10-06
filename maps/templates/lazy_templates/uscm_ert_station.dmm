@@ -480,10 +480,10 @@
 /turf/open/floor/almayer_hull/outerhull_dir,
 /area/space)
 "fz" = (
-/obj/item/weapon/gun/pistol/highpower,
+/obj/item/weapon/gun/pistol/mk45,
 /obj/item/weapon/gun/pistol/m4a3,
 /obj/item/weapon/gun/revolver/m44,
-/obj/item/weapon/gun/pistol/highpower,
+/obj/item/weapon/gun/pistol/mk45,
 /obj/item/weapon/gun/pistol/m1911,
 /obj/item/ammo_magazine/m4a3/ap,
 /obj/item/ammo_magazine/pistol/desert_eagle,
@@ -3035,7 +3035,7 @@
 "IV" = (
 /obj/structure/bed/chair/wheelchair,
 /obj/effect/decal/cleanable/cobweb,
-/obj/item/weapon/gun/pistol/holdout,
+/obj/item/weapon/gun/pistol/w62,
 /obj/item/ammo_magazine/pistol/w62,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,

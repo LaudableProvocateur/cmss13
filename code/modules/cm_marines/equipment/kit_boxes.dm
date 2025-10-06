@@ -596,7 +596,7 @@
 	pro_case_overlay = "crayon"
 
 /obj/item/storage/box/kit/exp_trooper/fill_preset_inventory()
-	new /obj/item/weapon/gun/pistol/smart(src)
+	new /obj/item/weapon/gun/pistol/su6(src)
 	new /obj/item/ammo_magazine/pistol/su_6(src)
 	new /obj/item/ammo_magazine/pistol/su_6(src)
 	new /obj/item/ammo_magazine/pistol/su_6(src)

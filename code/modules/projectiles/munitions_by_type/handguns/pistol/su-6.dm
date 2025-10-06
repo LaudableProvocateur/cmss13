@@ -6,4 +6,4 @@
 	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/USCM/pistols.dmi'
 	icon_state = "smartpistol"
 	max_rounds = 15
-	gun_type = /obj/item/weapon/gun/pistol/smart
+	gun_type = /obj/item/weapon/gun/pistol/su6

@@ -39,12 +39,12 @@
 /obj/item/storage/box/guncase/smartpistol
 	name = "\improper SU-6 pistol case"
 	desc = "A gun case containing the SU-6 smart pistol. Comes with a full belt holster."
-	can_hold = list(/obj/item/storage/belt/gun/smartpistol, /obj/item/weapon/gun/pistol/smart, /obj/item/ammo_magazine/pistol/su_6)
+	can_hold = list(/obj/item/storage/belt/gun/smartpistol, /obj/item/weapon/gun/pistol/su6, /obj/item/ammo_magazine/pistol/su_6)
 	storage_slots = 2
 
 /obj/item/storage/box/guncase/smartpistol/fill_preset_inventory()
 	new /obj/item/storage/belt/gun/smartpistol/full_nogun(src)
-	new /obj/item/weapon/gun/pistol/smart(src)
+	new /obj/item/weapon/gun/pistol/su6(src)
 
 //------------
 /obj/item/storage/box/guncase/mou53
@@ -221,11 +221,11 @@
 	name = "\improper MK-45 Automagnum case"
 	desc = "A gun case containing the MK-45 'High-Power' Automagnum sidearm. While this weapon was rejected as a replacement for the M44 Combat Revolver, it is often back-issued to troops who prefer its powerful bullets over more common sidearms."
 	storage_slots = 6
-	can_hold = list(/obj/item/weapon/gun/pistol/highpower, /obj/item/ammo_magazine/pistol/mk_45)
+	can_hold = list(/obj/item/weapon/gun/pistol/mk45, /obj/item/ammo_magazine/pistol/mk_45)
 
 /obj/item/storage/box/guncase/mk45_automag/fill_preset_inventory()
 	if(prob(30))
-		new /obj/item/weapon/gun/pistol/highpower(src)
+		new /obj/item/weapon/gun/pistol/mk45(src)
 		new /obj/item/ammo_magazine/pistol/mk_45(src)
 		new /obj/item/ammo_magazine/pistol/mk_45(src)
 		new /obj/item/ammo_magazine/pistol/mk_45(src)
@@ -233,7 +233,7 @@
 		new /obj/item/ammo_magazine/pistol/mk_45(src)
 		new /obj/item/ammo_magazine/pistol/mk_45(src)
 	else
-		new /obj/item/weapon/gun/pistol/highpower/black(src)
+		new /obj/item/weapon/gun/pistol/mk45/black(src)
 		new /obj/item/ammo_magazine/pistol/mk_45/black(src)
 		new /obj/item/ammo_magazine/pistol/mk_45/black(src)
 		new /obj/item/ammo_magazine/pistol/mk_45/black(src)

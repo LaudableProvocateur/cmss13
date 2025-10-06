@@ -1377,7 +1377,7 @@
 		/obj/item/weapon/gun/pistol/kt42, // HONKed currently
 		/obj/item/weapon/gun/pistol/auto9, // HONKed currently
 		/obj/item/weapon/gun/pistol/chimp, // HONKed currently
-		/obj/item/weapon/gun/pistol/skorpion, // HONKed currently
+		/obj/item/weapon/gun/pistol/cz81, // HONKed currently
 	)
 
 /obj/item/storage/belt/gun/select_gamemode_skin(expected_type, list/override_icon_state, list/override_protection)
@@ -1585,12 +1585,12 @@
 		/obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact,
 	)
 	cant_hold = list(
-		/obj/item/weapon/gun/pistol/smart,
+		/obj/item/weapon/gun/pistol/su6,
 		/obj/item/ammo_magazine/pistol/su_6,
 		/obj/item/weapon/gun/pistol/kt42, // HONKed currently
 		/obj/item/weapon/gun/pistol/auto9, // HONKed currently
 		/obj/item/weapon/gun/pistol/chimp, // HONKed currently
-		/obj/item/weapon/gun/pistol/skorpion, // HONKed currently
+		/obj/item/weapon/gun/pistol/cz81, // HONKed currently
 	)
 	flags_atom = FPRINT // has gamemode skin
 
@@ -1706,7 +1706,7 @@
 	flags_atom = FPRINT|NO_GAMEMODE_SKIN // same sprite for all gamemodes
 
 /obj/item/storage/belt/gun/m4a3/heavy/fill_preset_inventory()
-	handle_item_insertion(new /obj/item/weapon/gun/pistol/heavy())
+	handle_item_insertion(new /obj/item/weapon/gun/pistol/deagle())
 	new /obj/item/ammo_magazine/pistol/desert_eagle(src)
 	new /obj/item/ammo_magazine/pistol/desert_eagle(src)
 	new /obj/item/ammo_magazine/pistol/desert_eagle(src)
@@ -1715,7 +1715,7 @@
 	new /obj/item/ammo_magazine/pistol/desert_eagle(src)
 
 /obj/item/storage/belt/gun/m4a3/heavy/co/fill_preset_inventory()
-	handle_item_insertion(new /obj/item/weapon/gun/pistol/heavy/co())
+	handle_item_insertion(new /obj/item/weapon/gun/pistol/deagle/co())
 	new /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact(src)
 	new /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact(src)
 	new /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact(src)
@@ -1724,7 +1724,7 @@
 	new /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact/ap(src)
 
 /obj/item/storage/belt/gun/m4a3/heavy/co_golden/fill_preset_inventory()
-	handle_item_insertion(new /obj/item/weapon/gun/pistol/heavy/co/gold())
+	handle_item_insertion(new /obj/item/weapon/gun/pistol/deagle/co/gold())
 	new /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact(src)
 	new /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact(src)
 	new /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact(src)
@@ -1733,17 +1733,17 @@
 	new /obj/item/ammo_magazine/pistol/desert_eagle/super/highimpact/ap(src)
 
 /obj/item/storage/belt/gun/m4a3/highpower/fill_preset_inventory()
-	handle_item_insertion(new /obj/item/weapon/gun/pistol/highpower())
+	handle_item_insertion(new /obj/item/weapon/gun/pistol/mk45())
 	for(var/i = 1 to storage_slots - 1)
 		new /obj/item/ammo_magazine/pistol/mk_45(src)
 
 /obj/item/storage/belt/gun/m4a3/highpower/black/fill_preset_inventory()
-	handle_item_insertion(new /obj/item/weapon/gun/pistol/highpower/black())
+	handle_item_insertion(new /obj/item/weapon/gun/pistol/mk45/black())
 	for(var/i = 1 to storage_slots - 1)
 		new /obj/item/ammo_magazine/pistol/mk_45/black(src)
 
 /obj/item/storage/belt/gun/m4a3/highpower/tactical/fill_preset_inventory()
-	handle_item_insertion(new /obj/item/weapon/gun/pistol/highpower/tactical())
+	handle_item_insertion(new /obj/item/weapon/gun/pistol/mk45/tactical())
 	for(var/i = 1 to storage_slots - 1)
 		new /obj/item/ammo_magazine/pistol/mk_45/black(src)
 
@@ -2319,7 +2319,7 @@
 		/obj/item/weapon/gun/pistol/kt42, // HONKed currently
 		/obj/item/weapon/gun/pistol/auto9, // HONKed currently
 		/obj/item/weapon/gun/pistol/chimp, // HONKed currently
-		/obj/item/weapon/gun/pistol/skorpion, // HONKed currently
+		/obj/item/weapon/gun/pistol/cz81, // HONKed currently
 	)
 
 	var/list/picklist = subtypesof(/obj/item/ammo_magazine) - (internal_mags + bad_mags + sentry_mags + training_mags)
@@ -2340,13 +2340,13 @@
 			"icon_x" = -5,
 			"icon_y" = -2))
 	can_hold = list(
-		/obj/item/weapon/gun/pistol/smart,
+		/obj/item/weapon/gun/pistol/su6,
 		/obj/item/ammo_magazine/pistol/su_6,
 	)
 	flags_atom = FPRINT // has gamemode skin
 
 /obj/item/storage/belt/gun/smartpistol/full/fill_preset_inventory()
-	handle_item_insertion(new /obj/item/weapon/gun/pistol/smart())
+	handle_item_insertion(new /obj/item/weapon/gun/pistol/su6())
 	for(var/i = 1 to storage_slots - 1)
 		new /obj/item/ammo_magazine/pistol/su_6(src)
 

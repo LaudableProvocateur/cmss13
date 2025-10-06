@@ -7,4 +7,4 @@
 	icon_state = "action"
 	max_rounds = 8
 	w_class = SIZE_TINY
-	gun_type = /obj/item/weapon/gun/pistol/action
+	gun_type = /obj/item/weapon/gun/pistol/ac71

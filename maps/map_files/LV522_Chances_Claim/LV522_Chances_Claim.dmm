@@ -5965,7 +5965,7 @@
 	pixel_x = -9;
 	pixel_y = -6
 	},
-/obj/item/weapon/gun/pistol/holdout{
+/obj/item/weapon/gun/pistol/w62{
 	pixel_y = 31
 	},
 /obj/structure/machinery/space_heater/radiator/red{
@@ -25518,7 +25518,7 @@
 	pixel_x = 3;
 	pixel_y = -3
 	},
-/obj/item/weapon/gun/pistol/highpower{
+/obj/item/weapon/gun/pistol/mk45{
 	pixel_x = -11;
 	pixel_y = 10
 	},

@@ -125,10 +125,10 @@
 	w_class = SIZE_SMALL
 	max_w_class = SIZE_TINY
 	storage_slots = 2
-	can_hold = list(/obj/item/weapon/gun/pistol/clfpistol, /obj/item/ammo_magazine/pistol/d18)
+	can_hold = list(/obj/item/weapon/gun/pistol/d18, /obj/item/ammo_magazine/pistol/d18)
 
 /obj/item/storage/box/clf/fill_preset_inventory()
-	new /obj/item/weapon/gun/pistol/clfpistol(src)
+	new /obj/item/weapon/gun/pistol/d18(src)
 	new /obj/item/ammo_magazine/pistol/d18(src)
 
 /obj/item/storage/box/upp //war trophy luger
@@ -154,10 +154,10 @@
 	w_class = SIZE_SMALL
 	max_w_class = SIZE_TINY
 	storage_slots = 3
-	can_hold = list(/obj/item/weapon/gun/pistol/action, /obj/item/ammo_magazine/pistol/ac71)
+	can_hold = list(/obj/item/weapon/gun/pistol/ac71, /obj/item/ammo_magazine/pistol/ac71)
 
 /obj/item/storage/box/action/fill_preset_inventory()
-	new /obj/item/weapon/gun/pistol/action(src)
+	new /obj/item/weapon/gun/pistol/ac71(src)
 	new /obj/item/ammo_magazine/pistol/ac71(src)
 	new /obj/item/ammo_magazine/pistol/ac71(src)
 
@@ -169,10 +169,10 @@
 	w_class = SIZE_MEDIUM
 	max_w_class = SIZE_SMALL
 	storage_slots = 3
-	can_hold = list(/obj/item/weapon/gun/pistol/holdout, /obj/item/ammo_magazine/pistol/w62)
+	can_hold = list(/obj/item/weapon/gun/pistol/w62, /obj/item/ammo_magazine/pistol/w62)
 
 /obj/item/storage/box/plinker/fill_preset_inventory()
-	new /obj/item/weapon/gun/pistol/holdout(src)
+	new /obj/item/weapon/gun/pistol/w62(src)
 	new /obj/item/ammo_magazine/pistol/w62(src)
 	new /obj/item/ammo_magazine/pistol/w62(src)
 

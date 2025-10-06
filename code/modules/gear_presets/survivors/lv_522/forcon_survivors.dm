@@ -280,7 +280,7 @@
 				sidearmbelt = /obj/item/storage/belt/gun/mateba/cmateba
 				sidearmammo = /obj/item/ammo_magazine/revolver/mateba
 			if(CO_GUN_DEAGLE)
-				sidearm = /obj/item/weapon/gun/pistol/heavy/co
+				sidearm = /obj/item/weapon/gun/pistol/deagle/co
 				sidearmbelt = /obj/item/storage/belt/gun/m4a3
 				sidearmammo = /obj/item/ammo_magazine/pistol/desert_eagle/super
 			if(CO_GUN_M1911C)

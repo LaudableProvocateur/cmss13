@@ -1,4 +1,4 @@
-/obj/item/weapon/gun/pistol/smart
+/obj/item/weapon/gun/pistol/su6
 	name = "\improper SU-6 Smartpistol"
 	desc = "The SU-6 Smartpistol is an IFF-based sidearm currently undergoing field testing in the Colonial Marines. Uses modified .45 ACP IFF bullets. Capable of firing in bursts."
 	icon = 'icons/obj/items/weapons/guns/guns_by_faction/USCM/pistols.dmi'
@@ -11,10 +11,10 @@
 	unload_sound = 'sound/weapons/handling/gun_su6_unload.ogg'
 	flags_gun_features = GUN_AUTO_EJECTOR|GUN_CAN_POINTBLANK|GUN_ONE_HAND_WIELDED|GUN_AMMO_COUNTER
 
-/obj/item/weapon/gun/pistol/smart/set_gun_attachment_offsets()
+/obj/item/weapon/gun/pistol/su6/set_gun_attachment_offsets()
 	attachable_offset = list("muzzle_x" = 28, "muzzle_y" = 20,"rail_x" = 13, "rail_y" = 22, "under_x" = 24, "under_y" = 17, "stock_x" = 24, "stock_y" = 17)
 
-/obj/item/weapon/gun/pistol/smart/set_gun_config_values()
+/obj/item/weapon/gun/pistol/su6/set_gun_config_values()
 	..()
 	set_fire_delay(FIRE_DELAY_TIER_12)
 	set_burst_amount(BURST_AMOUNT_TIER_3)
@@ -28,7 +28,7 @@
 	recoil = RECOIL_AMOUNT_TIER_5
 	recoil_unwielded = RECOIL_AMOUNT_TIER_4
 
-/obj/item/weapon/gun/pistol/smart/set_bullet_traits()
+/obj/item/weapon/gun/pistol/su6/set_bullet_traits()
 	LAZYADD(traits_to_give, list(
 		BULLET_TRAIT_ENTRY(/datum/element/bullet_trait_iff)
 	))

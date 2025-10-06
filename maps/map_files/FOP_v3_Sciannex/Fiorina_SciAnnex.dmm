@@ -2513,7 +2513,7 @@
 "bJb" = (
 /obj/structure/closet/cabinet,
 /obj/item/device/encryptionkey/WY,
-/obj/item/weapon/gun/pistol/heavy,
+/obj/item/weapon/gun/pistol/deagle,
 /obj/item/ammo_magazine/pistol/desert_eagle,
 /obj/item/ammo_magazine/pistol/desert_eagle,
 /turf/open/floor/wood,
@@ -10627,7 +10627,7 @@
 	pixel_x = 5;
 	pixel_y = 12
 	},
-/obj/item/weapon/gun/pistol/heavy,
+/obj/item/weapon/gun/pistol/deagle,
 /obj/structure/machinery/light/double/blue,
 /turf/open/floor/prison,
 /area/fiorina/station/medbay)

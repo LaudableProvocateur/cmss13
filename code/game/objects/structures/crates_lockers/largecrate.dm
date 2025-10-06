@@ -428,11 +428,11 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 	num_guns = 1
 	num_mags = 5
 	name = "\improper Black market firearm crate"
-	stuff = list( /obj/item/weapon/gun/pistol/holdout = /obj/item/ammo_magazine/pistol/w62,
-					/obj/item/weapon/gun/pistol/action = /obj/item/ammo_magazine/pistol/ac71,
-					/obj/item/weapon/gun/pistol/highpower = /obj/item/ammo_magazine/pistol/mk_45,
+	stuff = list( /obj/item/weapon/gun/pistol/w62 = /obj/item/ammo_magazine/pistol/w62,
+					/obj/item/weapon/gun/pistol/ac71 = /obj/item/ammo_magazine/pistol/ac71,
+					/obj/item/weapon/gun/pistol/mk45 = /obj/item/ammo_magazine/pistol/mk_45,
 					/obj/item/weapon/gun/pistol/m1911 = /obj/item/ammo_magazine/pistol/m1911,
-					/obj/item/weapon/gun/pistol/heavy = /obj/item/ammo_magazine/pistol/desert_eagle,
+					/obj/item/weapon/gun/pistol/deagle = /obj/item/ammo_magazine/pistol/desert_eagle,
 					/obj/item/weapon/gun/revolver/small = /obj/item/ammo_magazine/revolver/smith_and_wesson,
 					/obj/item/weapon/gun/revolver/cmb = /obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver,
 					/obj/item/weapon/gun/shotgun/merc = /obj/item/ammo_magazine/handful/gauge_12/buckshot,
@@ -556,7 +556,7 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 
 /obj/structure/largecrate/hunter_games_guns/mediocre/Initialize()
 	. = ..()
-	new /obj/item/weapon/gun/pistol/holdout(src)
+	new /obj/item/weapon/gun/pistol/w62(src)
 	new /obj/item/ammo_magazine/pistol/w62(src)
 	new /obj/item/ammo_magazine/pistol/w62(src)
 	new /obj/item/weapon/gun/pistol/m4a3(src)
@@ -595,7 +595,7 @@ GLOBAL_LIST_INIT(rbarrel_color_list, list(COLOR_SILVER,
 
 /obj/structure/largecrate/hunter_games_guns/good/Initialize()
 	. = ..()
-	new /obj/item/weapon/gun/pistol/highpower(src)
+	new /obj/item/weapon/gun/pistol/mk45(src)
 	new /obj/item/ammo_magazine/pistol/mk_45(src)
 	new /obj/item/ammo_magazine/pistol/mk_45(src)
 	if(prob(50))

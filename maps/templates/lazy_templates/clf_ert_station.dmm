@@ -273,7 +273,7 @@
 /obj/item/bedsheet/brown{
 	pixel_y = 13
 	},
-/obj/item/weapon/gun/pistol/clfpistol,
+/obj/item/weapon/gun/pistol/d18,
 /obj/structure/machinery/light/small/built{
 	dir = 1
 	},
@@ -413,7 +413,7 @@
 /obj/item/explosive/grenade/incendiary/molotov,
 /obj/item/explosive/grenade/incendiary/molotov,
 /obj/item/explosive/grenade/incendiary/molotov,
-/obj/item/weapon/gun/pistol/heavy{
+/obj/item/weapon/gun/pistol/deagle{
 	pixel_y = 8
 	},
 /turf/open/floor/wood,

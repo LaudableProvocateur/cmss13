@@ -46,8 +46,8 @@
 	allowed_items_typecache = list(
 		/obj/item/attachable/bayonet,
 		/obj/item/weapon/throwing_knife,
-		/obj/item/weapon/gun/pistol/action,
-		/obj/item/weapon/gun/pistol/clfpistol,
+		/obj/item/weapon/gun/pistol/ac71,
+		/obj/item/weapon/gun/pistol/d18,
 		/obj/item/weapon/straight_razor,
 	)
 

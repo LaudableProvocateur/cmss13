@@ -5111,7 +5111,7 @@
 /turf/open/shuttle/can_surgery/black,
 /area/shiva/interior/aerodrome)
 "aVM" = (
-/obj/item/weapon/gun/pistol/holdout,
+/obj/item/weapon/gun/pistol/w62,
 /turf/open/shuttle/can_surgery/black,
 /area/shiva/interior/aerodrome)
 "aVN" = (
@@ -20144,7 +20144,7 @@
 /turf/open/auto_turf/snow/layer1,
 /area/shiva/exterior/lz1_valley)
 "tcG" = (
-/obj/item/weapon/gun/pistol/highpower,
+/obj/item/weapon/gun/pistol/mk45,
 /turf/open/floor/shiva/yellow/north,
 /area/shiva/interior/colony/medseceng)
 "tcI" = (
@@ -22351,7 +22351,7 @@
 /area/shiva/interior/colony/medseceng)
 "vCv" = (
 /obj/structure/surface/table,
-/obj/item/weapon/gun/pistol/holdout,
+/obj/item/weapon/gun/pistol/w62,
 /turf/open/floor/shiva/bluefull,
 /area/shiva/interior/colony/s_admin)
 "vDB" = (

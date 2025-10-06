@@ -7,4 +7,4 @@
 	icon_state = "holdout"
 	max_rounds = 10
 	w_class = SIZE_TINY
-	gun_type = /obj/item/weapon/gun/pistol/holdout
+	gun_type = /obj/item/weapon/gun/pistol/w62

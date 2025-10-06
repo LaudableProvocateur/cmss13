@@ -564,7 +564,7 @@
 /area/varadero/interior/research)
 "nj" = (
 /obj/structure/surface/table/almayer,
-/obj/item/weapon/gun/pistol/heavy,
+/obj/item/weapon/gun/pistol/deagle,
 /obj/item/ammo_magazine/pistol/desert_eagle,
 /obj/item/ammo_magazine/pistol/desert_eagle,
 /obj/item/ammo_magazine/pistol/desert_eagle,

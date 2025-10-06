@@ -213,7 +213,7 @@
 		/obj/item/weapon/gun/smg/m39,
 		/obj/item/weapon/gun/smg/mp27,
 		/obj/item/weapon/gun/smg/mac15,
-		/obj/item/weapon/gun/pistol/skorpion,
+		/obj/item/weapon/gun/pistol/cz81,
 		/obj/item/weapon/gun/pistol/m10,
 	)
 	///Guns have a hud offset that throws the vis_contents alignment off.

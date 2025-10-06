@@ -1,4 +1,4 @@
-/obj/item/weapon/gun/pistol/skorpion
+/obj/item/weapon/gun/pistol/cz81
 	name = "\improper CZ-81 machine pistol"
 	desc = "A robust, 20th century firearm that's a combination of pistol and submachinegun. Fires .32ACP caliber rounds from a 20-round magazine."
 	icon = 'icons/obj/items/weapons/guns/guns_by_faction/colony/smgs.dmi'
@@ -26,10 +26,10 @@
 	start_semiauto = FALSE
 	start_automatic = TRUE
 
-/obj/item/weapon/gun/pistol/skorpion/set_gun_attachment_offsets()
+/obj/item/weapon/gun/pistol/cz81/set_gun_attachment_offsets()
 	attachable_offset = list("muzzle_x" = 29, "muzzle_y" = 18,"rail_x" = 16, "rail_y" = 21, "under_x" = 23, "under_y" = 15, "stock_x" = 23, "stock_y" = 15)
 
-/obj/item/weapon/gun/pistol/skorpion/set_gun_config_values()
+/obj/item/weapon/gun/pistol/cz81/set_gun_config_values()
 	..()
 	set_fire_delay(FIRE_DELAY_TIER_11)
 	fa_scatter_peak = 15 //shots

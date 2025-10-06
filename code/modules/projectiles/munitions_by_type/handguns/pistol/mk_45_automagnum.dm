@@ -6,7 +6,7 @@
 	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/colony/pistols.dmi'
 	icon_state = "highpower"
 	max_rounds = 13
-	gun_type = /obj/item/weapon/gun/pistol/highpower
+	gun_type = /obj/item/weapon/gun/pistol/mk45
 
 //comes in black, for the black variant of the highpower, better for military usage
 

@@ -1,4 +1,4 @@
-/obj/item/weapon/gun/pistol/clfpistol
+/obj/item/weapon/gun/pistol/d18
 	name = "D18 Hummingbird Pistol"
 	desc = "The D18 Hummingbird Pistol was produced in the mid-2170s as a cheap and concealable firearm for CLF Sleeper Cell agents for assassinations and ambushes, and is able to be concealed in shoes and workboots."
 	icon = 'icons/obj/items/weapons/guns/guns_by_faction/colony/pistols.dmi'
@@ -14,10 +14,10 @@
 		/obj/item/attachable/flashlight,
 	)
 
-/obj/item/weapon/gun/pistol/clfpistol/set_gun_attachment_offsets()
+/obj/item/weapon/gun/pistol/d18/set_gun_attachment_offsets()
 	attachable_offset = list("muzzle_x" = 28, "muzzle_y" = 20,"rail_x" = 10, "rail_y" = 21, "under_x" = 21, "under_y" = 17, "stock_x" = 21, "stock_y" = 17)
 
-/obj/item/weapon/gun/pistol/clfpistol/set_gun_config_values()
+/obj/item/weapon/gun/pistol/d18/set_gun_config_values()
 	..()
 	set_fire_delay(FIRE_DELAY_TIER_12)
 	accuracy_mult = BASE_ACCURACY_MULT

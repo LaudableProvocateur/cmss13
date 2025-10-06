@@ -578,12 +578,12 @@ GLOBAL_LIST_INIT(rebel_rifles, list(
 		return
 
 	var/list/merc_sidearms = list(
-		/obj/item/weapon/gun/pistol/heavy = /obj/item/ammo_magazine/pistol/desert_eagle,
+		/obj/item/weapon/gun/pistol/deagle = /obj/item/ammo_magazine/pistol/desert_eagle,
 		/obj/item/weapon/gun/pistol/m1911 = /obj/item/ammo_magazine/pistol/m1911,
 		/obj/item/weapon/gun/pistol/kt42 = /obj/item/ammo_magazine/pistol/kt42,
-		/obj/item/weapon/gun/pistol/holdout = /obj/item/ammo_magazine/pistol/w62,
+		/obj/item/weapon/gun/pistol/w62 = /obj/item/ammo_magazine/pistol/w62,
 		/obj/item/ammo_magazine/pistol/ac71 = /obj/item/ammo_magazine/pistol/ac71,
-		/obj/item/weapon/gun/pistol/highpower = /obj/item/ammo_magazine/pistol/mk_45,
+		/obj/item/weapon/gun/pistol/mk45 = /obj/item/ammo_magazine/pistol/mk_45,
 		/obj/item/weapon/gun/smg/mp27 = /obj/item/ammo_magazine/smg/mp27,
 		/obj/item/weapon/gun/smg/mac15 = /obj/item/ammo_magazine/smg/mac15,
 		/obj/item/weapon/gun/smg/mac15 = /obj/item/ammo_magazine/smg/mac15/extended)
@@ -847,7 +847,7 @@ GLOBAL_LIST_INIT(rebel_rifles, list(
 			new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/revolver/cmb_spearhead_autorevolver(new_human), WEAR_IN_BACK)
 
 		if(2)
-			new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/pistol/highpower(new_human), WEAR_IN_BACK)
+			new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/pistol/mk45(new_human), WEAR_IN_BACK)
 			new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/pistol/mk_45(new_human), WEAR_IN_BACK)
 
 		if(3)

@@ -1535,7 +1535,7 @@
 /turf/open/floor/almayer/orange/east,
 /area/fiorina/station/clf_ship)
 "Pr" = (
-/obj/item/weapon/gun/pistol/heavy,
+/obj/item/weapon/gun/pistol/deagle,
 /obj/item/ammo_magazine/pistol/desert_eagle,
 /obj/item/ammo_magazine/pistol/desert_eagle,
 /obj/item/ammo_magazine/pistol/desert_eagle,

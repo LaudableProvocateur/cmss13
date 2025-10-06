@@ -6,7 +6,7 @@
 	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/colony/pistols.dmi'
 	icon_state = "deagle"
 	max_rounds = 7
-	gun_type = /obj/item/weapon/gun/pistol/heavy
+	gun_type = /obj/item/weapon/gun/pistol/deagle
 	default_ammo = /datum/ammo/bullet/pistol/caliber_12_7x33mmRB
 	ammo_band_icon = "+deagle_band"
 	ammo_band_icon_empty = "+deagle_band_e"

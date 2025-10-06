@@ -218,7 +218,7 @@
 "zL" = (
 /obj/effect/landmark/corpsespawner/doctor,
 /obj/effect/decal/cleanable/blood,
-/obj/item/weapon/gun/pistol/holdout,
+/obj/item/weapon/gun/pistol/w62,
 /turf/open/floor/whiteblue/east,
 /area/lv624/lazarus/medbay)
 "zS" = (

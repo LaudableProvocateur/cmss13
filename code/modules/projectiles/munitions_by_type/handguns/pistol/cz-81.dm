@@ -4,5 +4,5 @@
 	caliber = ".32ACP"
 	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/colony/smgs.dmi'
 	icon_state = "skorpion" //PLACEHOLDER
-	gun_type = /obj/item/weapon/gun/pistol/skorpion
+	gun_type = /obj/item/weapon/gun/pistol/cz81
 	max_rounds = 20

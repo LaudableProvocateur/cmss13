@@ -533,7 +533,7 @@
 "hZ" = (
 /obj/structure/bed,
 /obj/item/bedsheet/blue,
-/obj/item/weapon/gun/pistol/heavy,
+/obj/item/weapon/gun/pistol/deagle,
 /obj/item/ammo_magazine/pistol/desert_eagle,
 /obj/item/ammo_magazine/pistol/desert_eagle,
 /obj/item/ammo_magazine/pistol/desert_eagle,
@@ -1069,7 +1069,7 @@
 "AD" = (
 /obj/structure/bed,
 /obj/item/bedsheet/purple,
-/obj/item/weapon/gun/pistol/heavy,
+/obj/item/weapon/gun/pistol/deagle,
 /obj/item/ammo_magazine/pistol/desert_eagle,
 /obj/item/ammo_magazine/pistol/desert_eagle,
 /obj/item/ammo_magazine/pistol/desert_eagle,
