@@ -617,8 +617,9 @@
 	new /obj/item/storage/pill_bottle/packet/bicaridine(src)
 	new /obj/item/weapon/gun/shotgun/combat/guard(src)
 	new /obj/item/storage/pouch/general/large(src)
-	new /obj/item/ammo_magazine/shell_box/gauge_12/buckshot(src)
-	new /obj/item/ammo_magazine/shell_box/gauge_12/buckshot(src)
+	new /obj/item/ammo_magazine/shotgun/buckshot(src)
+	new /obj/item/ammo_magazine/shotgun/buckshot(src)
+	new /obj/item/pamphlet/skill/honorguard(src)
 
 /obj/item/storage/box/kit/spotter
 	name = "\improper Spotter Kit"
