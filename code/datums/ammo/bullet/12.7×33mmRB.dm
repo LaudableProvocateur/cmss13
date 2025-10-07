@@ -33,7 +33,8 @@ Additionally this deagle should overcome the AP issue through sheer fucking leth
 	penetration = ARMOR_PENETRATION_TIER_4
 	debilitate = list(0,1.5,0,0,0,1,0,0)
 	flags_ammo_behavior = AMMO_BALLISTIC
-
+/datum/ammo/bullet/pistol/caliber_12_7x33mmRB/highimpact/on_hit_mob(mob/M, obj/projectile/P)
+	knockback(M, P, 4)
 /datum/ammo/bullet/pistol/caliber_12_7x33mmRB/highimpact/ap
 	name = ".50 AE HIAP bullet"
 	penetration = ARMOR_PENETRATION_TIER_10

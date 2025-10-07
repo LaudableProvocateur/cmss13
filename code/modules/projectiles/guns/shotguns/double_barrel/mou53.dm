@@ -1,11 +1,9 @@
-/obj/item/weapon/gun/shotgun/double/spearhead/mou53
+/obj/item/weapon/gun/shotgun/double/mou53
 	name = "\improper MOU53 break action shotgun"
 	desc = "A limited production Kerchner MOU53 triple break action classic. Respectable damage output at medium ranges, while the ARMAT M37 is the king of CQC, the Kerchner MOU53 is what hits the broadside of that barn. This specific model cannot safely fire buckshot shells."
 	icon_state = "mou"
 	item_state = "mou"
 	icon = 'icons/obj/items/weapons/guns/guns_by_faction/USCM/shotguns.dmi'
-	var/max_rounds = 3
-	var/current_rounds = 0
 	fire_sound = 'sound/weapons/gun_mou53.ogg'
 	reload_sound = 'sound/weapons/handling/gun_mou_reload.ogg'//unique shell insert
 	flags_equip_slot = SLOT_BACK
@@ -41,12 +39,15 @@
 	)
 	map_specific_decoration = TRUE
 	civilian_usable_override = FALSE
+	var/max_rounds = 3
+	var/current_rounds = 0
+	COOLDOWN_DECLARE(breach_action_cooldown)
 
-/obj/item/weapon/gun/shotgun/double/spearhead/mou53/set_gun_attachment_offsets()
+/obj/item/weapon/gun/shotgun/double/mou53/set_gun_attachment_offsets()
 	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 18,"rail_x" = 11, "rail_y" = 21, "under_x" = 17, "under_y" = 15, "stock_x" = 10, "stock_y" = 9) //Weird stock values, make sure any new stock matches the old sprite placement in the .dmi
 
 
-/obj/item/weapon/gun/shotgun/double/spearhead/mou53/set_gun_config_values()
+/obj/item/weapon/gun/shotgun/double/mou53/set_gun_config_values()
 	..()
 	set_burst_amount(BURST_AMOUNT_TIER_1)
 	set_fire_delay(FIRE_DELAY_TIER_11)
@@ -60,10 +61,17 @@
 	recoil = RECOIL_AMOUNT_TIER_3
 	recoil_unwielded = RECOIL_AMOUNT_TIER_2
 
-/obj/item/weapon/gun/shotgun/double/spearhead/mou53/reload(mob/user, obj/item/ammo_magazine/magazine)
-	if(ispath(magazine.default_ammo, /datum/ammo/bullet/shell/gauge_12/buckshot)) // No buckshot in this gun
+/obj/item/weapon/gun/shotgun/double/mou53/reload(mob/user, obj/item/ammo_magazine/magazine)
+	if(ispath(magazine.default_ammo, /datum/ammo/bullet/shotgun/buckshot)) // No buckshot in this gun
 		to_chat(user, SPAN_WARNING("\the [src] cannot safely fire this type of shell!"))
 		return
 	..()
+
+/obj/item/weapon/gun/shotgun/double/mou53/unique_action(mob/user)
+	if(!COOLDOWN_FINISHED(src, breach_action_cooldown))
+		to_chat(user, SPAN_WARNING("You must wait before [current_mag.chamber_closed ? "opening" : "closing"] the chamber again."))
+		return
+	COOLDOWN_START(src, breach_action_cooldown, MOU_ACTION_COOLDOWN)
+	. = ..()
 
 
